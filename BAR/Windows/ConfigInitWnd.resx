@@ -1,0 +1,3194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Axis_C3_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;labelC2.Name" xml:space="preserve">
+    <value>labelC2</value>
+  </data>
+  <data name="offset1RBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="skinRadioButton4.Text" xml:space="preserve">
+    <value>1mm</value>
+  </data>
+  <data name="&gt;&gt;pagICState.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;downCamBtn.Parent" xml:space="preserve">
+    <value>camPanel</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="capBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="btnW3Add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;imgOriginBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="drawBackRectBtn.Text" xml:space="preserve">
+    <value>显示回字框</value>
+  </data>
+  <data name="z3Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="downCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 19</value>
+  </data>
+  <data name="Axis_C3_JOG正_Up.Text" xml:space="preserve">
+    <value>C3+</value>
+  </data>
+  <data name="proccedRBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="c1Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;capModPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;hWindowControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelZ4.Text" xml:space="preserve">
+    <value>Z4轴当前值:</value>
+  </data>
+  <data name="Axis_C4_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="&gt;&gt;z4Lab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Axis_Z1_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="&gt;&gt;pagICState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnW3Cut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 62</value>
+  </data>
+  <data name="imgProsRadio3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="angle1RBtn.Text" xml:space="preserve">
+    <value>-90度</value>
+  </data>
+  <data name="drawScaleBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 35</value>
+  </data>
+  <data name="Axis_Z2_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="changeCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;c4Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="openImgBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="label128.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 29</value>
+  </data>
+  <data name="label128.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="labelY.Text" xml:space="preserve">
+    <value>Y轴当前值:</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="offset2RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="&gt;&gt;pagCMK.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelZ2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="capModeBtn.Text" xml:space="preserve">
+    <value>采集模式</value>
+  </data>
+  <data name="&gt;&gt;z1Lab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="angle2RBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z3_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnH2Cut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z3_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;z1Lab.Name" xml:space="preserve">
+    <value>z1Lab</value>
+  </data>
+  <data name="&gt;&gt;Axis_C3_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="imgProsRadio2.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="c4Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnH2Cut.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="drawScaleBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="imgProsRadio1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="btnHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 136</value>
+  </data>
+  <data name="angle1RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="imgOriginBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 21</value>
+  </data>
+  <data name="c2Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="&gt;&gt;Axis_C3_JOG正_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="z1Lab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="&gt;&gt;imgReduceBtn.Name" xml:space="preserve">
+    <value>imgReduceBtn</value>
+  </data>
+  <data name="&gt;&gt;offset1RBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;label129.Name" xml:space="preserve">
+    <value>label129</value>
+  </data>
+  <data name="pagGBPPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="&gt;&gt;btnHome.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;angle2RBtn.Name" xml:space="preserve">
+    <value>angle2RBtn</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 344</value>
+  </data>
+  <data name="&gt;&gt;btnHAdd.Name" xml:space="preserve">
+    <value>btnHAdd</value>
+  </data>
+  <data name="labelZ2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 214</value>
+  </data>
+  <data name="drawScaleBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 3</value>
+  </data>
+  <data name="c3Lab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="Axis_Z4_JOG正_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="Axis_Z1_JOG正_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="adjustLightBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="xLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="proccedRBtn.Text" xml:space="preserve">
+    <value>连续</value>
+  </data>
+  <data name="&gt;&gt;pagCamAccAndPenDis.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="c2Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pagAutoRevisePos.Name" xml:space="preserve">
+    <value>pagAutoRevisePos</value>
+  </data>
+  <data name="&gt;&gt;labelZ2.Name" xml:space="preserve">
+    <value>labelZ2</value>
+  </data>
+  <data name="&gt;&gt;angle2RBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="proccedRBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="imgProsRadio2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 26</value>
+  </data>
+  <data name="capModPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 25</value>
+  </data>
+  <data name="offset1RBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Axis_C2_JOG负_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelX.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="btnWCut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnW2Cut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;capModPanel.Name" xml:space="preserve">
+    <value>capModPanel</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label129.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnW3Add.Name" xml:space="preserve">
+    <value>btnW3Add</value>
+  </data>
+  <data name="&gt;&gt;z3Lab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelC2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;homeRBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 235</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z2_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;btnW2Cut.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="changeCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="&gt;&gt;adjustLightBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="labelC4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 260</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Axis_Z3_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="Axis_C3_JOG负_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio3.Name" xml:space="preserve">
+    <value>imgProsRadio3</value>
+  </data>
+  <data name="&gt;&gt;c3Lab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drawScaleBtn.Text" xml:space="preserve">
+    <value>显示刻度</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z4_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_Z4_JOG正_Up</value>
+  </data>
+  <data name="&gt;&gt;z4Lab.Name" xml:space="preserve">
+    <value>z4Lab</value>
+  </data>
+  <data name="Axis_Z3_JOG负_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;capBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnWAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="&gt;&gt;z2Lab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="yLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="&gt;&gt;labelC4.Name" xml:space="preserve">
+    <value>labelC4</value>
+  </data>
+  <data name="&gt;&gt;btnHAdd.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Axis_X_JOG正_Up.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="adjustLightBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="upCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pagAutoRevisePos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;c4Lab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Axis_C2_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="pagAutoHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;openImgBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="snapBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;changeCamBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Axis_C3_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="Axis_C1_JOG负_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;z2Lab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnW2Add.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Axis_C2_JOG负_Up.Text" xml:space="preserve">
+    <value>C2-</value>
+  </data>
+  <data name="Axis_Z4_JOG正_Up.Text" xml:space="preserve">
+    <value>Z4+</value>
+  </data>
+  <data name="&gt;&gt;imgLargerBtn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="skinGroupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 2</value>
+  </data>
+  <data name="labelC3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Axis_C1_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;snapBtn.Parent" xml:space="preserve">
+    <value>capModPanel</value>
+  </data>
+  <data name="&gt;&gt;labelZ4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;speedLowRBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;speedHigthRBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnWCut.Name" xml:space="preserve">
+    <value>btnWCut</value>
+  </data>
+  <data name="offset1RBtn.Text" xml:space="preserve">
+    <value>0.02mm</value>
+  </data>
+  <data name="Axis_Y_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="Axis_C1_JOG负_Up.Text" xml:space="preserve">
+    <value>C1-</value>
+  </data>
+  <data name="&gt;&gt;downCamBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabConfigInitWnd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="downCamBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnH2Add.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;c1Lab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="Axis_C3_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="&gt;&gt;btnWCut.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="changeCamBtn.Text" xml:space="preserve">
+    <value>相机切换</value>
+  </data>
+  <data name="btnH2Add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 36</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z1_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_Z1_JOG负_Up</value>
+  </data>
+  <data name="pagICPos.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="capModeBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="&gt;&gt;angle3RBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="Axis_Z4_JOG负_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="pagAutoRevisePos.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;proccedRBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pagCMK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="skinGroupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 58</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;angle3RBtn.Name" xml:space="preserve">
+    <value>angle3RBtn</value>
+  </data>
+  <data name="label128.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Axis_X_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ConfigInitWnd</value>
+  </data>
+  <data name="btnWCut.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="&gt;&gt;labelC3.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="skinGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 284</value>
+  </data>
+  <data name="&gt;&gt;speedHigthRBtn.Name" xml:space="preserve">
+    <value>speedHigthRBtn</value>
+  </data>
+  <data name="&gt;&gt;label129.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Axis_C2_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 128</value>
+  </data>
+  <data name="btnWAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="snapBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="&gt;&gt;adjustLightBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelX.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnH2Add.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;drawBackRectBtn.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="btnH2Add.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Axis_C3_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_C3_JOG负_Up</value>
+  </data>
+  <data name="Axis_Z1_JOG负_Up.Text" xml:space="preserve">
+    <value>Z1-</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;labelZ4.Name" xml:space="preserve">
+    <value>labelZ4</value>
+  </data>
+  <data name="label128.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;capModPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pagICShape.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="xLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;Axis_C1_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_C1_JOG负_Up</value>
+  </data>
+  <data name="&gt;&gt;snapBtn.Name" xml:space="preserve">
+    <value>snapBtn</value>
+  </data>
+  <data name="labelC4.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="pagICDirAndFlaw.Text" xml:space="preserve">
+    <value>IC极性与缺陷检测</value>
+  </data>
+  <data name="btnW3Add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 62</value>
+  </data>
+  <data name="&gt;&gt;pagAutoHeight.Name" xml:space="preserve">
+    <value>pagAutoHeight</value>
+  </data>
+  <data name="&gt;&gt;btnHCut.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pagICShape.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="Axis_Y_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 94</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="upCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 0</value>
+  </data>
+  <data name="z4Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 260</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;angle2RBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="Axis_Y_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 44</value>
+  </data>
+  <data name="&gt;&gt;z1Lab.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelZ3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="btnWCut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="btnW2Cut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 180</value>
+  </data>
+  <data name="&gt;&gt;btnH2Cut.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Axis_C3_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="labelZ1.Text" xml:space="preserve">
+    <value>Z1轴当前值:</value>
+  </data>
+  <data name="z2Lab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="&gt;&gt;Axis_C4_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;angle1RBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="drawBackRectBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 35</value>
+  </data>
+  <data name="angle1RBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="imgProsRadio1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="c1Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 191</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Name" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnW3Add.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="capModPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 46</value>
+  </data>
+  <data name="capModPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Axis_C4_JOG负_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="snapBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="&gt;&gt;label128.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelZ1.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;offset2RBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnHAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="downCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Axis_C1_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_C1_JOG正_Up</value>
+  </data>
+  <data name="&gt;&gt;btnW3Add.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="Axis_C2_JOG正_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;z2Lab.Name" xml:space="preserve">
+    <value>z2Lab</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z1_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="skinGroupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="proccedRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="btnW3Cut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 142</value>
+  </data>
+  <data name="Axis_C4_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="c1Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="&gt;&gt;homeRBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pagAutoHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="z4Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;imgReduceBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinRadioButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 31</value>
+  </data>
+  <data name="Axis_Y_JOG负_Up.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        mbqIUoli9UQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;Axis_X_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Axis_Y_JOG正_Up.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Axis_Y_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="capModPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="Axis_Y_JOG负_Up.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnW2Cut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 83</value>
+  </data>
+  <data name="speedHigthRBtn.Text" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="&gt;&gt;pagGBPPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pagCamAccAndPenDis.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="c4Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="&gt;&gt;Axis_X_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_X_JOG负_Up</value>
+  </data>
+  <data name="&gt;&gt;labelY.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnW3Cut.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;imgLargerBtn.Name" xml:space="preserve">
+    <value>imgLargerBtn</value>
+  </data>
+  <data name="btnW3Add.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="c1Lab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="skinGroupBox3.Text" xml:space="preserve">
+    <value>偏移量</value>
+  </data>
+  <data name="pagICPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="z2Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="Axis_Z2_JOG正_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="btnHAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="Axis_X_JOG负_Up.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;Axis_Y_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="imgOriginBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="labelX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 168</value>
+  </data>
+  <data name="labelZ4.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;Axis_Y_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_Y_JOG负_Up</value>
+  </data>
+  <data name="Axis_C3_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;camPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Axis_X_JOG正_Up.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pagICState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="angle3RBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="angle3RBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 37</value>
+  </data>
+  <data name="Axis_Z1_JOG正_Up.Text" xml:space="preserve">
+    <value>Z1+</value>
+  </data>
+  <data name="skinGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 1</value>
+  </data>
+  <data name="c2Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 214</value>
+  </data>
+  <data name="&gt;&gt;c1Lab.Name" xml:space="preserve">
+    <value>c1Lab</value>
+  </data>
+  <data name="&gt;&gt;capModeBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="z2Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;c2Lab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="label127.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 29</value>
+  </data>
+  <data name="labelZ3.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="Axis_C2_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="Axis_Z4_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 53</value>
+  </data>
+  <data name="labelC3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 237</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="hWindowControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 330</value>
+  </data>
+  <data name="&gt;&gt;labelC2.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="Axis_Z3_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;Axis_C3_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;Axis_C4_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="btnW2Add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 180</value>
+  </data>
+  <data name="xLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="&gt;&gt;z1Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label129.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 311</value>
+  </data>
+  <data name="label129.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;proccedRBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="angle3RBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="drawBackRectBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 3</value>
+  </data>
+  <data name="&gt;&gt;labelZ3.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="imgReduceBtn.Text" xml:space="preserve">
+    <value>图像缩小-</value>
+  </data>
+  <data name="&gt;&gt;pagGBPPos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnH2Add.Text" xml:space="preserve">
+    <value>h+</value>
+  </data>
+  <data name="labelY.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="angle2RBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Axis_Z1_JOG负_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="camPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;proccedRBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelC4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="z2Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="skinRadioButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;drawBackRectBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pagCMK.Text" xml:space="preserve">
+    <value>CMK测量</value>
+  </data>
+  <data name="z4Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z3_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="skinRadioButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;pagICPos.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="&gt;&gt;pagICDirAndFlaw.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnW2Cut.Name" xml:space="preserve">
+    <value>btnW2Cut</value>
+  </data>
+  <data name="drawCrossBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 35</value>
+  </data>
+  <data name="&gt;&gt;camPanel.Name" xml:space="preserve">
+    <value>camPanel</value>
+  </data>
+  <data name="Axis_Z4_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;btnH2Cut.Name" xml:space="preserve">
+    <value>btnH2Cut</value>
+  </data>
+  <data name="&gt;&gt;btnW3Add.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelC3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;changeCamBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openImgBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 1</value>
+  </data>
+  <data name="&gt;&gt;openImgBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnH2Cut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 226</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton4.Name" xml:space="preserve">
+    <value>skinRadioButton4</value>
+  </data>
+  <data name="labelZ4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;drawScaleBtn.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="upCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 23</value>
+  </data>
+  <data name="tabConfigInitWnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>966, 746</value>
+  </data>
+  <data name="&gt;&gt;yLab.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labelC4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="openImgBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="Axis_C1_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="hWindowControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="&gt;&gt;pagCamAccAndPenDis.Name" xml:space="preserve">
+    <value>pagCamAccAndPenDis</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z3_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_Z3_JOG负_Up</value>
+  </data>
+  <data name="offset1RBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 15</value>
+  </data>
+  <data name="hWindowControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="offset2RBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 37</value>
+  </data>
+  <data name="Axis_Z3_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="pagICState.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;hWindowControl2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;c1Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="z3Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="z3Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPage1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="speedHigthRBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="capModeBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 1</value>
+  </data>
+  <data name="capModeBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="Axis_Z3_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="z2Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="btnHAdd.Text" xml:space="preserve">
+    <value>H+</value>
+  </data>
+  <data name="&gt;&gt;imgOriginBtn.Name" xml:space="preserve">
+    <value>imgOriginBtn</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="imgReduceBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 356</value>
+  </data>
+  <data name="labelZ1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;offset1RBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;drawCrossBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Axis_Z2_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 53</value>
+  </data>
+  <data name="labelZ1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelC1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="imgOriginBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 356</value>
+  </data>
+  <data name="&gt;&gt;hWindowControl2.Type" xml:space="preserve">
+    <value>HalconDotNet.HWindowControl, halcondotnet, Version=19.5.0.0, Culture=neutral, PublicKeyToken=4973bed59ddbf2b8</value>
+  </data>
+  <data name="pagICDirAndFlaw.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Axis_Z4_JOG负_Up.Text" xml:space="preserve">
+    <value>Z4-</value>
+  </data>
+  <data name="&gt;&gt;btnHome.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;snapBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="skinGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="btnHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 30</value>
+  </data>
+  <data name="&gt;&gt;pagAutoHeight.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="btnHCut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;speedLowRBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="downCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 23</value>
+  </data>
+  <data name="downCamBtn.Text" xml:space="preserve">
+    <value>下相机</value>
+  </data>
+  <data name="&gt;&gt;homeRBtn.Name" xml:space="preserve">
+    <value>homeRBtn</value>
+  </data>
+  <data name="z1Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelC2.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;drawCrossBtn.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="btnH2Add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Axis_C4_JOG正_Up.Text" xml:space="preserve">
+    <value>C4+</value>
+  </data>
+  <data name="Axis_Z4_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 15</value>
+  </data>
+  <data name="&gt;&gt;labelY.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="xLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 168</value>
+  </data>
+  <data name="adjustLightBtn.Text" xml:space="preserve">
+    <value>光源调节</value>
+  </data>
+  <data name="labelX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labelX.Name" xml:space="preserve">
+    <value>labelX</value>
+  </data>
+  <data name="imgProsRadio1.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="z3Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 237</value>
+  </data>
+  <data name="imgProsRadio1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="c2Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="imgLargerBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="c3Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1347, 748</value>
+  </data>
+  <data name="Axis_X_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 54</value>
+  </data>
+  <data name="z1Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 191</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;yLab.Name" xml:space="preserve">
+    <value>yLab</value>
+  </data>
+  <data name="&gt;&gt;labelC1.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnHCut.Name" xml:space="preserve">
+    <value>btnHCut</value>
+  </data>
+  <data name="&gt;&gt;pagCMK.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="pagGBPPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;snapBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;imgLargerBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label129.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Axis_C2_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_C2_JOG正_Up</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z2_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_Z2_JOG负_Up</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="c2Lab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="btnH2Add.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;pagICState.Name" xml:space="preserve">
+    <value>pagICState</value>
+  </data>
+  <data name="&gt;&gt;Axis_C3_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_C3_JOG正_Up</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagAutoRevisePos.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="z4Lab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="&gt;&gt;homeRBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="angle3RBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="imgLargerBtn.Text" xml:space="preserve">
+    <value>图像放大+</value>
+  </data>
+  <data name="&gt;&gt;btnWAdd.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="pagCamAccAndPenDis.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Axis_C3_JOG负_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label129.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;angle2RBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Axis_C4_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 128</value>
+  </data>
+  <data name="&gt;&gt;tabConfigInitWnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnWAdd.Text" xml:space="preserve">
+    <value>W+</value>
+  </data>
+  <data name="labelC1.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z1_JOG正_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Name" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;pagGBPPos.Name" xml:space="preserve">
+    <value>pagGBPPos</value>
+  </data>
+  <data name="&gt;&gt;capBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="capBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z2_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_Z2_JOG正_Up</value>
+  </data>
+  <data name="z1Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="labelC2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;btnWCut.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="speedHigthRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="angle3RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="&gt;&gt;adjustLightBtn.Name" xml:space="preserve">
+    <value>adjustLightBtn</value>
+  </data>
+  <data name="btnHCut.Text" xml:space="preserve">
+    <value>H-</value>
+  </data>
+  <data name="btnW3Cut.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="changeCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 1</value>
+  </data>
+  <data name="imgOriginBtn.Text" xml:space="preserve">
+    <value>图像还原O</value>
+  </data>
+  <data name="labelX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="btnWCut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 44</value>
+  </data>
+  <data name="drawCrossBtn.Text" xml:space="preserve">
+    <value>显示十字</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z2_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Axis_Y_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="btnWAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Axis_X_JOG负_Up.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnW3Cut.Text" xml:space="preserve">
+    <value>》</value>
+  </data>
+  <data name="&gt;&gt;capModeBtn.Name" xml:space="preserve">
+    <value>capModeBtn</value>
+  </data>
+  <data name="Axis_C3_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 128</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 377</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 369</value>
+  </data>
+  <data name="btnWCut.Text" xml:space="preserve">
+    <value>W-</value>
+  </data>
+  <data name="pagAutoHeight.Text" xml:space="preserve">
+    <value>高度测量</value>
+  </data>
+  <data name="labelC2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="pagICShape.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="skinGroupBox1.Text" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="drawBackRectBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelZ2.Text" xml:space="preserve">
+    <value>Z2轴当前值:</value>
+  </data>
+  <data name="&gt;&gt;pagAutoHeight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Axis_Z4_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="&gt;&gt;z3Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnH2Add.Name" xml:space="preserve">
+    <value>btnH2Add</value>
+  </data>
+  <data name="&gt;&gt;c2Lab.Name" xml:space="preserve">
+    <value>c2Lab</value>
+  </data>
+  <data name="labelZ4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 260</value>
+  </data>
+  <data name="imgProsRadio1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 312</value>
+  </data>
+  <data name="&gt;&gt;c2Lab.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Axis_Y_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 40</value>
+  </data>
+  <data name="&gt;&gt;Axis_X_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_X_JOG正_Up</value>
+  </data>
+  <data name="Axis_Z2_JOG正_Up.Text" xml:space="preserve">
+    <value>Z2+</value>
+  </data>
+  <data name="imgProsRadio3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 312</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z1_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnHCut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgReduceBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="Axis_Z2_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 15</value>
+  </data>
+  <data name="&gt;&gt;z2Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Axis_C4_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;btnW3Cut.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagCMK.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="homeRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 37</value>
+  </data>
+  <data name="imgLargerBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 356</value>
+  </data>
+  <data name="imgProsRadio3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnHAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 44</value>
+  </data>
+  <data name="&gt;&gt;labelC1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="offset2RBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label127.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;openImgBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="openImgBtn.Text" xml:space="preserve">
+    <value>打开图像</value>
+  </data>
+  <data name="homeRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="Axis_C4_JOG负_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="labelY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="pagICState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;capModeBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="yLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;angle1RBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="capBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="labelC4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;labelC4.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Axis_C2_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_C2_JOG负_Up</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z1_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;angle3RBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="c4Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 260</value>
+  </data>
+  <data name="pagCamAccAndPenDis.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="Axis_C3_JOG正_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinRadioButton4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="z4Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="imgProsRadio3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;angle1RBtn.Name" xml:space="preserve">
+    <value>angle1RBtn</value>
+  </data>
+  <data name="Axis_Z2_JOG负_Up.Text" xml:space="preserve">
+    <value>Z2-</value>
+  </data>
+  <data name="speedLowRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 25</value>
+  </data>
+  <data name="&gt;&gt;Axis_C1_JOG负_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;upCamBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;z3Lab.Name" xml:space="preserve">
+    <value>z3Lab</value>
+  </data>
+  <data name="&gt;&gt;btnH2Cut.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pagGBPPos.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Axis_Z2_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnW2Add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 83</value>
+  </data>
+  <data name="&gt;&gt;labelC4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label129.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;z4Lab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="Axis_X_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 42</value>
+  </data>
+  <data name="Axis_X_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 54</value>
+  </data>
+  <data name="&gt;&gt;angle1RBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="angle3RBtn.Text" xml:space="preserve">
+    <value>180度</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="skinGroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="homeRBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="labelX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="skinGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 59</value>
+  </data>
+  <data name="&gt;&gt;camPanel.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="offset1RBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabConfigInitWnd.Name" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="imgProsRadio2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;labelZ4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnW3Cut.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="label128.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 311</value>
+  </data>
+  <data name="labelC4.Text" xml:space="preserve">
+    <value>C4轴当前值:</value>
+  </data>
+  <data name="&gt;&gt;c2Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Axis_Z4_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="Axis_X_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 42</value>
+  </data>
+  <data name="&gt;&gt;drawCrossBtn.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;labelZ1.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z4_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_Z4_JOG负_Up</value>
+  </data>
+  <data name="&gt;&gt;adjustLightBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Name" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="speedLowRBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pagAutoHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="z1Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;offset2RBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="Axis_Z3_JOG正_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="labelX.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton4.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;speedLowRBtn.Name" xml:space="preserve">
+    <value>speedLowRBtn</value>
+  </data>
+  <data name="yLab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="&gt;&gt;labelC3.Name" xml:space="preserve">
+    <value>labelC3</value>
+  </data>
+  <data name="Axis_C4_JOG正_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z2_JOG正_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnW2Cut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="angle2RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="imgProsRadio1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 26</value>
+  </data>
+  <data name="camPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnW2Cut.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="&gt;&gt;Axis_C4_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Axis_Y_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="imgProsRadio2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;upCamBtn.Parent" xml:space="preserve">
+    <value>camPanel</value>
+  </data>
+  <data name="&gt;&gt;offset1RBtn.Name" xml:space="preserve">
+    <value>offset1RBtn</value>
+  </data>
+  <data name="&gt;&gt;capModeBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="z3Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;btnHome.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="skinGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 1</value>
+  </data>
+  <data name="labelC3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;labelC1.Name" xml:space="preserve">
+    <value>labelC1</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z4_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Axis_C3_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 91</value>
+  </data>
+  <data name="&gt;&gt;Axis_Y_JOG负_Up.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Axis_C2_JOG正_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelC1.Text" xml:space="preserve">
+    <value>C1轴当前值:</value>
+  </data>
+  <data name="skinGroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 58</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio3.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="btnHCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 36</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z2_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="capBtn.Text" xml:space="preserve">
+    <value>连续采集</value>
+  </data>
+  <data name="pagCMK.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;drawScaleBtn.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z1_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_Z1_JOG正_Up</value>
+  </data>
+  <data name="labelZ3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="yLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 168</value>
+  </data>
+  <data name="c3Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 237</value>
+  </data>
+  <data name="&gt;&gt;speedHigthRBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="skinGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;imgReduceBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;c4Lab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pagGBPPos.Text" xml:space="preserve">
+    <value>管编盘位置校正</value>
+  </data>
+  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z1_JOG负_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pagICState.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 48pt, style=Bold</value>
+  </data>
+  <data name="c4Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="&gt;&gt;label128.Name" xml:space="preserve">
+    <value>label128</value>
+  </data>
+  <data name="Axis_C2_JOG正_Up.Text" xml:space="preserve">
+    <value>C2+</value>
+  </data>
+  <data name="&gt;&gt;yLab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnHAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 36</value>
+  </data>
+  <data name="angle2RBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="openImgBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="Axis_C1_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 91</value>
+  </data>
+  <data name="labelC2.Text" xml:space="preserve">
+    <value>C2轴当前值:</value>
+  </data>
+  <data name="&gt;&gt;pagICShape.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z1_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;imgOriginBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="capBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 9pt, style=Bold</value>
+  </data>
+  <data name="z4Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="&gt;&gt;Axis_C4_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_C4_JOG正_Up</value>
+  </data>
+  <data name="proccedRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="btnH2Cut.Text" xml:space="preserve">
+    <value>h-</value>
+  </data>
+  <data name="&gt;&gt;label127.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="skinGroupBox2.Text" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="labelZ4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="Axis_C4_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="&gt;&gt;labelC3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pagICDirAndFlaw.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;labelZ3.Name" xml:space="preserve">
+    <value>labelZ3</value>
+  </data>
+  <data name="&gt;&gt;xLab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="&gt;&gt;label128.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="pagICPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="c4Lab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="c4Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;label128.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="skinGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;labelZ4.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="homeRBtn.Text" xml:space="preserve">
+    <value>原点</value>
+  </data>
+  <data name="&gt;&gt;changeCamBtn.Name" xml:space="preserve">
+    <value>changeCamBtn</value>
+  </data>
+  <data name="&gt;&gt;downCamBtn.Name" xml:space="preserve">
+    <value>downCamBtn</value>
+  </data>
+  <data name="labelC2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 214</value>
+  </data>
+  <data name="adjustLightBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="Axis_C2_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio2.Name" xml:space="preserve">
+    <value>imgProsRadio2</value>
+  </data>
+  <data name="&gt;&gt;label127.Name" xml:space="preserve">
+    <value>label127</value>
+  </data>
+  <data name="Axis_C4_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 91</value>
+  </data>
+  <data name="&gt;&gt;c3Lab.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelZ3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pagCMK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="Axis_C2_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="Axis_C4_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;Axis_Y_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_Y_JOG正_Up</value>
+  </data>
+  <data name="angle1RBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;pagICDirAndFlaw.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="Axis_Z3_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 53</value>
+  </data>
+  <data name="btnHCut.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="Axis_C3_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="upCamBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="skinGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="btnW3Add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 143</value>
+  </data>
+  <data name="camPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 42</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 344</value>
+  </data>
+  <data name="&gt;&gt;downCamBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label129.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 29</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="pagCamAccAndPenDis.Text" xml:space="preserve">
+    <value>相机精度与吸笔间距</value>
+  </data>
+  <data name="&gt;&gt;drawScaleBtn.Name" xml:space="preserve">
+    <value>drawScaleBtn</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z4_JOG负_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Axis_Z3_JOG正_Up.Text" xml:space="preserve">
+    <value>Z3+</value>
+  </data>
+  <data name="upCamBtn.Text" xml:space="preserve">
+    <value>上相机</value>
+  </data>
+  <data name="&gt;&gt;Axis_C1_JOG正_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnW3Cut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Axis_X_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label129.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 123</value>
+  </data>
+  <data name="&gt;&gt;offset2RBtn.Name" xml:space="preserve">
+    <value>offset2RBtn</value>
+  </data>
+  <data name="imgProsRadio1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c2Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="&gt;&gt;Axis_X_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnWAdd.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label127.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pagCamAccAndPenDis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;capBtn.Parent" xml:space="preserve">
+    <value>capModPanel</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z4_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="btnWAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 260</value>
+  </data>
+  <data name="tabConfigInitWnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnHCut.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Axis_Y_JOG正_Up.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="capModeBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="angle2RBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 15</value>
+  </data>
+  <data name="btnH2Cut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 36</value>
+  </data>
+  <data name="c3Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z3_JOG正_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelZ3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelZ1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnW3Cut.Name" xml:space="preserve">
+    <value>btnW3Cut</value>
+  </data>
+  <data name="speedLowRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Axis_C2_JOG负_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="c3Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="btnWCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 260</value>
+  </data>
+  <data name="&gt;&gt;offset2RBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelZ1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 191</value>
+  </data>
+  <data name="&gt;&gt;openImgBtn.Name" xml:space="preserve">
+    <value>openImgBtn</value>
+  </data>
+  <data name="Axis_C1_JOG正_Up.Text" xml:space="preserve">
+    <value>C1+</value>
+  </data>
+  <data name="changeCamBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="pagICDirAndFlaw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="offset1RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="label128.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnHome.Name" xml:space="preserve">
+    <value>btnHome</value>
+  </data>
+  <data name="labelC3.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="offset2RBtn.Text" xml:space="preserve">
+    <value>0.1mm</value>
+  </data>
+  <data name="&gt;&gt;labelZ2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnW2Add.Text" xml:space="preserve">
+    <value>w+</value>
+  </data>
+  <data name="speedHigthRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 23</value>
+  </data>
+  <data name="Axis_Z2_JOG负_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Axis_C2_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="Axis_C1_JOG正_Up.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="imgProsRadio2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelX.Text" xml:space="preserve">
+    <value>X轴当前值:</value>
+  </data>
+  <data name="labelY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;btnWAdd.Name" xml:space="preserve">
+    <value>btnWAdd</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>图像示教</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z2_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Axis_C4_JOG正_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelZ3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 237</value>
+  </data>
+  <data name="imgReduceBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 21</value>
+  </data>
+  <data name="tabConfigInitWnd.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="Axis_C1_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="z1Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;tabConfigInitWnd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pagICDirAndFlaw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;speedLowRBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pagAutoHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnHCut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 267</value>
+  </data>
+  <data name="pagICShape.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="imgLargerBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 21</value>
+  </data>
+  <data name="&gt;&gt;pagICDirAndFlaw.Name" xml:space="preserve">
+    <value>pagICDirAndFlaw</value>
+  </data>
+  <data name="&gt;&gt;camPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="drawCrossBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnW2Add.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="labelC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 191</value>
+  </data>
+  <data name="tabConfigInitWnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 0</value>
+  </data>
+  <data name="z3Lab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="&gt;&gt;yLab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="label127.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;drawBackRectBtn.Name" xml:space="preserve">
+    <value>drawBackRectBtn</value>
+  </data>
+  <data name="&gt;&gt;Axis_C1_JOG负_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="downCamBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="imgProsRadio3.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="pagICShape.Text" xml:space="preserve">
+    <value>IC外观检测</value>
+  </data>
+  <data name="upCamBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelZ2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="xLab.Text" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="angle1RBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 15</value>
+  </data>
+  <data name="camPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 27</value>
+  </data>
+  <data name="btnW3Add.Text" xml:space="preserve">
+    <value>《</value>
+  </data>
+  <data name="&gt;&gt;btnWCut.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;imgOriginBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;btnHAdd.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label127.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="drawCrossBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 3</value>
+  </data>
+  <data name="&gt;&gt;Axis_X_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="btnW2Cut.Text" xml:space="preserve">
+    <value>w-</value>
+  </data>
+  <data name="&gt;&gt;btnW2Add.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="imgLargerBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="speedLowRBtn.Text" xml:space="preserve">
+    <value>低速</value>
+  </data>
+  <data name="&gt;&gt;changeCamBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pagICShape.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="&gt;&gt;upCamBtn.Name" xml:space="preserve">
+    <value>upCamBtn</value>
+  </data>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>所有文件|*.*|图片文件|*.png;*.jpg;*.bmp</value>
+  </data>
+  <data name="&gt;&gt;labelZ2.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelZ3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label127.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Axis_C1_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 128</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="btnH2Cut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;c3Lab.Name" xml:space="preserve">
+    <value>c3Lab</value>
+  </data>
+  <data name="angle1RBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnHAdd.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;imgReduceBtn.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="snapBtn.Text" xml:space="preserve">
+    <value>触发采集</value>
+  </data>
+  <data name="Axis_C3_JOG负_Up.Text" xml:space="preserve">
+    <value>C3-</value>
+  </data>
+  <data name="&gt;&gt;pagAutoRevisePos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proccedRBtn.Name" xml:space="preserve">
+    <value>proccedRBtn</value>
+  </data>
+  <data name="c3Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="skinRadioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="Axis_Z1_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 15</value>
+  </data>
+  <data name="Axis_Z3_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 15</value>
+  </data>
+  <data name="speedLowRBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pagICShape.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="btnW2Add.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="btnW2Add.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pagAutoRevisePos.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Axis_Z4_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;Axis_X_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="labelY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 168</value>
+  </data>
+  <data name="&gt;&gt;drawBackRectBtn.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Axis_Y_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;labelC2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="drawBackRectBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;speedHigthRBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="pagICDirAndFlaw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="btnW3Cut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="btnH2Add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 85</value>
+  </data>
+  <data name="&gt;&gt;label127.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnW2Cut.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="Axis_Z2_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="drawCrossBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnHCut.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="imgProsRadio3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 26</value>
+  </data>
+  <data name="&gt;&gt;labelY.Name" xml:space="preserve">
+    <value>labelY</value>
+  </data>
+  <data name="&gt;&gt;labelC3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Axis_Z1_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z3_JOG正_Up.Name" xml:space="preserve">
+    <value>Axis_Z3_JOG正_Up</value>
+  </data>
+  <data name="imgOriginBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>图像操作</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="snapBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;xLab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Axis_C2_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;pagCMK.Name" xml:space="preserve">
+    <value>pagCMK</value>
+  </data>
+  <data name="skinGroupBox4.Text" xml:space="preserve">
+    <value>偏移量</value>
+  </data>
+  <data name="Axis_C2_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 91</value>
+  </data>
+  <data name="speedHigthRBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="c1Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="homeRBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelZ2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="z2Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 213</value>
+  </data>
+  <data name="homeRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="labelZ2.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="skinGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 58</value>
+  </data>
+  <data name="Axis_Z3_JOG负_Up.Text" xml:space="preserve">
+    <value>Z3-</value>
+  </data>
+  <data name="&gt;&gt;Axis_C4_JOG负_Up.Name" xml:space="preserve">
+    <value>Axis_C4_JOG负_Up</value>
+  </data>
+  <data name="xLab.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="labelZ4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pagICShape.Name" xml:space="preserve">
+    <value>pagICShape</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="pagAutoHeight.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;btnW2Add.Name" xml:space="preserve">
+    <value>btnW2Add</value>
+  </data>
+  <data name="drawScaleBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="offset2RBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="Axis_Z1_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Axis_C2_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="labelZ2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="btnW3Add.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;hWindowControl2.Name" xml:space="preserve">
+    <value>hWindowControl2</value>
+  </data>
+  <data name="&gt;&gt;capBtn.Name" xml:space="preserve">
+    <value>capBtn</value>
+  </data>
+  <data name="&gt;&gt;drawScaleBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Axis_C1_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>轴控制</value>
+  </data>
+  <data name="labelC2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="drawCrossBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="yLab.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;Axis_C1_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnH2Cut.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z4_JOG正_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pagAutoRevisePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;angle3RBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;capModPanel.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z4_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="labelC1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="imgProsRadio2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 312</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z3_JOG正_Up.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;offset1RBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;c4Lab.Name" xml:space="preserve">
+    <value>c4Lab</value>
+  </data>
+  <data name="tabPage2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 48pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;z3Lab.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="Axis_C1_JOG正_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;c3Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xLab.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="speedHigthRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt, style=Bold</value>
+  </data>
+  <data name="drawBackRectBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="drawScaleBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="speedLowRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 23</value>
+  </data>
+  <data name="&gt;&gt;pagICPos.Name" xml:space="preserve">
+    <value>pagICPos</value>
+  </data>
+  <data name="skinGroupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="pagAutoRevisePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="label127.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 311</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;labelZ1.Name" xml:space="preserve">
+    <value>labelZ1</value>
+  </data>
+  <data name="&gt;&gt;labelZ1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="imgReduceBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="&gt;&gt;pagCMK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="imgProsRadio3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Axis_Y_JOG负_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="&gt;&gt;z4Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelZ3.Text" xml:space="preserve">
+    <value>Z3轴当前值:</value>
+  </data>
+  <data name="&gt;&gt;pagICPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pagAutoRevisePos.Text" xml:space="preserve">
+    <value>自动校正坐标</value>
+  </data>
+  <data name="c1Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="Axis_C4_JOG负_Up.Text" xml:space="preserve">
+    <value>C4-</value>
+  </data>
+  <data name="&gt;&gt;labelC1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="proccedRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="pagICPos.Text" xml:space="preserve">
+    <value>IC定位校正</value>
+  </data>
+  <data name="btnHAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnWAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 44</value>
+  </data>
+  <data name="pagICState.Text" xml:space="preserve">
+    <value>IC座位置校正</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z4_JOG负_Up.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Axis_Z1_JOG负_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="adjustLightBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 1</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z2_JOG负_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagICState.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="labelC3.Text" xml:space="preserve">
+    <value>C3轴当前值:</value>
+  </data>
+  <data name="Axis_Z1_JOG正_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 53</value>
+  </data>
+  <data name="Axis_C1_JOG负_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="Axis_Z2_JOG正_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 35</value>
+  </data>
+  <data name="&gt;&gt;Axis_Z3_JOG负_Up.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnHome.Text" xml:space="preserve">
+    <value>回零</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelC4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelZ1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;imgLargerBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="angle2RBtn.Text" xml:space="preserve">
+    <value>90度</value>
+  </data>
+  <data name="btnHome.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;btnW2Cut.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;imgProsRadio1.Name" xml:space="preserve">
+    <value>imgProsRadio1</value>
+  </data>
+  <data name="&gt;&gt;upCamBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnWAdd.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pagCamAccAndPenDis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Name" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="pagCamAccAndPenDis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="pagICState.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pagCamAccAndPenDis.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="&gt;&gt;Axis_C2_JOG正_Up.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;drawCrossBtn.Name" xml:space="preserve">
+    <value>drawCrossBtn</value>
+  </data>
+  <data name="imgProsRadio2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnW2Add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;xLab.Name" xml:space="preserve">
+    <value>xLab</value>
+  </data>
+  <data name="&gt;&gt;c1Lab.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;pagGBPPos.Parent" xml:space="preserve">
+    <value>tabConfigInitWnd</value>
+  </data>
+  <data name="yLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;pagICPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="offset2RBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;btnH2Add.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+  <metadata name="pagICShape.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>163, 17</value>
+  </metadata>
+  <metadata name="hWindowControl2.LayoutBitmap" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>48</value>
+  </metadata>
+</root>

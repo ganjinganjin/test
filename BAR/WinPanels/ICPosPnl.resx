@@ -1,0 +1,3159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="skinButton60.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.Location4" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox19.Name" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="skinButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 69</value>
+  </data>
+  <data name="offsetYTxT2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 595</value>
+  </data>
+  <data name="&gt;&gt;seatCBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;greedCbo.Name" xml:space="preserve">
+    <value>greedCbo</value>
+  </data>
+  <data name="skinButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;autoShowCBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label142.Text" xml:space="preserve">
+    <value>相机增益:</value>
+  </data>
+  <data name="&gt;&gt;label138.Name" xml:space="preserve">
+    <value>label138</value>
+  </data>
+  <data name="skinButton58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="skinGroupBox19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 18pt, style=Bold</value>
+  </data>
+  <data name="resource.Font7" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnMask.Name" xml:space="preserve">
+    <value>BtnMask</value>
+  </data>
+  <data name="&gt;&gt;setCamParaBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinButton58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>IC偏移X:</value>
+  </data>
+  <data name="resource.WordWrap6" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;angCbo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;enableMod2CBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinButton60.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="offsetRTxT2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label138.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.Dock3" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label132.Name" xml:space="preserve">
+    <value>label132</value>
+  </data>
+  <data name="&gt;&gt;soccerCbo.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="toDownCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label136.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 32</value>
+  </data>
+  <data name="minContrastCbo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>IC偏移X:</value>
+  </data>
+  <data name="saveBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 18pt, style=Bold</value>
+  </data>
+  <data name="skinButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="resource.AccessibleName4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="offsetXTxT2.TabIndex" type="System.Int32, mscorlib">
+    <value>177</value>
+  </data>
+  <data name="&gt;&gt;skinButton7.Parent" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="&gt;&gt;BtnRegion.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label134.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 140</value>
+  </data>
+  <data name="resource.PasswordChar4" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>IC偏移Y:</value>
+  </data>
+  <data name="findModelBtn.Text" xml:space="preserve">
+    <value>3、查找模板</value>
+  </data>
+  <data name="&gt;&gt;toDownCamBtn.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="label140.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label136.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;skinButton7.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox20.Name" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label140.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="skinButton1.Text" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="resource.Anchor6" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;findModelBtn.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="resource.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="layICBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="&gt;&gt;label135.Name" xml:space="preserve">
+    <value>label135</value>
+  </data>
+  <data name="saveBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="label135.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="techModBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 49</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox1.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="RbtnBackModel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="BtnFindNCCModel.Text" xml:space="preserve">
+    <value>查找模板</value>
+  </data>
+  <data name="snapDelayTxt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ScrollBars9" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label135.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="saveBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label135.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label130.Name" xml:space="preserve">
+    <value>label130</value>
+  </data>
+  <data name="resource.PasswordChar3" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 32</value>
+  </data>
+  <data name="duplicCbo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinButton5.Parent" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="label132.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="skinGroupBox20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 18pt, style=Bold</value>
+  </data>
+  <data name="skinButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;RbtnBackModel.Name" xml:space="preserve">
+    <value>RbtnBackModel</value>
+  </data>
+  <data name="findModelBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 94</value>
+  </data>
+  <data name="techModBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 94</value>
+  </data>
+  <data name="&gt;&gt;exposureTxt.Name" xml:space="preserve">
+    <value>exposureTxt</value>
+  </data>
+  <data name="&gt;&gt;label133.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinButton59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 70</value>
+  </data>
+  <data name="&gt;&gt;label141.Name" xml:space="preserve">
+    <value>label141</value>
+  </data>
+  <data name="&gt;&gt;snapDelayTxt.Name" xml:space="preserve">
+    <value>snapDelayTxt</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label137.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 224</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 35</value>
+  </data>
+  <data name="modelPicBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 498</value>
+  </data>
+  <data name="BtnMask.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox22.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;offsetRTxT2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 300</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 32</value>
+  </data>
+  <data name="skinGroupBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>438, 18</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.Location7" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="skinButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="skinGroupBox21.Text" xml:space="preserve">
+    <value>相机参数</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnFindNCCModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 510</value>
+  </data>
+  <data name="label137.Text" xml:space="preserve">
+    <value>相机拍照前延时:</value>
+  </data>
+  <data name="exposureTxt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextModelXYR2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="offsetYTxT2.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="skinButton59.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="offsetXTxT1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;penCBox.Name" xml:space="preserve">
+    <value>penCBox</value>
+  </data>
+  <data name="&gt;&gt;snapDelayTxt.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="skinButton4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton7.Text" xml:space="preserve">
+    <value>11号压座下压</value>
+  </data>
+  <data name="resource.Font3" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label134.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 32</value>
+  </data>
+  <data name="skinButton6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="skinGroupBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 3</value>
+  </data>
+  <data name="setCamParaBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;BtnRegion.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label134.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toDownCamBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="skinButton61.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.PasswordChar10" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RbtnBackModel.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label134.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.Text1" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="resource.TabIndex5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label140.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="label141.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="resource.AccessibleDescription4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label133.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 140</value>
+  </data>
+  <data name="resource.AccessibleDescription10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;label132.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resource.MaximumSize9" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>IC偏移R:</value>
+  </data>
+  <data name="skinButton60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 126</value>
+  </data>
+  <data name="&gt;&gt;BtnFindNCCModel.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label134.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="greedCbo.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="label132.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 32</value>
+  </data>
+  <data name="resource.WordWrap10" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label141.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.Name" xml:space="preserve">
+    <value>skinButton4</value>
+  </data>
+  <data name="resource.TextAlign5" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="skinGroupBox20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="angCbo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 30</value>
+  </data>
+  <data name="&gt;&gt;offsetXTxT2.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="&gt;&gt;offsetXTxT1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="label138.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="contrastCbo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14pt, style=Bold</value>
+  </data>
+  <data name="TextModelXYR2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="offsetYTxT2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="seatCBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label136.Text" xml:space="preserve">
+    <value>相似率:</value>
+  </data>
+  <data name="soccerCbo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14pt, style=Bold</value>
+  </data>
+  <data name="skinButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 32</value>
+  </data>
+  <data name="skinButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 125</value>
+  </data>
+  <data name="soccerCbo.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="&gt;&gt;offsetRTxT1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label141.Text" xml:space="preserve">
+    <value>选择烧录座:</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="angCbo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14pt, style=Bold</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="&gt;&gt;RbtnFrontModel.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 125</value>
+  </data>
+  <data name="resource.MaximumSize10" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="skinGroupBox19.Text" xml:space="preserve">
+    <value>图像模板参数</value>
+  </data>
+  <data name="skinButton5.Text" xml:space="preserve">
+    <value>12号压座下压</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.WordWrap4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Dock9" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;setCamParaBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox21</value>
+  </data>
+  <data name="resource.WordWrap2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="skinButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="autoShowCBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 20</value>
+  </data>
+  <data name="&gt;&gt;BtnMask.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 32</value>
+  </data>
+  <data name="label140.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 38</value>
+  </data>
+  <data name="setCamParaBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 75</value>
+  </data>
+  <data name="offsetRTxT1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;modelPicBox1.Name" xml:space="preserve">
+    <value>modelPicBox1</value>
+  </data>
+  <data name="label140.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 32</value>
+  </data>
+  <data name="&gt;&gt;setCamParaBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="skinGroupBox20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;skinButton6.Parent" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="resource.MaximumSize8" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;offsetYTxT1.Name" xml:space="preserve">
+    <value>offsetYTxT1</value>
+  </data>
+  <data name="resource.AccessibleDescription8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="skinButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;label138.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="&gt;&gt;BtnRegion.Name" xml:space="preserve">
+    <value>BtnRegion</value>
+  </data>
+  <data name="saveBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="offsetYTxT1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton60.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="offsetXTxT2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="resource.WordWrap8" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="offsetXTxT2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label142.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 89</value>
+  </data>
+  <data name="&gt;&gt;penCBox.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 633</value>
+  </data>
+  <data name="&gt;&gt;techModBtn.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="label133.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.Dock10" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="skinGroupBox21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;angCbo.Name" xml:space="preserve">
+    <value>angCbo</value>
+  </data>
+  <data name="label130.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="offsetXTxT2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="resource.RightToLeft9" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="snapDelayTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 223</value>
+  </data>
+  <data name="skinButton58.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="offsetXTxT2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="label141.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="offsetYTxT2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="RbtnBackModel.Text" xml:space="preserve">
+    <value>后拍模板</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 184</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label134.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="techModBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="snapDelayTxt.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;offsetRTxT1.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ICPosPnl</value>
+  </data>
+  <data name="resource.TabIndex6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="label140.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox21.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;offsetYTxT2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>选择吸笔:</value>
+  </data>
+  <data name="RbtnBackModel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TextModelXYR2.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="RbtnBackModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="label133.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="penCBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 30</value>
+  </data>
+  <data name="resource.Size10" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.MaxLength5" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="resource.MaxLength6" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="resource.MaxLength7" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="label131.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="exposureTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 46</value>
+  </data>
+  <data name="autoShowCBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinGroupBox21.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="TextModelXYR1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 32</value>
+  </data>
+  <data name="resource.MaxLength8" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="geinTxt.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="label141.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="techModBtn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="offsetYTxT2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinGroupBox22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton61.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 226</value>
+  </data>
+  <data name="setCamParaBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label137.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="label134.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;skinButton58.Name" xml:space="preserve">
+    <value>skinButton58</value>
+  </data>
+  <data name="skinButton61.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;layICBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.Dock4" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="skinButton58.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.RightToLeft2" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="findModelBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;label133.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;layICBtn.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="resource.WordWrap9" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;minContrastCbo.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 559</value>
+  </data>
+  <data name="label133.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.RightToLeft5" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="duplicCbo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 140</value>
+  </data>
+  <data name="angCbo.ToolTip" xml:space="preserve">
+    <value>相机可识别的芯片偏转范围</value>
+  </data>
+  <data name="&gt;&gt;minContrastCbo.Name" xml:space="preserve">
+    <value>minContrastCbo</value>
+  </data>
+  <data name="&gt;&gt;label137.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoShowCBox.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="resource.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label130.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 32</value>
+  </data>
+  <data name="label131.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 32</value>
+  </data>
+  <data name="skinGroupBox21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RbtnFrontModel.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="skinGroupBox22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;exposureTxt.Parent" xml:space="preserve">
+    <value>skinGroupBox21</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="exposureTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 33</value>
+  </data>
+  <data name="skinButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 35</value>
+  </data>
+  <data name="modelPicBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 186</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 23</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ScrollBars10" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toDownCamBtn.Name" xml:space="preserve">
+    <value>toDownCamBtn</value>
+  </data>
+  <data name="label132.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="&gt;&gt;enableMod2CBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="skinGroupBox22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinButton61.Name" xml:space="preserve">
+    <value>skinButton61</value>
+  </data>
+  <data name="label133.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="label133.Text" xml:space="preserve">
+    <value>重叠率:</value>
+  </data>
+  <data name="resource.Font9" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.BackgroundImage6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;label142.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="penCBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 59</value>
+  </data>
+  <data name="resource.WordWrap7" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="exposureTxt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label139.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;offsetRTxT2.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="findModelBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label140.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 178</value>
+  </data>
+  <data name="&gt;&gt;label141.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="enableMod2CBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ScrollBars1" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label135.Text" xml:space="preserve">
+    <value>对比度:</value>
+  </data>
+  <data name="skinButton59.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;TextModelXYR2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="penCBox.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="resource.AccessibleDescription3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="autoShowCBox.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="modelPicBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="offsetRTxT1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;layICBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="resource.ImeMode9" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label131.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="snapDelayTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 33</value>
+  </data>
+  <data name="resource.Size9" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.AccessibleName8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton5.Name" xml:space="preserve">
+    <value>skinButton5</value>
+  </data>
+  <data name="&gt;&gt;label136.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;greedCbo.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="skinButton6.Text" xml:space="preserve">
+    <value>21号压座下压</value>
+  </data>
+  <data name="skinGroupBox19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;greedCbo.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;penCBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="setCamParaBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="label141.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="offsetYTxT1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="resource.Font8" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="resource.Anchor3" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;skinButton7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="resource.BackgroundImage1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="geinTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="&gt;&gt;label140.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="resource.BackgroundImage4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TextModelXYR2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="label137.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.BackgroundImage8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="exposureTxt.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="resource.MaxLength3" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 32</value>
+  </data>
+  <data name="BtnMask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 35</value>
+  </data>
+  <data name="enableMod2CBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 20</value>
+  </data>
+  <data name="offsetXTxT1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;label131.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label136.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 106</value>
+  </data>
+  <data name="resource.RightToLeft6" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.RightToLeft7" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.RightToLeft1" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.Location5" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="resource.RightToLeft3" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="skinButton7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;offsetXTxT1.Name" xml:space="preserve">
+    <value>offsetXTxT1</value>
+  </data>
+  <data name="skinGroupBox22.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="offsetRTxT2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 632</value>
+  </data>
+  <data name="resource.ScrollBars7" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label140.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="offsetXTxT1.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label136.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 596</value>
+  </data>
+  <data name="&gt;&gt;angCbo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinButton6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 24</value>
+  </data>
+  <data name="label134.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="skinGroupBox22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 490</value>
+  </data>
+  <data name="resource.ImeMode8" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.BackgroundImage7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;offsetRTxT2.Name" xml:space="preserve">
+    <value>offsetRTxT2</value>
+  </data>
+  <data name="enableMod2CBox.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="label132.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="findModelBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 49</value>
+  </data>
+  <data name="&gt;&gt;geinTxt.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.Dock2" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label132.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinGroupBox22.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.Dock8" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BtnMask.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="resource.MaximumSize7" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="TextModelXYR2.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="seatCBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt, style=Bold</value>
+  </data>
+  <data name="BtnMask.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="findModelBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.PasswordChar1" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;offsetRTxT2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.MaxLength4" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="&gt;&gt;autoShowCBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;contrastCbo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="skinButton61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 70</value>
+  </data>
+  <data name="&gt;&gt;skinButton5.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toDownCamBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="offsetXTxT1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toDownCamBtn.Text" xml:space="preserve">
+    <value>1、吸取IC座中料到下相机上方</value>
+  </data>
+  <data name="resource.MaximumSize6" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="skinGroupBox20.Text" xml:space="preserve">
+    <value>模板示教</value>
+  </data>
+  <data name="skinButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 335</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;TextModelXYR1.Name" xml:space="preserve">
+    <value>TextModelXYR1</value>
+  </data>
+  <data name="resource.TextAlign10" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="BtnMask.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="saveBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 78</value>
+  </data>
+  <data name="&gt;&gt;offsetYTxT1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label135.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="offsetRTxT2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="enableMod2CBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;contrastCbo.Name" xml:space="preserve">
+    <value>contrastCbo</value>
+  </data>
+  <data name="resource.PasswordChar9" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label136.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;snapDelayTxt.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>IC偏移Y:</value>
+  </data>
+  <data name="&gt;&gt;TextModelXYR1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="minContrastCbo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 140</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="skinButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="resource.AccessibleDescription6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;RbtnFrontModel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;skinButton60.Parent" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="offsetRTxT2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="resource.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label132.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 71</value>
+  </data>
+  <data name="RbtnFrontModel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.MaxLength9" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Name" xml:space="preserve">
+    <value>skinButton1</value>
+  </data>
+  <data name="enableMod2CBox.Text" xml:space="preserve">
+    <value>启用NCC模板（SOP封装）</value>
+  </data>
+  <data name="skinButton61.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="contrastCbo.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="resource.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;skinButton7.Name" xml:space="preserve">
+    <value>skinButton7</value>
+  </data>
+  <data name="&gt;&gt;label135.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="layICBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 94</value>
+  </data>
+  <data name="resource.Size5" type="System.Drawing.Size, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="label139.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 32</value>
+  </data>
+  <data name="offsetRTxT1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="resource.PasswordChar5" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;seatCBox.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="contrastCbo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 107</value>
+  </data>
+  <data name="&gt;&gt;BtnMask.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="skinButton61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="skinGroupBox20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="autoShowCBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label137.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 32</value>
+  </data>
+  <data name="&gt;&gt;offsetYTxT1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.MaximumSize5" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="resource.MaximumSize3" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="contrastCbo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 30</value>
+  </data>
+  <data name="resource.MaximumSize1" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.Font4" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinButton4.Text" xml:space="preserve">
+    <value>22号压座下压</value>
+  </data>
+  <data name="label130.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="BtnMask.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="resource.Location10" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox21.Name" xml:space="preserve">
+    <value>skinGroupBox21</value>
+  </data>
+  <data name="resource.BackgroundImageLayout6" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label139.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="&gt;&gt;penCBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;soccerCbo.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="contrastCbo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TextModelXYR2.Name" xml:space="preserve">
+    <value>TextModelXYR2</value>
+  </data>
+  <data name="setCamParaBtn.Text" xml:space="preserve">
+    <value>设定相机参数</value>
+  </data>
+  <data name="&gt;&gt;skinButton58.Parent" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="&gt;&gt;label136.Name" xml:space="preserve">
+    <value>label136</value>
+  </data>
+  <data name="offsetYTxT1.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="skinGroupBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 149</value>
+  </data>
+  <data name="resource.TabIndex4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.Location9" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="&gt;&gt;setCamParaBtn.Name" xml:space="preserve">
+    <value>setCamParaBtn</value>
+  </data>
+  <data name="&gt;&gt;label139.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;seatCBox.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;TextModelXYR1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinGroupBox19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnFindNCCModel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="TextModelXYR1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="label132.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="layICBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 49</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="seatCBox.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="&gt;&gt;skinButton58.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.Dock6" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;contrastCbo.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="resource.TextAlign9" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label131.Text" xml:space="preserve">
+    <value>角  度:</value>
+  </data>
+  <data name="&gt;&gt;label132.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="resource.AccessibleDescription7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toDownCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 34</value>
+  </data>
+  <data name="resource.TabIndex10" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="resource.AccessibleDescription2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="exposureTxt.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="resource.RightToLeft10" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ImeMode7" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ImeMode6" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ImeMode5" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="snapDelayTxt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.ImeMode3" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="greedCbo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 30</value>
+  </data>
+  <data name="label137.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="duplicCbo.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label135.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinGroupBox21.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;label130.Parent" xml:space="preserve">
+    <value>skinGroupBox21</value>
+  </data>
+  <data name="&gt;&gt;label141.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="modelPicBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="RbtnFrontModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 190</value>
+  </data>
+  <data name="resource.MaxLength10" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="&gt;&gt;label140.Name" xml:space="preserve">
+    <value>label140</value>
+  </data>
+  <data name="&gt;&gt;label134.Name" xml:space="preserve">
+    <value>label134</value>
+  </data>
+  <data name="resource.WordWrap1" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label138.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 32</value>
+  </data>
+  <data name="skinButton6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label133.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;skinButton60.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="geinTxt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="resource.MaximumSize4" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RbtnFrontModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label142.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="minContrastCbo.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.Name" xml:space="preserve">
+    <value>saveBtn</value>
+  </data>
+  <data name="resource.ImeMode10" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="skinButton59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="resource.MaxLength1" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="skinGroupBox22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 210</value>
+  </data>
+  <data name="label135.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 106</value>
+  </data>
+  <data name="label135.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 32</value>
+  </data>
+  <data name="skinButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="&gt;&gt;label133.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 427</value>
+  </data>
+  <data name="enableMod2CBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 433</value>
+  </data>
+  <data name="&gt;&gt;minContrastCbo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label137.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox20.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="soccerCbo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 30</value>
+  </data>
+  <data name="label131.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="soccerCbo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextModelXYR1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;contrastCbo.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;offsetYTxT2.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label138.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="skinButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label136.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.Parent" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 32</value>
+  </data>
+  <data name="&gt;&gt;label133.Name" xml:space="preserve">
+    <value>label133</value>
+  </data>
+  <data name="TextModelXYR1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 146</value>
+  </data>
+  <data name="label133.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 32</value>
+  </data>
+  <data name="&gt;&gt;label142.Parent" xml:space="preserve">
+    <value>skinGroupBox21</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="&gt;&gt;label139.Name" xml:space="preserve">
+    <value>label139</value>
+  </data>
+  <data name="resource.Size7" type="System.Drawing.Size, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="RbtnFrontModel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label130.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>438, 18</value>
+  </data>
+  <data name="RbtnBackModel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinButton61.Parent" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="label139.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout10" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="skinButton60.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinGroupBox22.Name" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="resource.Font6" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="skinButton60.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.ScrollBars5" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.MaxLength2" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 388</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="offsetRTxT2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label137.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnRegion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="geinTxt.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="geinTxt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.AccessibleName9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ScrollBars3" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.Multiline1" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Multiline2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Multiline3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Multiline4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Multiline5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Multiline6" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Multiline7" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Multiline8" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Multiline9" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="skinGroupBox22.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;label131.Name" xml:space="preserve">
+    <value>label131</value>
+  </data>
+  <data name="modelPicBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="label139.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label142.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="skinButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 69</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinGroupBox20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 696</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;skinButton5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;autoShowCBox.Name" xml:space="preserve">
+    <value>autoShowCBox</value>
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;techModBtn.Name" xml:space="preserve">
+    <value>techModBtn</value>
+  </data>
+  <data name="snapDelayTxt.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="resource.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox2.Name" xml:space="preserve">
+    <value>modelPicBox2</value>
+  </data>
+  <data name="BtnMask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 510</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label130.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextModelXYR1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="toDownCamBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ScrollBars2" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.BackgroundImageLayout1" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label132.Text" xml:space="preserve">
+    <value>贪婪度:</value>
+  </data>
+  <data name="label142.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 32</value>
+  </data>
+  <data name="minContrastCbo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;offsetYTxT1.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="resource.Font10" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label137.Name" xml:space="preserve">
+    <value>label137</value>
+  </data>
+  <data name="&gt;&gt;label134.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="skinButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;exposureTxt.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="resource.AccessibleName2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;offsetRTxT1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="techModBtn.Text" xml:space="preserve">
+    <value>2、示教模板</value>
+  </data>
+  <data name="findModelBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="offsetYTxT1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 262</value>
+  </data>
+  <data name="layICBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="offsetXTxT2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 559</value>
+  </data>
+  <data name="resource.AccessibleName5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="skinButton60.Text" xml:space="preserve">
+    <value>Z2真空吸</value>
+  </data>
+  <data name="enableMod2CBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 220</value>
+  </data>
+  <data name="&gt;&gt;enableMod2CBox.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="geinTxt.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="autoShowCBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 269</value>
+  </data>
+  <data name="techModBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;saveBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="resource.Anchor7" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="offsetRTxT1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 299</value>
+  </data>
+  <data name="&gt;&gt;skinButton59.Name" xml:space="preserve">
+    <value>skinButton59</value>
+  </data>
+  <data name="RbtnBackModel.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="skinButton61.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="&gt;&gt;skinButton59.Parent" xml:space="preserve">
+    <value>skinGroupBox22</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="TextModelXYR1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label139.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resource.TextAlign8" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;label137.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="resource.PasswordChar2" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="snapDelayTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="resource.TextAlign3" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.TextAlign2" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="TextModelXYR2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 463</value>
+  </data>
+  <data name="resource.TextAlign4" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.TextAlign7" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.TextAlign6" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;label130.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;duplicCbo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="resource.Anchor8" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="BtnFindNCCModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 35</value>
+  </data>
+  <data name="label134.Text" xml:space="preserve">
+    <value>最小对比度:</value>
+  </data>
+  <data name="resource.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.Anchor2" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label141.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="offsetXTxT1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;geinTxt.Parent" xml:space="preserve">
+    <value>skinGroupBox21</value>
+  </data>
+  <data name="resource.Anchor4" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="BtnRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="&gt;&gt;duplicCbo.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="&gt;&gt;findModelBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="resource.TabIndex9" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="skinButton7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="layICBtn.Text" xml:space="preserve">
+    <value>4、将吸头的料放回料盘</value>
+  </data>
+  <data name="offsetYTxT2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="resource.PasswordChar8" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;duplicCbo.Name" xml:space="preserve">
+    <value>duplicCbo</value>
+  </data>
+  <data name="resource.Size3" type="System.Drawing.Size, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="resource.TabIndex3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layICBtn.Name" xml:space="preserve">
+    <value>layICBtn</value>
+  </data>
+  <data name="resource.Location6" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="resource.AccessibleName1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="skinButton61.Text" xml:space="preserve">
+    <value>Z1真空吸</value>
+  </data>
+  <data name="resource.RightToLeft8" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;snapDelayTxt.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.Location8" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="offsetRTxT1.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="&gt;&gt;RbtnBackModel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="skinGroupBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 331</value>
+  </data>
+  <data name="label138.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 264</value>
+  </data>
+  <data name="BtnFindNCCModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="minContrastCbo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 30</value>
+  </data>
+  <data name="label134.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="offsetXTxT1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 226</value>
+  </data>
+  <data name="&gt;&gt;greedCbo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinButton59.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.ImeMode4" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label142.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="RbtnBackModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 190</value>
+  </data>
+  <data name="&gt;&gt;label138.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.AccessibleDescription9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="offsetYTxT2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="resource.TabIndex8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label138.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFindNCCModel.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="resource.BackgroundImage9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Dock1" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="resource.Anchor1" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.Anchor5" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;TextModelXYR2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="techModBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="toDownCamBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="TextModelXYR2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="angCbo.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="modelPicBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton58.Text" xml:space="preserve">
+    <value>Z4真空吸</value>
+  </data>
+  <data name="&gt;&gt;skinButton59.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="offsetRTxT1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="resource.PasswordChar7" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;minContrastCbo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label132.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="RbtnFrontModel.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label139.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label130.Text" xml:space="preserve">
+    <value>相机曝光时间:</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="skinButton58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label136.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label131.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label140.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.BackgroundImageLayout2" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.BackgroundImageLayout3" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;offsetXTxT1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.BackgroundImageLayout5" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="offsetXTxT1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 33</value>
+  </data>
+  <data name="resource.BackgroundImageLayout7" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.BackgroundImageLayout8" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.BackgroundImageLayout9" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label130.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label130.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="&gt;&gt;label137.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="autoShowCBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;soccerCbo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="penCBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;offsetXTxT2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;skinButton61.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="resource.AccessibleName3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label141.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 24</value>
+  </data>
+  <data name="modelPicBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 184</value>
+  </data>
+  <data name="offsetRTxT2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="resource.WordWrap5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="skinButton58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 126</value>
+  </data>
+  <data name="resource.Dock7" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.WordWrap3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox2.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="&gt;&gt;soccerCbo.Name" xml:space="preserve">
+    <value>soccerCbo</value>
+  </data>
+  <data name="label131.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 71</value>
+  </data>
+  <data name="label135.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 34</value>
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RbtnFrontModel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinButton59.Text" xml:space="preserve">
+    <value>Z3真空吸</value>
+  </data>
+  <data name="skinButton59.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="resource.Anchor10" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.Multiline10" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="duplicCbo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnFindNCCModel.Name" xml:space="preserve">
+    <value>BtnFindNCCModel</value>
+  </data>
+  <data name="resource.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="offsetRTxT2.TabIndex" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="resource.Font2" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="BtnMask.Text" xml:space="preserve">
+    <value>掩膜1选择</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>IC偏移R:</value>
+  </data>
+  <data name="resource.Size4" type="System.Drawing.Size, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="BtnFindNCCModel.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="exposureTxt.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox21.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;skinButton6.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="geinTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 33</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.PasswordChar6" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="techModBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="offsetYTxT1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="resource.MaximumSize2" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveBtn.Text" xml:space="preserve">
+    <value>保  存</value>
+  </data>
+  <data name="resource.Font5" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="seatCBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 59</value>
+  </data>
+  <data name="&gt;&gt;offsetYTxT2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;angCbo.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="skinButton5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox19.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label142.Name" xml:space="preserve">
+    <value>label142</value>
+  </data>
+  <data name="&gt;&gt;RbtnFrontModel.Name" xml:space="preserve">
+    <value>RbtnFrontModel</value>
+  </data>
+  <data name="label141.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 34</value>
+  </data>
+  <data name="&gt;&gt;offsetXTxT1.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label136.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="soccerCbo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 106</value>
+  </data>
+  <data name="offsetYTxT1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="skinButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="greedCbo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 263</value>
+  </data>
+  <data name="resource.TabIndex7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toDownCamBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label131.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinGroupBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 322</value>
+  </data>
+  <data name="&gt;&gt;skinButton60.Name" xml:space="preserve">
+    <value>skinButton60</value>
+  </data>
+  <data name="&gt;&gt;exposureTxt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;skinButton58.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="autoShowCBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnFindNCCModel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="geinTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 88</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 35</value>
+  </data>
+  <data name="&gt;&gt;findModelBtn.Name" xml:space="preserve">
+    <value>findModelBtn</value>
+  </data>
+  <data name="BtnRegion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;offsetXTxT2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;BtnMask.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="setCamParaBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 46</value>
+  </data>
+  <data name="toDownCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 55</value>
+  </data>
+  <data name="&gt;&gt;label135.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="penCBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="offsetRTxT1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="angCbo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 72</value>
+  </data>
+  <data name="resource.Dock5" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="RbtnBackModel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;duplicCbo.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="skinGroupBox22.Text" xml:space="preserve">
+    <value>电磁阀控制</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 184</value>
+  </data>
+  <data name="label138.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label131.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnRegion.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;BtnRegion.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="label142.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton6.Name" xml:space="preserve">
+    <value>skinButton6</value>
+  </data>
+  <data name="resource.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="autoShowCBox.Text" xml:space="preserve">
+    <value>自动运行时是否显示匹配图像的位置</value>
+  </data>
+  <data name="&gt;&gt;label136.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="TextModelXYR1.TabIndex" type="System.Int32, mscorlib">
+    <value>199</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="layICBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label138.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label142.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.AccessibleDescription1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="layICBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="resource.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="resource.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;geinTxt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="skinGroupBox20.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="resource.ScrollBars8" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label130.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="skinButton60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="greedCbo.ToolTip" xml:space="preserve">
+    <value>相机查找模板的速度，值越大速度越快，但少数情况下可能会导致查找不到模板</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;findModelBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;offsetXTxT2.Name" xml:space="preserve">
+    <value>offsetXTxT2</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnRegion.Text" xml:space="preserve">
+    <value>区域1选择</value>
+  </data>
+  <data name="exposureTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="skinButton5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;offsetYTxT2.Name" xml:space="preserve">
+    <value>offsetYTxT2</value>
+  </data>
+  <data name="RbtnBackModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.TextAlign1" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;offsetRTxT1.Name" xml:space="preserve">
+    <value>offsetRTxT1</value>
+  </data>
+  <data name="&gt;&gt;TextModelXYR1.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="BtnFindNCCModel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TextModelXYR2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 32</value>
+  </data>
+  <data name="label131.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.RightToLeft4" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.Anchor9" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="duplicCbo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 30</value>
+  </data>
+  <data name="&gt;&gt;RbtnBackModel.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="enableMod2CBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnRegion.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Text2" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="snapDelayTxt.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="BtnRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 510</value>
+  </data>
+  <data name="resource.ScrollBars6" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label142.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="greedCbo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 72</value>
+  </data>
+  <data name="resource.ScrollBars4" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Size6" type="System.Drawing.Size, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="&gt;&gt;techModBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="resource.Location3" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="resource.AccessibleName6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RbtnFrontModel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="setCamParaBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="offsetYTxT1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="resource.BackgroundImageLayout4" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;geinTxt.Name" xml:space="preserve">
+    <value>geinTxt</value>
+  </data>
+  <data name="&gt;&gt;enableMod2CBox.Name" xml:space="preserve">
+    <value>enableMod2CBox</value>
+  </data>
+  <data name="offsetXTxT2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="RbtnFrontModel.Text" xml:space="preserve">
+    <value>前拍模板</value>
+  </data>
+  <data name="resource.AccessibleDescription5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="modelPicBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 186</value>
+  </data>
+  <data name="resource.Size8" type="System.Drawing.Size, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>skinGroupBox20</value>
+  </data>
+  <data name="&gt;&gt;techModBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="resource.Font1" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>885, 714</value>
+  </data>
+  <data name="seatCBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 30</value>
+  </data>
+  <data name="RbtnFrontModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="resource.AccessibleName10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;label139.Parent" xml:space="preserve">
+    <value>skinGroupBox19</value>
+  </data>
+  <data name="resource.BackgroundImage3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label139.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 36</value>
+  </data>
+  <data name="&gt;&gt;seatCBox.Name" xml:space="preserve">
+    <value>seatCBox</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>60</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>

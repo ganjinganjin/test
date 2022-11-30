@@ -1,0 +1,1230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="saveScannerPosBtn.Text" xml:space="preserve">
+    <value>保存:扫码枪对准定位孔中心重叠位置</value>
+  </data>
+  <data name="initModBtn.Text" xml:space="preserve">
+    <value>示教模板</value>
+  </data>
+  <data name="&gt;&gt;initRbtn8.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GoScannerPosBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="initRbtn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 95</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="skinGroupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;camFixICBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="calDisBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="initRbtn6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;saveUpCamBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 156</value>
+  </data>
+  <data name="saveScannerPosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox5.Name" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;saveScannerPosBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;savePenZ1PosBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="initRbtn8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;savePenZ1PosBtn.Name" xml:space="preserve">
+    <value>savePenZ1PosBtn</value>
+  </data>
+  <data name="initRbtn2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="initRbtn3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveUpCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="GoUpCamBtn.Text" xml:space="preserve">
+    <value>GO:上相机中心与定位孔中心重叠位置</value>
+  </data>
+  <data name="initRbtn3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="goPosBtn1.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="initModBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="&gt;&gt;initModBtn.Name" xml:space="preserve">
+    <value>initModBtn</value>
+  </data>
+  <data name="initRbtn6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 95</value>
+  </data>
+  <data name="penPhoTxtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>719, 172</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;initRbtn7.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="camFixTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 55</value>
+  </data>
+  <data name="&gt;&gt;initModBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;findModBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="initICSeatBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 55</value>
+  </data>
+  <data name="findModBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;initRbtn6.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="saveScannerPosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 34</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="initRbtn8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 95</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="findModBtn1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="initRbtn3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="initRbtn2.Text" xml:space="preserve">
+    <value>料盘精度</value>
+  </data>
+  <data name="goPosBtn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 151</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GoUpCamBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;initRbtn3.Name" xml:space="preserve">
+    <value>initRbtn3</value>
+  </data>
+  <data name="&gt;&gt;initICSeatBtn.Name" xml:space="preserve">
+    <value>initICSeatBtn</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="&gt;&gt;camFixTxt.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;initRbtn7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox5.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;initRbtn2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GoPenZ1PosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="findModBtn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 151</value>
+  </data>
+  <data name="initRbtn6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="initRbtn3.Text" xml:space="preserve">
+    <value>吸笔精度</value>
+  </data>
+  <data name="&gt;&gt;initICSeatBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="GoPenZ1PosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="GoPenZ1PosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="savePenZ1PosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="savePenZ1PosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="initRbtn1.Text" xml:space="preserve">
+    <value>IC座精度</value>
+  </data>
+  <data name="&gt;&gt;initRbtn1.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="saveAltimeterPosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 55</value>
+  </data>
+  <data name="GoUpCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="saveUpCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 55</value>
+  </data>
+  <data name="skinGroupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="initRbtn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="&gt;&gt;GoPenZ1PosBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="initICSeatBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;initRbtn5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="penPhoTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 123</value>
+  </data>
+  <data name="&gt;&gt;penPhoTxtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;goPosBtn1.Name" xml:space="preserve">
+    <value>goPosBtn1</value>
+  </data>
+  <data name="initRbtn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="&gt;&gt;GoPenZ1PosBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;initRbtn8.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="findModBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 43</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;initRbtn2.Name" xml:space="preserve">
+    <value>initRbtn2</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 91</value>
+  </data>
+  <data name="camFixICBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="savePenZ1PosBtn.Text" xml:space="preserve">
+    <value>保存:吸笔1对准定位孔中心重叠位置</value>
+  </data>
+  <data name="calDisBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CamAccAndPenDisPnl</value>
+  </data>
+  <data name="initRbtn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="initRbtn4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="penPhoTxtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;initRbtn6.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="GoScannerPosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 55</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="goPosBtn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 38</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 91</value>
+  </data>
+  <data name="initRbtn4.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="&gt;&gt;penPhoTxtBox.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="penPhoTxtBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="calDisBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 28</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="initRbtn2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="initRbtn7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="initRbtn1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;saveScannerPosBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="skinGroupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="initRbtn6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 298</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;initRbtn4.Name" xml:space="preserve">
+    <value>initRbtn4</value>
+  </data>
+  <data name="GoAltimeterPosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="initModBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="camFixICBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;initRbtn5.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="initModBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="initRbtn7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="skinGroupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;penPhoTxtBox.Name" xml:space="preserve">
+    <value>penPhoTxtBox</value>
+  </data>
+  <data name="initRbtn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="&gt;&gt;GoAltimeterPosBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="initRbtn8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="&gt;&gt;GoPenZ1PosBtn.Name" xml:space="preserve">
+    <value>GoPenZ1PosBtn</value>
+  </data>
+  <data name="camFixTxt.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;initRbtn5.Name" xml:space="preserve">
+    <value>initRbtn5</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 91</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="camFixICBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;saveUpCamBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="findModBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;goPosBtn1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;goPosBtn1.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;savePenZ1PosBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="initICSeatBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 38</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 38</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 38</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="findModBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GoUpCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 92</value>
+  </data>
+  <data name="initRbtn6.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="GoScannerPosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="camFixICBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 55</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>770, 91</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 38</value>
+  </data>
+  <data name="saveAltimeterPosBtn.Text" xml:space="preserve">
+    <value>保存:测高仪对准定位孔中心重叠位置</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 91</value>
+  </data>
+  <data name="initRbtn7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="initRbtn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="camFixTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="findModBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 35</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Name" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;saveAltimeterPosBtn.Name" xml:space="preserve">
+    <value>saveAltimeterPosBtn</value>
+  </data>
+  <data name="initRbtn5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="GoScannerPosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 92</value>
+  </data>
+  <data name="initICSeatBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;findModBtn.Name" xml:space="preserve">
+    <value>findModBtn</value>
+  </data>
+  <data name="skinGroupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 253</value>
+  </data>
+  <data name="initRbtn4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="initRbtn2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;saveScannerPosBtn.Name" xml:space="preserve">
+    <value>saveScannerPosBtn</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;initModBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;findModBtn1.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;initRbtn7.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;saveUpCamBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;GoScannerPosBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;penPhoTxtBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;findModBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calDisBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="initModBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 34</value>
+  </data>
+  <data name="initRbtn8.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GoScannerPosBtn.Text" xml:space="preserve">
+    <value>GO:扫码枪对准定位孔中心重叠位置</value>
+  </data>
+  <data name="&gt;&gt;initRbtn4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="saveUpCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 34</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinGroupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 415</value>
+  </data>
+  <data name="&gt;&gt;initRbtn6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="goPosBtn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 55</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;GoPenZ1PosBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox5.Text" xml:space="preserve">
+    <value>治具调校位置</value>
+  </data>
+  <data name="initModBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 43</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="skinGroupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 244</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="initRbtn7.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;saveUpCamBtn.Name" xml:space="preserve">
+    <value>saveUpCamBtn</value>
+  </data>
+  <data name="&gt;&gt;initRbtn5.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="initRbtn5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GoUpCamBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;findModBtn1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="findModBtn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 55</value>
+  </data>
+  <data name="&gt;&gt;GoAltimeterPosBtn.Name" xml:space="preserve">
+    <value>GoAltimeterPosBtn</value>
+  </data>
+  <data name="saveScannerPosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 55</value>
+  </data>
+  <data name="initRbtn2.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="savePenZ1PosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveAltimeterPosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 34</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="initRbtn3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="initRbtn4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 65</value>
+  </data>
+  <data name="initRbtn4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;initRbtn4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;camFixTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;initRbtn3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="initRbtn8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="camFixICBtn.Text" xml:space="preserve">
+    <value>校正相机精度</value>
+  </data>
+  <data name="initRbtn7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox6.Text" xml:space="preserve">
+    <value>相机精度校正</value>
+  </data>
+  <data name="GoAltimeterPosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="initRbtn6.Text" xml:space="preserve">
+    <value>飞达精度</value>
+  </data>
+  <data name="GoAltimeterPosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GoUpCamBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="initRbtn5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 59</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="saveUpCamBtn.Text" xml:space="preserve">
+    <value>保存:上相机中心与定位孔中心重叠位置</value>
+  </data>
+  <data name="label11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="findModBtn1.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 40</value>
+  </data>
+  <data name="calDisBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 92</value>
+  </data>
+  <data name="initRbtn8.Text" xml:space="preserve">
+    <value>料管精度</value>
+  </data>
+  <data name="GoAltimeterPosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 92</value>
+  </data>
+  <data name="saveUpCamBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="GoScannerPosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 18pt, style=Bold</value>
+  </data>
+  <data name="initRbtn4.Text" xml:space="preserve">
+    <value>选择相机</value>
+  </data>
+  <data name="saveUpCamBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 91</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Name" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;GoScannerPosBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="camFixTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="initRbtn7.Text" xml:space="preserve">
+    <value>编带精度</value>
+  </data>
+  <data name="&gt;&gt;initRbtn6.Name" xml:space="preserve">
+    <value>initRbtn6</value>
+  </data>
+  <data name="camFixTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GoUpCamBtn.Name" xml:space="preserve">
+    <value>GoUpCamBtn</value>
+  </data>
+  <data name="&gt;&gt;initRbtn3.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="initRbtn7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 95</value>
+  </data>
+  <data name="initICSeatBtn.Text" xml:space="preserve">
+    <value>示教精度模板</value>
+  </data>
+  <data name="&gt;&gt;camFixTxt.Name" xml:space="preserve">
+    <value>camFixTxt</value>
+  </data>
+  <data name="&gt;&gt;camFixICBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="penPhoTxtBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="saveScannerPosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;initRbtn3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="initICSeatBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 151</value>
+  </data>
+  <data name="&gt;&gt;GoAltimeterPosBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;initRbtn2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="initRbtn5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="initRbtn8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="initRbtn5.Text" xml:space="preserve">
+    <value>选择相机</value>
+  </data>
+  <data name="&gt;&gt;initRbtn8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="initRbtn1.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;initRbtn7.Name" xml:space="preserve">
+    <value>initRbtn7</value>
+  </data>
+  <data name="savePenZ1PosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 34</value>
+  </data>
+  <data name="GoAltimeterPosBtn.Text" xml:space="preserve">
+    <value>GO:测高仪对准定位孔中心重叠位置</value>
+  </data>
+  <data name="saveAltimeterPosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="goPosBtn1.Text" xml:space="preserve">
+    <value>GO:位置</value>
+  </data>
+  <data name="&gt;&gt;findModBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;calDisBtn.Name" xml:space="preserve">
+    <value>calDisBtn</value>
+  </data>
+  <data name="&gt;&gt;calDisBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="findModBtn.Text" xml:space="preserve">
+    <value>查找模板</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="initRbtn5.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="&gt;&gt;findModBtn1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;saveAltimeterPosBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 40</value>
+  </data>
+  <data name="&gt;&gt;initRbtn8.Name" xml:space="preserve">
+    <value>initRbtn8</value>
+  </data>
+  <data name="&gt;&gt;initRbtn1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="camFixICBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 151</value>
+  </data>
+  <data name="GoScannerPosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="initRbtn3.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="initRbtn5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="GoPenZ1PosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 92</value>
+  </data>
+  <data name="initRbtn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 95</value>
+  </data>
+  <data name="savePenZ1PosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 55</value>
+  </data>
+  <data name="&gt;&gt;initRbtn1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;GoAltimeterPosBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;initICSeatBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;saveScannerPosBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;initICSeatBtn.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="calDisBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;initRbtn4.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="skinGroupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 18pt, style=Bold</value>
+  </data>
+  <data name="GoUpCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 55</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="GoPenZ1PosBtn.Text" xml:space="preserve">
+    <value>GO:吸笔1对准定位孔中心重叠位置</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;initRbtn2.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="calDisBtn.Text" xml:space="preserve">
+    <value>计算间距</value>
+  </data>
+  <data name="skinGroupBox4.Text" xml:space="preserve">
+    <value>吸嘴拍照位置</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;saveAltimeterPosBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GoUpCamBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="findModBtn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;camFixICBtn.Name" xml:space="preserve">
+    <value>camFixICBtn</value>
+  </data>
+  <data name="&gt;&gt;saveAltimeterPosBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;camFixTxt.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="findModBtn1.Text" xml:space="preserve">
+    <value>查找模板</value>
+  </data>
+  <data name="initRbtn1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;calDisBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;initRbtn1.Name" xml:space="preserve">
+    <value>initRbtn1</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="GoPenZ1PosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 55</value>
+  </data>
+  <data name="GoAltimeterPosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 55</value>
+  </data>
+  <data name="&gt;&gt;goPosBtn1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="saveAltimeterPosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;initModBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;GoScannerPosBtn.Name" xml:space="preserve">
+    <value>GoScannerPosBtn</value>
+  </data>
+  <data name="initRbtn3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 95</value>
+  </data>
+  <data name="saveAltimeterPosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 38</value>
+  </data>
+  <data name="&gt;&gt;savePenZ1PosBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;findModBtn1.Name" xml:space="preserve">
+    <value>findModBtn1</value>
+  </data>
+  <data name="camFixTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 151</value>
+  </data>
+  <data name="&gt;&gt;camFixICBtn.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="saveScannerPosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="goPosBtn1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GoUpCamBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>

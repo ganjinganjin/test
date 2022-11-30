@@ -1,0 +1,3612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="RbtnAutoTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="pictureBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan2R.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="nudTIC_TubeR.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;excitXLed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="skinGroupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="RbtnBurnMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label82.TabIndex" type="System.Int32, mscorlib">
+    <value>235</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GbxFeeder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 96</value>
+  </data>
+  <data name="&gt;&gt;label77.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="excitYLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 40</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Name" xml:space="preserve">
+    <value>pictureBox8</value>
+  </data>
+  <data name="RbtnNonTestMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn1.Name" xml:space="preserve">
+    <value>funcRBtn1</value>
+  </data>
+  <data name="normCBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 25</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="dotALed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="skinGroupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 96</value>
+  </data>
+  <data name="&gt;&gt;label77.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label81.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBredeCCD_Check.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nudTIC_TubeR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 217</value>
+  </data>
+  <data name="pictureBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;renovateBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="GbxFeeder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 390</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="pictureBox0.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 125</value>
+  </data>
+  <data name="funcRBtn2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nudTIC_Pan1R.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="skinGroupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="&gt;&gt;normCBox.Name" xml:space="preserve">
+    <value>normCBox</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox10.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ledBredeCCD_Check.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="label81.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ledEmptyCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="renovateLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 34</value>
+  </data>
+  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ChkICPosEnabled2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="&gt;&gt;btnBredeCCD_Check.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="GMCheckLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 60</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>烧录座极性点:</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="excitYBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan3R.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinGroupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="RbtnNonNGTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;label80.Name" xml:space="preserve">
+    <value>label80</value>
+  </data>
+  <data name="funcRBtn3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 24</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;RbtnAutoTray.Name" xml:space="preserve">
+    <value>RbtnAutoTray</value>
+  </data>
+  <data name="braidCheckBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 24</value>
+  </data>
+  <data name="label81.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
+  </data>
+  <data name="funcRBtn1.Text" xml:space="preserve">
+    <value>盘转盘</value>
+  </data>
+  <data name="nudTIC_BredeR.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label79.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="funcRBtn1.TabIndex" type="System.Int32, mscorlib">
+    <value>236</value>
+  </data>
+  <data name="pictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQIAAAECCAIAAACaLU4HAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAXuSURBVHhe7d1PaxRnAMdx34Rgaz3ZrgZasE1pqKeC
+        iBR6EK0SRHMQfAUGD/655GW0GAt6i0IuLRQUPLRQAp5aFo9iT/FsYeth21+bYQnTGndmZ/+Nn4cPonEz
+        8ww8X7KbnZndd/jAfnjLyQBkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxABiADCBnANDJYXOhcOndm7eb1
+        u+u3Hz96+LTbfbG93ev1+v1+/szf85V8Pf+bx+SReXxpC9CsyWVw4vjSjdWrm/c3nj979leVkcfnu/K9
+        2UJpm9CISWRw+cLyvTvrvz9/XqzruiNbyHaytdL2YUTjzeDKysXNBxuvXv1ZLOQmRraWbWbLpX1BbePK
+        4PSpk3ly/8fLl8XibXpky9l+9lLaL9QwlgxuXVvt/vZrsWDHObKX7Ku0d6iq4Qy+WPr0u2+/KRbppEb2
+        mP2WZgLDazKDr7/68scfvi/W5mRH9pu9l+YDQ2osg5XzZ3/5+adiVU5jZO+ZQ2lWMIxmMsj6e7K1VazH
+        6Y3MQQnU0EAGeTYy3Z8Du0dm4tkRVY2aQV6bTuv1wOtG5uMVM5WMmsHkfy80zMisSvOEPYyUwa1rq8W6
+        m73h/QSGVz+D06dOTuY9snojc/MeM0Oqn8Hd9dvFipvVkRmW5gz/q2YGV1Yuju98oaZGZugMPIZRM4PN
+        BxvFWpvtkXmWZg7/VSeDyxeWmz13enwj83R9Am9UJ4N7d9aLVTYPI7MtzR9KKmdw4vjS6NeRTXJktq7e
+        ZG+VM7ixerVYX/MzMufSUcBulTPYvD8fL453j8y5dBSwW7UMFhc6Ve8rMQsjc3aXF/ZQLYNL584UK2ve
+        RmZeOhYYqJbB2s3rxbKat5GZl44FBqplMPsnULxuOLGCPVTL4PGjh8WymreRmZeOBQaqZfC02y2W1byN
+        zLx0LDBQLYMX29vFspq3kZmXjgUGqmXQ6/WKZTVvIzMvHQsMVMug3+8Xy2reRmZeOhYY8NMAvDaAqhn4
+        TRGtVC0D7xvQStUy8C4yrVQtA+cU0UrVMnCGKa1ULQPXG9BK1TIIV5/RPpUzcC0y7VM5A3emoH0qZxDu
+        U0TL1MnAXetomToZhHuY0iY1M3BHa9qkZgYx+ydWOIGCIdXPwKfd0Br1MwiffUY7jJRB+CRMWmDUDHwu
+        Mi0wagbhU/KZdw1kECvnzz7Z2ipW4vRG5pCZlOYGb9RMBpH1N92fCdm7BqinsQwiz0am9Toh+/VciNqa
+        zCDy2nTyvzvKHr0mZhQNZ7Dj1rXVybyzlr14f4DRjSWDOH3q5N312+M77yhbzva9T0wjxpXBjisrFzcf
+        bDR7Vna2lm06Z44GjTeDHZcvLN+7sz76NWvZQrbj+gEaN4kMdpw4vnRj9erm/Y2q97bI4/Nd+V7XUjIm
+        k8tgYHGhc+ncmbWb1/Pk/vGjh0+73Rfb271er9/v58/8PV/J1/O/eUwe6d4qjNsUMoBZIwOQAcgAQgYg
+        A5ABhAxABiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAygJAByABkACEDkAHIAEIGIAOQAYQMQAYgAwgZ
+        gAxABhAyABmADCBkADIAGUDIAGQAMoCQAcgAZAAhA5AByABCBiADkAGEDEAGIAMIGYAMQAYQMgAZgAwg
+        ZAAyABlAyABkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxABiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAy
+        gJAByABkACEDkAHIAEIGIAOQAYQMQAYgAwgZgAxABhAyABmADCBkADIAGUDIAGQAMoCQAcgAZAAhA5AB
+        yABCBiADkAGEDEAGIAMIGYAMQAYQMgAZgAwgZAAyABlAyABkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxA
+        BiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAygJAByABkACEDkAHIAEIGIAOQAYQMYP++znvv/OPgAXi7
+        /Lvyjxx69+ihg/sWFzqLRzsfd94fONY5vPuf0A5Z2AP55ydHPsji/+zDhc+PffQ37QEP8FEDLnQAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label79.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>334</value>
+  </data>
+  <data name="&gt;&gt;CboRunModel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ChkVision_3D2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 24</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 25</value>
+  </data>
+  <data name="&gt;&gt;dotABtn.Name" xml:space="preserve">
+    <value>dotABtn</value>
+  </data>
+  <data name="&gt;&gt;RbtnBurnMode.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox12.Name" xml:space="preserve">
+    <value>skinGroupBox12</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="btnEmptyCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;ChkFeeder1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;ChkICPosEnabled2.Parent" xml:space="preserve">
+    <value>skinGroupBox8</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="renovateBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>取料角度</value>
+  </data>
+  <data name="normCBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="RbtnBurnMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Base.Name" xml:space="preserve">
+    <value>pictureBox_Base</value>
+  </data>
+  <data name="funcRBtn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 24</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="RbtnNonTestMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="pictureBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="nudLIC_Pan1R.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 93</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;dotBBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="skinGroupBox7.Text" xml:space="preserve">
+    <value>取放料旋转角度</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 94</value>
+  </data>
+  <data name="skinGroupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 3</value>
+  </data>
+  <data name="nudLIC_BredeR.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;ChkVision_3D1.Parent" xml:space="preserve">
+    <value>GbxVision_3D</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>321</value>
+  </data>
+  <data name="RbtnNonTestMode.Text" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="nudLIC_Pan3R.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="excitXBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 34</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="ChkVision_3D1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 24</value>
+  </data>
+  <data name="btnBredeCCD_Check.Text" xml:space="preserve">
+    <value>CCD检测</value>
+  </data>
+  <data name="RbtnNGTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="GbxInks.Text" xml:space="preserve">
+    <value>油墨监测使能</value>
+  </data>
+  <data name="excitYLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 34</value>
+  </data>
+  <data name="RbtnBurnMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;normCBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox14.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_Pan1R.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbtnAutoTray.Text" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="&gt;&gt;pictureBox0.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="ChkPenAbnormal.Text" xml:space="preserve">
+    <value>[√异常X正常]</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="GbxFeeder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CboRunModel.Name" xml:space="preserve">
+    <value>CboRunModel</value>
+  </data>
+  <data name="&gt;&gt;ChkVision_3D2.Name" xml:space="preserve">
+    <value>ChkVision_3D2</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn4.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;label77.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tarRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ChkVision_3D1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="funcRBtn3.TabIndex" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="funcRBtn3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;GMCheckBtn.Name" xml:space="preserve">
+    <value>GMCheckBtn</value>
+  </data>
+  <data name="nudLIC_BredeR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="ledBredeCCD_Check.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 34</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonNGTray.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="RbtnTestMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 63</value>
+  </data>
+  <data name="skinGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ChkVision_3D1.Text" xml:space="preserve">
+    <value>烧录前使能[√ 开启 X 关闭]</value>
+  </data>
+  <data name="skinGroupBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 184</value>
+  </data>
+  <data name="funcRBtn4.Text" xml:space="preserve">
+    <value>编转盘</value>
+  </data>
+  <data name="GbxVision_3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 96</value>
+  </data>
+  <data name="&gt;&gt;label80.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>料盘3:</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_Pan2R.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn5.Name" xml:space="preserve">
+    <value>funcRBtn5</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox12.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonBurnMode.Parent" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ChkICPosEnabled1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="GMCheckBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="skinGroupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 290</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_Pan1R.Name" xml:space="preserve">
+    <value>nudTIC_Pan1R</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Base.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan1R.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;renovateBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="RbtnTestMode.Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="&gt;&gt;ChkICPosEnabled1.Parent" xml:space="preserve">
+    <value>skinGroupBox8</value>
+  </data>
+  <data name="excitYLed.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="nudTIC_BredeR.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pictureBox10.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;label81.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="pictureBox_Base.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;normCBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GbxInks.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GbxFeeder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan3R.Name" xml:space="preserve">
+    <value>nudLIC_Pan3R</value>
+  </data>
+  <data name="braidCheckLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 24</value>
+  </data>
+  <data name="btnEmptyCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 34</value>
+  </data>
+  <data name="pictureBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>351</value>
+  </data>
+  <data name="label80.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;label79.Name" xml:space="preserve">
+    <value>label79</value>
+  </data>
+  <data name="&gt;&gt;renovateLed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="funcRBtn6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="RbtnAutoTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="excitXBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 40</value>
+  </data>
+  <data name="&gt;&gt;ChkSyncTakeLay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dotBBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 34</value>
+  </data>
+  <data name="skinGroupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 96</value>
+  </data>
+  <data name="label77.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="skinGroupBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 131</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FuncSwitWnd</value>
+  </data>
+  <data name="GbxFeeder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 186</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_BredeR.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_Pan2R.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="skinGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 210</value>
+  </data>
+  <data name="CboRunModel.TabIndex" type="System.Int32, mscorlib">
+    <value>333</value>
+  </data>
+  <data name="dotBLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 170</value>
+  </data>
+  <data name="ChkSyncTakeLay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="&gt;&gt;dotBLed.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn5.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RbtnNonBurnMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ChkOverlay.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ChkInksAutoTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChkPenAbnormal.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonBurnMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Base.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;excitYLed.Name" xml:space="preserve">
+    <value>excitYLed</value>
+  </data>
+  <data name="tarRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="dotBBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="funcRBtn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 24</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="skinGroupBox3.Text" xml:space="preserve">
+    <value>运行模式2</value>
+  </data>
+  <data name="GMCheckLed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;GbxFeeder.Name" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="btnEmptyCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 93</value>
+  </data>
+  <data name="&gt;&gt;ChkICPosEnabled2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="skinGroupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="RbtnBurnMode.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="normCBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ChkInksAutoTray.Parent" xml:space="preserve">
+    <value>GbxInks</value>
+  </data>
+  <data name="funcRBtn5.TabIndex" type="System.Int32, mscorlib">
+    <value>244</value>
+  </data>
+  <data name="funcRBtn4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 30</value>
+  </data>
+  <data name="skinGroupBox9.Text" xml:space="preserve">
+    <value>防叠料使能</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown6.Name" xml:space="preserve">
+    <value>numericUpDown6</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ledEmptyCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChkICPosEnabled2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnEmptyCheck.Text" xml:space="preserve">
+    <value>空料检测</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_Pan1R.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="ChkInksBraid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 24</value>
+  </data>
+  <data name="RbtnNonNGTray.Text" xml:space="preserve">
+    <value>NG杯</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="skinGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>638, 70</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="funcRBtn2.TabIndex" type="System.Int32, mscorlib">
+    <value>238</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;btnEmptyCheck.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_TubeR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Name" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonBurnMode.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox_Base.TabIndex" type="System.Int32, mscorlib">
+    <value>352</value>
+  </data>
+  <data name="&gt;&gt;RbtnNGTray.Name" xml:space="preserve">
+    <value>RbtnNGTray</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>料盘2:</value>
+  </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 156</value>
+  </data>
+  <data name="pictureBox9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>317</value>
+  </data>
+  <data name="ChkInksAutoTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 24</value>
+  </data>
+  <data name="funcRBtn4.TabIndex" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="skinGroupBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 51</value>
+  </data>
+  <data name="nudTIC_TubeR.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChkPenAltMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="&gt;&gt;btnEmptyCheck.Name" xml:space="preserve">
+    <value>btnEmptyCheck</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinGroupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="numericUpDown6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="&gt;&gt;GMCheckBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dotBBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="label77.TabIndex" type="System.Int32, mscorlib">
+    <value>243</value>
+  </data>
+  <data name="pictureBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Name" xml:space="preserve">
+    <value>pictureBox7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox0.Name" xml:space="preserve">
+    <value>pictureBox0</value>
+  </data>
+  <data name="skinGroupBox10.Text" xml:space="preserve">
+    <value>吸笔异常</value>
+  </data>
+  <data name="funcRBtn5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;excitYBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan1R.Name" xml:space="preserve">
+    <value>nudLIC_Pan1R</value>
+  </data>
+  <data name="ledEmptyCheck.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 247</value>
+  </data>
+  <data name="&gt;&gt;ledEmptyCheck.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="btnBredeCCD_Check.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 34</value>
+  </data>
+  <data name="ChkVision_3D2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="ledBredeCCD_Check.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 134</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RbtnAutoTray.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GMCheckBtn.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="normCBox.Text" xml:space="preserve">
+    <value>定量使能[√ 开启 X 关闭]</value>
+  </data>
+  <data name="nudTIC_Pan2R.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 124</value>
+  </data>
+  <data name="GbxInks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 390</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn3.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>324</value>
+  </data>
+  <data name="label81.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="numericUpDown6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_Pan2R.Name" xml:space="preserve">
+    <value>nudTIC_Pan2R</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonTestMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="skinGroupBox12.Text" xml:space="preserve">
+    <value>放盘方式</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan1R.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="RbtnNonBurnMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="GMCheckBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ledBredeCCD_Check.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dotBLed.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="dotBLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="&gt;&gt;ChkPenAltMode.Parent" xml:space="preserve">
+    <value>skinGroupBox16</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_BredeR.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ChkVision_3D1.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="skinGroupBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="skinGroupBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_Base.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="funcRBtn4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;dotALed.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>349</value>
+  </data>
+  <data name="pictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="ChkOverlay.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="nudLIC_Pan3R.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 155</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ChkFeeder1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 25</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nudTIC_Pan1R.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 93</value>
+  </data>
+  <data name="skinGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 2</value>
+  </data>
+  <data name="label82.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GMCheckLed.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dotABtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>343</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn1.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="ChkVision_3D2.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="pictureBox8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="nudLIC_Pan1R.TabIndex" type="System.Int32, mscorlib">
+    <value>337</value>
+  </data>
+  <data name="dotALed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 170</value>
+  </data>
+  <data name="dotABtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="skinGroupBox5.Text" xml:space="preserve">
+    <value>定量使能</value>
+  </data>
+  <data name="RbtnNonBurnMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="funcRBtn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 24</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;excitYBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;excitXBtn.Name" xml:space="preserve">
+    <value>excitXBtn</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan3R.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="pictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="funcRBtn1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nudLIC_Pan1R.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="dotBLed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ledBredeCCD_Check.Name" xml:space="preserve">
+    <value>ledBredeCCD_Check</value>
+  </data>
+  <data name="dotABtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 34</value>
+  </data>
+  <data name="&gt;&gt;GMCheckLed.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;RbtnTestMode.Name" xml:space="preserve">
+    <value>RbtnTestMode</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RbtnTestMode.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;ChkOverlay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label82.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="funcRBtn3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChkICPosEnabled2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 24</value>
+  </data>
+  <data name="ChkFeeder2.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="nudLIC_Pan3R.TabIndex" type="System.Int32, mscorlib">
+    <value>335</value>
+  </data>
+  <data name="skinGroupBox16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="skinGroupBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="&gt;&gt;label82.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nudTIC_Pan2R.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nudLIC_BredeR.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="braidCheckLed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="RbtnNonNGTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="ChkPenAltMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 13pt</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 34</value>
+  </data>
+  <data name="dotALed.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="skinGroupBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="okRbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 60</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonAutoTray.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="funcRBtn3.Text" xml:space="preserve">
+    <value>编转编</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="dotBBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numericUpDown6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 217</value>
+  </data>
+  <data name="skinGroupBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;renovateLed.Name" xml:space="preserve">
+    <value>renovateLed</value>
+  </data>
+  <data name="RbtnNonAutoTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nudTIC_BredeR.TabIndex" type="System.Int32, mscorlib">
+    <value>329</value>
+  </data>
+  <data name="pictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnSave.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="ChkFeeder2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 58</value>
+  </data>
+  <data name="skinGroupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 78</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="skinGroupBox14.Text" xml:space="preserve">
+    <value>同取放使能</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan1R.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="braidCheckLed.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="pictureBox0.TabIndex" type="System.Int32, mscorlib">
+    <value>341</value>
+  </data>
+  <data name="nudLIC_Pan1R.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="numericUpDown1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="excitYBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 34</value>
+  </data>
+  <data name="&gt;&gt;okRbtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;braidCheckBtn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="numericUpDown1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn2.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonBurnMode.Name" xml:space="preserve">
+    <value>RbtnNonBurnMode</value>
+  </data>
+  <data name="ChkOverlay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 13pt</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="skinGroupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 285</value>
+  </data>
+  <data name="skinGroupBox5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ChkVision_3D2.Text" xml:space="preserve">
+    <value>烧录后使能[√ 开启 X 关闭]</value>
+  </data>
+  <data name="label80.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CboRunModel.Parent" xml:space="preserve">
+    <value>skinGroupBox15</value>
+  </data>
+  <data name="nudLIC_Pan2R.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="funcRBtn6.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="&gt;&gt;okRbtn.Name" xml:space="preserve">
+    <value>okRbtn</value>
+  </data>
+  <data name="braidCheckBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Name" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown6.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 25</value>
+  </data>
+  <data name="pictureBox0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 94</value>
+  </data>
+  <data name="&gt;&gt;GMCheckBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="skinGroupBox11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="ChkInksAutoTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="skinGroupBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 290</value>
+  </data>
+  <data name="label18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox16.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label81.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;GbxFeeder.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChkFeeder1.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="&gt;&gt;ChkInksBraid.Parent" xml:space="preserve">
+    <value>GbxInks</value>
+  </data>
+  <data name="&gt;&gt;ChkSyncTakeLay.Name" xml:space="preserve">
+    <value>ChkSyncTakeLay</value>
+  </data>
+  <data name="RbtnNGTray.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>参数项</value>
+  </data>
+  <data name="RbtnTestMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="nudTIC_Pan2R.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="nudLIC_Pan3R.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;renovateLed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox_Base.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;label82.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="ChkInksAutoTray.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="skinGroupBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 78</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn6.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label77.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>344</value>
+  </data>
+  <data name="RbtnNonAutoTray.Text" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="&gt;&gt;RbtnAutoTray.Parent" xml:space="preserve">
+    <value>skinGroupBox12</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox14.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChkInksBraid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>放料角度</value>
+  </data>
+  <data name="&gt;&gt;ChkOverlay.Name" xml:space="preserve">
+    <value>ChkOverlay</value>
+  </data>
+  <data name="&gt;&gt;dotALed.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="nudLIC_Pan2R.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 124</value>
+  </data>
+  <data name="renovateLed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_TubeR.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="btnBredeCCD_Check.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="ledEmptyCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 97</value>
+  </data>
+  <data name="RbtnNonTestMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;excitYLed.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="ChkICPosEnabled1.Text" xml:space="preserve">
+    <value>烧录前使能[√ 开启 X 关闭]</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>938, 490</value>
+  </data>
+  <data name="nudLIC_Pan2R.TabIndex" type="System.Int32, mscorlib">
+    <value>336</value>
+  </data>
+  <data name="&gt;&gt;dotBLed.Name" xml:space="preserve">
+    <value>dotBLed</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn2.Name" xml:space="preserve">
+    <value>funcRBtn2</value>
+  </data>
+  <data name="nudTIC_TubeR.TabIndex" type="System.Int32, mscorlib">
+    <value>330</value>
+  </data>
+  <data name="&gt;&gt;ledBredeCCD_Check.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nudTIC_BredeR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox14.Name" xml:space="preserve">
+    <value>skinGroupBox14</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 35</value>
+  </data>
+  <data name="excitYBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox10.Name" xml:space="preserve">
+    <value>skinGroupBox10</value>
+  </data>
+  <data name="RbtnNonNGTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="normCBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 24</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox8.Name" xml:space="preserve">
+    <value>skinGroupBox8</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="okRbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="&gt;&gt;excitXBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="ChkInksBraid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="skinGroupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 290</value>
+  </data>
+  <data name="pictureBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>347</value>
+  </data>
+  <data name="&gt;&gt;label79.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tarRBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="skinGroupBox10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ChkInksAutoTray.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChkPenAbnormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="&gt;&gt;dotABtn.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;ChkPenAbnormal.Name" xml:space="preserve">
+    <value>ChkPenAbnormal</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="funcRBtn3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RbtnNonAutoTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="skinGroupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;okRbtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonTestMode.Parent" xml:space="preserve">
+    <value>skinGroupBox11</value>
+  </data>
+  <data name="skinGroupBox16.Text" xml:space="preserve">
+    <value>吸笔交替模式</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="renovateLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 29</value>
+  </data>
+  <data name="skinGroupBox8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="skinGroupBox8.Text" xml:space="preserve">
+    <value>芯片定位使能</value>
+  </data>
+  <data name="skinGroupBox11.Text" xml:space="preserve">
+    <value>运行模式1</value>
+  </data>
+  <data name="GbxVision_3D.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Name" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="RbtnNonBurnMode.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="ChkSyncTakeLay.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox15.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 78</value>
+  </data>
+  <data name="btnBredeCCD_Check.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="RbtnAutoTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;braidCheckLed.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="skinGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;ChkVision_3D2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox13.Name" xml:space="preserve">
+    <value>skinGroupBox13</value>
+  </data>
+  <data name="&gt;&gt;ChkInksAutoTray.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ChkOverlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="&gt;&gt;braidCheckLed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GbxFeeder.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="ChkInksBraid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>342</value>
+  </data>
+  <data name="&gt;&gt;excitYLed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 217</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="RbtnNonAutoTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;ChkInksAutoTray.Name" xml:space="preserve">
+    <value>ChkInksAutoTray</value>
+  </data>
+  <data name="GbxVision_3D.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;dotALed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="excitYBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinGroupBox1.Text" xml:space="preserve">
+    <value>功能设定</value>
+  </data>
+  <data name="ChkSyncTakeLay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 13pt</value>
+  </data>
+  <data name="&gt;&gt;label81.Name" xml:space="preserve">
+    <value>label81</value>
+  </data>
+  <data name="renovateBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;ChkInksBraid.Name" xml:space="preserve">
+    <value>ChkInksBraid</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_BredeR.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="dotBBtn.Text" xml:space="preserve">
+    <value>打点B</value>
+  </data>
+  <data name="numericUpDown6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ChkICPosEnabled1.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;excitXLed.Name" xml:space="preserve">
+    <value>excitXLed</value>
+  </data>
+  <data name="dotBBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 13pt</value>
+  </data>
+  <data name="nudLIC_Pan1R.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="funcRBtn4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="nudLIC_BredeR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="&gt;&gt;btnBredeCCD_Check.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="GbxInks.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="skinGroupBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 236</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="RbtnNGTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="&gt;&gt;GMCheckLed.Name" xml:space="preserve">
+    <value>GMCheckLed</value>
+  </data>
+  <data name="nudLIC_BredeR.TabIndex" type="System.Int32, mscorlib">
+    <value>339</value>
+  </data>
+  <data name="braidCheckBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>345</value>
+  </data>
+  <data name="GbxInks.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="funcRBtn4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nudTIC_Pan2R.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="&gt;&gt;tarRBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ChkPenAbnormal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 13pt</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>保 存</value>
+  </data>
+  <data name="RbtnNonBurnMode.Text" xml:space="preserve">
+    <value>转移</value>
+  </data>
+  <data name="&gt;&gt;dotBBtn.Name" xml:space="preserve">
+    <value>dotBBtn</value>
+  </data>
+  <data name="GbxVision_3D.Text" xml:space="preserve">
+    <value>2.5D使能</value>
+  </data>
+  <data name="renovateLed.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;label77.Name" xml:space="preserve">
+    <value>label77</value>
+  </data>
+  <data name="&gt;&gt;RbtnBurnMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RbtnNonAutoTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="nudTIC_BredeR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan2R.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinGroupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="RbtnNonTestMode.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="funcRBtn6.Text" xml:space="preserve">
+    <value>管转盘</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 156</value>
+  </data>
+  <data name="funcRBtn6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 30</value>
+  </data>
+  <data name="&gt;&gt;renovateLed.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="RbtnNonNGTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox10.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ChkICPosEnabled1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 24</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;braidCheckBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 217</value>
+  </data>
+  <data name="ChkVision_3D1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 25</value>
+  </data>
+  <data name="nudTIC_TubeR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_BredeR.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="&gt;&gt;ChkFeeder1.Name" xml:space="preserve">
+    <value>ChkFeeder1</value>
+  </data>
+  <data name="skinGroupBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 51</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 25</value>
+  </data>
+  <data name="skinGroupBox6.Text" xml:space="preserve">
+    <value>烧录座功能</value>
+  </data>
+  <data name="&gt;&gt;GbxFeeder.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="okRbtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="renovateBtn.Text" xml:space="preserve">
+    <value>翻  盖</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnEmptyCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 97</value>
+  </data>
+  <data name="&gt;&gt;excitXLed.Parent" xml:space="preserve">
+    <value>skinGroupBox4</value>
+  </data>
+  <data name="skinGroupBox13.Text" xml:space="preserve">
+    <value>放NG料方式</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>245</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn6.Name" xml:space="preserve">
+    <value>funcRBtn6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tarRBtn.Name" xml:space="preserve">
+    <value>tarRBtn</value>
+  </data>
+  <data name="ChkFeeder1.Text" xml:space="preserve">
+    <value>飞达1#[√ 开启 X 关闭]</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox8.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox5.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>348</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbtnTestMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox16.Name" xml:space="preserve">
+    <value>skinGroupBox16</value>
+  </data>
+  <data name="tarRBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label79.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinGroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="ChkInksBraid.Text" xml:space="preserve">
+    <value>编带使能[√ 开启 X 关闭]</value>
+  </data>
+  <data name="skinGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 78</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pictureBox_Base.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="skinGroupBox6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="label81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox7.Name" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;renovateBtn.Name" xml:space="preserve">
+    <value>renovateBtn</value>
+  </data>
+  <data name="ChkICPosEnabled1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Name" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="label24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;pictureBox0.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 25</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinGroupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="funcRBtn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 30</value>
+  </data>
+  <data name="tarRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 60</value>
+  </data>
+  <data name="RbtnNGTray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Name" xml:space="preserve">
+    <value>pictureBox6</value>
+  </data>
+  <data name="skinGroupBox14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="funcRBtn5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ChkPenAbnormal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="funcRBtn3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 30</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn6.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>编带:</value>
+  </data>
+  <data name="funcRBtn5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;btnEmptyCheck.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GbxInks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 96</value>
+  </data>
+  <data name="pictureBox_Base.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Name" xml:space="preserve">
+    <value>pictureBox9</value>
+  </data>
+  <data name="&gt;&gt;label82.Name" xml:space="preserve">
+    <value>label82</value>
+  </data>
+  <data name="skinGroupBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>353</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="ChkInksBraid.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="GbxInks.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="btnBredeCCD_Check.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 134</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown6.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="RbtnNonTestMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;excitXBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>338</value>
+  </data>
+  <data name="CboRunModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 27</value>
+  </data>
+  <data name="skinGroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 51</value>
+  </data>
+  <data name="ChkInksAutoTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 25</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="skinGroupBox14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="ChkVision_3D2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>328</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_Pan2R.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;CboRunModel.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="nudTIC_Pan2R.TabIndex" type="System.Int32, mscorlib">
+    <value>325</value>
+  </data>
+  <data name="skinGroupBox10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>346</value>
+  </data>
+  <data name="GMCheckBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;dotALed.Name" xml:space="preserve">
+    <value>dotALed</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonNGTray.Name" xml:space="preserve">
+    <value>RbtnNonNGTray</value>
+  </data>
+  <data name="funcRBtn5.Text" xml:space="preserve">
+    <value>管转编</value>
+  </data>
+  <data name="skinGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="funcRBtn2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label80.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="ChkICPosEnabled2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 60</value>
+  </data>
+  <data name="&gt;&gt;label80.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbtnNGTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChkFeeder2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 24</value>
+  </data>
+  <data name="nudTIC_Pan1R.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan2R.Name" xml:space="preserve">
+    <value>nudLIC_Pan2R</value>
+  </data>
+  <data name="funcRBtn2.Text" xml:space="preserve">
+    <value>盘转编</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonAutoTray.Name" xml:space="preserve">
+    <value>RbtnNonAutoTray</value>
+  </data>
+  <data name="&gt;&gt;ledEmptyCheck.Name" xml:space="preserve">
+    <value>ledEmptyCheck</value>
+  </data>
+  <data name="ChkFeeder2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="skinGroupBox15.Text" xml:space="preserve">
+    <value>速度模式</value>
+  </data>
+  <data name="excitXBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox11.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="excitXBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label81.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="ChkPenAbnormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="ChkVision_3D1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="skinGroupBox2.Text" xml:space="preserve">
+    <value>编带功能设定</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>320</value>
+  </data>
+  <data name="&gt;&gt;label80.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dotBBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ChkOverlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>350</value>
+  </data>
+  <data name="&gt;&gt;RbtnNGTray.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ChkFeeder1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 24</value>
+  </data>
+  <data name="skinGroupBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_BredeR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 35</value>
+  </data>
+  <data name="CboRunModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_TubeR.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;braidCheckBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox_Base.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 256</value>
+  </data>
+  <data name="&gt;&gt;pictureBox10.Name" xml:space="preserve">
+    <value>pictureBox10</value>
+  </data>
+  <data name="skinGroupBox9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;GbxInks.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ChkICPosEnabled2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="skinGroupBox11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="normCBox.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="nudLIC_Pan2R.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;pictureBox10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;excitYBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ledBredeCCD_Check.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="nudLIC_Pan2R.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="numericUpDown6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="braidCheckBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 34</value>
+  </data>
+  <data name="&gt;&gt;ChkInksBraid.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RbtnAutoTray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="renovateBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 34</value>
+  </data>
+  <data name="ledEmptyCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="skinGroupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 183</value>
+  </data>
+  <data name="label82.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt, style=Bold</value>
+  </data>
+  <data name="okRbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox5.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="&gt;&gt;RbtnTestMode.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dotBLed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RbtnTestMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="renovateBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="CboRunModel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="RbtnAutoTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="dotABtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 170</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn5.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="label79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 35</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkPenAltMode.Name" xml:space="preserve">
+    <value>ChkPenAltMode</value>
+  </data>
+  <data name="RbtnNonNGTray.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="skinGroupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 212</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 35</value>
+  </data>
+  <data name="pictureBox0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ledEmptyCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 34</value>
+  </data>
+  <data name="&gt;&gt;GbxVision_3D.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;braidCheckBtn.Name" xml:space="preserve">
+    <value>braidCheckBtn</value>
+  </data>
+  <data name="&gt;&gt;ChkICPosEnabled1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="excitXBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ChkPenAltMode.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_TubeR.Name" xml:space="preserve">
+    <value>nudTIC_TubeR</value>
+  </data>
+  <data name="&gt;&gt;btnBredeCCD_Check.Name" xml:space="preserve">
+    <value>btnBredeCCD_Check</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nudLIC_Pan3R.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonNGTray.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nudTIC_Pan2R.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="ChkInksAutoTray.Text" xml:space="preserve">
+    <value>自动盘使能[√ 开启 X 关闭]</value>
+  </data>
+  <data name="ChkPenAltMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="funcRBtn5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 30</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox9.Name" xml:space="preserve">
+    <value>skinGroupBox9</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox13.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_Pan1R.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="GbxFeeder.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;RbtnNGTray.Parent" xml:space="preserve">
+    <value>skinGroupBox13</value>
+  </data>
+  <data name="tarRBtn.Text" xml:space="preserve">
+    <value>取料数</value>
+  </data>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 155</value>
+  </data>
+  <data name="ChkFeeder2.Text" xml:space="preserve">
+    <value>飞达2#[√ 开启 X 关闭]</value>
+  </data>
+  <data name="&gt;&gt;tarRBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;RbtnBurnMode.Name" xml:space="preserve">
+    <value>RbtnBurnMode</value>
+  </data>
+  <data name="&gt;&gt;btnEmptyCheck.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ChkICPosEnabled2.Text" xml:space="preserve">
+    <value>烧录后使能[√ 开启 X 关闭]</value>
+  </data>
+  <data name="pictureBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="skinGroupBox12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="excitYLed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 186</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>318</value>
+  </data>
+  <data name="&gt;&gt;ChkFeeder2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GMCheckLed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;excitYBtn.Name" xml:space="preserve">
+    <value>excitYBtn</value>
+  </data>
+  <data name="braidCheckBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="skinGroupBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 51</value>
+  </data>
+  <data name="&gt;&gt;RbtnAutoTray.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="funcRBtn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 30</value>
+  </data>
+  <data name="&gt;&gt;ChkFeeder2.Name" xml:space="preserve">
+    <value>ChkFeeder2</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>功能设定</value>
+  </data>
+  <data name="&gt;&gt;ChkVision_3D1.Name" xml:space="preserve">
+    <value>ChkVision_3D1</value>
+  </data>
+  <data name="dotBBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 170</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 125</value>
+  </data>
+  <data name="funcRBtn6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RbtnBurnMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="excitYBtn.Text" xml:space="preserve">
+    <value>Y轴激磁</value>
+  </data>
+  <data name="&gt;&gt;pictureBox0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox9.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="funcRBtn5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 24</value>
+  </data>
+  <data name="&gt;&gt;okRbtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numericUpDown1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;braidCheckLed.Name" xml:space="preserve">
+    <value>braidCheckLed</value>
+  </data>
+  <data name="tarRBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 124</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>319</value>
+  </data>
+  <data name="skinGroupBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="RbtnBurnMode.Text" xml:space="preserve">
+    <value>烧录</value>
+  </data>
+  <data name="GMCheckBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 34</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn3.Name" xml:space="preserve">
+    <value>funcRBtn3</value>
+  </data>
+  <data name="label77.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ChkOverlay.Parent" xml:space="preserve">
+    <value>skinGroupBox9</value>
+  </data>
+  <data name="nudLIC_Pan3R.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonTestMode.Name" xml:space="preserve">
+    <value>RbtnNonTestMode</value>
+  </data>
+  <data name="skinGroupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox5.Name" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;RbtnNGTray.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="RbtnNonAutoTray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="excitXBtn.Text" xml:space="preserve">
+    <value>X轴激磁</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>料盘1:</value>
+  </data>
+  <data name="pictureBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 217</value>
+  </data>
+  <data name="RbtnTestMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinGroupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dotABtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 13pt</value>
+  </data>
+  <data name="skinGroupBox9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox0.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_BredeR.Name" xml:space="preserve">
+    <value>nudLIC_BredeR</value>
+  </data>
+  <data name="&gt;&gt;excitXLed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbtnAutoTray.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="GbxInks.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;braidCheckLed.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox7.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="funcRBtn1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox12.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="okRbtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt</value>
+  </data>
+  <data name="btnEmptyCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonTestMode.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="GMCheckBtn.Text" xml:space="preserve">
+    <value>盖膜检测</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 186</value>
+  </data>
+  <data name="&gt;&gt;ChkSyncTakeLay.Parent" xml:space="preserve">
+    <value>skinGroupBox14</value>
+  </data>
+  <data name="&gt;&gt;dotABtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GbxVision_3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 390</value>
+  </data>
+  <data name="RbtnNGTray.Text" xml:space="preserve">
+    <value>NG盘</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="excitXLed.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="funcRBtn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="ChkVision_3D2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 58</value>
+  </data>
+  <data name="tarRBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="GbxFeeder.Text" xml:space="preserve">
+    <value>飞达使能</value>
+  </data>
+  <data name="GbxVision_3D.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;renovateBtn.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_BredeR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinGroupBox16.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="dotALed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;ChkICPosEnabled1.Name" xml:space="preserve">
+    <value>ChkICPosEnabled1</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>管装:</value>
+  </data>
+  <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQIAAAECCAIAAACaLU4HAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAXuSURBVHhe7d1PaxRnAMdx34Rgaz3ZrgZasE1pqKeC
+        iBR6EK0SRHMQfAUGD/655GW0GAt6i0IuLRQUPLRQAp5aFo9iT/FsYeth21+bYQnTGndmZ/+Nn4cPonEz
+        8ww8X7KbnZndd/jAfnjLyQBkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxABiADCBnANDJYXOhcOndm7eb1
+        u+u3Hz96+LTbfbG93ev1+v1+/szf85V8Pf+bx+SReXxpC9CsyWVw4vjSjdWrm/c3nj979leVkcfnu/K9
+        2UJpm9CISWRw+cLyvTvrvz9/XqzruiNbyHaytdL2YUTjzeDKysXNBxuvXv1ZLOQmRraWbWbLpX1BbePK
+        4PSpk3ly/8fLl8XibXpky9l+9lLaL9QwlgxuXVvt/vZrsWDHObKX7Ku0d6iq4Qy+WPr0u2+/KRbppEb2
+        mP2WZgLDazKDr7/68scfvi/W5mRH9pu9l+YDQ2osg5XzZ3/5+adiVU5jZO+ZQ2lWMIxmMsj6e7K1VazH
+        6Y3MQQnU0EAGeTYy3Z8Du0dm4tkRVY2aQV6bTuv1wOtG5uMVM5WMmsHkfy80zMisSvOEPYyUwa1rq8W6
+        m73h/QSGVz+D06dOTuY9snojc/MeM0Oqn8Hd9dvFipvVkRmW5gz/q2YGV1Yuju98oaZGZugMPIZRM4PN
+        BxvFWpvtkXmWZg7/VSeDyxeWmz13enwj83R9Am9UJ4N7d9aLVTYPI7MtzR9KKmdw4vjS6NeRTXJktq7e
+        ZG+VM7ixerVYX/MzMufSUcBulTPYvD8fL453j8y5dBSwW7UMFhc6Ve8rMQsjc3aXF/ZQLYNL584UK2ve
+        RmZeOhYYqJbB2s3rxbKat5GZl44FBqplMPsnULxuOLGCPVTL4PGjh8WymreRmZeOBQaqZfC02y2W1byN
+        zLx0LDBQLYMX29vFspq3kZmXjgUGqmXQ6/WKZTVvIzMvHQsMVMug3+8Xy2reRmZeOhYY8NMAvDaAqhn4
+        TRGtVC0D7xvQStUy8C4yrVQtA+cU0UrVMnCGKa1ULQPXG9BK1TIIV5/RPpUzcC0y7VM5A3emoH0qZxDu
+        U0TL1MnAXetomToZhHuY0iY1M3BHa9qkZgYx+ydWOIGCIdXPwKfd0Br1MwiffUY7jJRB+CRMWmDUDHwu
+        Mi0wagbhU/KZdw1kECvnzz7Z2ipW4vRG5pCZlOYGb9RMBpH1N92fCdm7BqinsQwiz0am9Toh+/VciNqa
+        zCDy2nTyvzvKHr0mZhQNZ7Dj1rXVybyzlr14f4DRjSWDOH3q5N312+M77yhbzva9T0wjxpXBjisrFzcf
+        bDR7Vna2lm06Z44GjTeDHZcvLN+7sz76NWvZQrbj+gEaN4kMdpw4vnRj9erm/Y2q97bI4/Nd+V7XUjIm
+        k8tgYHGhc+ncmbWb1/Pk/vGjh0+73Rfb271er9/v58/8PV/J1/O/eUwe6d4qjNsUMoBZIwOQAcgAQgYg
+        A5ABhAxABiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAygJAByABkACEDkAHIAEIGIAOQAYQMQAYgAwgZ
+        gAxABhAyABmADCBkADIAGUDIAGQAMoCQAcgAZAAhA5AByABCBiADkAGEDEAGIAMIGYAMQAYQMgAZgAwg
+        ZAAyABlAyABkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxABiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAy
+        gJAByABkACEDkAHIAEIGIAOQAYQMQAYgAwgZgAxABhAyABmADCBkADIAGUDIAGQAMoCQAcgAZAAhA5AB
+        yABCBiADkAGEDEAGIAMIGYAMQAYQMgAZgAwgZAAyABlAyABkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxA
+        BiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAygJAByABkACEDkAHIAEIGIAOQAYQMYP++znvv/OPgAXi7
+        /Lvyjxx69+ihg/sWFzqLRzsfd94fONY5vPuf0A5Z2AP55ydHPsji/+zDhc+PffQ37QEP8FEDLnQAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="skinGroupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="nudTIC_Pan1R.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="nudTIC_Pan1R.TabIndex" type="System.Int32, mscorlib">
+    <value>326</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox11.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;normCBox.Parent" xml:space="preserve">
+    <value>skinGroupBox5</value>
+  </data>
+  <data name="skinGroupBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="renovateBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 29</value>
+  </data>
+  <data name="GbxVision_3D.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="skinGroupBox4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 35</value>
+  </data>
+  <data name="ChkFeeder1.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;nudTIC_BredeR.Name" xml:space="preserve">
+    <value>nudTIC_BredeR</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GMCheckBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 60</value>
+  </data>
+  <data name="&gt;&gt;ChkPenAbnormal.Parent" xml:space="preserve">
+    <value>skinGroupBox10</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;ChkICPosEnabled1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GMCheckLed.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ChkInksBraid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 58</value>
+  </data>
+  <data name="excitYBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 40</value>
+  </data>
+  <data name="funcRBtn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 24</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonNGTray.Parent" xml:space="preserve">
+    <value>skinGroupBox13</value>
+  </data>
+  <data name="&gt;&gt;ChkPenAbnormal.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ledBredeCCD_Check.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="skinGroupBox4.Text" xml:space="preserve">
+    <value>电机使能控制</value>
+  </data>
+  <data name="excitXLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 40</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonAutoTray.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChkPenAltMode.Text" xml:space="preserve">
+    <value>[√开启X关闭]</value>
+  </data>
+  <data name="&gt;&gt;ChkVision_3D2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChkPenAltMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GbxInks.Name" xml:space="preserve">
+    <value>GbxInks</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox13.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 63</value>
+  </data>
+  <data name="nudTIC_Pan1R.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GbxVision_3D.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox15.Name" xml:space="preserve">
+    <value>skinGroupBox15</value>
+  </data>
+  <data name="&gt;&gt;ChkVision_3D1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChkICPosEnabled1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 25</value>
+  </data>
+  <data name="nudLIC_BredeR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 186</value>
+  </data>
+  <data name="GMCheckLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 34</value>
+  </data>
+  <data name="&gt;&gt;GbxVision_3D.Name" xml:space="preserve">
+    <value>GbxVision_3D</value>
+  </data>
+  <data name="&gt;&gt;GbxInks.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numericUpDown6.TabIndex" type="System.Int32, mscorlib">
+    <value>340</value>
+  </data>
+  <data name="&gt;&gt;ChkSyncTakeLay.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dotBLed.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="nudTIC_TubeR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="funcRBtn2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ChkFeeder1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RbtnNonAutoTray.Parent" xml:space="preserve">
+    <value>skinGroupBox12</value>
+  </data>
+  <data name="excitXLed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ChkPenAltMode.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="RbtnNonAutoTray.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="RbtnNonBurnMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="skinGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 131</value>
+  </data>
+  <data name="okRbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ChkVision_3D1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 75</value>
+  </data>
+  <data name="&gt;&gt;GbxVision_3D.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;excitXBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="skinGroupBox16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label80.TabIndex" type="System.Int32, mscorlib">
+    <value>239</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbtnTestMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="ChkICPosEnabled2.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 96</value>
+  </data>
+  <data name="skinGroupBox15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="ChkSyncTakeLay.Text" xml:space="preserve">
+    <value>[√开启X关闭]</value>
+  </data>
+  <data name="&gt;&gt;excitYLed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox11.Name" xml:space="preserve">
+    <value>skinGroupBox11</value>
+  </data>
+  <data name="braidCheckLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 34</value>
+  </data>
+  <data name="&gt;&gt;RbtnBurnMode.Parent" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="nudTIC_BredeR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 186</value>
+  </data>
+  <data name="skinGroupBox13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="skinGroupBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 155</value>
+  </data>
+  <data name="btnBredeCCD_Check.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="excitXLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 34</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbtnNonTestMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label79.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan3R.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ChkOverlay.Text" xml:space="preserve">
+    <value>[√开启X关闭]</value>
+  </data>
+  <data name="RbtnNGTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;funcRBtn4.Name" xml:space="preserve">
+    <value>funcRBtn4</value>
+  </data>
+  <data name="label79.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinGroupBox12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="skinGroupBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="&gt;&gt;nudLIC_Pan2R.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;ChkICPosEnabled2.Name" xml:space="preserve">
+    <value>ChkICPosEnabled2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox9.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RbtnNonBurnMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dotABtn.Text" xml:space="preserve">
+    <value>打点A</value>
+  </data>
+  <data name="nudLIC_Pan2R.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="RbtnBurnMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 25</value>
+  </data>
+  <data name="skinGroupBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 237</value>
+  </data>
+  <data name="ChkFeeder1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 26</value>
+  </data>
+  <data name="dotABtn.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="skinGroupBox14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="braidCheckBtn.Text" xml:space="preserve">
+    <value>编带检测</value>
+  </data>
+  <data name="label79.TabIndex" type="System.Int32, mscorlib">
+    <value>241</value>
+  </data>
+  <data name="&gt;&gt;ChkFeeder2.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="okRbtn.Text" xml:space="preserve">
+    <value>OK数</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;RbtnTestMode.Parent" xml:space="preserve">
+    <value>skinGroupBox11</value>
+  </data>
+  <data name="&gt;&gt;label82.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ChkVision_3D2.Parent" xml:space="preserve">
+    <value>GbxVision_3D</value>
+  </data>
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>skinGroupBox7</value>
+  </data>
+  <data name="ChkSyncTakeLay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Name" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="RbtnNonNGTray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nudLIC_Pan1R.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 35</value>
+  </data>
+  <data name="funcRBtn6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="skinGroupBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;ChkFeeder2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>

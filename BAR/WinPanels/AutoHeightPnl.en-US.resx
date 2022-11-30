@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SaveValueExistICBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="SaveValueExistICBtn.Text" xml:space="preserve">
+    <value>【Save】   have IC</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.Text" xml:space="preserve">
+    <value>【Save】No IC</value>
+  </data>
+  <data name="BtnSaveZ1Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveZ1Height.Text" xml:space="preserve">
+    <value>【Save】Pen1---Datum</value>
+  </data>
+  <data name="BtnGOZ1Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnGOZ1Height.Text" xml:space="preserve">
+    <value>【GO】Pen1---Datum</value>
+  </data>
+  <data name="BtnGOZ2Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnGOZ2Height.Text" xml:space="preserve">
+    <value>【GO】Pen2---Datum</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.Text" xml:space="preserve">
+    <value>【Save】Gauge---Datum</value>
+  </data>
+  <data name="BtnSaveZ2Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveZ2Height.Text" xml:space="preserve">
+    <value>【Save】Pen2---Datum</value>
+  </data>
+  <data name="BtnGOZ3Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnGOZ3Height.Text" xml:space="preserve">
+    <value>【GO】Pen3---Datum</value>
+  </data>
+  <data name="BtnSaveZ3Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveZ3Height.Text" xml:space="preserve">
+    <value>【Save】Pen3---Datum</value>
+  </data>
+  <data name="BtnGOAltimeterHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnGOAltimeterHeight.Text" xml:space="preserve">
+    <value>【GO】Gauge---Datum</value>
+  </data>
+  <data name="BtnGOZ4Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnGOZ4Height.Text" xml:space="preserve">
+    <value>【GO】Pen4---Datum</value>
+  </data>
+  <data name="BtnSaveZ4Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveZ4Height.Text" xml:space="preserve">
+    <value>【Save】Pen4---Datum</value>
+  </data>
+  <data name="BtnSavaICHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSavaICHeight.Text" xml:space="preserve">
+    <value>【Reckon】Height</value>
+  </data>
+  <data name="GbxFeeder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
+  <data name="GbxFeeder.Text" xml:space="preserve">
+    <value>Base height proofreading</value>
+  </data>
+  <data name="BtnSaveHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveHeight.Text" xml:space="preserve">
+    <value>【Save】Height</value>
+  </data>
+  <data name="skinRadioButton4.Text" xml:space="preserve">
+    <value>Tube</value>
+  </data>
+  <data name="skinRadioButton3.Text" xml:space="preserve">
+    <value>Tape</value>
+  </data>
+  <data name="skinRadioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="skinRadioButton2.Text" xml:space="preserve">
+    <value>Feeder</value>
+  </data>
+  <data name="skinRadioButton1.Text" xml:space="preserve">
+    <value>Tray</value>
+  </data>
+  <data name="skinGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox1.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="BtnGOHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnGOHeight.Text" xml:space="preserve">
+    <value>【GO】Height</value>
+  </data>
+  <data name="BtnAutoGetHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnAutoGetHeight.Text" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="label78.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>Reference:</value>
+  </data>
+  <data name="AltimeterBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
+  <data name="AltimeterBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 28</value>
+  </data>
+  <data name="AltimeterBtn.Text" xml:space="preserve">
+    <value>Gauge</value>
+  </data>
+  <data name="NudCalibrating_Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="NudCalibrating_Z.ToolTip" xml:space="preserve">
+    <value>The reduction of this value will increase the feeding height and vice versa</value>
+  </data>
+  <data name="BtnModify.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnModify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 27</value>
+  </data>
+  <data name="BtnModify.Text" xml:space="preserve">
+    <value>【Modify】</value>
+  </data>
+  <data name="skinGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 113</value>
+  </data>
+  <data name="skinGroupBox2.Text" xml:space="preserve">
+    <value>Gauge to Datum</value>
+  </data>
+  <data name="HeightDifference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 33</value>
+  </data>
+  <data name="HeightDifference.ToolTip" xml:space="preserve">
+    <value>The reduction of this value will increase the feeding height and vice versa</value>
+  </data>
+  <data name="BtnSaveHeightDifference.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveHeightDifference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 58</value>
+  </data>
+  <data name="BtnSaveHeightDifference.Text" xml:space="preserve">
+    <value>【Save】</value>
+  </data>
+  <data name="skinGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 603</value>
+  </data>
+  <data name="skinGroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 112</value>
+  </data>
+  <data name="skinGroupBox3.Text" xml:space="preserve">
+    <value>Lay height difference</value>
+  </data>
+</root>

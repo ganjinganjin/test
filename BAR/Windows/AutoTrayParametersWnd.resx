@@ -1,0 +1,1290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;InputSetConfig2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labNum1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SetConfig2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="InputSetConfig3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 117</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>320</value>
+  </data>
+  <data name="&gt;&gt;labNum2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>297</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>参数项</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 61</value>
+  </data>
+  <data name="SetConfig1.TabIndex" type="System.Int32, mscorlib">
+    <value>313</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveButton2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SetConfig1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InputSetConfig7.TabIndex" type="System.Int32, mscorlib">
+    <value>338</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="saveButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>310</value>
+  </data>
+  <data name="&gt;&gt;readBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InputSetConfig6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;saveButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="InputSetConfig5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="InputSetConfig1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SetConfig7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="SetConfig5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 61</value>
+  </data>
+  <data name="SetConfig3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SetConfig1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>343</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="readBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt, style=Bold</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 114</value>
+  </data>
+  <data name="&gt;&gt;saveButton1.Name" xml:space="preserve">
+    <value>saveButton1</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>345</value>
+  </data>
+  <data name="&gt;&gt;returnTxtBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>278</value>
+  </data>
+  <data name="labNum2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="SetConfig4.TabIndex" type="System.Int32, mscorlib">
+    <value>339</value>
+  </data>
+  <data name="InputSetConfig5.TabIndex" type="System.Int32, mscorlib">
+    <value>336</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 24</value>
+  </data>
+  <data name="labNum1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 33</value>
+  </data>
+  <data name="&gt;&gt;labNum1.Name" xml:space="preserve">
+    <value>labNum1</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 5</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="InputSetConfig4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="saveButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>344</value>
+  </data>
+  <data name="&gt;&gt;labSpace1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labSpace2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 117</value>
+  </data>
+  <data name="&gt;&gt;SetConfig5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SetConfig6.TabIndex" type="System.Int32, mscorlib">
+    <value>341</value>
+  </data>
+  <data name="&gt;&gt;SetConfig4.Name" xml:space="preserve">
+    <value>SetConfig4</value>
+  </data>
+  <data name="labSpace1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="labNum1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="saveButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>560, 353</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labSpace2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveButton1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>277</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="SetConfig3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="labSpace2.Text" xml:space="preserve">
+    <value>行间距：</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 117</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>注：保存自动盘回传数据</value>
+  </data>
+  <data name="SetConfig0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;labNum2.Name" xml:space="preserve">
+    <value>labNum2</value>
+  </data>
+  <data name="InputSetConfig0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="labNum2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 5</value>
+  </data>
+  <data name="SetConfig7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="InputSetConfig3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;returnTxtBox1.Name" xml:space="preserve">
+    <value>returnTxtBox1</value>
+  </data>
+  <data name="SetConfig4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="labSpace1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 61</value>
+  </data>
+  <data name="returnTxtBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>330</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="InputSetConfig1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>设置值</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>319</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSpace1.Text" xml:space="preserve">
+    <value>列间距：</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 33</value>
+  </data>
+  <data name="&gt;&gt;returnTxtBox1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 150</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>打点Y2：</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 24</value>
+  </data>
+  <data name="InputSetConfig2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 89</value>
+  </data>
+  <data name="SetConfig5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="InputSetConfig3.TabIndex" type="System.Int32, mscorlib">
+    <value>292</value>
+  </data>
+  <data name="&gt;&gt;returnTxtBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SetConfig6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;SetConfig2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SetConfig5.TabIndex" type="System.Int32, mscorlib">
+    <value>340</value>
+  </data>
+  <data name="labSpace2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSpace1.TabIndex" type="System.Int32, mscorlib">
+    <value>333</value>
+  </data>
+  <data name="&gt;&gt;SetConfig5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>318</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>275</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig0.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="InputSetConfig5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>346</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig4.Name" xml:space="preserve">
+    <value>InputSetConfig4</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 33</value>
+  </data>
+  <data name="&gt;&gt;labSpace1.Name" xml:space="preserve">
+    <value>labSpace1</value>
+  </data>
+  <data name="&gt;&gt;returnTxtBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="InputSetConfig7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="InputSetConfig1.TabIndex" type="System.Int32, mscorlib">
+    <value>288</value>
+  </data>
+  <data name="&gt;&gt;SetConfig4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SetConfig7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="InputSetConfig0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SetConfig3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;returnTxtBox2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;SetConfig6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SetConfig1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 61</value>
+  </data>
+  <data name="&gt;&gt;readBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SetConfig1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="InputSetConfig4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 33</value>
+  </data>
+  <data name="SetConfig3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;SetConfig2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labNum2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 5</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig2.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="labSpace1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 33</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig1.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;SetConfig5.Name" xml:space="preserve">
+    <value>SetConfig5</value>
+  </data>
+  <data name="InputSetConfig7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>打点Y1：</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 32</value>
+  </data>
+  <data name="&gt;&gt;SetConfig5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="readBtn.Text" xml:space="preserve">
+    <value>读  取</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="returnTxtBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 104</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="InputSetConfig2.TabIndex" type="System.Int32, mscorlib">
+    <value>289</value>
+  </data>
+  <data name="labNum1.Text" xml:space="preserve">
+    <value>列竖数：</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>参数项</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SetConfig4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="InputSetConfig6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 5</value>
+  </data>
+  <data name="&gt;&gt;SetConfig6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSpace2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;saveButton1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="readBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>321</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="saveButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 311</value>
+  </data>
+  <data name="&gt;&gt;SetConfig4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SetConfig4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;SetConfig2.Name" xml:space="preserve">
+    <value>SetConfig2</value>
+  </data>
+  <data name="&gt;&gt;SetConfig2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="InputSetConfig1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;returnTxtBox2.Name" xml:space="preserve">
+    <value>returnTxtBox2</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;readBtn.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="InputSetConfig7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 24</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="InputSetConfig4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig2.Name" xml:space="preserve">
+    <value>InputSetConfig2</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="returnTxtBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 104</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saveButton2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="InputSetConfig2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;labNum1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SetConfig7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labSpace2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="saveButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="&gt;&gt;labNum2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 24</value>
+  </data>
+  <data name="SetConfig6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="returnTxtBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="SetConfig2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="returnTxtBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 32</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="SetConfig5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig3.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="InputSetConfig0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig1.Name" xml:space="preserve">
+    <value>InputSetConfig1</value>
+  </data>
+  <data name="InputSetConfig0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <data name="InputSetConfig4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SetConfig4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 33</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labSpace2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveButton2.Text" xml:space="preserve">
+    <value>保  存</value>
+  </data>
+  <data name="saveButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SetConfig0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="InputSetConfig6.TabIndex" type="System.Int32, mscorlib">
+    <value>337</value>
+  </data>
+  <data name="&gt;&gt;labSpace1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>打点X2：</value>
+  </data>
+  <data name="labSpace1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="SetConfig2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;SetConfig0.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labNum2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 89</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AutoTrayParameters</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labSpace2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="SetConfig7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="SetConfig0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="SetConfig2.TabIndex" type="System.Int32, mscorlib">
+    <value>314</value>
+  </data>
+  <data name="readBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 311</value>
+  </data>
+  <data name="labNum1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labSpace2.TabIndex" type="System.Int32, mscorlib">
+    <value>334</value>
+  </data>
+  <data name="SetConfig1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="readBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>295</value>
+  </data>
+  <data name="returnTxtBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 195</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 24</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InputSetConfig5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 61</value>
+  </data>
+  <data name="SetConfig1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="InputSetConfig2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;SetConfig3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labNum1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="SetConfig3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 117</value>
+  </data>
+  <data name="saveButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 150</value>
+  </data>
+  <data name="SetConfig3.TabIndex" type="System.Int32, mscorlib">
+    <value>315</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="InputSetConfig4.TabIndex" type="System.Int32, mscorlib">
+    <value>335</value>
+  </data>
+  <data name="returnTxtBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SetConfig0.Name" xml:space="preserve">
+    <value>SetConfig0</value>
+  </data>
+  <data name="SetConfig7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 117</value>
+  </data>
+  <data name="SetConfig5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="SetConfig7.TabIndex" type="System.Int32, mscorlib">
+    <value>342</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>293</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;readBtn.Name" xml:space="preserve">
+    <value>readBtn</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>注：保存输入框数据并写入自动盘</value>
+  </data>
+  <data name="&gt;&gt;SetConfig3.Name" xml:space="preserve">
+    <value>SetConfig3</value>
+  </data>
+  <data name="labNum1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labSpace1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 5</value>
+  </data>
+  <data name="InputSetConfig7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 117</value>
+  </data>
+  <data name="SetConfig0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 33</value>
+  </data>
+  <data name="returnTxtBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 195</value>
+  </data>
+  <data name="SetConfig2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 89</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="SetConfig6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 89</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>当前值</value>
+  </data>
+  <data name="saveButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>当前值</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;SetConfig3.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="saveButton1.Text" xml:space="preserve">
+    <value>写 入</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <data name="labNum2.TabIndex" type="System.Int32, mscorlib">
+    <value>331</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="SetConfig0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig5.Name" xml:space="preserve">
+    <value>InputSetConfig5</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;returnTxtBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labNum2.Text" xml:space="preserve">
+    <value>行横数：</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>设置值</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labNum1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSpace2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig0.Name" xml:space="preserve">
+    <value>InputSetConfig0</value>
+  </data>
+  <data name="InputSetConfig3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>294</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig7.Name" xml:space="preserve">
+    <value>InputSetConfig7</value>
+  </data>
+  <data name="&gt;&gt;SetConfig1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="labSpace1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labSpace2.Name" xml:space="preserve">
+    <value>labSpace2</value>
+  </data>
+  <data name="&gt;&gt;SetConfig7.Name" xml:space="preserve">
+    <value>SetConfig7</value>
+  </data>
+  <data name="&gt;&gt;SetConfig6.Name" xml:space="preserve">
+    <value>SetConfig6</value>
+  </data>
+  <data name="&gt;&gt;labNum2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="InputSetConfig3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="InputSetConfig0.TabIndex" type="System.Int32, mscorlib">
+    <value>286</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 311</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>276</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="SetConfig6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SetConfig6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SetConfig0.TabIndex" type="System.Int32, mscorlib">
+    <value>312</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labNum1.TabIndex" type="System.Int32, mscorlib">
+    <value>332</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SetConfig7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labNum2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="InputSetConfig1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 61</value>
+  </data>
+  <data name="returnTxtBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig3.Name" xml:space="preserve">
+    <value>InputSetConfig3</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="InputSetConfig2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;InputSetConfig6.Name" xml:space="preserve">
+    <value>InputSetConfig6</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>自动盘打点参数</value>
+  </data>
+  <data name="&gt;&gt;SetConfig0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="returnTxtBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>299</value>
+  </data>
+  <data name="SetConfig4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="InputSetConfig6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 114</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>打点X1：</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="InputSetConfig5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SetConfig1.Name" xml:space="preserve">
+    <value>SetConfig1</value>
+  </data>
+  <data name="InputSetConfig6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 89</value>
+  </data>
+  <data name="&gt;&gt;saveButton2.Name" xml:space="preserve">
+    <value>saveButton2</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 89</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>

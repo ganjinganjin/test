@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="skinLabel5.Text" xml:space="preserve">
+    <value>Y轴坐标：</value>
+  </data>
+  <data name="&gt;&gt;skinLabel8.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LabPos_Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 130</value>
+  </data>
+  <data name="skinLabel3.Text" xml:space="preserve">
+    <value>测量Z轴坐标：</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NudPos_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="LabPos_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>243</value>
+  </data>
+  <data name="&gt;&gt;skinLabel33.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NudPos_Z.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="skinGroupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;LabPos_Z.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinLabel8.Text" xml:space="preserve">
+    <value>单位类型：</value>
+  </data>
+  <data name="&gt;&gt;CboDisplayType.Name" xml:space="preserve">
+    <value>CboDisplayType</value>
+  </data>
+  <data name="&gt;&gt;skinLabel5.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinLabel4.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 66</value>
+  </data>
+  <data name="NudPos_X.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="&gt;&gt;NudPos_X.Name" xml:space="preserve">
+    <value>NudPos_X</value>
+  </data>
+  <data name="skinLabel1.Text" xml:space="preserve">
+    <value>测量次数：</value>
+  </data>
+  <data name="&gt;&gt;CboAxisType.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinGroupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="btnStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt, style=Bold</value>
+  </data>
+  <data name="skinLabel4.Text" xml:space="preserve">
+    <value>Z轴坐标：</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Name" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="skinLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="skinLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="skinLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="NudCount.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="skinLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;LabPos_Y.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;skinLabel4.Name" xml:space="preserve">
+    <value>skinLabel4</value>
+  </data>
+  <data name="&gt;&gt;NudCount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;CboDisplayType.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinComboBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabPos_Y.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="skinLabel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="LabPos_Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;skinLabel8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LabPos_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>885, 714</value>
+  </data>
+  <data name="&gt;&gt;skinLabel2.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="skinLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;skinLabel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Name" xml:space="preserve">
+    <value>BtnSave</value>
+  </data>
+  <data name="&gt;&gt;LabPos_X.Name" xml:space="preserve">
+    <value>LabPos_X</value>
+  </data>
+  <data name="&gt;&gt;NudPos_Y.Name" xml:space="preserve">
+    <value>NudPos_Y</value>
+  </data>
+  <data name="CboDisplayType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="&gt;&gt;LabPos_Z.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 167</value>
+  </data>
+  <data name="skinLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinLabel19.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NudPos_Z.Name" xml:space="preserve">
+    <value>NudPos_Z</value>
+  </data>
+  <data name="BtnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NudPos_Y.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="skinGroupBox6.Text" xml:space="preserve">
+    <value>参数设置</value>
+  </data>
+  <data name="LabPos_X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="skinLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="skinLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="LabPos_Y.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="&gt;&gt;LabPos_Z.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NudPos_X.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LabPos_X.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 53</value>
+  </data>
+  <data name="skinGroupBox1.Text" xml:space="preserve">
+    <value>位置读数</value>
+  </data>
+  <data name="skinLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="&gt;&gt;NudPos_Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NudPos_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 138</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
+    <value>btnStart</value>
+  </data>
+  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 40</value>
+  </data>
+  <data name="LabPos_X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 26</value>
+  </data>
+  <data name="&gt;&gt;NudPos_X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinLabel19.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 40</value>
+  </data>
+  <data name="&gt;&gt;skinLabel1.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="LabPos_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 26</value>
+  </data>
+  <data name="NudPos_Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="&gt;&gt;skinLabel19.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabPos_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 98</value>
+  </data>
+  <data name="&gt;&gt;NudPos_X.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="skinLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="&gt;&gt;NudCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinLabel33.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CMKPnl</value>
+  </data>
+  <data name="skinLabel7.Text" xml:space="preserve">
+    <value>X轴坐标：</value>
+  </data>
+  <data name="skinLabel19.Text" xml:space="preserve">
+    <value>测量轴：</value>
+  </data>
+  <data name="BtnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="NudPos_X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 109</value>
+  </data>
+  <data name="&gt;&gt;skinLabel1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NudCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 72</value>
+  </data>
+  <data name="&gt;&gt;CboAxisType.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="LabPos_X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 66</value>
+  </data>
+  <data name="&gt;&gt;NudPos_Y.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="skinLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="skinLabel33.Text" xml:space="preserve">
+    <value>测量X轴坐标：</value>
+  </data>
+  <data name="&gt;&gt;skinLabel5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LabPos_X.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="&gt;&gt;skinLabel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="skinLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 130</value>
+  </data>
+  <data name="LabPos_X.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LabPos_Z.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="skinLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 138</value>
+  </data>
+  <data name="LabPos_Z.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="skinLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="&gt;&gt;skinLabel5.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;skinLabel33.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;skinLabel4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="skinGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 3</value>
+  </data>
+  <data name="&gt;&gt;NudPos_Z.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabPos_X.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabPos_X.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinLabel8.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinLabel8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LabPos_Y.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CboAxisType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="skinLabel2.Text" xml:space="preserve">
+    <value>测量Y轴坐标：</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinGroupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 243</value>
+  </data>
+  <data name="LabPos_Y.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;LabPos_Y.Name" xml:space="preserve">
+    <value>LabPos_Y</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NudPos_Y.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Name" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="CboAxisType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="&gt;&gt;skinLabel8.Name" xml:space="preserve">
+    <value>skinLabel8</value>
+  </data>
+  <data name="CboDisplayType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Name" xml:space="preserve">
+    <value>btnStop</value>
+  </data>
+  <data name="&gt;&gt;skinLabel5.Name" xml:space="preserve">
+    <value>skinLabel5</value>
+  </data>
+  <data name="&gt;&gt;skinLabel3.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="skinLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinLabel7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;skinLabel2.Name" xml:space="preserve">
+    <value>skinLabel2</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="skinLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="&gt;&gt;skinLabel3.Name" xml:space="preserve">
+    <value>skinLabel3</value>
+  </data>
+  <data name="BtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 199</value>
+  </data>
+  <data name="&gt;&gt;skinLabel7.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="CboDisplayType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 34</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="&gt;&gt;skinLabel2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinLabel5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;skinLabel4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CboAxisType.Name" xml:space="preserve">
+    <value>CboAxisType</value>
+  </data>
+  <data name="&gt;&gt;skinLabel33.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="BtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 38</value>
+  </data>
+  <data name="CboAxisType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="skinGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="BtnSave.Text" xml:space="preserve">
+    <value>保  存</value>
+  </data>
+  <data name="BtnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;NudPos_Z.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="CboAxisType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="skinLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 72</value>
+  </data>
+  <data name="&gt;&gt;CboDisplayType.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NudPos_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="&gt;&gt;skinLabel1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NudPos_X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="LabPos_Z.TabIndex" type="System.Int32, mscorlib">
+    <value>244</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NudCount.Name" xml:space="preserve">
+    <value>NudCount</value>
+  </data>
+  <data name="skinLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinLabel19.Name" xml:space="preserve">
+    <value>skinLabel19</value>
+  </data>
+  <data name="skinLabel2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CboDisplayType.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;skinLabel7.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinLabel4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="LabPos_X.TabIndex" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="&gt;&gt;NudPos_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinLabel7.Name" xml:space="preserve">
+    <value>skinLabel7</value>
+  </data>
+  <data name="skinLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CboAxisType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 34</value>
+  </data>
+  <data name="skinLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 109</value>
+  </data>
+  <data name="skinLabel33.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="skinGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 167</value>
+  </data>
+  <data name="skinGroupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;NudCount.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="NudPos_Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinLabel1.Name" xml:space="preserve">
+    <value>skinLabel1</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinLabel19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="skinGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 14.25pt, style=Bold</value>
+  </data>
+  <data name="LabPos_Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 26</value>
+  </data>
+  <data name="skinLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 156</value>
+  </data>
+  <data name="CboDisplayType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="skinLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="NudCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;skinLabel19.Parent" xml:space="preserve">
+    <value>skinGroupBox6</value>
+  </data>
+  <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="NudPos_X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="btnStop.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="skinLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="skinLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="&gt;&gt;skinLabel3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinLabel33.Name" xml:space="preserve">
+    <value>skinLabel33</value>
+  </data>
+  <data name="skinLabel33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinLabel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NudPos_Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 167</value>
+  </data>
+  <data name="NudCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="&gt;&gt;LabPos_Z.Name" xml:space="preserve">
+    <value>LabPos_Z</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>
