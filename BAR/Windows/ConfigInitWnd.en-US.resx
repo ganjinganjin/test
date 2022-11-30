@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="imgOriginBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="imgOriginBtn.Text" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="imgLargerBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="imgLargerBtn.Text" xml:space="preserve">
+    <value>Zoom+</value>
+  </data>
+  <data name="imgReduceBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="imgReduceBtn.Text" xml:space="preserve">
+    <value>Zoom-</value>
+  </data>
+  <data name="openImgBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="openImgBtn.Text" xml:space="preserve">
+    <value>Open Image</value>
+  </data>
+  <data name="adjustLightBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="adjustLightBtn.Text" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="changeCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="changeCamBtn.Text" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="capModeBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="capModeBtn.Text" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="angle3RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="angle3RBtn.Text" xml:space="preserve">
+    <value>180°</value>
+  </data>
+  <data name="angle1RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="angle1RBtn.Text" xml:space="preserve">
+    <value>-90°</value>
+  </data>
+  <data name="angle2RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="angle2RBtn.Text" xml:space="preserve">
+    <value>90°</value>
+  </data>
+  <data name="skinGroupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox4.Text" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="speedLowRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="speedLowRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="speedLowRBtn.Text" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="speedHigthRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="speedHigthRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="speedHigthRBtn.Text" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="skinGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox1.Text" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="homeRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="homeRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 37</value>
+  </data>
+  <data name="homeRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 19</value>
+  </data>
+  <data name="homeRBtn.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="proccedRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="proccedRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 15</value>
+  </data>
+  <data name="proccedRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 19</value>
+  </data>
+  <data name="proccedRBtn.Text" xml:space="preserve">
+    <value>Jog</value>
+  </data>
+  <data name="offset1RBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="offset1RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 19</value>
+  </data>
+  <data name="offset2RBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="offset2RBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 19</value>
+  </data>
+  <data name="skinGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox3.Text" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="btnHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 136</value>
+  </data>
+  <data name="btnHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="btnHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="labelC4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelC4.Text" xml:space="preserve">
+    <value>C4 Pos:</value>
+  </data>
+  <data name="labelC3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelC3.Text" xml:space="preserve">
+    <value>C3 Pos:</value>
+  </data>
+  <data name="labelZ4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelZ4.Text" xml:space="preserve">
+    <value>Z4 Pos:</value>
+  </data>
+  <data name="labelZ3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelZ3.Text" xml:space="preserve">
+    <value>Z3 Pos:</value>
+  </data>
+  <data name="labelC2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelC2.Text" xml:space="preserve">
+    <value>C2 Pos:</value>
+  </data>
+  <data name="labelC1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelC1.Text" xml:space="preserve">
+    <value>C1 Pos:</value>
+  </data>
+  <data name="labelZ2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelZ2.Text" xml:space="preserve">
+    <value>Z2 Pos:</value>
+  </data>
+  <data name="labelZ1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelZ1.Text" xml:space="preserve">
+    <value>Z1 Pos:</value>
+  </data>
+  <data name="labelY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelY.Text" xml:space="preserve">
+    <value>Y Pos:</value>
+  </data>
+  <data name="labelX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelX.Text" xml:space="preserve">
+    <value>X Pos:</value>
+  </data>
+  <data name="Axis_Y_JOG负_Up.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        mbqIUoli9UQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="skinGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox2.Text" xml:space="preserve">
+    <value>Pos</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 342</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="drawBackRectBtn.Text" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="drawScaleBtn.Text" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="drawCrossBtn.Text" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 342</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt, style=Bold</value>
+  </data>
+  <data name="downCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="downCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="downCamBtn.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="upCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="upCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 1</value>
+  </data>
+  <data name="upCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="upCamBtn.Text" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="capBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="capBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="capBtn.Text" xml:space="preserve">
+    <value>Continuous</value>
+  </data>
+  <data name="snapBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="snapBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="snapBtn.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="pagCamAccAndPenDis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagCamAccAndPenDis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagCamAccAndPenDis.Text" xml:space="preserve">
+    <value>Baseline</value>
+  </data>
+  <data name="pagICState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagICState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagICState.Text" xml:space="preserve">
+    <value>Socket</value>
+  </data>
+  <data name="pagGBPPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagGBPPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagGBPPos.Text" xml:space="preserve">
+    <value>Carrier</value>
+  </data>
+  <data name="pagICPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagICPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagICPos.Text" xml:space="preserve">
+    <value>IC Pos</value>
+  </data>
+  <data name="pagAutoRevisePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagAutoRevisePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagAutoRevisePos.Text" xml:space="preserve">
+    <value>RevisePos</value>
+  </data>
+  <data name="pagICShape.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagICShape.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagICShape.Text" xml:space="preserve">
+    <value>IC Visual</value>
+  </data>
+  <data name="pagAutoHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagAutoHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagAutoHeight.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="pagICDirAndFlaw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagICDirAndFlaw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagCMK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="pagCMK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 714</value>
+  </data>
+  <data name="pagCMK.Text" xml:space="preserve">
+    <value>CMK</value>
+  </data>
+  <data name="tabConfigInitWnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Teaching</value>
+  </data>
+</root>

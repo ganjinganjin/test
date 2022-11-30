@@ -1,0 +1,4137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LabRunRatio.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="singleModeLed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn12.Name" xml:space="preserve">
+    <value>toolStripBtn12</value>
+  </data>
+  <data name="&gt;&gt;lbLed10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Pan3Pnl.Parent" xml:space="preserve">
+    <value>PlatePanel</value>
+  </data>
+  <data name="capMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabPauseTime.TabIndex" type="System.Int32, mscorlib">
+    <value>255</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStripMenuItem6.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="downCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 32</value>
+  </data>
+  <data name="&gt;&gt;homeOKLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripBtn12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;运行计数ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yBLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="&gt;&gt;PenEnable2.Parent" xml:space="preserve">
+    <value>PenEnableSGB</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>266</value>
+  </data>
+  <data name="LabEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>251</value>
+  </data>
+  <data name="productLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 511</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="singleModeLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 619</value>
+  </data>
+  <data name="label59.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="PenEnableSGB.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="autoModBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="xBLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 109</value>
+  </data>
+  <data name="LabEndTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LabRunRatio.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="checkInitOKLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabStartTime.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lbLed2.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;LabPauseTime.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="toolStripBtn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="&gt;&gt;PenEnable4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pnlProgrammer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LabUPH.Name" xml:space="preserve">
+    <value>LabUPH</value>
+  </data>
+  <data name="&gt;&gt;skinButton2.Name" xml:space="preserve">
+    <value>skinButton2</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bredeTCPower.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="systemBusyLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PenEnable2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BurnOnlineLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="skinButton2.ToolTip" xml:space="preserve">
+    <value>暂停设备运行</value>
+  </data>
+  <data name="LabOKDoneC.TabIndex" type="System.Int32, mscorlib">
+    <value>259</value>
+  </data>
+  <data name="PenEnable3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;z1Lab.Name" xml:space="preserve">
+    <value>z1Lab</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="xLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelZ3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PenEnable1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LabTargetC.Name" xml:space="preserve">
+    <value>LabTargetC</value>
+  </data>
+  <data name="xLab.TabIndex" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="&gt;&gt;BredeOnlineLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="z1Lab.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="label66.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Pan1Pnl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>835, 264</value>
+  </data>
+  <data name="&gt;&gt;lbLed5.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="snapMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="skinButton1.Text" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="&gt;&gt;Pan1Pnl.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="z1Lab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="systemBusyLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 36</value>
+  </data>
+  <data name="&gt;&gt;AutoTrayOnlineLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Pan2Pnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 3</value>
+  </data>
+  <data name="PenEnable1.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="toolStripBtn11.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="lbLed6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 35</value>
+  </data>
+  <data name="homeOKLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 36</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelZ2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 214</value>
+  </data>
+  <data name="toolStripBtn10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="&gt;&gt;LabTIC_DoneC.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 235</value>
+  </data>
+  <data name="LabYield.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Checksum:</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="xLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbLed5.Name" xml:space="preserve">
+    <value>lbLed5</value>
+  </data>
+  <data name="z3Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 235</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="LabTIC_DoneC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 193</value>
+  </data>
+  <data name="&gt;&gt;skinButton5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;labelZ2.Name" xml:space="preserve">
+    <value>labelZ2</value>
+  </data>
+  <data name="labelZ4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;BurnOnlineLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabChecksum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="&gt;&gt;LabBrand.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="autoModBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="&gt;&gt;checkInitOKLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 73</value>
+  </data>
+  <data name="label20.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="toolStripBtn6.Text" xml:space="preserve">
+    <value>相机采集</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelZ4.Text" xml:space="preserve">
+    <value>Z4轴当前值:</value>
+  </data>
+  <data name="checkInitOKLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 36</value>
+  </data>
+  <data name="ZLOnlineLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 697</value>
+  </data>
+  <data name="homeOKLed.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="PenEnable1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabTargetC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="LabUPH.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelZ4.Name" xml:space="preserve">
+    <value>labelZ4</value>
+  </data>
+  <data name="z2Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>243</value>
+  </data>
+  <data name="toolStripBtn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;z3Lab.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripBtn3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lbLed5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 67</value>
+  </data>
+  <data name="label66.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbLed6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;skinButton6.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn4.Name" xml:space="preserve">
+    <value>toolStripBtn4</value>
+  </data>
+  <data name="LabUPH.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bredeTCPower.Name" xml:space="preserve">
+    <value>bredeTCPower</value>
+  </data>
+  <data name="lbLed11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 514</value>
+  </data>
+  <data name="&gt;&gt;aLarmPauseLed.Name" xml:space="preserve">
+    <value>aLarmPauseLed</value>
+  </data>
+  <data name="z4Lab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinButton1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Pan2Pnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 530</value>
+  </data>
+  <data name="yLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabEndTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripBtn11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="homeBusyLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 36</value>
+  </data>
+  <data name="labelZ4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabStartTime.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label66.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripBtn10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;autoTrayInitBtn.Name" xml:space="preserve">
+    <value>autoTrayInitBtn</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Pan2Pnl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PlatePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PenEnableSGB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabAlarmCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkInitOKLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="upCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="PenEnable3.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;xBLab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PenEnable1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="autoModLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 586</value>
+  </data>
+  <data name="&gt;&gt;修改密码ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbLed10.Parent" xml:space="preserve">
+    <value>Pan3Pnl</value>
+  </data>
+  <data name="LabStartTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Pan3Pnl.Name" xml:space="preserve">
+    <value>Pan3Pnl</value>
+  </data>
+  <data name="LabUPH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabDevice.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="LabOKDoneC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 214</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn14.Name" xml:space="preserve">
+    <value>toolStripBtn14</value>
+  </data>
+  <data name="xBLab.TabIndex" type="System.Int32, mscorlib">
+    <value>298</value>
+  </data>
+  <data name="&gt;&gt;注册用户ToolStripMenuItem.Name" xml:space="preserve">
+    <value>注册用户ToolStripMenuItem</value>
+  </data>
+  <data name="autoModLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 29</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>目标数:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>良品率:</value>
+  </data>
+  <data name="lbLed10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="LabPauseTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="PenEnable2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStripBtn4.Text" xml:space="preserve">
+    <value>图像示教</value>
+  </data>
+  <data name="lbLed4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;LabAlarmCount.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="toolStripBtn10.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label58.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="upCamBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="PenEnable4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;downCamBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="Pan2Pnl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="aLarmPauseLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabPauseTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbLed2.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabChecksum.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LabChecksum_Chip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabBrand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 46</value>
+  </data>
+  <data name="&gt;&gt;LabUPH.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="skinButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 35</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="LabEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 130</value>
+  </data>
+  <data name="lbLed11.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelZ2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlProgrammer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1064, 196</value>
+  </data>
+  <data name="toolStripBtn11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label59.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;skinButton3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinButton3.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="skinButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 739</value>
+  </data>
+  <data name="toolStripBtn13.Text" xml:space="preserve">
+    <value>告警记录</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>结束时间:</value>
+  </data>
+  <data name="&gt;&gt;autoModLed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="z4Lab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pan3Pnl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lbLed4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabAlarmCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="toolStripBtn9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 69</value>
+  </data>
+  <data name="&gt;&gt;downCamBtn.Name" xml:space="preserve">
+    <value>downCamBtn</value>
+  </data>
+  <data name="label20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="singleModBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 619</value>
+  </data>
+  <data name="PlatePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1064, 555</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 85</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;autoModBtn.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="LabEndTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="homeBusyLed.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 30</value>
+  </data>
+  <data name="AutoTrayOnlineLed.TabIndex" type="System.Int32, mscorlib">
+    <value>292</value>
+  </data>
+  <data name="skinButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 35</value>
+  </data>
+  <data name="singleModBtn.Text" xml:space="preserve">
+    <value>单动模式</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;capMenuBtn.Name" xml:space="preserve">
+    <value>capMenuBtn</value>
+  </data>
+  <data name="&gt;&gt;PenEnable4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabBrand.Name" xml:space="preserve">
+    <value>LabBrand</value>
+  </data>
+  <data name="Pan3Pnl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 10, 0</value>
+  </data>
+  <data name="skinButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="toolStripBtn4.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;xBLab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label58.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="textBox1.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbLed8.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="xLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="&gt;&gt;LabTIC_DoneC.Name" xml:space="preserve">
+    <value>LabTIC_DoneC</value>
+  </data>
+  <data name="LabStartTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 151</value>
+  </data>
+  <data name="yBLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 130</value>
+  </data>
+  <data name="autoTrayInitBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="&gt;&gt;label59.Name" xml:space="preserve">
+    <value>label59</value>
+  </data>
+  <data name="z1Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="skinButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn10.Name" xml:space="preserve">
+    <value>toolStripBtn10</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AutoTrayOnlineLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="upCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 150</value>
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabChecksum_Chip.Name" xml:space="preserve">
+    <value>LabChecksum_Chip</value>
+  </data>
+  <data name="&gt;&gt;systemBusyLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BredeOnlineLed.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BurnOnlineLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnEngineerSetting.Name" xml:space="preserve">
+    <value>btnEngineerSetting</value>
+  </data>
+  <data name="&gt;&gt;yBLab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="autoTrayInitBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabEndTime.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;productLab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelZ3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 88</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="toolStripBtn1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="toolStripBtn6.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LabRunRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="LabRejectRatio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelZ4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 256</value>
+  </data>
+  <data name="z3Lab.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="btnEngineerSetting.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BAR</value>
+  </data>
+  <data name="&gt;&gt;hWindowControl1.Type" xml:space="preserve">
+    <value>HalconDotNet.HWindowControl, halcondotnet, Version=19.5.0.0, Culture=neutral, PublicKeyToken=4973bed59ddbf2b8</value>
+  </data>
+  <data name="lbLed5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;ZLOnlineLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>284</value>
+  </data>
+  <data name="&gt;&gt;PenEnable4.Name" xml:space="preserve">
+    <value>PenEnable4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>开始时间:</value>
+  </data>
+  <data name="labelZ1.TabIndex" type="System.Int32, mscorlib">
+    <value>235</value>
+  </data>
+  <data name="skinButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 739</value>
+  </data>
+  <data name="downCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinButton5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Pan2Pnl.Parent" xml:space="preserve">
+    <value>PlatePanel</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;btnEngineerSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bredeTCPower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;z2Lab.Name" xml:space="preserve">
+    <value>z2Lab</value>
+  </data>
+  <data name="&gt;&gt;z4Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlProgrammer.TabIndex" type="System.Int32, mscorlib">
+    <value>291</value>
+  </data>
+  <data name="LabDevice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn13.Name" xml:space="preserve">
+    <value>toolStripBtn13</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="systemBusyLed.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="LabTIC_DoneC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinButton5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="toolStripMenuItem7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabRejectRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 235</value>
+  </data>
+  <data name="LabOKDoneC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="z4Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ZLOnlineLed.Name" xml:space="preserve">
+    <value>ZLOnlineLed</value>
+  </data>
+  <data name="skinMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1433, 73</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn9.Name" xml:space="preserve">
+    <value>toolStripBtn9</value>
+  </data>
+  <data name="skinButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 775</value>
+  </data>
+  <data name="&gt;&gt;z3Lab.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="LabTargetC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripBtn2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="yBLab.TabIndex" type="System.Int32, mscorlib">
+    <value>299</value>
+  </data>
+  <data name="aLarmPauseLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 36</value>
+  </data>
+  <data name="LabUPH.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="toolStripBtn4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbLed6.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="AutoTrayOnlineLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 697</value>
+  </data>
+  <data name="LabEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="skinButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 35</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 130</value>
+  </data>
+  <data name="runBusyLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 654</value>
+  </data>
+  <data name="LabDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 67</value>
+  </data>
+  <data name="&gt;&gt;LabTargetC.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="runBusyLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabRunRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabChecksum_Chip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabAlarmCount.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="yLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;PenEnableSGB.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelZ4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Name" xml:space="preserve">
+    <value>toolStripMenuItem7</value>
+  </data>
+  <data name="toolStripMenuItem3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 256</value>
+  </data>
+  <data name="LabRunRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="toolStripBtn12.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripBtn13.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="PenEnable4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStripBtn9.Text" xml:space="preserve">
+    <value>运行模式参数</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>自动盘参数</value>
+  </data>
+  <data name="LabTIC_DoneC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="LabTargetC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelZ3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="LabTIC_DoneC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 71</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelZ3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 130</value>
+  </data>
+  <data name="lbLed11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="lbLed8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripBtn7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="LabBrand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PenEnable3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="labelZ4.TabIndex" type="System.Int32, mscorlib">
+    <value>239</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripBtn8.Text" xml:space="preserve">
+    <value>手动控制</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Chip:</value>
+  </data>
+  <data name="toolStripMenuItem1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;capMenuBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabChecksum.TabIndex" type="System.Int32, mscorlib">
+    <value>269</value>
+  </data>
+  <data name="LabTargetC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="labelZ1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEngineerSetting.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8pt, style=Bold</value>
+  </data>
+  <data name="runBusyLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pan3Pnl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripBtn6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;singleModBtn.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;skinButton6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="z2Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="toolStripBtn7.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;homeOKLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>Y轴编码值:</value>
+  </data>
+  <data name="lbLed10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelZ3.TabIndex" type="System.Int32, mscorlib">
+    <value>236</value>
+  </data>
+  <data name="LabStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>249</value>
+  </data>
+  <data name="&gt;&gt;Pan2Pnl.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="autoTrayInitBtn.Text" xml:space="preserve">
+    <value>自动盘归零</value>
+  </data>
+  <data name="运行计数ToolStripMenuItem.Text" xml:space="preserve">
+    <value>运行计数</value>
+  </data>
+  <data name="labelZ3.Text" xml:space="preserve">
+    <value>Z3轴当前值:</value>
+  </data>
+  <data name="label66.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="toolStripBtn2.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;label66.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="Pan2Pnl.TabIndex" type="System.Int32, mscorlib">
+    <value>281</value>
+  </data>
+  <data name="label66.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>PlatePanel</value>
+  </data>
+  <data name="labelZ3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="xBLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="aLarmPauseLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="autoModBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="Pan1Pnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 3</value>
+  </data>
+  <data name="&gt;&gt;skinButton5.Name" xml:space="preserve">
+    <value>skinButton5</value>
+  </data>
+  <data name="&gt;&gt;timerDog.Name" xml:space="preserve">
+    <value>timerDog</value>
+  </data>
+  <data name="&gt;&gt;labelZ3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="toolStripBtn12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="&gt;&gt;lbLed4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="skinButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="autoTrayInitBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PenEnableSGB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 39</value>
+  </data>
+  <data name="&gt;&gt;timerShowWnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;z2Lab.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="PlatePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 270</value>
+  </data>
+  <data name="toolStripBtn9.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;LabBrand.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="toolStripBtn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="skinMenuStrip1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="systemBusyLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;删除用户ToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yBLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbLed6.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="labelZ1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 193</value>
+  </data>
+  <data name="&gt;&gt;PenEnableSGB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabEndTime.Name" xml:space="preserve">
+    <value>LabEndTime</value>
+  </data>
+  <data name="label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="yBLab.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="productLab.Text" xml:space="preserve">
+    <value>当前产品</value>
+  </data>
+  <data name="LabChecksum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="&gt;&gt;systemBusyLed.Name" xml:space="preserve">
+    <value>systemBusyLed</value>
+  </data>
+  <data name="skinButton3.Text" xml:space="preserve">
+    <value>复位</value>
+  </data>
+  <data name="&gt;&gt;z1Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;烧录座计数ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbLed8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="systemBusyLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 654</value>
+  </data>
+  <data name="Pan3Pnl.TabIndex" type="System.Int32, mscorlib">
+    <value>283</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoModBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlProgrammer.Name" xml:space="preserve">
+    <value>pnlProgrammer</value>
+  </data>
+  <data name="skinButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="PenEnableSGB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 69</value>
+  </data>
+  <data name="z3Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="LabBrand.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>&lt;==欢迎使用烧录系统, 操作之前请阅读相关操作手册==&gt;</value>
+  </data>
+  <data name="&gt;&gt;aLarmPauseLed.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LabOKDoneC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="&gt;&gt;singleModeLed.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="PenEnable3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;skinButton6.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="z1Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;LabOKDoneC.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="skinButton4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 280</value>
+  </data>
+  <data name="&gt;&gt;lbLed10.Name" xml:space="preserve">
+    <value>lbLed10</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;LabAlarmCount.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;yLab.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="toolStripBtn12.Text" xml:space="preserve">
+    <value>烧录参数</value>
+  </data>
+  <data name="toolStripBtn7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;downCamBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="yLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="upCamBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="注册用户ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="xBLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="productLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="toolStripBtn14.Text" xml:space="preserve">
+    <value>轴控制</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="&gt;&gt;label58.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="xBLab.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="z3Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="PenEnable4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 13</value>
+  </data>
+  <data name="&gt;&gt;LabRunRatio.Name" xml:space="preserve">
+    <value>LabRunRatio</value>
+  </data>
+  <data name="&gt;&gt;lbLed11.Parent" xml:space="preserve">
+    <value>Pan3Pnl</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="z1Lab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;homeBusyLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 775</value>
+  </data>
+  <data name="PenEnable4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="LabOKDoneC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;autoTrayInitBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="z2Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbLed6.Name" xml:space="preserve">
+    <value>lbLed6</value>
+  </data>
+  <data name="singleModBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="LabAlarmCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="PenEnableSGB.TabIndex" type="System.Int32, mscorlib">
+    <value>290</value>
+  </data>
+  <data name="panel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LabChecksum.Name" xml:space="preserve">
+    <value>LabChecksum</value>
+  </data>
+  <data name="LabRejectRatio.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabEndTime.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="LabTIC_DoneC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelZ1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="toolStripBtn5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 69</value>
+  </data>
+  <data name="PenEnable4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 739</value>
+  </data>
+  <data name="bredeTCPower.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;singleModeLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="label59.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="z2Lab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;runBusyLed.Name" xml:space="preserve">
+    <value>runBusyLed</value>
+  </data>
+  <data name="&gt;&gt;label66.Name" xml:space="preserve">
+    <value>label66</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 280</value>
+  </data>
+  <data name="LabDevice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LabStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 109</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;runBusyLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbLed8.Name" xml:space="preserve">
+    <value>lbLed8</value>
+  </data>
+  <data name="z1Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;切换用户ToolStripMenuItem.Name" xml:space="preserve">
+    <value>切换用户ToolStripMenuItem</value>
+  </data>
+  <data name="LabAlarmCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 151</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="hWindowControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="lbLed11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="lbLed2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="snapMenuBtn.Text" xml:space="preserve">
+    <value>触发采集</value>
+  </data>
+  <data name="label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabRunRatio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="z3Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>244</value>
+  </data>
+  <data name="烧录座计数ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="PenEnable3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="&gt;&gt;homeBusyLed.Name" xml:space="preserve">
+    <value>homeBusyLed</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="lbLed8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ZLOnlineLed.TabIndex" type="System.Int32, mscorlib">
+    <value>294</value>
+  </data>
+  <data name="pnlProgrammer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 73</value>
+  </data>
+  <data name="toolStripBtn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1433, 827</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>暂停时长:</value>
+  </data>
+  <data name="PenEnableSGB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 544</value>
+  </data>
+  <data name="&gt;&gt;LabBrand.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;yLab.Name" xml:space="preserve">
+    <value>yLab</value>
+  </data>
+  <data name="toolStripBtn6.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>260</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>275</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Name" xml:space="preserve">
+    <value>skinButton1</value>
+  </data>
+  <data name="label15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="BurnOnlineLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="toolStripBtn11.Text" xml:space="preserve">
+    <value>编带参数</value>
+  </data>
+  <data name="aLarmPauseLed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toolStripMenuItem7.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="toolStripMenuItem1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="PenEnableSGB.Text" xml:space="preserve">
+    <value>吸笔使能</value>
+  </data>
+  <data name="labelZ2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabChecksum.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;LabPauseTime.Name" xml:space="preserve">
+    <value>LabPauseTime</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn5.Name" xml:space="preserve">
+    <value>toolStripBtn5</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn2.Name" xml:space="preserve">
+    <value>toolStripBtn2</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn8.Name" xml:space="preserve">
+    <value>toolStripBtn8</value>
+  </data>
+  <data name="toolStripBtn14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="xBLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 46</value>
+  </data>
+  <data name="productLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="z4Lab.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="LabChecksum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 24</value>
+  </data>
+  <data name="skinMenuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="singleModeLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="lbLed10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="label66.TabIndex" type="System.Int32, mscorlib">
+    <value>234</value>
+  </data>
+  <data name="&gt;&gt;LabOKDoneC.Name" xml:space="preserve">
+    <value>LabOKDoneC</value>
+  </data>
+  <data name="&gt;&gt;skinButton3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;homeOKLed.Name" xml:space="preserve">
+    <value>homeOKLed</value>
+  </data>
+  <data name="Pan1Pnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 530</value>
+  </data>
+  <data name="&gt;&gt;skinButton2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PenEnable2.Name" xml:space="preserve">
+    <value>PenEnable2</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;homeBusyLed.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkInitOKLed.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="lbLed10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 514</value>
+  </data>
+  <data name="capMenuBtn.Text" xml:space="preserve">
+    <value>连续采集</value>
+  </data>
+  <data name="skinButton4.Text" xml:space="preserve">
+    <value>收尾</value>
+  </data>
+  <data name="Pan1Pnl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 10, 0</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem7.Text" xml:space="preserve">
+    <value>工单资讯</value>
+  </data>
+  <data name="PenEnable4.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;snapMenuBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripBtn14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 69</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="downCamBtn.Text" xml:space="preserve">
+    <value>下相机</value>
+  </data>
+  <data name="toolStripBtn9.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LabAlarmCount.Name" xml:space="preserve">
+    <value>LabAlarmCount</value>
+  </data>
+  <data name="PenEnable2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>285</value>
+  </data>
+  <data name="toolStripBtn8.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8pt, style=Bold</value>
+  </data>
+  <data name="label58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripBtn3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;LabDevice.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="bredeTCPower.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="z2Lab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabRejectRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pan2Pnl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt, style=Bold</value>
+  </data>
+  <data name="lbLed6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 28</value>
+  </data>
+  <data name="&gt;&gt;LabYield.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pnlProgrammer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;LabEndTime.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbLed11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>267</value>
+  </data>
+  <data name="&gt;&gt;z2Lab.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;z4Lab.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="toolStripBtn13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;checkInitOKLed.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;LabRejectRatio.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="toolStripBtn7.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabRunRatio.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="downCamBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 150</value>
+  </data>
+  <data name="bredeTCPower.Text" xml:space="preserve">
+    <value>编带温控开关</value>
+  </data>
+  <data name="labelZ2.Text" xml:space="preserve">
+    <value>Z2轴当前值:</value>
+  </data>
+  <data name="toolStripBtn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="Pan3Pnl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabYield.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="labelZ2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="z2Lab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>284</value>
+  </data>
+  <data name="lbLed6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabAlarmCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="&gt;&gt;PenEnable1.Name" xml:space="preserve">
+    <value>PenEnable1</value>
+  </data>
+  <data name="toolStripBtn14.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripBtn2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LabEndTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.5pt</value>
+  </data>
+  <data name="LabDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="lbLed8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 514</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="LabChecksum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="upCamBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 32</value>
+  </data>
+  <data name="label58.TabIndex" type="System.Int32, mscorlib">
+    <value>296</value>
+  </data>
+  <data name="toolStripMenuItem1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="Pan1Pnl.TabIndex" type="System.Int32, mscorlib">
+    <value>282</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="LabChecksum_Chip.TabIndex" type="System.Int32, mscorlib">
+    <value>271</value>
+  </data>
+  <data name="label58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;z2Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbLed10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;删除用户ToolStripMenuItem1.Name" xml:space="preserve">
+    <value>删除用户ToolStripMenuItem1</value>
+  </data>
+  <data name="toolStripMenuItem6.Text" xml:space="preserve">
+    <value>油墨管理</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 172</value>
+  </data>
+  <data name="toolStripMenuItem5.Text" xml:space="preserve">
+    <value>专用IO</value>
+  </data>
+  <data name="toolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;LabTargetC.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabDevice.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label58.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;pnlProgrammer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AutoTrayOnlineLed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PenEnable3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbLed2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="lbLed11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="singleModBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PenEnable2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 13</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
+  </data>
+  <data name="homeOKLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 264</value>
+  </data>
+  <data name="yLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="toolStripBtn12.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="PlatePanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="autoModBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PenEnable1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PenEnable2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;PenEnable1.Parent" xml:space="preserve">
+    <value>PenEnableSGB</value>
+  </data>
+  <data name="&gt;&gt;LabRejectRatio.Name" xml:space="preserve">
+    <value>LabRejectRatio</value>
+  </data>
+  <data name="&gt;&gt;label66.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="烧录座计数ToolStripMenuItem.Text" xml:space="preserve">
+    <value>烧录座计数</value>
+  </data>
+  <data name="&gt;&gt;LabUPH.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbLed4.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="yBLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Pan2Pnl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PlatePanel.ToolTip" xml:space="preserve">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;lbLed2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 88</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Y轴当前值:</value>
+  </data>
+  <data name="toolStripBtn10.Text" xml:space="preserve">
+    <value>设备参数</value>
+  </data>
+  <data name="BredeOnlineLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 697</value>
+  </data>
+  <data name="z4Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="&gt;&gt;singleModeLed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="productLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 31</value>
+  </data>
+  <data name="PenEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="&gt;&gt;label58.Name" xml:space="preserve">
+    <value>label58</value>
+  </data>
+  <data name="LabYield.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="z4Lab.TabIndex" type="System.Int32, mscorlib">
+    <value>245</value>
+  </data>
+  <data name="LabRunRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 256</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabBrand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="切换用户ToolStripMenuItem.Text" xml:space="preserve">
+    <value>切换用户</value>
+  </data>
+  <data name="&gt;&gt;upCamBtn.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;z3Lab.Name" xml:space="preserve">
+    <value>z3Lab</value>
+  </data>
+  <data name="skinButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="homeBusyLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabYield.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="toolStripBtn1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;skinButton3.Name" xml:space="preserve">
+    <value>skinButton3</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAgAMDAQAAAABABoBgAAhgAAACAgEAAAAAQA6AIAAO4GAAAYGBAAAAAEAOgBAADWCQAAEBAQAAAA
+        BAAoAQAAvgsAADAwAAAAAAgAqA4AAOYMAAAgIAAAAAAIAKgIAACOGwAAGBgAAAAACADIBgAANiQAABAQ
+        AAAAAAgAaAUAAP4qAAAoAAAAMAAAAGAAAAABAAQAAAAAAIAEAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAA
+        gAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAA
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAACIiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAiIiACIiIiIiIiIiIiIiIiIiIiIiIiIgACIgA
+        CIiIiIiIiIiIiIiIiIiIiIiIiIAAAIAAAIiIiIiIiIiIiIiIiIiIiIiIiAAAAIAAAAiIiIiIiIiIiIiI
+        iIiIiIiIiAAACIgAAACIiIiIiIiIiIiIiIiIiIiIgAAACIiAAACIiIiIiIiIiIiIiIiIiIiIAAAAiIiA
+        AAAIiIiIiIiIiIiIiIiIiIiAAAAIiIiIAAAAiIiIiIiIiIiIiIiIiIiAAACIiIiIgAAAiIiIiIiIiIiI
+        iIiIiIgAAACIiIiIgAAACIiIiIiIiIiIiIiIiIAAAAiIiIiIiAAAAIiIiIiIiIiIiIiIiIAAAIiIiIiI
+        iIAAAAiIiIiIiIiIiIiIiAAAAIiIiMiIiIgAAAiIiIiIiIiIiIiIgAAACIiIiMiIiIgAAACIiIiIiIiI
+        iIiIAAAAiIiIjMyIiIiAAAAIiIiIiIiIiIiIAAAIiIiIjMyIiIiIAAAIiIiIiIiIiIiAAAAIiIiIzMzI
+        iIiIAAAAiIiIiIiIiIgAAACIiIiIzMzIiIiIgAAACIiIiIiIiIAAAAiIiIiHzMzMiIiIiAAAAIiIiIiI
+        iIAAAIiIiIiMzMzMiIiIiIAAAIiIiIiIiAAAAIiIiIiMzMzMyIiIiIAAAAiIiIiIgAAACIiIiIjMzMzM
+        yIiIiIgAAACIiIiIgAAAiIiIiIjMzMzMyIiIiIiAAAAIiIiIAAAAiIiIiIzMzMzMzIiIiIiIAAAIiIiA
+        AAAIiIiIiIiIiIiIiIiIiIiIAAAAiIgAAAAIiIiIiACIiIiIgAiIiIiIAAAACIgAAAAACIiIiAAAiIiA
+        AAiIiIgAAAAACIiAAAAAAACIgAAAiIiAAACIgAAAAAAAiIiIgAAAAAAAgAAAiIiAAACAAAAAAACIiIiI
+        iAAAAAAAAAAIiIiIAAAAAAAAAAiIiIiIiIiAAAAAAAAIiIiIAAAAAAAAiIiIiIiIiIiIgAAAAACIiIiI
+        gAAAAACIiIiIiIiIiIiIiIAAAACIiIiIgAAAAIiIiIiIiIiIiIiIiIiAAAiIiIiIiAAAiIiIiIiIiIiI
+        iIiIiIiIiAiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAiI
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiIiACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIAPAAAAAABwAA4AAAAAADAADAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA
+        DBgAAAAAAAAOOAAAAAAAAB98AAAAAAAAP34AAAAAAAA+PwAAAAAAAH4fAAAAAAAA/B+AAAAAAAH4D8AA
+        AAAAAfAHwAAAAAAD8AfgAAAAAAfgA/AAAAAAB8AB+AAAAAAPwAD4AAAAAB+AAPwAAAAAPwAAfgAAAAA+
+        AAA+AAAAAH4AAD8AAAAA/AAAH4AAAAH4AAAPwAAAAfAAAAfAAAAD8AAAB+AAAAfgAAAD8AAAB8AAAAH4
+        AAAPwAAAAPgAAB+AAAAA/AAAP4AwBgD+AAA/4DweA/4AAB/8fB8f/AAAB/98H3/wAAAD//gP/+AAAAB/
+        +A//AAAAAB/wB/wAAAAAB/AH8AAAAAAB4APAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACAAAAAAAAAAIAAAAAAAAAAwAAAAAABAADwAAAAAAMAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAA
+        AAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD/
+        /wD/AAAA/wD/AP//AAD///8AAAAIiIiIiIiIiIiIiIAAAACIiIiIiIiIiIiIiIiIgAAIiIiIiIiIiIiI
+        iIiIiIiACIiIiIiIiIiIiIiIiIiIgIiIiIiIiIiIiIiIiIiIiICIiIiIiIgAAAAIiIiIiIiIiIiIiIiI
+        AAAAAIiIiIiIiIiIiIiIgAAIgACIiIiIiIiIiIiIiAAAiIAACIiIiIiIiIiIiIAAAIiIAACIiIiIiIiI
+        iIiAAAiIiAAAiIiIiIiIiIiIAACIiIiAAAiIiIiIiIiIgAAAiIiIiAAAiIiIiIiIiIAACIiIiIgAAAiI
+        iIiIiIgACIiIjIiIiAAIiIiIiIiAAAiIiMzIiIgAAIiIiIiIgAiIiIjMzIiIiAAIiIiIiAAIiIiIzMyI
+        iIgACIiIiIAAiIiIjMzMiIiIgACIiIiAAIiIiMzMzMiIiIgAiIiAAAiIiIgIiIgAiIiIAACIgAAACIiI
+        AIiAAIiIgAAAiIgAAAAIgACIgACIAAAACIiIiAAAAAAAiIgAAAAACIiIiIiAAAAAAIiIAAAAAIiIiIiI
+        iIgAAAiIiAAACIiIiIiIiIiIgACIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIgIiIiIiIiIiIiIiIiIiI
+        iIAIiIiIiIiIiIiIiIiIiIiACIiIiIiIiIiIiIiIiIiIAAAIiIiIiIiIiIiIiIiIAAD4AAAfwAAAB4AA
+        AAGAAAABAAAAAQAP4AAAD/AAAB5wAAA8eAAAfDwAAHg8AADwHgAB8A8AAeAPgAOAA4AHgAPABgAA4A4A
+        AOAcAABwHAAAMHgIMDx+DHB8P5xz+A/8P+AH/D/AAPg+AABwHAAAAAABAAAAAYAAAAGAAAAD4AAADygA
+        AAAYAAAAMAAAAAEABAAAAAAAIAEAAAAAAAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAA
+        gACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAIiIiIiIiIiIiIgACIiIiIiI
+        iIiIiIiAiIiIiIgIiIiIiIiIiIiIiIgAgAiIiIiIiIiIiIAAgACIiIiIiIiIiAAIgACIiIiIiIiIiACI
+        iAAIiIiIiIiIgACIiIAAiIiIiIiIAAiIiIgAiIiIiIiAAIiIyIgACIiIiIiAAIiMyIiAAIiIiIgACIiM
+        zIiIAAiIiIAAiIjMzIiIAAiIiAAIiIjMzMiIgACIiAAIiIzMzMiIiAAIgAAIiIAIiACIgAAAiAAACAAI
+        gACAAACIiIgAAAAIiAAAAAiIiIiIAACIiAAACIiIiIiIiACIiICIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIiIiIiICIiIiIiIiIiIiIiAAIiIiIiIiIiIiIgAwAADAIAAAQAAIAAAADYAAAB3AAAA5wAAAMOAAAHB
+        wAADgMAABwDgAAcAcAAOADgAHAA4ADgAHAA4AA4AeGMfAD7nfAAP4/gAA8PgAADBAAAAAAAAAAAAAIAA
+        AQDAAAMAKAAAABAAAAAgAAAAAQAEAAAAAACAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAIAAAIAAAACA
+        gACAAAAAgACAAICAAACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAiIiIiIiIAAiI
+        iIiIiIiAiIiIiIiIiIiIiIiACIiIiIiIgAAACIiIiIgACIAAiIiIiACIiACIiIiACIyIgIiIiACIjMiI
+        CIiICIjMyIgAiIAIiAiAiAAIiACACACAAIiIiAAIgACIiIiIgAiAiIiICIiIiIiIiIAAiIiIiIiIAMAD
+        AACAAQAAAAAAAAGAAAAH4AAADnAAAAwwAAAYEAAAMAgAACAMAABiTgAANtwAAA5wAAAGQAAAgAEAAMAD
+        AAAoAAAAMAAAAGAAAAABAAgAAAAAAAAJAAAAAAAAAAAAAAABAAAAAQAAAAAAAHw8BgBRNjcAGFUxABla
+        NQAbXjkAHWI9AG5DIQBkSD4AHBpcACwlWQA9NF4AFx9+AB5nQQAga0UAKmlGACFuSAAjc0wAJnpUADJ2
+        UwAzeVYANX5bAD17WwAubXgAQnJWAHhjawCFQAYAhEQLAIhECgCJSA0Ag0cUAIxNEQCOUBMAkVIVAJNV
+        GACWWRoAmF0dAJpgHwCIWCgAkFwmAJxjIgCbZSwAmWgsAJ9nMgCdbTMAm3A+AKBoJgCibCoApnEtAKBs
+        MAClcjQAqXUxAKd5NgCsejQAp3Q4AKl1OQCnejwArHs6AJ9vRQCufUIAKYNbADWDXgAsi2MANopmAC6Q
+        aAAylGsANppyADejeQBUh2sARJl2AGSVewBDpX8Ar4E6ALKDOwC1iD8ArYFCALCCQgC2ikEAuI1CALKF
+        SQC1iksAuI1MALyRRQC8lEoAv5hMALWKUgC4jlUAsINaAL2VVwCeiGwAsYZiALyXYQC8lWwAv5lvALGR
+        eADBmUsAw51XAMaiWADBm2UAxqJkAMmlYQDMqmUAxKNtAMyqagDGpHMAy6pyAMWjeQDKrHoA1Ld4AAMO
+        gwARGYIABhScAAsaqAAOHbAAEB+wAB89qQAWJrgANj+tACY3vgAnVpIAKUWlADhEsABHcqYAb3GrAB0u
+        wQAfMMIAJTbIACw+0AAsQM8AOEjKADVVzAAuQtIANUjWADlQ3gA+YN8APVbgAEBPygBDUc0AR1fXAFFf
+        1wBPaN4AU2LbAE1w3ABWdNoAYW/fAGR03ABCXOIARmblAFZp4gBMcugAVXfoAGV45QBxfucAOayCAD2y
+        hwBIq4UAUayIAEa0jABIvJMAVrmXAGyojQBor5IAaLiZAHW5nQBYnK4AfrmhAFfCnABbx6EAZcmmAHDM
+        rABq0K4Ab9GwAHnUtQB4h9gAe5bcAFqD6wBmiekAd4rqAGiR7AB1mO4Aa5jwAHWd8AB6pvMAnJGVAIO1
+        nwCMuqUAkL6qAKiiqQDHp4cAzrSOANa7gwDQuJAAl8azAIPZvACjxLQAsMu9ANzDhQDWxJQA4cuMAOPP
+        kQDm05UA18SjAN3NtQDa0rkA4NS/AIeY3gCCm+4AgJ/wAImh4gCVq+AAlbPhAIKs9ACItvYAk7n2AKm6
+        5AC1veYAid3CAJHbwgC+184AjeDFAJbjygCd6NEApOrUALLu2wC08d8AlcX5AJ7T/QCqwuMAtsLnAL3Q
+        4QCgy/oAqtX7ALPc/QC78uEAx9fOAN3VxADG2tMA09vXAODPwADh0cIA4t7bAOHg3gDCy+kAxtPnANLY
+        6QDB2vsA3ebnAMr05wDT7P4A6ejnAPDv7wD18e0A6uz0APT08wD49/cA////AAAAAMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEAAAAAAAAxMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExPsAAADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTEAMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEAMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMQAAMTExMTE
+        AADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMQAAADExMQAAADExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExAAAAAAAxAAAAAAAxMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTEAAAAAAAAxAAAAAAAAMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMRsAAAAAADExMQAAAAAAADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMQAAAAAAADExMRs
+        AAAAAADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExAAAAAAAAMTExMTEAAAAAAAAxMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTEAAAAAAAAxMTExMTExAAAAAAAAMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTEAAAAAADExMTExMTExMQAAAAAAGzExMTExMTExMTExMTExMTExMTExMTExMTExMQA
+        AAAAAADExMTExMTExMQAAAAAAADExMTExMTExMTExMTExMTExMTExMTExMTExAAAAAAAAMTExMTExMTE
+        xMTEAAAAAAAAxMTExMTExMTExMTExMTExMTExMTExMTEyAAAAAAAxMTExMTExMTExMTExAAAAAAAAMTE
+        xMTExMTExMTExMTExMTExMTExMTEAAAAAAAAxMTExMTEK8TExMTExMQAAAAAAMTExMTExMTExMTExMTE
+        xMTExMTExMQAAAAAAADExMTExMTEK8TExMTExMQAAAAAAADExMTExMTExMTExMTExMTExMTExAAAAAAA
+        AMTExMTExMQrKyvExMTExMTEAAAAAAAAxMTExMTExMTExMTExMTExMTExAAAAAAAxMTExMTExMQrKyvE
+        xMTExMTExAAAAAAAyMTExMTExMTExMTExMTExMTEAAAAAAAAxMTExMTExC4rKysrxMTExMTExAAAAAAA
+        AMTExMTExMTExMTExMTExMQAAAAAAADExMTExMTExCsrKysrxMTExMTExMQAAAAAAADExMTExMTExMTE
+        xMTExAAAAAAAAMTExMTExMTEXysrKysrK8TExMTExMTEAAAAAAAAxMTExMTExMTExMTExAAAAAAAyMTE
+        xMTExMTEKysrKysrK8TExMTExMTExAAAAAAAxMTExMTExMTExMTEAAAAAAAAxMTExMTExMTGKysrKysr
+        KyPExMTExMTExAAAAAAAAMTExMTExMTExMQAAAAAAADExMTExMTExMQrKysrKysrKyvExMTExMTExMQA
+        AAAAAADExMTExMTExMQAAAAAAMTExMTExMTExMQrKysrKysrKyvIxMTExMTExMTEAAAAAAAAxMTExMTE
+        xAAAAAAAAMTExMTExMTExCsrKysrKysrKysrxMTExMTExMTEyAAAAAAAxMTExMTEAAAAAAAAxMTExMTE
+        xMTExMjIyMjIyMjIyMjIxMTExMTExMTExAAAAAAAAMTExMQAAAAAAAAAxMTExMTExMTEAADHxMTExMTE
+        xGwAAMTExMTExMTExAAAAAAAAADExMQAAAAAAAAAAABsxMTExMTEAAAAAMTExMTEAAAAAMTExMTExMQA
+        AAAAAAAAAADExMTEAAAAAAAAAAAAAADExMQAAAAAAGzExMTEAAAAAADExMQAAAAAAAAAAAAAAMTExMTE
+        xMQAAAAAAAAAAAAAAMQAAAAAAMTExMTEAAAAAADEAAAAAAAAAAAAAADExMTExMTExMTEAAAAAAAAAAAA
+        AAAAAAAAxMTExMTExAAAAAAAAAAAAAAAAAAAAMTExMTExMTExMTExMRsAAAAAAAAAAAAAAAAxMTExMTE
+        xAAAAAAAAAAAAAAAAGzExMTExMTExMTExMTExMTExMQAAAAAAAAAAADExMTExMTExMQAAAAAAAAAAADE
+        xMTExMTExMTExMTExMTExMTExMTExAAAAAAAAADExMTExMTExMQAAAAAAAAAxMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTEAAAAAMTExMTExMTExMTEAAAAAMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTEAMTExMTExMTExMTEAGzExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEAADExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMQAAAAAAMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExAAAAOAAAAAADwAAwAAAAAADAACAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        GDAAAAAAAAAccAAAAAAAAD74AAAAAAAAfvwAAAAAAAB8fgAAAAAAAPw+AAAAAAAB+D8AAAAAAAPwH4AA
+        AAAAA+APgAAAAAAH4A/AAAAAAA/AB+AAAAAAD4AD8AAAAAAfgAHwAAAAAD8AAfgAAAAAfgAA/AAAAAB8
+        AAB8AAAAAPwAAH4AAAAB+AAAPwAAAAPwAAAfgAAAA+AAAA+AAAAH4AAAD8AAAA/AAAAH4AAAD4AAAAPw
+        AAAfgAAAAfAAAD8AAAAB+AAAfwBgDAH8AAB/wHg8B/wAAD/4+D4/+AAAD/74Pv/gAAAH//Af/8AAAAD/
+        8B/+AAAAAD/gD/gAAAAAD+AP4AAAAAADwAeAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAQAAgAAAAAADAADgAAAAAAcAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAA
+        AAAAAAAAAAEAAAABAAAAAAAAfj0HAEQtMwAaWzYAG145AB1iPQAmYD4AW0E8AH9TKAApIlQAPjVdABce
+        fQAeZkAAH2hCACBrRQAibkgAI3NMACV3UAAmelIAKH5XADhzUwA7elkAKXZmADFpeACERAsAiUYLAIxM
+        EACOUBUAklMVAJJVGQCVWRoAmV0eAJheIgCcYyIAnGsuAJ1rPACgaSYAomwqAKVxLQChbzMApG87AKR0
+        MgCpdjMAqngyAKV0PACodTkArH46AJ5zQACpd0EArHtGACqDWwAniV8ALYxkADKKZAAvlGsAM5JqADWb
+        cgA7nXYANKR5ADeqfgBFhGQARoloAEiNbABKlHMAQ5l0AEafegBLm3kAYo51AESkfABQoX8AroA5ALKD
+        PQC4jD8Ar4FAAK2BSACxhEQAtopBALiNQgCxhUwAtIpLALmOTwC8k0oAtoxQALiNUQC0i1sAt5FSALuS
+        UwC7lFoAvphpALuUcwC9mXUArqBlAKagaACppW0AratyALGyegDCm0wAwp1XAMeiVQDAnGMAyaZkANO0
+        bgDFo3QAyKZzAMurcgDCo30AzK17AM+xdgDRs3UA0bN8ANe7fADYvHoADhaCAAUSmgAMGqcAEB6tABYm
+        twAdM7oAJTCrACM3uAArVZkAYWSrAB0twAAgL8EAJTbHAC0+0QA3RcYANkfUADlU2wA9VeEAQE7JAENV
+        zQBIV9QATWLdAFVk1gBffN4AYG/fAGN92QByf98AQlviAEhn5QBUaeMATHLoAFN46ABnfecAOauAAD2w
+        hQBHm4oAdoWcAEmphABTpoQAWqSFAFipiABCtowAR7uRAFW7lgBzoooAZraZAHK9nwB9u6IAT8GZAFrC
+        nQBgwp4AXcaiAGXKpgBzx6kAbtGvAHHQrQBv07EAddKzAHnStAB/1rkAfdm6AFOaxgBqh9wAfI7bAFyg
+        wABmr8YAZ7LFAFuF7ABpi+gAdoflAGeT7wB4l+kAb5vxAHee8AB3pfMAhbCbALa8hADHp4MAy7OEAM21
+        jQDUuYYAzrSaANS6kgDTvJkA1b6iAJrDsQCA17oAhNu+ANzCgwDhyosA4s6WAObTlQDWwKgA18yzANzL
+        tADf1L4AgJPbAI6n3ACQo94AhJHrAIWn6QCTo+4Ah6fxAIi39gCZv/cAqbjkAIndwgCV3cQAu9bMAL/Z
+        zgC/zN0AjuDGAJfjywCc6NAAo+nTALnx3wCXyPoAqs3sALXG5QCny/kArdH6ALTY/AC68uEAw9XMAMXa
+        0QDf3d0A4dTAAODf3gDU4NkA2+HvAMz16ADF5f0A3uLxAOjn5gDk5+wA6+rqAPDv7gDz8e8A6+71AO/y
+        8AD19fUA/v7+AAAAAAD///8AAAAAAADIyMjIyMjIyMjIyMjIyMjIyMjIyMjIAAAAAAAAAMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMjIyAAAAADIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgAAMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyADIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIAMjI
+        yMjIyMjIyMjIyP/////////IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjI///////////IyMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyP/////IbP///8jIyMjIyMjIyMjIyMjIyMjIyMjIyMj/////yMjI/////8jIyMjI
+        yMjIyMjIyMjIyMjIyMjI///////IyMjI/////8jIyMjIyMjIyMjIyMjIyMjIyMj/////yMjIyMj/////
+        yMjIyMjIyMjIyMjIyMjIyMjI/////8jIyMjIyMj/////yMjIyMjIyMjIyMjIyMjIyP//////yMjIyMjI
+        yMj/////yMjIyMjIyMjIyMjIyMjI/////8jIyMjIyMjIyP//////yMjIyMjIyMjIyMjIyP///8jIyMjI
+        yC3IyMjIyMj////LyMjIyMjIyMjIyMj/////yMjIyMgfLS3IyMjIyP/////IyMjIyMjIyMjIyP//y8jI
+        yMjIyC0tLS3IyMjIyMj////IyMjIyMjIyMj////IyMjIyMjJLS0tLcjIyMjIyP///8jIyMjIyMjI////
+        yMjIyMjIyC0tLS0ty8jIyMjIyP///8jIyMjIyMj////IyMjIyMgtLS0tLS0tyMjIyMjIy///yMjIyMj/
+        ////yMjIyMjIyP/JyMjIyP//yMjIyMjI/////8jIyP///////8jIyMjI///IyMj////IyMjIyP//////
+        yMjIyP/////////IyP///2zIyP///8jI/////////8jIyMjIyMj/////////////yMjIyP//////////
+        /8jIyMjIyMjIyMj////////////IyMjI//////////9syMjIyMjIyMjIyMjIyP//////yMjIyMj/////
+        /8jIyMjIyMjIyMjIyMjIyMjIyP///8jIyMjIyMj////IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyADIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIAADIyMjIyMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMgAAMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIAAAAAADIyMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMjIAAAAAPgAAB/AAAAHgAAAAYAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAABgAAAAYAAAAPgAAAPKAAAABgAAAAwAAAAAQAIAAAAAABAAgAAAAAAAAAA
+        AAAAAQAAAAEAAAAAAABKNDoAHF86AB1iPAAwK14AHmZAAB1oQwAnYkAAIGxGACFuSAAjc0wALXNPACV2
+        UAAlelMAKX1XADF4VgA4fF0ALWJuAHxnXgBgV30AgUEJAIFCDQCDRQ8AiEcNAIdIDQCHSRIAjU0SAIpN
+        FQCMUBcAjFYbAJFSFQCSVBYAllkbAJleHgCRWiAAll8hAJNeJwCQXCgAl2MlAJxjIgCXZSoAnWUoAJ1s
+        LgCMYzUAmmw6AKBuJwChaigAom8sAKVxLgCjcjMAq3o0AKVyPQCjdTwArX49AKl3QQCsfEYAqnpMACqD
+        WwAtimIANY1oAD6ObAA/lXEAMppwADWhdwBGiGcASI5tAFODZwBTj3MAS5R0AE2begBjk3kARqF8AK+B
+        OwC1iD4Ar4BDAK6CSwCxgkEAs4hCALiNRACzhU0Av5VIAKyDUACoglcAroBYALaLUQC2jVEAto5YALuR
+        VAC/mVQAt5BZALyUWwC/mF0AvZZlAL+bYwC9mXMApqBoAKuobwCvr3YAsrZ+AMGaTQDDnVIAzaxmAMWj
+        bQDGo3EAyKZ2AMatcgDLq3IAza10ANGzdwDRtH4AExuFAAgRlwAIFpsADhmkAA0bqQARHakAEB+wABEg
+        rwATIrQAFye6ABkmuAAaKrwAIDmwAClTlQA7SL4AW1qSAB0rwAAhMsQAKzvKAD9NyAAyRdUAO0vTADlN
+        3QA4aMoAPFTgAD5Y4gBEUs0ARFPRAEtc1ABHacwAQHbMAFFxzQBZdc8ARGPYAEpm3gBSZNAATXvQAF5+
+        3ABpdt0AQl/jAERk5ABHaeYAS27nAExy6ABUcOYAX3DlAFF16ABUfeoAZXXkAG164gBxfuIARZOHAE+t
+        hwBQo4AAW6WHAFWohgBNsYwAZaGGAGakigBoposAYaiKAHOnkAByq5IAe6mUAHO6ngBex6IAasKiAGbM
+        qQBtz64Ad8yuAG7SsAB21bUAT4DFAFuDyABZktAAYo/MAH+P2QB7ltkAV4HrAF2H7QBpgukAYo7rAHWC
+        4gBwhekAZpTvAHqb4wBzk+0AfJXtAGyZ8AB1oPIAfqz0AJWPnwCfq44Atr2FANe9iADVv58AhNa6AInV
+        uwDawo4A38iJAN7IkwDjz5oA2ciqANzRuwDo1qIAkJvtAIaf8ACIouAAlKTkAJKi7gCLuOQAnbPgAJK4
+        9gCL3cIAkd7FAJ7dxwCl3soAnefPAKTlzwCg59AAturZAJLA+AC1xOUAuMPnAKHG+ACyzvkArdP6ALbb
+        /AC88uEAu+L+AMbb0gDi08IA4N/eANrf7QDZ3vEA2+jhAN/i6ADG8uQA4uDgAOrm4ADq6egA8OvlAPDt
+        6ADy8/EA+Pj4AP///wAAANHR0dHR0dHR0dHR0dHR0dHR0dHRAAAA0dHR0dHR0dHR0dHR0dHR0dHR0dHR
+        0QDR0dHR0dHR0dHRANHR0dHR0dHR0dHR0dHR0dHR0dHR0dHRAADRAADR0dHR0dHR0dHR0dHR0dHR0dEA
+        AADRAAAA0dHR0dHR0dHR0dHR0dHR0QAAANHRAAAA0dHR0dHR0dHR0dHR0dHRbAAA0dHR0QAAANHR0dHR
+        0dHR0dHR0dHRAAAA0dHR0dEAAADR0dHR0dHR0dHR0dEAAADR0dHR0dHRAABl0dHR0dHR0dHR0QAAANHR
+        0dEu0dHRAAAA0dHR0dHR0dHR0QAAANHR0S4u0dHR0QAAANHR0dHR0dHRAAAA0dHR0S4uLtHR0dEAAADR
+        0dHR0dEAAADR0dHRLi4uLtHR0dEAAADR0dHR0QAAANHR0dHRLi4uLi7R0dHRAAAA0dHR0QAAANHR0dEh
+        Li4uLi7R0dHR0QAAANHRAAAAANHR0dEAANHR0QAA0dHRAAAAAADR0QAAAAAA0foAANHRAAAA0QAAAAAA
+        8dHR0dHRAAAAAAAAANHR0QAAAAAAAADR0dHR0dHR0dEAAAAA0dHR0QAAAAAA0dHR0dHR0dHR0dHR0QAA
+        0dHR0dEA0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR
+        0dEA0dHR0dHR0dHR0dHR0dHR0dHR0dHR0QAAANHR0dHR0dHR0dHR0dHR0dHR0dHRAADAAAMAgAABAAAg
+        AAAANgAAAHcAAADnAAAAw4AAAcHAAAOAwAAHAOAABwBwAA4AOAAcADgAOAAcADgADgB4Yx8APmd8AA/j
+        +AADw+AAAMEAAAAAAAAAAAAAgAABAMAAAwAoAAAAEAAAACAAAAABAAgAAAAAAAABAAAAAAAAAAAAAAAB
+        AAAAAQAAAAAAAFQ5KAATXzoAEmA5ABtiPwAbZUEAHmZBABlpRAAddU8AGnxQACR+VgAzdVQAbXNGAItL
+        EACRUhMAklQWAJleGgCYXR4AnmYlAJtoKwCcajwAoWokAKNvKACnciYAonAtAKp1KgCibTgApXM1AKVw
+        OACjdDwArHk7AKp4PwCaaUIAo3JEAK5+RACpekgAI4NaACaNYAB6jFkAQ4VlAEOLaABIimsAV4dtAE+Q
+        aQBZjXEAVpV2AF2cfwCzhDsAr4FOALaKTwC6kEoAsIRTALSIWAC6kF8AgJllAL2aYQC+mGUAiqlwAMKZ
+        SQDEn1cA0qtZAMWfYADIp3IAyqt7AN68egDx0H8ACheOAAMUqQAJGrYAESCyABUmvQAYJ7oAGiW/AC45
+        twBSb5AAa22eAEtOqwAVJ8cAHS3BACIzxgAyPsYAJDviAC9AzwA1QsAANUTLADlEyAA9SdIAOVngAD5a
+        4gBPXMMARlrcAFBe1QBPbcUAV2TTAFJl3wBcadgAYnDdAEZb4QBBYuUAR2jmAE926QBXfeoAS5CBAEiq
+        hABcoYQAW7WTAFy9mABhpYgAXM2dAG7GpgByzq8Aeda2AHvbsgBelfEAYo3tAHqF5gB5i+sAfozqAHeN
+        9ABumPAAcJP7AIGAnADDoYEAwqGFAMWqgwDJq4YAzrCEAM+1jADStowAgsGoAILOqwCEzLMA2sOXAODG
+        lwDdx6kA3cmpAIWQ5gCFn+8Ai6HvAJ+l5QCVr/QAhrD/AK218gCX2cMAt9fJAL3ezgCl5M4AsOrYALLt
+        2wCKwv0AvcLvAKfH+AC71PkAu9v8AL7j/gDo2skAyefcAPPjxwDQ1fUA2d/6ANHp4ADF8uQA2PjuAPXu
+        5ADn8+4A5u38APL59wD9/PkA+fr/AP/+/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////AAAAAISEhISEhISEhIQAAAAAhISEhISEhISEhISEhIQAhISEhIWFhYWFhYSFhYWEhIWF
+        hIWFhYWE/4SEhYWFhIWFhYWFQP//hIT//4WFhYSFhYWFhf///4SE////hYWEhYWFhYX//4WEhYX//4WF
+        hIWFhYX//4SEGIWFhf+FhYSFhYX//4SEhRgYhYWF/4WEhYWF/4SEhRIYGIWFhf//hISF//+EhYX/hYX/
+        hIX///+FhYX//4Wb/4X//4X///+EhYSEhIX///+Fhf///4WFhIWEhIWEhP//hYX/hYWFhYSFAISEhIWE
+        hYSFhIWEhISEAAAAhIWFhYWFhYWFhYWEAADgBwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAADAAwAA
+</value>
+  </data>
+  <data name="&gt;&gt;runBusyLed.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ZLOnlineLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="autoTrayInitBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 30</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn6.Name" xml:space="preserve">
+    <value>toolStripBtn6</value>
+  </data>
+  <data name="singleModeLed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>252</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn3.Name" xml:space="preserve">
+    <value>toolStripBtn3</value>
+  </data>
+  <data name="autoModBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 586</value>
+  </data>
+  <data name="LabRunRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>263</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upCamBtn.Name" xml:space="preserve">
+    <value>upCamBtn</value>
+  </data>
+  <data name="hWindowControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 325</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>普通IO</value>
+  </data>
+  <data name="&gt;&gt;aLarmPauseLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabChecksum.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;autoModBtn.Name" xml:space="preserve">
+    <value>autoModBtn</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabTargetC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 88</value>
+  </data>
+  <data name="skinButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;labelZ1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="xLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelZ1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="btnEngineerSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="LabYield.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="labelZ1.Text" xml:space="preserve">
+    <value>Z1轴当前值:</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="修改密码ToolStripMenuItem.Text" xml:space="preserve">
+    <value>修改密码</value>
+  </data>
+  <data name="label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 109</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelZ4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEngineerSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="&gt;&gt;singleModBtn.Name" xml:space="preserve">
+    <value>singleModBtn</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>248</value>
+  </data>
+  <data name="xBLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="toolStripMenuItem6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="删除用户ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="yLab.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="PlatePanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 10, 0</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>254</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn1.Name" xml:space="preserve">
+    <value>toolStripBtn1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;snapMenuBtn.Name" xml:space="preserve">
+    <value>snapMenuBtn</value>
+  </data>
+  <data name="skinButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoTrayOnlineLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 37</value>
+  </data>
+  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>IC型号:</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>投入数:</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>PlatePanel</value>
+  </data>
+  <data name="toolStripBtn5.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;z1Lab.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Pan3Pnl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="z1Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 193</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="&gt;&gt;lbLed11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PenEnable2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;upCamBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>PlatePanel</value>
+  </data>
+  <data name="&gt;&gt;LabRejectRatio.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="z3Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn11.Name" xml:space="preserve">
+    <value>toolStripBtn11</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 280</value>
+  </data>
+  <data name="bredeTCPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 30</value>
+  </data>
+  <data name="&gt;&gt;skinButton5.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="skinButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabTIC_DoneC.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LabBrand.TabIndex" type="System.Int32, mscorlib">
+    <value>265</value>
+  </data>
+  <data name="&gt;&gt;PlatePanel.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="toolStripBtn8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="singleModBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;PenEnable1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>268</value>
+  </data>
+  <data name="LabOKDoneC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="z3Lab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabChecksum_Chip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 2</value>
+  </data>
+  <data name="skinButton3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label59.TabIndex" type="System.Int32, mscorlib">
+    <value>297</value>
+  </data>
+  <data name="skinMenuStrip1.BaseItemMouse" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAQFJREFUSEut
+        0jlKg1EAReE0IiKIEEQQshALKwu7OOIYiQPiAlyA2ApmJCG9kCJNqjSpwg9pUtj964nn7OE+OMV9xVc8
+        XoVTpSOqh9LSrJyUZfm7Xq//EmlpCp9ysaLvUCtN4TPGkj5DLTWFzxkL+gi10BS+YMzpPdRcU/iSMaP7
+        UDNN4SvGlOqhpprC14wJHYeaaArfMMZ0GGqsKXzLGNFBqJGmsA8+pP1QQ03hB8aA9kINNIUbDqqGEm4I
+        PzL6tBuqryncZPRoJ1RPU/iJ0aXtUF1N4WdGh7ZCdTSFXxht2gzV1hR+ZbRoI1RLU/iuKIovLn4SaWkK
+        18gP/RYKq1L7Bw8AN9TW9zQtAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;运行计数ToolStripMenuItem.Name" xml:space="preserve">
+    <value>运行计数ToolStripMenuItem</value>
+  </data>
+  <data name="btnEngineerSetting.Text" xml:space="preserve">
+    <value>工程设置</value>
+  </data>
+  <data name="&gt;&gt;切换用户ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabYield.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="autoModLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;runBusyLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pan1Pnl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabPauseTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="productLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 151</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="&gt;&gt;z4Lab.Name" xml:space="preserve">
+    <value>z4Lab</value>
+  </data>
+  <data name="注册用户ToolStripMenuItem.Text" xml:space="preserve">
+    <value>用户注册</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;PenEnable3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;LabYield.Name" xml:space="preserve">
+    <value>LabYield</value>
+  </data>
+  <data name="z2Lab.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStripBtn7.Name" xml:space="preserve">
+    <value>toolStripBtn7</value>
+  </data>
+  <data name="toolStripBtn9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbLed10.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="ZLOnlineLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 37</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlatePanel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 69</value>
+  </data>
+  <data name="hWindowControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 183</value>
+  </data>
+  <data name="skinButton2.Text" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="&gt;&gt;修改密码ToolStripMenuItem.Name" xml:space="preserve">
+    <value>修改密码ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;xBLab.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="toolStripBtn11.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;yLab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AutoTrayOnlineLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BredeOnlineLed.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="&gt;&gt;hWindowControl1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;homeBusyLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabAlarmCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripBtn8.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripBtn3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="运行计数ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="&gt;&gt;singleModBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelZ2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;label59.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yBLab.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="runBusyLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 36</value>
+  </data>
+  <data name="BredeOnlineLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabRunRatio.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="Pan1Pnl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="toolStripBtn4.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BurnOnlineLed.TabIndex" type="System.Int32, mscorlib">
+    <value>293</value>
+  </data>
+  <data name="toolStripMenuItem3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="PenEnableSGB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="skinButton6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelZ3.Name" xml:space="preserve">
+    <value>labelZ3</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 264</value>
+  </data>
+  <data name="&gt;&gt;LabChecksum_Chip.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yBLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="homeBusyLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;Pan3Pnl.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;LabStartTime.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;systemBusyLed.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="toolStripBtn7.Text" xml:space="preserve">
+    <value>功能开关</value>
+  </data>
+  <data name="lbLed6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="downCamBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="autoTrayInitBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 619</value>
+  </data>
+  <data name="toolStripBtn5.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;labelZ4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pnlProgrammer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinButton6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>264</value>
+  </data>
+  <data name="Pan2Pnl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 10, 0</value>
+  </data>
+  <data name="LabRejectRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabStartTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;LabDevice.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="toolStripBtn3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="&gt;&gt;LabChecksum.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnEngineerSetting.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="skinMenuStrip1.Text" xml:space="preserve">
+    <value>skinMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;LabStartTime.Name" xml:space="preserve">
+    <value>LabStartTime</value>
+  </data>
+  <data name="&gt;&gt;labelZ3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="toolStripBtn14.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="LabUPH.TabIndex" type="System.Int32, mscorlib">
+    <value>249</value>
+  </data>
+  <data name="&gt;&gt;Pan2Pnl.Name" xml:space="preserve">
+    <value>Pan2Pnl</value>
+  </data>
+  <data name="&gt;&gt;BredeOnlineLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="lbLed5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 5</value>
+  </data>
+  <data name="labelZ3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 235</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem6.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 586</value>
+  </data>
+  <data name="&gt;&gt;autoModLed.Name" xml:space="preserve">
+    <value>autoModLed</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 214</value>
+  </data>
+  <data name="&gt;&gt;xLab.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbLed2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;hWindowControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PenEnable1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;label59.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;downCamBtn.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;hWindowControl1.Name" xml:space="preserve">
+    <value>hWindowControl1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="xLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;timerShowWnd.Name" xml:space="preserve">
+    <value>timerShowWnd</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="skinButton5.Text" xml:space="preserve">
+    <value>回原点</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>良品数:</value>
+  </data>
+  <data name="skinButton3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="upCamBtn.Text" xml:space="preserve">
+    <value>上相机</value>
+  </data>
+  <data name="z1Lab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelZ1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabPauseTime.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="删除用户ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>删除用户</value>
+  </data>
+  <data name="PlatePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="autoModBtn.Text" xml:space="preserve">
+    <value>自动模式</value>
+  </data>
+  <data name="&gt;&gt;BredeOnlineLed.Name" xml:space="preserve">
+    <value>BredeOnlineLed</value>
+  </data>
+  <data name="&gt;&gt;Pan1Pnl.Parent" xml:space="preserve">
+    <value>PlatePanel</value>
+  </data>
+  <data name="LabChecksum_Chip.ToolTip" xml:space="preserve">
+    <value>11111</value>
+  </data>
+  <data name="toolStripBtn5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;aLarmPauseLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PenEnable4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabDevice.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="toolStripBtn5.Text" xml:space="preserve">
+    <value>IO监控</value>
+  </data>
+  <data name="&gt;&gt;LabTIC_DoneC.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lbLed5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;productLab.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="labelZ3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.Name" xml:space="preserve">
+    <value>skinButton4</value>
+  </data>
+  <data name="lbLed4.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="checkInitOKLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 654</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;烧录座计数ToolStripMenuItem.Name" xml:space="preserve">
+    <value>烧录座计数ToolStripMenuItem</value>
+  </data>
+  <data name="toolStripBtn9.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;skinMenuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BurnOnlineLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 697</value>
+  </data>
+  <data name="ZLOnlineLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="lbLed4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;lbLed8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="singleModeLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripMenuItem7.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="z3Lab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabTargetC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BurnOnlineLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 37</value>
+  </data>
+  <data name="&gt;&gt;bredeTCPower.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelZ2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 67</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>248</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 651</value>
+  </data>
+  <data name="&gt;&gt;skinButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinButton6.Text" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;PenEnable3.Parent" xml:space="preserve">
+    <value>PenEnableSGB</value>
+  </data>
+  <data name="PenEnable3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="toolStripBtn13.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>自动烧录系统 Ver </value>
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PlatePanel.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>262</value>
+  </data>
+  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;singleModBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PenEnable1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>IC厂牌:</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabChecksum_Chip.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="textBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label58.Text" xml:space="preserve">
+    <value>X轴编码值:</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 109</value>
+  </data>
+  <data name="&gt;&gt;lbLed11.Name" xml:space="preserve">
+    <value>lbLed11</value>
+  </data>
+  <data name="productLab.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LabUPH.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabRejectRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="&gt;&gt;LabYield.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PenEnable4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 21</value>
+  </data>
+  <data name="upCamBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pan3Pnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 260</value>
+  </data>
+  <data name="LabPauseTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 172</value>
+  </data>
+  <data name="label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="downCamBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;singleModeLed.Name" xml:space="preserve">
+    <value>singleModeLed</value>
+  </data>
+  <data name="skinMenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripBtn3.Text" xml:space="preserve">
+    <value>统计计数</value>
+  </data>
+  <data name="xLab.Text" xml:space="preserve">
+    <value>0000.00</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>报警次数:</value>
+  </data>
+  <data name="Pan3Pnl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt, style=Bold</value>
+  </data>
+  <data name="Pan1Pnl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;xLab.Name" xml:space="preserve">
+    <value>xLab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="runBusyLed.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="toolStripMenuItem6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ZLOnlineLed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PenEnable2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="homeOKLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 654</value>
+  </data>
+  <data name="PenEnable2.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="LabStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStripBtn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinMenuStrip1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinMenuStrip, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="yLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 172</value>
+  </data>
+  <data name="autoModLed.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="修改密码ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="&gt;&gt;label59.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="PenEnable2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 21</value>
+  </data>
+  <data name="&gt;&gt;yLab.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;productLab.Name" xml:space="preserve">
+    <value>productLab</value>
+  </data>
+  <data name="&gt;&gt;toolStripBtn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkInitOKLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ZLOnlineLed.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabStartTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabTargetC.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="skinMenuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>218</value>
+  </data>
+  <data name="BredeOnlineLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="PenEnable3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabBrand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="skinButton2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="skinButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>不良率:</value>
+  </data>
+  <data name="hWindowControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbLed8.Parent" xml:space="preserve">
+    <value>Pan3Pnl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 619</value>
+  </data>
+  <data name="&gt;&gt;productLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripBtn8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Pan1Pnl.Name" xml:space="preserve">
+    <value>Pan1Pnl</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>UPH:</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;z3Lab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PenEnable3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 21</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;homeOKLed.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="aLarmPauseLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 654</value>
+  </data>
+  <data name="&gt;&gt;labelZ2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="toolStripBtn7.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabPauseTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;skinMenuStrip1.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;lbLed5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LabOKDoneC.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;systemBusyLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="toolStripBtn13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="&gt;&gt;labelZ1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="autoModLed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelZ1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="xLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 151</value>
+  </data>
+  <data name="LabYield.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 67</value>
+  </data>
+  <data name="toolStripBtn1.Text" xml:space="preserve">
+    <value>用户管理</value>
+  </data>
+  <data name="&gt;&gt;xLab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;autoModBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabUPH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 88</value>
+  </data>
+  <data name="&gt;&gt;yBLab.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PenEnable4.Parent" xml:space="preserve">
+    <value>PenEnableSGB</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 193</value>
+  </data>
+  <data name="z2Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 214</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelZ2.TabIndex" type="System.Int32, mscorlib">
+    <value>238</value>
+  </data>
+  <data name="labelZ4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabDevice.Name" xml:space="preserve">
+    <value>LabDevice</value>
+  </data>
+  <data name="skinMenuStrip1.BaseItemDown" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAQJJREFUSEut
+        1LlKg0EAReEfREQEEUQF67yEtYWdhWUQRcQFQVwRUVCzkY28QZpUqYJFqvxNKiFvFc95hztwijvFV0wx
+        BWeXjqgaSkuzOCnL8mW5XP4k0tIUPuWiRiuhaprCZ4w6rYaqawqfMxq0FqqhKXzBaNJ6qKam8CWjRRuh
+        WprCV4w2bYZqawpfMzq0FaqjKXzL6NJ2qK6m8B2jRzuheprC94w+7YXqawo/MAa0H2qgKfzEGNJBqKGm
+        sB/QiA5DjTSFXxljOg411hR+Y0yoGmqiKfzOmNJNqKmm8AdjRr51opmm8CdjTt+h5prCj4vF4peLv0Ra
+        msIVeqavUFhF5R+ODjA2gmw0KQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;labelZ2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;skinButton6.Name" xml:space="preserve">
+    <value>skinButton6</value>
+  </data>
+  <data name="yLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="skinButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 35</value>
+  </data>
+  <data name="&gt;&gt;BurnOnlineLed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;autoModLed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LabChecksum_Chip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="AutoTrayOnlineLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="z4Lab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="downCamBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>MES接口</value>
+  </data>
+  <data name="skinButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 35</value>
+  </data>
+  <data name="PenEnable2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 30</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>X轴当前值:</value>
+  </data>
+  <data name="&gt;&gt;label58.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LabTIC_DoneC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;autoTrayInitBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;autoModLed.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Pan2Pnl.ToolTip" xml:space="preserve">
+    <value>aaa</value>
+  </data>
+  <data name="&gt;&gt;BurnOnlineLed.Name" xml:space="preserve">
+    <value>BurnOnlineLed</value>
+  </data>
+  <data name="singleModBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripMenuItem3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;LabRejectRatio.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="lbLed8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LabTargetC.TabIndex" type="System.Int32, mscorlib">
+    <value>247</value>
+  </data>
+  <data name="&gt;&gt;PlatePanel.Name" xml:space="preserve">
+    <value>PlatePanel</value>
+  </data>
+  <data name="skinButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 775</value>
+  </data>
+  <data name="yLab.TabIndex" type="System.Int32, mscorlib">
+    <value>241</value>
+  </data>
+  <data name="lbLed5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkInitOKLed.Name" xml:space="preserve">
+    <value>checkInitOKLed</value>
+  </data>
+  <data name="toolStripBtn10.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;AutoTrayOnlineLed.Name" xml:space="preserve">
+    <value>AutoTrayOnlineLed</value>
+  </data>
+  <data name="LabPauseTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 172</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>270</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="BredeOnlineLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 37</value>
+  </data>
+  <data name="Pan1Pnl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lbLed2.Name" xml:space="preserve">
+    <value>lbLed2</value>
+  </data>
+  <data name="lbLed4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;yBLab.Name" xml:space="preserve">
+    <value>yBLab</value>
+  </data>
+  <data name="labelZ4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="bredeTCPower.TabIndex" type="System.Int32, mscorlib">
+    <value>248</value>
+  </data>
+  <data name="&gt;&gt;xLab.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="LabRejectRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>261</value>
+  </data>
+  <data name="&gt;&gt;skinMenuStrip1.Name" xml:space="preserve">
+    <value>skinMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;xBLab.Name" xml:space="preserve">
+    <value>xBLab</value>
+  </data>
+  <data name="&gt;&gt;LabPauseTime.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;z4Lab.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="Pan3Pnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 3</value>
+  </data>
+  <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>运行率:</value>
+  </data>
+  <data name="&gt;&gt;labelZ1.Name" xml:space="preserve">
+    <value>labelZ1</value>
+  </data>
+  <data name="LabBrand.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="autoModLed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;autoTrayInitBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LabChecksum_Chip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="lbLed5.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="LabTIC_DoneC.TabIndex" type="System.Int32, mscorlib">
+    <value>257</value>
+  </data>
+  <data name="homeBusyLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 654</value>
+  </data>
+  <data name="LabAlarmCount.TabIndex" type="System.Int32, mscorlib">
+    <value>253</value>
+  </data>
+  <data name="bredeTCPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 586</value>
+  </data>
+  <data name="&gt;&gt;lbLed4.Name" xml:space="preserve">
+    <value>lbLed4</value>
+  </data>
+  <data name="&gt;&gt;注册用户ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabChecksum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabOKDoneC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="切换用户ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="labelZ2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="lbLed6.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="LabYield.TabIndex" type="System.Int32, mscorlib">
+    <value>247</value>
+  </data>
+  <data name="singleModeLed.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="xBLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelZ1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;timerDog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="z4Lab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 256</value>
+  </data>
+  <data name="label13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="yBLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="productLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;z1Lab.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="toolStripBtn2.Text" xml:space="preserve">
+    <value>产品管理</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;PenEnableSGB.Name" xml:space="preserve">
+    <value>PenEnableSGB</value>
+  </data>
+  <data name="&gt;&gt;upCamBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbLed11.Type" xml:space="preserve">
+    <value>LBSoft.IndustrialCtrls.Leds.LBLed, LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LabChecksum_Chip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="PenEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 21</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;LabOKDoneC.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="homeOKLed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;PenEnable3.Name" xml:space="preserve">
+    <value>PenEnable3</value>
+  </data>
+  <data name="&gt;&gt;labelZ4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinButton5.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;LabUPH.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lbLed2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="timerDog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>448, 18</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>699, 17</value>
+  </metadata>
+  <metadata name="hWindowControl1.LayoutBitmap" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timerShowWnd.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>556, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>46</value>
+  </metadata>
+  <metadata name="skinMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>312, 17</value>
+  </metadata>
+</root>

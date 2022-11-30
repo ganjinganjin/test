@@ -1,0 +1,1527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnSaveZ4Height.Text" xml:space="preserve">
+    <value>【保存】吸笔4到定位孔高度</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ValueEmptyICLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>841, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnGOZ2Height.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="BtnSavaICHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label78.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSaveZ2Height.Text" xml:space="preserve">
+    <value>【保存】吸笔2到定位孔高度</value>
+  </data>
+  <data name="BtnModify.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 58</value>
+  </data>
+  <data name="skinGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt, style=Bold</value>
+  </data>
+  <data name="BtnSavaICHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 42</value>
+  </data>
+  <data name="BtnSaveHeightDifference.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnModify.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="BtnGOZ2Height.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDown4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 64</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ3Height.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;NudCalibrating_Z.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="skinGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 112</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 37</value>
+  </data>
+  <data name="GbxFeeder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="skinGroupBox1.Text" xml:space="preserve">
+    <value>管编盘高度</value>
+  </data>
+  <data name="ValueEmptyICLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;BtnSavaICHeight.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
+    <value>numericUpDown2</value>
+  </data>
+  <data name="&gt;&gt;ValueExistICLab.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="&gt;&gt;BtnSavaICHeight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ1Height.Name" xml:space="preserve">
+    <value>BtnSaveZ1Height</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label78.TabIndex" type="System.Int32, mscorlib">
+    <value>297</value>
+  </data>
+  <data name="BtnSaveZ3Height.Text" xml:space="preserve">
+    <value>【保存】吸笔3到定位孔高度</value>
+  </data>
+  <data name="BtnSaveZ4Height.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ1Height.Name" xml:space="preserve">
+    <value>BtnGOZ1Height</value>
+  </data>
+  <data name="ValueExistICLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="Altimeterlab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="skinGroupBox3.Text" xml:space="preserve">
+    <value>取料比放料高度差</value>
+  </data>
+  <data name="BtnSaveZ2Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 42</value>
+  </data>
+  <data name="numericUpDown1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10.5pt, style=Bold</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ4Height.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinRadioButton1.Text" xml:space="preserve">
+    <value>料盘</value>
+  </data>
+  <data name="BtnSaveZ3Height.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ4Height.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Altimeterlab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="skinRadioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="skinRadioButton3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SaveValueExistICBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnAutoGetHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 663</value>
+  </data>
+  <data name="skinGroupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="numericUpDown4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="BtnAutoGetHeight.Text" xml:space="preserve">
+    <value>自动获取高度</value>
+  </data>
+  <data name="skinGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveZ1Height.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;scketPosPnl.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AltimeterBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnSaveZ3Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinRadioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 65</value>
+  </data>
+  <data name="BtnSaveZ2Height.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveHeight.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ICHeightLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 43</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="skinGroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnSaveHeightDifference.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveZ4Height.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnGOHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinRadioButton1.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="BtnModify.Text" xml:space="preserve">
+    <value>【修正】</value>
+  </data>
+  <data name="BtnGOZ2Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 42</value>
+  </data>
+  <data name="skinGroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>301</value>
+  </data>
+  <data name="&gt;&gt;BtnSavaAltimeterHeight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="skinRadioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;BtnModify.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SaveValueExistICBtn.Name" xml:space="preserve">
+    <value>SaveValueExistICBtn</value>
+  </data>
+  <data name="BtnSaveZ1Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 42</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ4Height.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="AltimeterBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 3</value>
+  </data>
+  <data name="ValueExistICLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HeightDifference.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ4Height.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="numericUpDown3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="numericUpDown4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="AltimeterBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="BtnAutoGetHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>296</value>
+  </data>
+  <data name="NudCalibrating_Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton1.Name" xml:space="preserve">
+    <value>skinRadioButton1</value>
+  </data>
+  <data name="&gt;&gt;Altimeterlab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinRadioButton2.Text" xml:space="preserve">
+    <value>飞达</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnSavaAltimeterHeight.Name" xml:space="preserve">
+    <value>BtnSavaAltimeterHeight</value>
+  </data>
+  <data name="BtnSaveHeight.Text" xml:space="preserve">
+    <value>【保存】高度</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ4Height.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtnGOZ2Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnSavaICHeight.Text" xml:space="preserve">
+    <value>【计算】高度差</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ1Height.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ICHeightLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSaveZ1Height.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSaveZ1Height.Text" xml:space="preserve">
+    <value>【保存】吸笔1到定位孔高度</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveHeightDifference.Name" xml:space="preserve">
+    <value>BtnSaveHeightDifference</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ2Height.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;ICHeightLab.Name" xml:space="preserve">
+    <value>ICHeightLab</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BtnGOHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 602</value>
+  </data>
+  <data name="&gt;&gt;SaveValueEmptyICBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ValueEmptyICLab.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="&gt;&gt;label78.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="skinGroupBox2.Text" xml:space="preserve">
+    <value>测高仪到定位孔高度</value>
+  </data>
+  <data name="skinGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>294</value>
+  </data>
+  <data name="HeightDifference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 33</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown3.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinGroupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BtnModify.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GbxFeeder.Name" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnGOZ3Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 42</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton3.Name" xml:space="preserve">
+    <value>skinRadioButton3</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Name" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="BtnSaveHeightDifference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 27</value>
+  </data>
+  <data name="&gt;&gt;BtnGOAltimeterHeight.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 113</value>
+  </data>
+  <data name="NudCalibrating_Z.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ3Height.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ValueExistICLab.TabIndex" type="System.Int32, mscorlib">
+    <value>259</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="Altimeterlab.TabIndex" type="System.Int32, mscorlib">
+    <value>299</value>
+  </data>
+  <data name="&gt;&gt;scketPosPnl.Name" xml:space="preserve">
+    <value>scketPosPnl</value>
+  </data>
+  <data name="skinRadioButton3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt, style=Bold</value>
+  </data>
+  <data name="numericUpDown3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 34</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 64</value>
+  </data>
+  <data name="BtnGOZ3Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 62</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ3Height.Name" xml:space="preserve">
+    <value>BtnSaveZ3Height</value>
+  </data>
+  <data name="&gt;&gt;ValueEmptyICLab.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnAutoGetHeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnSaveHeightDifference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 58</value>
+  </data>
+  <data name="&gt;&gt;NudCalibrating_Z.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NudCalibrating_Z.TabIndex" type="System.Int32, mscorlib">
+    <value>262</value>
+  </data>
+  <data name="skinRadioButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt, style=Bold</value>
+  </data>
+  <data name="HeightDifference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="numericUpDown3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown3.Name" xml:space="preserve">
+    <value>numericUpDown3</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 42</value>
+  </data>
+  <data name="&gt;&gt;BtnGOAltimeterHeight.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="AltimeterBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>298</value>
+  </data>
+  <data name="BtnSavaICHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>260</value>
+  </data>
+  <data name="BtnSaveZ1Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;numericUpDown4.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="BtnSavaICHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 137</value>
+  </data>
+  <data name="AltimeterBtn.Text" xml:space="preserve">
+    <value>测高仪</value>
+  </data>
+  <data name="&gt;&gt;BtnGOAltimeterHeight.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnGOHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 43</value>
+  </data>
+  <data name="AltimeterBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GbxFeeder.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ValueExistICLab.Name" xml:space="preserve">
+    <value>ValueExistICLab</value>
+  </data>
+  <data name="skinGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt, style=Bold</value>
+  </data>
+  <data name="HeightDifference.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;SaveValueEmptyICBtn.Name" xml:space="preserve">
+    <value>SaveValueEmptyICBtn</value>
+  </data>
+  <data name="NudCalibrating_Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 33</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveHeight.Name" xml:space="preserve">
+    <value>BtnSaveHeight</value>
+  </data>
+  <data name="BtnSaveZ3Height.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SaveValueEmptyICBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnSaveZ1Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 8</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="skinGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>222</value>
+  </data>
+  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="AltimeterBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 31</value>
+  </data>
+  <data name="NudCalibrating_Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BtnGOZ1Height.Text" xml:space="preserve">
+    <value>【GO】吸笔1到定位孔高度</value>
+  </data>
+  <data name="&gt;&gt;SaveValueEmptyICBtn.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="numericUpDown4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ3Height.Name" xml:space="preserve">
+    <value>BtnGOZ3Height</value>
+  </data>
+  <data name="&gt;&gt;label78.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numericUpDown2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Name" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.Text" xml:space="preserve">
+    <value>【保存】测高仪到定位孔高度</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 64</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnGOHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>295</value>
+  </data>
+  <data name="ValueExistICLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 43</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ2Height.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ3Height.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="&gt;&gt;NudCalibrating_Z.Name" xml:space="preserve">
+    <value>NudCalibrating_Z</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveHeightDifference.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton3.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinGroupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
+  </data>
+  <data name="&gt;&gt;ValueEmptyICLab.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton2.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;BtnModify.Name" xml:space="preserve">
+    <value>BtnModify</value>
+  </data>
+  <data name="BtnSaveHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>293</value>
+  </data>
+  <data name="BtnSaveZ3Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="Altimeterlab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ1Height.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="skinRadioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="label78.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnSaveHeightDifference.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 64</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AutoHeightPnl</value>
+  </data>
+  <data name="BtnSaveZ4Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>558, 8</value>
+  </data>
+  <data name="scketPosPnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 362</value>
+  </data>
+  <data name="GbxFeeder.TabIndex" type="System.Int32, mscorlib">
+    <value>292</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ2Height.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="skinRadioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>262</value>
+  </data>
+  <data name="skinRadioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="scketPosPnl.TabIndex" type="System.Int32, mscorlib">
+    <value>251</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 42</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Altimeterlab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 35</value>
+  </data>
+  <data name="skinRadioButton3.Text" xml:space="preserve">
+    <value>编带</value>
+  </data>
+  <data name="BtnGOZ4Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 34</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ2Height.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnSaveZ4Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BtnModify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 27</value>
+  </data>
+  <data name="SaveValueExistICBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnModify.TabIndex" type="System.Int32, mscorlib">
+    <value>263</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ICHeightLab.TabIndex" type="System.Int32, mscorlib">
+    <value>261</value>
+  </data>
+  <data name="HeightDifference.ToolTip" xml:space="preserve">
+    <value>减少该值则增大取料高度，反之亦然</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ICHeightLab.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="Altimeterlab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinGroupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinRadioButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 65</value>
+  </data>
+  <data name="BtnGOZ4Height.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>690, 144</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ3Height.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnSavaICHeight.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="BtnSaveZ3Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 42</value>
+  </data>
+  <data name="numericUpDown3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="ICHeightLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="BtnGOZ1Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 62</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;AltimeterBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="BtnSavaICHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 30</value>
+  </data>
+  <data name="ValueEmptyICLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnSaveZ1Height.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnSavaICHeight.Name" xml:space="preserve">
+    <value>BtnSavaICHeight</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Name" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinRadioButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ValueEmptyICLab.Name" xml:space="preserve">
+    <value>ValueEmptyICLab</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnGOZ1Height.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="BtnGOAltimeterHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ICHeightLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnGOAltimeterHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;BtnGOHeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnGOZ4Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 42</value>
+  </data>
+  <data name="ICHeightLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SaveValueExistICBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>223</value>
+  </data>
+  <data name="BtnSaveHeightDifference.Text" xml:space="preserve">
+    <value>【保存】</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GbxFeeder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 15pt, style=Bold</value>
+  </data>
+  <data name="BtnGOAltimeterHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnSaveZ3Height.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnSaveHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="numericUpDown4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;scketPosPnl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HeightDifference.Parent" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ4Height.Name" xml:space="preserve">
+    <value>BtnSaveZ4Height</value>
+  </data>
+  <data name="SaveValueEmptyICBtn.Text" xml:space="preserve">
+    <value>【保存】烧录座无IC测高值</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ4Height.Name" xml:space="preserve">
+    <value>BtnGOZ4Height</value>
+  </data>
+  <data name="BtnSaveHeightDifference.TabIndex" type="System.Int32, mscorlib">
+    <value>263</value>
+  </data>
+  <data name="GbxFeeder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 43</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinRadioButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt, style=Bold</value>
+  </data>
+  <data name="NudCalibrating_Z.ToolTip" xml:space="preserve">
+    <value>减少该值则增大取料高度，反之亦然</value>
+  </data>
+  <data name="BtnGOAltimeterHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="numericUpDown2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SaveValueExistICBtn.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="SaveValueExistICBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 84</value>
+  </data>
+  <data name="&gt;&gt;BtnGOHeight.Name" xml:space="preserve">
+    <value>BtnGOHeight</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ2Height.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ1Height.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numericUpDown2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10.5pt, style=Bold</value>
+  </data>
+  <data name="skinRadioButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label78.Name" xml:space="preserve">
+    <value>label78</value>
+  </data>
+  <data name="&gt;&gt;HeightDifference.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnModify.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnGOZ3Height.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="&gt;&gt;BtnAutoGetHeight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;HeightDifference.Name" xml:space="preserve">
+    <value>HeightDifference</value>
+  </data>
+  <data name="numericUpDown4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 34</value>
+  </data>
+  <data name="BtnSaveZ2Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 8</value>
+  </data>
+  <data name="ValueExistICLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>841, 83</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="skinGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 603</value>
+  </data>
+  <data name="BtnSaveHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 43</value>
+  </data>
+  <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ValueExistICLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnAutoGetHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAutoGetHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="numericUpDown3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 10.5pt, style=Bold</value>
+  </data>
+  <data name="label78.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="numericUpDown1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ValueExistICLab.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnGOZ2Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 62</value>
+  </data>
+  <data name="BtnGOZ3Height.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;AltimeterBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>GbxFeeder</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveHeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="AltimeterBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDown2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="skinGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>534, 603</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;numericUpDown3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="skinRadioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 65</value>
+  </data>
+  <data name="BtnSavaAltimeterHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="BtnGOZ1Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 42</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton4.Name" xml:space="preserve">
+    <value>skinRadioButton4</value>
+  </data>
+  <data name="SaveValueExistICBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnGOZ4Height.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="BtnGOZ2Height.Text" xml:space="preserve">
+    <value>【GO】吸笔2到定位孔高度</value>
+  </data>
+  <data name="ValueEmptyICLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 43</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveZ1Height.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="ValueEmptyICLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveHeightDifference.Parent" xml:space="preserve">
+    <value>skinGroupBox3</value>
+  </data>
+  <data name="BtnGOZ4Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>558, 62</value>
+  </data>
+  <data name="&gt;&gt;Altimeterlab.Name" xml:space="preserve">
+    <value>Altimeterlab</value>
+  </data>
+  <data name="BtnGOZ1Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnGOZ4Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;NudCalibrating_Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinRadioButton2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnModify.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Altimeterlab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>605, 1</value>
+  </data>
+  <data name="BtnGOZ1Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnSaveHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 602</value>
+  </data>
+  <data name="&gt;&gt;Altimeterlab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SaveValueExistICBtn.Text" xml:space="preserve">
+    <value>【保存】烧录座有IC测高值</value>
+  </data>
+  <data name="numericUpDown1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;BtnAutoGetHeight.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnGOZ3Height.Text" xml:space="preserve">
+    <value>【GO】吸笔3到定位孔高度</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ2Height.Name" xml:space="preserve">
+    <value>BtnGOZ2Height</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ3Height.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnGOZ3Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnGOAltimeterHeight.Text" xml:space="preserve">
+    <value>【GO】测高仪与定位孔重叠位置</value>
+  </data>
+  <data name="AltimeterBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAutoGetHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ValueEmptyICLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scketPosPnl.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label78.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;BtnGOHeight.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveHeight.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label78.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnModify.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ICHeightLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>841, 136</value>
+  </data>
+  <data name="BtnSaveZ2Height.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Altimeterlab.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ4Height.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="SaveValueExistICBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 42</value>
+  </data>
+  <data name="&gt;&gt;GbxFeeder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown4.Name" xml:space="preserve">
+    <value>numericUpDown4</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="BtnSaveZ2Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveZ4Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinRadioButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnSaveZ3Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 8</value>
+  </data>
+  <data name="skinGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 603</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ1Height.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinRadioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 65</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;BtnSavaAltimeterHeight.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="GbxFeeder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 186</value>
+  </data>
+  <data name="&gt;&gt;GbxFeeder.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BtnSavaAltimeterHeight.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="HeightDifference.TabIndex" type="System.Int32, mscorlib">
+    <value>262</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnGOZ4Height.Text" xml:space="preserve">
+    <value>【GO】吸笔4到定位孔高度</value>
+  </data>
+  <data name="&gt;&gt;BtnGOZ2Height.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SaveValueExistICBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton2.Name" xml:space="preserve">
+    <value>skinRadioButton2</value>
+  </data>
+  <data name="skinRadioButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="BtnGOHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>选择参照:</value>
+  </data>
+  <data name="BtnSaveZ1Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;HeightDifference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDown3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnSaveZ2Height.Name" xml:space="preserve">
+    <value>BtnSaveZ2Height</value>
+  </data>
+  <data name="GbxFeeder.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnSavaICHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 716</value>
+  </data>
+  <data name="BtnSaveHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveValueExistICBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ICHeightLab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="skinRadioButton4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnGOZ2Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnGOAltimeterHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 62</value>
+  </data>
+  <data name="GbxFeeder.Text" xml:space="preserve">
+    <value>基础高度校对</value>
+  </data>
+  <data name="BtnGOHeight.Text" xml:space="preserve">
+    <value>【GO】高度</value>
+  </data>
+  <data name="skinGroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 112</value>
+  </data>
+  <data name="ValueExistICLab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveHeightDifference.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="BtnGOAltimeterHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 42</value>
+  </data>
+  <data name="&gt;&gt;ValueExistICLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnGOAltimeterHeight.Name" xml:space="preserve">
+    <value>BtnGOAltimeterHeight</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="BtnSaveZ2Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnGOZ1Height.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSaveHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValueEmptyICLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnAutoGetHeight.Name" xml:space="preserve">
+    <value>BtnAutoGetHeight</value>
+  </data>
+  <data name="skinRadioButton4.Text" xml:space="preserve">
+    <value>料管</value>
+  </data>
+  <data name="BtnGOHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnGOZ3Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;BtnGOHeight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ICHeightLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnSaveZ4Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 42</value>
+  </data>
+  <data name="&gt;&gt;skinRadioButton4.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="BtnAutoGetHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 47</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scketPosPnl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinRadioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AltimeterBtn.Name" xml:space="preserve">
+    <value>AltimeterBtn</value>
+  </data>
+  <data name="scketPosPnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 235</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>

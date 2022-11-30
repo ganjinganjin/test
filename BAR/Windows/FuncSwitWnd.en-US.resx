@@ -1,0 +1,1135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="funcRBtn6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="funcRBtn6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 78</value>
+  </data>
+  <data name="funcRBtn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 26</value>
+  </data>
+  <data name="funcRBtn6.Text" xml:space="preserve">
+    <value>Tube to tray</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 73</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 35</value>
+  </data>
+  <data name="funcRBtn5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="funcRBtn5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 78</value>
+  </data>
+  <data name="funcRBtn5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 26</value>
+  </data>
+  <data name="funcRBtn5.Text" xml:space="preserve">
+    <value>Tube to tape</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 73</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 35</value>
+  </data>
+  <data name="funcRBtn4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="funcRBtn4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 78</value>
+  </data>
+  <data name="funcRBtn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="funcRBtn4.Text" xml:space="preserve">
+    <value>Tape to tray</value>
+  </data>
+  <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 73</value>
+  </data>
+  <data name="label79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 35</value>
+  </data>
+  <data name="funcRBtn3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="funcRBtn3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 35</value>
+  </data>
+  <data name="funcRBtn3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 26</value>
+  </data>
+  <data name="funcRBtn3.Text" xml:space="preserve">
+    <value>Tape to tape</value>
+  </data>
+  <data name="label80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 30</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 35</value>
+  </data>
+  <data name="funcRBtn2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="funcRBtn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 35</value>
+  </data>
+  <data name="funcRBtn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 26</value>
+  </data>
+  <data name="funcRBtn2.Text" xml:space="preserve">
+    <value>Tray to tape</value>
+  </data>
+  <data name="label81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 30</value>
+  </data>
+  <data name="label81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 35</value>
+  </data>
+  <data name="funcRBtn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="funcRBtn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 35</value>
+  </data>
+  <data name="funcRBtn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="funcRBtn1.Text" xml:space="preserve">
+    <value>Tray to tray</value>
+  </data>
+  <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="label82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 35</value>
+  </data>
+  <data name="skinGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="skinGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>638, 120</value>
+  </data>
+  <data name="skinGroupBox1.Text" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="skinGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="skinGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 139</value>
+  </data>
+  <data name="skinGroupBox2.Text" xml:space="preserve">
+    <value>Tape</value>
+  </data>
+  <data name="btnBredeCCD_Check.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="btnBredeCCD_Check.Text" xml:space="preserve">
+    <value>CCD check</value>
+  </data>
+  <data name="btnEmptyCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="btnEmptyCheck.Text" xml:space="preserve">
+    <value>Empty check</value>
+  </data>
+  <data name="dotBBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="dotBBtn.Text" xml:space="preserve">
+    <value>Dot_B</value>
+  </data>
+  <data name="dotABtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10.5pt, style=Bold</value>
+  </data>
+  <data name="dotABtn.Text" xml:space="preserve">
+    <value>Dot_A</value>
+  </data>
+  <data name="GMCheckBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="GMCheckBtn.Text" xml:space="preserve">
+    <value>Film check</value>
+  </data>
+  <data name="braidCheckBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="braidCheckBtn.Text" xml:space="preserve">
+    <value>Braid check</value>
+  </data>
+  <data name="skinGroupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 351</value>
+  </data>
+  <data name="skinGroupBox5.Text" xml:space="preserve">
+    <value>Ration</value>
+  </data>
+  <data name="normCBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="normCBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 27</value>
+  </data>
+  <data name="normCBox.Text" xml:space="preserve">
+    <value>Enable[√ON X OFF]</value>
+  </data>
+  <data name="tarRBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="tarRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 26</value>
+  </data>
+  <data name="tarRBtn.Text" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="okRbtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="okRbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 26</value>
+  </data>
+  <data name="okRbtn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="excitYBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="excitYBtn.Text" xml:space="preserve">
+    <value>Y-Axis</value>
+  </data>
+  <data name="excitXBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="excitXBtn.Text" xml:space="preserve">
+    <value>X-Axis</value>
+  </data>
+  <data name="skinGroupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 351</value>
+  </data>
+  <data name="skinGroupBox4.Text" xml:space="preserve">
+    <value>Axis exciting</value>
+  </data>
+  <data name="skinGroupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 273</value>
+  </data>
+  <data name="skinGroupBox6.Text" xml:space="preserve">
+    <value>Socke</value>
+  </data>
+  <data name="renovateBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="renovateBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="renovateBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 34</value>
+  </data>
+  <data name="renovateBtn.Text" xml:space="preserve">
+    <value>Flip lid</value>
+  </data>
+  <data name="skinGroupBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 6</value>
+  </data>
+  <data name="skinGroupBox7.Text" xml:space="preserve">
+    <value>Rotation Angle</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Seat:</value>
+  </data>
+  <data name="pictureBox_Base.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQIAAAECCAIAAACaLU4HAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAXuSURBVHhe7d1PaxRnAMdx34Rgaz3ZrgZasE1pqKeC
+        iBR6EK0SRHMQfAUGD/655GW0GAt6i0IuLRQUPLRQAp5aFo9iT/FsYeth21+bYQnTGndmZ/+Nn4cPonEz
+        8ww8X7KbnZndd/jAfnjLyQBkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxABiADCBnANDJYXOhcOndm7eb1
+        u+u3Hz96+LTbfbG93ev1+v1+/szf85V8Pf+bx+SReXxpC9CsyWVw4vjSjdWrm/c3nj979leVkcfnu/K9
+        2UJpm9CISWRw+cLyvTvrvz9/XqzruiNbyHaytdL2YUTjzeDKysXNBxuvXv1ZLOQmRraWbWbLpX1BbePK
+        4PSpk3ly/8fLl8XibXpky9l+9lLaL9QwlgxuXVvt/vZrsWDHObKX7Ku0d6iq4Qy+WPr0u2+/KRbppEb2
+        mP2WZgLDazKDr7/68scfvi/W5mRH9pu9l+YDQ2osg5XzZ3/5+adiVU5jZO+ZQ2lWMIxmMsj6e7K1VazH
+        6Y3MQQnU0EAGeTYy3Z8Du0dm4tkRVY2aQV6bTuv1wOtG5uMVM5WMmsHkfy80zMisSvOEPYyUwa1rq8W6
+        m73h/QSGVz+D06dOTuY9snojc/MeM0Oqn8Hd9dvFipvVkRmW5gz/q2YGV1Yuju98oaZGZugMPIZRM4PN
+        BxvFWpvtkXmWZg7/VSeDyxeWmz13enwj83R9Am9UJ4N7d9aLVTYPI7MtzR9KKmdw4vjS6NeRTXJktq7e
+        ZG+VM7ixerVYX/MzMufSUcBulTPYvD8fL453j8y5dBSwW7UMFhc6Ve8rMQsjc3aXF/ZQLYNL584UK2ve
+        RmZeOhYYqJbB2s3rxbKat5GZl44FBqplMPsnULxuOLGCPVTL4PGjh8WymreRmZeOBQaqZfC02y2W1byN
+        zLx0LDBQLYMX29vFspq3kZmXjgUGqmXQ6/WKZTVvIzMvHQsMVMug3+8Xy2reRmZeOhYY8NMAvDaAqhn4
+        TRGtVC0D7xvQStUy8C4yrVQtA+cU0UrVMnCGKa1ULQPXG9BK1TIIV5/RPpUzcC0y7VM5A3emoH0qZxDu
+        U0TL1MnAXetomToZhHuY0iY1M3BHa9qkZgYx+ydWOIGCIdXPwKfd0Br1MwiffUY7jJRB+CRMWmDUDHwu
+        Mi0wagbhU/KZdw1kECvnzz7Z2ipW4vRG5pCZlOYGb9RMBpH1N92fCdm7BqinsQwiz0am9Toh+/VciNqa
+        zCDy2nTyvzvKHr0mZhQNZ7Dj1rXVybyzlr14f4DRjSWDOH3q5N312+M77yhbzva9T0wjxpXBjisrFzcf
+        bDR7Vna2lm06Z44GjTeDHZcvLN+7sz76NWvZQrbj+gEaN4kMdpw4vnRj9erm/Y2q97bI4/Nd+V7XUjIm
+        k8tgYHGhc+ncmbWb1/Pk/vGjh0+73Rfb271er9/v58/8PV/J1/O/eUwe6d4qjNsUMoBZIwOQAcgAQgYg
+        A5ABhAxABiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAygJAByABkACEDkAHIAEIGIAOQAYQMQAYgAwgZ
+        gAxABhAyABmADCBkADIAGUDIAGQAMoCQAcgAZAAhA5AByABCBiADkAGEDEAGIAMIGYAMQAYQMgAZgAwg
+        ZAAyABlAyABkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxABiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAy
+        gJAByABkACEDkAHIAEIGIAOQAYQMQAYgAwgZgAxABhAyABmADCBkADIAGUDIAGQAMoCQAcgAZAAhA5AB
+        yABCBiADkAGEDEAGIAMIGYAMQAYQMgAZgAwgZAAyABlAyABkADKAkAHIAGQAIQOQAcgAQgYgA5ABhAxA
+        BiADCBmADEAGEDIAGYAMIGQAMgAZQMgAZAAygJAByABkACEDkAHIAEIGIAOQAYQMYP++znvv/OPgAXi7
+        /Lvyjxx69+ihg/sWFzqLRzsfd94fONY5vPuf0A5Z2AP55ydHPsji/+zDhc+PffQ37QEP8FEDLnQAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox0.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Lay</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Param</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Take</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Tube:</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Tape:</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Tray3:</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Tray2:</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Tray1:</value>
+  </data>
+  <data name="GbxInks.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="GbxInks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 451</value>
+  </data>
+  <data name="GbxInks.Text" xml:space="preserve">
+    <value>Ink monitoring enabled</value>
+  </data>
+  <data name="ChkInksBraid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="ChkInksBraid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 62</value>
+  </data>
+  <data name="ChkInksBraid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 27</value>
+  </data>
+  <data name="ChkInksBraid.Text" xml:space="preserve">
+    <value>Braid[√ON X OFF]</value>
+  </data>
+  <data name="ChkInksAutoTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="ChkInksAutoTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 29</value>
+  </data>
+  <data name="ChkInksAutoTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 27</value>
+  </data>
+  <data name="ChkInksAutoTray.Text" xml:space="preserve">
+    <value>Auto tray[√ON X OFF]</value>
+  </data>
+  <data name="GbxFeeder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="GbxFeeder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 451</value>
+  </data>
+  <data name="GbxFeeder.Text" xml:space="preserve">
+    <value>Enabled feeder</value>
+  </data>
+  <data name="ChkFeeder2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="ChkFeeder2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 63</value>
+  </data>
+  <data name="ChkFeeder2.Text" xml:space="preserve">
+    <value>Feeder 2#[√ON X OFF]</value>
+  </data>
+  <data name="ChkFeeder1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="ChkFeeder1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="ChkFeeder1.Text" xml:space="preserve">
+    <value>Feeder 1#[√ON X OFF]</value>
+  </data>
+  <data name="skinGroupBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 244</value>
+  </data>
+  <data name="skinGroupBox9.Text" xml:space="preserve">
+    <value>Stacker</value>
+  </data>
+  <data name="ChkOverlay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="ChkOverlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="ChkOverlay.Text" xml:space="preserve">
+    <value>[√ON X OFF]</value>
+  </data>
+  <data name="skinGroupBox10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 139</value>
+  </data>
+  <data name="skinGroupBox10.Text" xml:space="preserve">
+    <value>Pen anomaly</value>
+  </data>
+  <data name="ChkPenAbnormal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="ChkPenAbnormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="ChkPenAbnormal.Text" xml:space="preserve">
+    <value>[√ON X OFF]</value>
+  </data>
+  <data name="skinGroupBox11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="skinGroupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 139</value>
+  </data>
+  <data name="skinGroupBox11.Text" xml:space="preserve">
+    <value>Mode 1</value>
+  </data>
+  <data name="RbtnTestMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="RbtnTestMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 27</value>
+  </data>
+  <data name="RbtnTestMode.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="RbtnNonTestMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="RbtnNonTestMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 27</value>
+  </data>
+  <data name="RbtnNonTestMode.Text" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="skinGroupBox12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="skinGroupBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 245</value>
+  </data>
+  <data name="skinGroupBox12.Text" xml:space="preserve">
+    <value>Tray</value>
+  </data>
+  <data name="RbtnAutoTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="RbtnAutoTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 27</value>
+  </data>
+  <data name="RbtnAutoTray.Text" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="RbtnNonAutoTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="RbtnNonAutoTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 27</value>
+  </data>
+  <data name="RbtnNonAutoTray.Text" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="skinGroupBox13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="skinGroupBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 298</value>
+  </data>
+  <data name="skinGroupBox13.Text" xml:space="preserve">
+    <value>Lay NG</value>
+  </data>
+  <data name="RbtnNGTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="RbtnNGTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 27</value>
+  </data>
+  <data name="RbtnNGTray.Text" xml:space="preserve">
+    <value>Tray</value>
+  </data>
+  <data name="RbtnNonNGTray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="RbtnNonNGTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 27</value>
+  </data>
+  <data name="RbtnNonNGTray.Text" xml:space="preserve">
+    <value>Cup</value>
+  </data>
+  <data name="skinGroupBox14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 297</value>
+  </data>
+  <data name="skinGroupBox14.Text" xml:space="preserve">
+    <value>Synchronize</value>
+  </data>
+  <data name="ChkSyncTakeLay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="ChkSyncTakeLay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="ChkSyncTakeLay.Text" xml:space="preserve">
+    <value>[√ON X OFF]</value>
+  </data>
+  <data name="skinGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="skinGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 192</value>
+  </data>
+  <data name="skinGroupBox3.Text" xml:space="preserve">
+    <value>Mode 2</value>
+  </data>
+  <data name="RbtnNonBurnMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="RbtnNonBurnMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 27</value>
+  </data>
+  <data name="RbtnNonBurnMode.Text" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="RbtnBurnMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 14.25pt</value>
+  </data>
+  <data name="RbtnBurnMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 27</value>
+  </data>
+  <data name="RbtnBurnMode.Text" xml:space="preserve">
+    <value>Burn</value>
+  </data>
+  <data name="skinGroupBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 351</value>
+  </data>
+  <data name="skinGroupBox8.Text" xml:space="preserve">
+    <value>AOI</value>
+  </data>
+  <data name="ChkICPosEnabled2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="ChkICPosEnabled2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 27</value>
+  </data>
+  <data name="ChkICPosEnabled2.Text" xml:space="preserve">
+    <value>Behind[√ON X OFF]</value>
+  </data>
+  <data name="ChkICPosEnabled1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="ChkICPosEnabled1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 27</value>
+  </data>
+  <data name="ChkICPosEnabled1.Text" xml:space="preserve">
+    <value>Before[√ON X OFF]</value>
+  </data>
+  <data name="GbxVision_3D.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="GbxVision_3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 451</value>
+  </data>
+  <data name="GbxVision_3D.Text" xml:space="preserve">
+    <value>2.5D enabled</value>
+  </data>
+  <data name="ChkVision_3D2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="ChkVision_3D2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 62</value>
+  </data>
+  <data name="ChkVision_3D2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 27</value>
+  </data>
+  <data name="ChkVision_3D2.Text" xml:space="preserve">
+    <value>Behind[√ON X OFF]</value>
+  </data>
+  <data name="ChkVision_3D1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="ChkVision_3D1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 29</value>
+  </data>
+  <data name="ChkVision_3D1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 27</value>
+  </data>
+  <data name="ChkVision_3D1.Text" xml:space="preserve">
+    <value>Before[√ON X OFF]</value>
+  </data>
+  <data name="skinGroupBox15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 139</value>
+  </data>
+  <data name="skinGroupBox15.Text" xml:space="preserve">
+    <value>Speed model</value>
+  </data>
+  <data name="CboRunModel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="skinGroupBox16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
+  </data>
+  <data name="skinGroupBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 192</value>
+  </data>
+  <data name="skinGroupBox16.Text" xml:space="preserve">
+    <value>Alternate</value>
+  </data>
+  <data name="ChkPenAltMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="ChkPenAltMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="ChkPenAltMode.Text" xml:space="preserve">
+    <value>[√ON X OFF]</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>937, 552</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FuncSwit</value>
+  </data>
+</root>

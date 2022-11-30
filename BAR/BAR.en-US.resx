@@ -1,0 +1,1117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="autoModBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="autoModBtn.Text" xml:space="preserve">
+    <value>AutoMod</value>
+  </data>
+  <data name="autoModBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="productLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="productLab.Text" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="productLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="autoModLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="singleModeLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="singleModBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="singleModBtn.Text" xml:space="preserve">
+    <value>Single Action</value>
+  </data>
+  <data name="singleModBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="skinButton1.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="skinButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="skinButton2.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="skinButton2.ToolTip" xml:space="preserve">
+    <value>System Suspension</value>
+  </data>
+  <data name="skinButton3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="skinButton3.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="skinButton3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="skinButton4.Text" xml:space="preserve">
+    <value>Ending</value>
+  </data>
+  <data name="skinButton4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="skinButton5.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="skinButton5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="skinButton6.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="skinButton6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="upCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="upCamBtn.Text" xml:space="preserve">
+    <value>UpCamera</value>
+  </data>
+  <data name="upCamBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="downCamBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="downCamBtn.Text" xml:space="preserve">
+    <value>DownCamera</value>
+  </data>
+  <data name="downCamBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hWindowControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pan3Pnl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pan1Pnl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.5pt</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>&lt;==Welcome to use the burning system==&gt;</value>
+  </data>
+  <data name="textBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabChecksum_Chip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>IC Model:</value>
+  </data>
+  <data name="label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabDevice.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>IC Brand:</value>
+  </data>
+  <data name="label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabBrand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabChecksum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Operating ratio:</value>
+  </data>
+  <data name="label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabRunRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Reject ratio:</value>
+  </data>
+  <data name="label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabRejectRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Lchiban:</value>
+  </data>
+  <data name="label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabOKDoneC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Input:</value>
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabTIC_DoneC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Pause Time:</value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabPauseTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Alarms:</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabAlarmCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>EndTime:</value>
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabEndTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>BeginTime:</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabStartTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Target:</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabTargetC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="yBLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="xBLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="label58.Text" xml:space="preserve">
+    <value>X EncPos:</value>
+  </data>
+  <data name="label58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabUPH.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label59.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>Y EncPos:</value>
+  </data>
+  <data name="label59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Yield:</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabYield.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="lbLed5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label66.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>X Pos:</value>
+  </data>
+  <data name="label66.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="lbLed6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="lbLed2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelZ1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="labelZ1.Text" xml:space="preserve">
+    <value>Z1 Pos:</value>
+  </data>
+  <data name="labelZ1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLed4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="lbLed4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="z1Lab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelZ2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="labelZ2.Text" xml:space="preserve">
+    <value>Z2 Pos:</value>
+  </data>
+  <data name="labelZ2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="z4Lab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelZ4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="labelZ4.Text" xml:space="preserve">
+    <value>Z4 Pos:</value>
+  </data>
+  <data name="labelZ4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="yLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelZ3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="labelZ3.Text" xml:space="preserve">
+    <value>Z3 Pos:</value>
+  </data>
+  <data name="labelZ3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="z3Lab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9pt</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Y Pos:</value>
+  </data>
+  <data name="label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="xLab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="z2Lab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bredeTCPower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="bredeTCPower.Text" xml:space="preserve">
+    <value>BredeTCPower</value>
+  </data>
+  <data name="bredeTCPower.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="autoTrayInitBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="autoTrayInitBtn.Text" xml:space="preserve">
+    <value>AutoTrayInit</value>
+  </data>
+  <data name="autoTrayInitBtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="aLarmPauseLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 653</value>
+  </data>
+  <data name="aLarmPauseLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="systemBusyLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 653</value>
+  </data>
+  <data name="systemBusyLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 36</value>
+  </data>
+  <data name="systemBusyLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="runBusyLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 653</value>
+  </data>
+  <data name="runBusyLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="homeOKLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 653</value>
+  </data>
+  <data name="homeOKLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BredeOnlineLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 697</value>
+  </data>
+  <data name="BredeOnlineLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="homeBusyLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 653</value>
+  </data>
+  <data name="homeBusyLed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 36</value>
+  </data>
+  <data name="homeBusyLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkInitOKLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 653</value>
+  </data>
+  <data name="checkInitOKLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PenEnable4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 15</value>
+  </data>
+  <data name="PenEnable4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 28</value>
+  </data>
+  <data name="PenEnable4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PenEnable3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 15</value>
+  </data>
+  <data name="PenEnable3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 28</value>
+  </data>
+  <data name="PenEnable3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PenEnable1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="PenEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 28</value>
+  </data>
+  <data name="PenEnable1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PenEnable2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 15</value>
+  </data>
+  <data name="PenEnable2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 28</value>
+  </data>
+  <data name="PenEnable2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PenEnableSGB.Text" xml:space="preserve">
+    <value>Vacuum Pen</value>
+  </data>
+  <data name="PenEnableSGB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlProgrammer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AutoTrayOnlineLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 697</value>
+  </data>
+  <data name="AutoTrayOnlineLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BurnOnlineLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 697</value>
+  </data>
+  <data name="BurnOnlineLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ZLOnlineLed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 697</value>
+  </data>
+  <data name="ZLOnlineLed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinMenuStrip1.BaseItemDown" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAQJJREFUSEut
+        1LlKg0EAReEfREQEEUQF67yEtYWdhWUQRcQFQVwRUVCzkY28QZpUqYJFqvxNKiFvFc95hztwijvFV0wx
+        BWeXjqgaSkuzOCnL8mW5XP4k0tIUPuWiRiuhaprCZ4w6rYaqawqfMxq0FqqhKXzBaNJ6qKam8CWjRRuh
+        WprCV4w2bYZqawpfMzq0FaqjKXzL6NJ2qK6m8B2jRzuheprC94w+7YXqawo/MAa0H2qgKfzEGNJBqKGm
+        sB/QiA5DjTSFXxljOg411hR+Y0yoGmqiKfzOmNJNqKmm8AdjRr51opmm8CdjTt+h5prCj4vF4peLv0Ra
+        msIVeqavUFhF5R+ODjA2gmw0KQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="skinMenuStrip1.BaseItemMouse" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAQFJREFUSEut
+        0jlKg1EAReE0IiKIEEQQshALKwu7OOIYiQPiAlyA2ApmJCG9kCJNqjSpwg9pUtj964nn7OE+OMV9xVc8
+        XoVTpSOqh9LSrJyUZfm7Xq//EmlpCp9ysaLvUCtN4TPGkj5DLTWFzxkL+gi10BS+YMzpPdRcU/iSMaP7
+        UDNN4SvGlOqhpprC14wJHYeaaArfMMZ0GGqsKXzLGNFBqJGmsA8+pP1QQ03hB8aA9kINNIUbDqqGEm4I
+        PzL6tBuqryncZPRoJ1RPU/iJ0aXtUF1N4WdGh7ZCdTSFXxht2gzV1hR+ZbRoI1RLU/iuKIovLn4SaWkK
+        18gP/RYKq1L7Bw8AN9TW9zQtAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="切换用户ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 34</value>
+  </data>
+  <data name="切换用户ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="修改密码ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 34</value>
+  </data>
+  <data name="修改密码ToolStripMenuItem.Text" xml:space="preserve">
+    <value>ChangePassword</value>
+  </data>
+  <data name="注册用户ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 34</value>
+  </data>
+  <data name="注册用户ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="删除用户ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 34</value>
+  </data>
+  <data name="删除用户ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="toolStripBtn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 77</value>
+  </data>
+  <data name="toolStripBtn1.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="toolStripBtn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 77</value>
+  </data>
+  <data name="toolStripBtn2.Text" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="运行计数ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 34</value>
+  </data>
+  <data name="运行计数ToolStripMenuItem.Text" xml:space="preserve">
+    <value>RunningDate</value>
+  </data>
+  <data name="烧录座计数ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 34</value>
+  </data>
+  <data name="烧录座计数ToolStripMenuItem.Text" xml:space="preserve">
+    <value>SocketDate</value>
+  </data>
+  <data name="toolStripBtn3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 77</value>
+  </data>
+  <data name="toolStripBtn3.Text" xml:space="preserve">
+    <value>Statistical</value>
+  </data>
+  <data name="toolStripBtn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 77</value>
+  </data>
+  <data name="toolStripBtn4.Text" xml:space="preserve">
+    <value>Teaching</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 34</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>I/O General</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 34</value>
+  </data>
+  <data name="toolStripMenuItem5.Text" xml:space="preserve">
+    <value>I/O Private</value>
+  </data>
+  <data name="toolStripBtn5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 77</value>
+  </data>
+  <data name="toolStripBtn5.Text" xml:space="preserve">
+    <value>I/O Monitor</value>
+  </data>
+  <data name="snapMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 34</value>
+  </data>
+  <data name="snapMenuBtn.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="capMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 34</value>
+  </data>
+  <data name="capMenuBtn.Text" xml:space="preserve">
+    <value>Continuous</value>
+  </data>
+  <data name="toolStripBtn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 77</value>
+  </data>
+  <data name="toolStripBtn6.Text" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="toolStripBtn7.Text" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="toolStripBtn14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 77</value>
+  </data>
+  <data name="toolStripBtn14.Text" xml:space="preserve">
+    <value>Axis Control</value>
+  </data>
+  <data name="toolStripBtn8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 77</value>
+  </data>
+  <data name="toolStripBtn8.Text" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="toolStripBtn10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 77</value>
+  </data>
+  <data name="toolStripBtn10.Text" xml:space="preserve">
+    <value>Device param</value>
+  </data>
+  <data name="toolStripBtn11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 77</value>
+  </data>
+  <data name="toolStripBtn11.Text" xml:space="preserve">
+    <value>Braided</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 77</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>AutoTray</value>
+  </data>
+  <data name="toolStripBtn12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 77</value>
+  </data>
+  <data name="toolStripBtn12.Text" xml:space="preserve">
+    <value>ProgParam</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 77</value>
+  </data>
+  <data name="toolStripMenuItem7.Text" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="toolStripBtn13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 77</value>
+  </data>
+  <data name="toolStripBtn13.Text" xml:space="preserve">
+    <value>AlarmRecord</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 77</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>MES</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 77</value>
+  </data>
+  <data name="toolStripMenuItem6.Text" xml:space="preserve">
+    <value>INK</value>
+  </data>
+  <data name="toolStripBtn9.Text" xml:space="preserve">
+    <value>RunParam</value>
+  </data>
+  <data name="btnEngineerSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 77</value>
+  </data>
+  <data name="btnEngineerSetting.Text" xml:space="preserve">
+    <value>EngineerSetting</value>
+  </data>
+  <data name="skinMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1433, 81</value>
+  </data>
+  <data name="skinMenuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAgAMDAQAAAABABoBgAAhgAAACAgEAAAAAQA6AIAAO4GAAAYGBAAAAAEAOgBAADWCQAAEBAQAAAA
+        BAAoAQAAvgsAADAwAAAAAAgAqA4AAOYMAAAgIAAAAAAIAKgIAACOGwAAGBgAAAAACADIBgAANiQAABAQ
+        AAAAAAgAaAUAAP4qAAAoAAAAMAAAAGAAAAABAAQAAAAAAIAEAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAA
+        gAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAA
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAACIiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAiIiACIiIiIiIiIiIiIiIiIiIiIiIiIgACIgA
+        CIiIiIiIiIiIiIiIiIiIiIiIiIAAAIAAAIiIiIiIiIiIiIiIiIiIiIiIiAAAAIAAAAiIiIiIiIiIiIiI
+        iIiIiIiIiAAACIgAAACIiIiIiIiIiIiIiIiIiIiIgAAACIiAAACIiIiIiIiIiIiIiIiIiIiIAAAAiIiA
+        AAAIiIiIiIiIiIiIiIiIiIiAAAAIiIiIAAAAiIiIiIiIiIiIiIiIiIiAAACIiIiIgAAAiIiIiIiIiIiI
+        iIiIiIgAAACIiIiIgAAACIiIiIiIiIiIiIiIiIAAAAiIiIiIiAAAAIiIiIiIiIiIiIiIiIAAAIiIiIiI
+        iIAAAAiIiIiIiIiIiIiIiAAAAIiIiMiIiIgAAAiIiIiIiIiIiIiIgAAACIiIiMiIiIgAAACIiIiIiIiI
+        iIiIAAAAiIiIjMyIiIiAAAAIiIiIiIiIiIiIAAAIiIiIjMyIiIiIAAAIiIiIiIiIiIiAAAAIiIiIzMzI
+        iIiIAAAAiIiIiIiIiIgAAACIiIiIzMzIiIiIgAAACIiIiIiIiIAAAAiIiIiHzMzMiIiIiAAAAIiIiIiI
+        iIAAAIiIiIiMzMzMiIiIiIAAAIiIiIiIiAAAAIiIiIiMzMzMyIiIiIAAAAiIiIiIgAAACIiIiIjMzMzM
+        yIiIiIgAAACIiIiIgAAAiIiIiIjMzMzMyIiIiIiAAAAIiIiIAAAAiIiIiIzMzMzMzIiIiIiIAAAIiIiA
+        AAAIiIiIiIiIiIiIiIiIiIiIAAAAiIgAAAAIiIiIiACIiIiIgAiIiIiIAAAACIgAAAAACIiIiAAAiIiA
+        AAiIiIgAAAAACIiAAAAAAACIgAAAiIiAAACIgAAAAAAAiIiIgAAAAAAAgAAAiIiAAACAAAAAAACIiIiI
+        iAAAAAAAAAAIiIiIAAAAAAAAAAiIiIiIiIiAAAAAAAAIiIiIAAAAAAAAiIiIiIiIiIiIgAAAAACIiIiI
+        gAAAAACIiIiIiIiIiIiIiIAAAACIiIiIgAAAAIiIiIiIiIiIiIiIiIiAAAiIiIiIiAAAiIiIiIiIiIiI
+        iIiIiIiIiAiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAiI
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiIiACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIAPAAAAAABwAA4AAAAAADAADAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA
+        DBgAAAAAAAAOOAAAAAAAAB98AAAAAAAAP34AAAAAAAA+PwAAAAAAAH4fAAAAAAAA/B+AAAAAAAH4D8AA
+        AAAAAfAHwAAAAAAD8AfgAAAAAAfgA/AAAAAAB8AB+AAAAAAPwAD4AAAAAB+AAPwAAAAAPwAAfgAAAAA+
+        AAA+AAAAAH4AAD8AAAAA/AAAH4AAAAH4AAAPwAAAAfAAAAfAAAAD8AAAB+AAAAfgAAAD8AAAB8AAAAH4
+        AAAPwAAAAPgAAB+AAAAA/AAAP4AwBgD+AAA/4DweA/4AAB/8fB8f/AAAB/98H3/wAAAD//gP/+AAAAB/
+        +A//AAAAAB/wB/wAAAAAB/AH8AAAAAAB4APAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACAAAAAAAAAAIAAAAAAAAAAwAAAAAABAADwAAAAAAMAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAA
+        AAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD/
+        /wD/AAAA/wD/AP//AAD///8AAAAIiIiIiIiIiIiIiIAAAACIiIiIiIiIiIiIiIiIgAAIiIiIiIiIiIiI
+        iIiIiIiACIiIiIiIiIiIiIiIiIiIgIiIiIiIiIiIiIiIiIiIiICIiIiIiIgAAAAIiIiIiIiIiIiIiIiI
+        AAAAAIiIiIiIiIiIiIiIgAAIgACIiIiIiIiIiIiIiAAAiIAACIiIiIiIiIiIiIAAAIiIAACIiIiIiIiI
+        iIiAAAiIiAAAiIiIiIiIiIiIAACIiIiAAAiIiIiIiIiIgAAAiIiIiAAAiIiIiIiIiIAACIiIiIgAAAiI
+        iIiIiIgACIiIjIiIiAAIiIiIiIiAAAiIiMzIiIgAAIiIiIiIgAiIiIjMzIiIiAAIiIiIiAAIiIiIzMyI
+        iIgACIiIiIAAiIiIjMzMiIiIgACIiIiAAIiIiMzMzMiIiIgAiIiAAAiIiIgIiIgAiIiIAACIgAAACIiI
+        AIiAAIiIgAAAiIgAAAAIgACIgACIAAAACIiIiAAAAAAAiIgAAAAACIiIiIiAAAAAAIiIAAAAAIiIiIiI
+        iIgAAAiIiAAACIiIiIiIiIiIgACIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIgIiIiIiIiIiIiIiIiIiI
+        iIAIiIiIiIiIiIiIiIiIiIiACIiIiIiIiIiIiIiIiIiIAAAIiIiIiIiIiIiIiIiIAAD4AAAfwAAAB4AA
+        AAGAAAABAAAAAQAP4AAAD/AAAB5wAAA8eAAAfDwAAHg8AADwHgAB8A8AAeAPgAOAA4AHgAPABgAA4A4A
+        AOAcAABwHAAAMHgIMDx+DHB8P5xz+A/8P+AH/D/AAPg+AABwHAAAAAABAAAAAYAAAAGAAAAD4AAADygA
+        AAAYAAAAMAAAAAEABAAAAAAAIAEAAAAAAAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAA
+        gACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAIiIiIiIiIiIiIgACIiIiIiI
+        iIiIiIiAiIiIiIgIiIiIiIiIiIiIiIgAgAiIiIiIiIiIiIAAgACIiIiIiIiIiAAIgACIiIiIiIiIiACI
+        iAAIiIiIiIiIgACIiIAAiIiIiIiIAAiIiIgAiIiIiIiAAIiIyIgACIiIiIiAAIiMyIiAAIiIiIgACIiM
+        zIiIAAiIiIAAiIjMzIiIAAiIiAAIiIjMzMiIgACIiAAIiIzMzMiIiAAIgAAIiIAIiACIgAAAiAAACAAI
+        gACAAACIiIgAAAAIiAAAAAiIiIiIAACIiAAACIiIiIiIiACIiICIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIiIiIiICIiIiIiIiIiIiIiAAIiIiIiIiIiIiIgAwAADAIAAAQAAIAAAADYAAAB3AAAA5wAAAMOAAAHB
+        wAADgMAABwDgAAcAcAAOADgAHAA4ADgAHAA4AA4AeGMfAD7nfAAP4/gAA8PgAADBAAAAAAAAAAAAAIAA
+        AQDAAAMAKAAAABAAAAAgAAAAAQAEAAAAAACAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAIAAAIAAAACA
+        gACAAAAAgACAAICAAACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAiIiIiIiIAAiI
+        iIiIiIiAiIiIiIiIiIiIiIiACIiIiIiIgAAACIiIiIgACIAAiIiIiACIiACIiIiACIyIgIiIiACIjMiI
+        CIiICIjMyIgAiIAIiAiAiAAIiACACACAAIiIiAAIgACIiIiIgAiAiIiICIiIiIiIiIAAiIiIiIiIAMAD
+        AACAAQAAAAAAAAGAAAAH4AAADnAAAAwwAAAYEAAAMAgAACAMAABiTgAANtwAAA5wAAAGQAAAgAEAAMAD
+        AAAoAAAAMAAAAGAAAAABAAgAAAAAAAAJAAAAAAAAAAAAAAABAAAAAQAAAAAAAHw8BgBRNjcAGFUxABla
+        NQAbXjkAHWI9AG5DIQBkSD4AHBpcACwlWQA9NF4AFx9+AB5nQQAga0UAKmlGACFuSAAjc0wAJnpUADJ2
+        UwAzeVYANX5bAD17WwAubXgAQnJWAHhjawCFQAYAhEQLAIhECgCJSA0Ag0cUAIxNEQCOUBMAkVIVAJNV
+        GACWWRoAmF0dAJpgHwCIWCgAkFwmAJxjIgCbZSwAmWgsAJ9nMgCdbTMAm3A+AKBoJgCibCoApnEtAKBs
+        MAClcjQAqXUxAKd5NgCsejQAp3Q4AKl1OQCnejwArHs6AJ9vRQCufUIAKYNbADWDXgAsi2MANopmAC6Q
+        aAAylGsANppyADejeQBUh2sARJl2AGSVewBDpX8Ar4E6ALKDOwC1iD8ArYFCALCCQgC2ikEAuI1CALKF
+        SQC1iksAuI1MALyRRQC8lEoAv5hMALWKUgC4jlUAsINaAL2VVwCeiGwAsYZiALyXYQC8lWwAv5lvALGR
+        eADBmUsAw51XAMaiWADBm2UAxqJkAMmlYQDMqmUAxKNtAMyqagDGpHMAy6pyAMWjeQDKrHoA1Ld4AAMO
+        gwARGYIABhScAAsaqAAOHbAAEB+wAB89qQAWJrgANj+tACY3vgAnVpIAKUWlADhEsABHcqYAb3GrAB0u
+        wQAfMMIAJTbIACw+0AAsQM8AOEjKADVVzAAuQtIANUjWADlQ3gA+YN8APVbgAEBPygBDUc0AR1fXAFFf
+        1wBPaN4AU2LbAE1w3ABWdNoAYW/fAGR03ABCXOIARmblAFZp4gBMcugAVXfoAGV45QBxfucAOayCAD2y
+        hwBIq4UAUayIAEa0jABIvJMAVrmXAGyojQBor5IAaLiZAHW5nQBYnK4AfrmhAFfCnABbx6EAZcmmAHDM
+        rABq0K4Ab9GwAHnUtQB4h9gAe5bcAFqD6wBmiekAd4rqAGiR7AB1mO4Aa5jwAHWd8AB6pvMAnJGVAIO1
+        nwCMuqUAkL6qAKiiqQDHp4cAzrSOANa7gwDQuJAAl8azAIPZvACjxLQAsMu9ANzDhQDWxJQA4cuMAOPP
+        kQDm05UA18SjAN3NtQDa0rkA4NS/AIeY3gCCm+4AgJ/wAImh4gCVq+AAlbPhAIKs9ACItvYAk7n2AKm6
+        5AC1veYAid3CAJHbwgC+184AjeDFAJbjygCd6NEApOrUALLu2wC08d8AlcX5AJ7T/QCqwuMAtsLnAL3Q
+        4QCgy/oAqtX7ALPc/QC78uEAx9fOAN3VxADG2tMA09vXAODPwADh0cIA4t7bAOHg3gDCy+kAxtPnANLY
+        6QDB2vsA3ebnAMr05wDT7P4A6ejnAPDv7wD18e0A6uz0APT08wD49/cA////AAAAAMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEAAAAAAAAxMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExPsAAADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTEAMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEAMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMQAAMTExMTE
+        AADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMQAAADExMQAAADExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExAAAAAAAxAAAAAAAxMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTEAAAAAAAAxAAAAAAAAMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMRsAAAAAADExMQAAAAAAADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMQAAAAAAADExMRs
+        AAAAAADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExAAAAAAAAMTExMTEAAAAAAAAxMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTEAAAAAAAAxMTExMTExAAAAAAAAMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTEAAAAAADExMTExMTExMQAAAAAAGzExMTExMTExMTExMTExMTExMTExMTExMTExMQA
+        AAAAAADExMTExMTExMQAAAAAAADExMTExMTExMTExMTExMTExMTExMTExMTExAAAAAAAAMTExMTExMTE
+        xMTEAAAAAAAAxMTExMTExMTExMTExMTExMTExMTExMTEyAAAAAAAxMTExMTExMTExMTExAAAAAAAAMTE
+        xMTExMTExMTExMTExMTExMTExMTEAAAAAAAAxMTExMTEK8TExMTExMQAAAAAAMTExMTExMTExMTExMTE
+        xMTExMTExMQAAAAAAADExMTExMTEK8TExMTExMQAAAAAAADExMTExMTExMTExMTExMTExMTExAAAAAAA
+        AMTExMTExMQrKyvExMTExMTEAAAAAAAAxMTExMTExMTExMTExMTExMTExAAAAAAAxMTExMTExMQrKyvE
+        xMTExMTExAAAAAAAyMTExMTExMTExMTExMTExMTEAAAAAAAAxMTExMTExC4rKysrxMTExMTExAAAAAAA
+        AMTExMTExMTExMTExMTExMQAAAAAAADExMTExMTExCsrKysrxMTExMTExMQAAAAAAADExMTExMTExMTE
+        xMTExAAAAAAAAMTExMTExMTEXysrKysrK8TExMTExMTEAAAAAAAAxMTExMTExMTExMTExAAAAAAAyMTE
+        xMTExMTEKysrKysrK8TExMTExMTExAAAAAAAxMTExMTExMTExMTEAAAAAAAAxMTExMTExMTGKysrKysr
+        KyPExMTExMTExAAAAAAAAMTExMTExMTExMQAAAAAAADExMTExMTExMQrKysrKysrKyvExMTExMTExMQA
+        AAAAAADExMTExMTExMQAAAAAAMTExMTExMTExMQrKysrKysrKyvIxMTExMTExMTEAAAAAAAAxMTExMTE
+        xAAAAAAAAMTExMTExMTExCsrKysrKysrKysrxMTExMTExMTEyAAAAAAAxMTExMTEAAAAAAAAxMTExMTE
+        xMTExMjIyMjIyMjIyMjIxMTExMTExMTExAAAAAAAAMTExMQAAAAAAAAAxMTExMTExMTEAADHxMTExMTE
+        xGwAAMTExMTExMTExAAAAAAAAADExMQAAAAAAAAAAABsxMTExMTEAAAAAMTExMTEAAAAAMTExMTExMQA
+        AAAAAAAAAADExMTEAAAAAAAAAAAAAADExMQAAAAAAGzExMTEAAAAAADExMQAAAAAAAAAAAAAAMTExMTE
+        xMQAAAAAAAAAAAAAAMQAAAAAAMTExMTEAAAAAADEAAAAAAAAAAAAAADExMTExMTExMTEAAAAAAAAAAAA
+        AAAAAAAAxMTExMTExAAAAAAAAAAAAAAAAAAAAMTExMTExMTExMTExMRsAAAAAAAAAAAAAAAAxMTExMTE
+        xAAAAAAAAAAAAAAAAGzExMTExMTExMTExMTExMTExMQAAAAAAAAAAADExMTExMTExMQAAAAAAAAAAADE
+        xMTExMTExMTExMTExMTExMTExMTExAAAAAAAAADExMTExMTExMQAAAAAAAAAxMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTEAAAAAMTExMTExMTExMTEAAAAAMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTEAMTExMTExMTExMTEAGzExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEAADExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMQAAAAAAMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExAAAAOAAAAAADwAAwAAAAAADAACAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        GDAAAAAAAAAccAAAAAAAAD74AAAAAAAAfvwAAAAAAAB8fgAAAAAAAPw+AAAAAAAB+D8AAAAAAAPwH4AA
+        AAAAA+APgAAAAAAH4A/AAAAAAA/AB+AAAAAAD4AD8AAAAAAfgAHwAAAAAD8AAfgAAAAAfgAA/AAAAAB8
+        AAB8AAAAAPwAAH4AAAAB+AAAPwAAAAPwAAAfgAAAA+AAAA+AAAAH4AAAD8AAAA/AAAAH4AAAD4AAAAPw
+        AAAfgAAAAfAAAD8AAAAB+AAAfwBgDAH8AAB/wHg8B/wAAD/4+D4/+AAAD/74Pv/gAAAH//Af/8AAAAD/
+        8B/+AAAAAD/gD/gAAAAAD+AP4AAAAAADwAeAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAQAAgAAAAAADAADgAAAAAAcAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAA
+        AAAAAAAAAAEAAAABAAAAAAAAfj0HAEQtMwAaWzYAG145AB1iPQAmYD4AW0E8AH9TKAApIlQAPjVdABce
+        fQAeZkAAH2hCACBrRQAibkgAI3NMACV3UAAmelIAKH5XADhzUwA7elkAKXZmADFpeACERAsAiUYLAIxM
+        EACOUBUAklMVAJJVGQCVWRoAmV0eAJheIgCcYyIAnGsuAJ1rPACgaSYAomwqAKVxLQChbzMApG87AKR0
+        MgCpdjMAqngyAKV0PACodTkArH46AJ5zQACpd0EArHtGACqDWwAniV8ALYxkADKKZAAvlGsAM5JqADWb
+        cgA7nXYANKR5ADeqfgBFhGQARoloAEiNbABKlHMAQ5l0AEafegBLm3kAYo51AESkfABQoX8AroA5ALKD
+        PQC4jD8Ar4FAAK2BSACxhEQAtopBALiNQgCxhUwAtIpLALmOTwC8k0oAtoxQALiNUQC0i1sAt5FSALuS
+        UwC7lFoAvphpALuUcwC9mXUArqBlAKagaACppW0AratyALGyegDCm0wAwp1XAMeiVQDAnGMAyaZkANO0
+        bgDFo3QAyKZzAMurcgDCo30AzK17AM+xdgDRs3UA0bN8ANe7fADYvHoADhaCAAUSmgAMGqcAEB6tABYm
+        twAdM7oAJTCrACM3uAArVZkAYWSrAB0twAAgL8EAJTbHAC0+0QA3RcYANkfUADlU2wA9VeEAQE7JAENV
+        zQBIV9QATWLdAFVk1gBffN4AYG/fAGN92QByf98AQlviAEhn5QBUaeMATHLoAFN46ABnfecAOauAAD2w
+        hQBHm4oAdoWcAEmphABTpoQAWqSFAFipiABCtowAR7uRAFW7lgBzoooAZraZAHK9nwB9u6IAT8GZAFrC
+        nQBgwp4AXcaiAGXKpgBzx6kAbtGvAHHQrQBv07EAddKzAHnStAB/1rkAfdm6AFOaxgBqh9wAfI7bAFyg
+        wABmr8YAZ7LFAFuF7ABpi+gAdoflAGeT7wB4l+kAb5vxAHee8AB3pfMAhbCbALa8hADHp4MAy7OEAM21
+        jQDUuYYAzrSaANS6kgDTvJkA1b6iAJrDsQCA17oAhNu+ANzCgwDhyosA4s6WAObTlQDWwKgA18yzANzL
+        tADf1L4AgJPbAI6n3ACQo94AhJHrAIWn6QCTo+4Ah6fxAIi39gCZv/cAqbjkAIndwgCV3cQAu9bMAL/Z
+        zgC/zN0AjuDGAJfjywCc6NAAo+nTALnx3wCXyPoAqs3sALXG5QCny/kArdH6ALTY/AC68uEAw9XMAMXa
+        0QDf3d0A4dTAAODf3gDU4NkA2+HvAMz16ADF5f0A3uLxAOjn5gDk5+wA6+rqAPDv7gDz8e8A6+71AO/y
+        8AD19fUA/v7+AAAAAAD///8AAAAAAADIyMjIyMjIyMjIyMjIyMjIyMjIyMjIAAAAAAAAAMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMjIyAAAAADIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgAAMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyADIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIAMjI
+        yMjIyMjIyMjIyP/////////IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjI///////////IyMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyP/////IbP///8jIyMjIyMjIyMjIyMjIyMjIyMjIyMj/////yMjI/////8jIyMjI
+        yMjIyMjIyMjIyMjIyMjI///////IyMjI/////8jIyMjIyMjIyMjIyMjIyMjIyMj/////yMjIyMj/////
+        yMjIyMjIyMjIyMjIyMjIyMjI/////8jIyMjIyMj/////yMjIyMjIyMjIyMjIyMjIyP//////yMjIyMjI
+        yMj/////yMjIyMjIyMjIyMjIyMjI/////8jIyMjIyMjIyP//////yMjIyMjIyMjIyMjIyP///8jIyMjI
+        yC3IyMjIyMj////LyMjIyMjIyMjIyMj/////yMjIyMgfLS3IyMjIyP/////IyMjIyMjIyMjIyP//y8jI
+        yMjIyC0tLS3IyMjIyMj////IyMjIyMjIyMj////IyMjIyMjJLS0tLcjIyMjIyP///8jIyMjIyMjI////
+        yMjIyMjIyC0tLS0ty8jIyMjIyP///8jIyMjIyMj////IyMjIyMgtLS0tLS0tyMjIyMjIy///yMjIyMj/
+        ////yMjIyMjIyP/JyMjIyP//yMjIyMjI/////8jIyP///////8jIyMjI///IyMj////IyMjIyP//////
+        yMjIyP/////////IyP///2zIyP///8jI/////////8jIyMjIyMj/////////////yMjIyP//////////
+        /8jIyMjIyMjIyMj////////////IyMjI//////////9syMjIyMjIyMjIyMjIyP//////yMjIyMj/////
+        /8jIyMjIyMjIyMjIyMjIyMjIyP///8jIyMjIyMj////IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyADIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIAADIyMjIyMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMgAAMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIAAAAAADIyMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMjIAAAAAPgAAB/AAAAHgAAAAYAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAABgAAAAYAAAAPgAAAPKAAAABgAAAAwAAAAAQAIAAAAAABAAgAAAAAAAAAA
+        AAAAAQAAAAEAAAAAAABKNDoAHF86AB1iPAAwK14AHmZAAB1oQwAnYkAAIGxGACFuSAAjc0wALXNPACV2
+        UAAlelMAKX1XADF4VgA4fF0ALWJuAHxnXgBgV30AgUEJAIFCDQCDRQ8AiEcNAIdIDQCHSRIAjU0SAIpN
+        FQCMUBcAjFYbAJFSFQCSVBYAllkbAJleHgCRWiAAll8hAJNeJwCQXCgAl2MlAJxjIgCXZSoAnWUoAJ1s
+        LgCMYzUAmmw6AKBuJwChaigAom8sAKVxLgCjcjMAq3o0AKVyPQCjdTwArX49AKl3QQCsfEYAqnpMACqD
+        WwAtimIANY1oAD6ObAA/lXEAMppwADWhdwBGiGcASI5tAFODZwBTj3MAS5R0AE2begBjk3kARqF8AK+B
+        OwC1iD4Ar4BDAK6CSwCxgkEAs4hCALiNRACzhU0Av5VIAKyDUACoglcAroBYALaLUQC2jVEAto5YALuR
+        VAC/mVQAt5BZALyUWwC/mF0AvZZlAL+bYwC9mXMApqBoAKuobwCvr3YAsrZ+AMGaTQDDnVIAzaxmAMWj
+        bQDGo3EAyKZ2AMatcgDLq3IAza10ANGzdwDRtH4AExuFAAgRlwAIFpsADhmkAA0bqQARHakAEB+wABEg
+        rwATIrQAFye6ABkmuAAaKrwAIDmwAClTlQA7SL4AW1qSAB0rwAAhMsQAKzvKAD9NyAAyRdUAO0vTADlN
+        3QA4aMoAPFTgAD5Y4gBEUs0ARFPRAEtc1ABHacwAQHbMAFFxzQBZdc8ARGPYAEpm3gBSZNAATXvQAF5+
+        3ABpdt0AQl/jAERk5ABHaeYAS27nAExy6ABUcOYAX3DlAFF16ABUfeoAZXXkAG164gBxfuIARZOHAE+t
+        hwBQo4AAW6WHAFWohgBNsYwAZaGGAGakigBoposAYaiKAHOnkAByq5IAe6mUAHO6ngBex6IAasKiAGbM
+        qQBtz64Ad8yuAG7SsAB21bUAT4DFAFuDyABZktAAYo/MAH+P2QB7ltkAV4HrAF2H7QBpgukAYo7rAHWC
+        4gBwhekAZpTvAHqb4wBzk+0AfJXtAGyZ8AB1oPIAfqz0AJWPnwCfq44Atr2FANe9iADVv58AhNa6AInV
+        uwDawo4A38iJAN7IkwDjz5oA2ciqANzRuwDo1qIAkJvtAIaf8ACIouAAlKTkAJKi7gCLuOQAnbPgAJK4
+        9gCL3cIAkd7FAJ7dxwCl3soAnefPAKTlzwCg59AAturZAJLA+AC1xOUAuMPnAKHG+ACyzvkArdP6ALbb
+        /AC88uEAu+L+AMbb0gDi08IA4N/eANrf7QDZ3vEA2+jhAN/i6ADG8uQA4uDgAOrm4ADq6egA8OvlAPDt
+        6ADy8/EA+Pj4AP///wAAANHR0dHR0dHR0dHR0dHR0dHR0dHRAAAA0dHR0dHR0dHR0dHR0dHR0dHR0dHR
+        0QDR0dHR0dHR0dHRANHR0dHR0dHR0dHR0dHR0dHR0dHR0dHRAADRAADR0dHR0dHR0dHR0dHR0dHR0dEA
+        AADRAAAA0dHR0dHR0dHR0dHR0dHR0QAAANHRAAAA0dHR0dHR0dHR0dHR0dHRbAAA0dHR0QAAANHR0dHR
+        0dHR0dHR0dHRAAAA0dHR0dEAAADR0dHR0dHR0dHR0dEAAADR0dHR0dHRAABl0dHR0dHR0dHR0QAAANHR
+        0dEu0dHRAAAA0dHR0dHR0dHR0QAAANHR0S4u0dHR0QAAANHR0dHR0dHRAAAA0dHR0S4uLtHR0dEAAADR
+        0dHR0dEAAADR0dHRLi4uLtHR0dEAAADR0dHR0QAAANHR0dHRLi4uLi7R0dHRAAAA0dHR0QAAANHR0dEh
+        Li4uLi7R0dHR0QAAANHRAAAAANHR0dEAANHR0QAA0dHRAAAAAADR0QAAAAAA0foAANHRAAAA0QAAAAAA
+        8dHR0dHRAAAAAAAAANHR0QAAAAAAAADR0dHR0dHR0dEAAAAA0dHR0QAAAAAA0dHR0dHR0dHR0dHR0QAA
+        0dHR0dEA0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR
+        0dEA0dHR0dHR0dHR0dHR0dHR0dHR0dHR0QAAANHR0dHR0dHR0dHR0dHR0dHR0dHRAADAAAMAgAABAAAg
+        AAAANgAAAHcAAADnAAAAw4AAAcHAAAOAwAAHAOAABwBwAA4AOAAcADgAOAAcADgADgB4Yx8APmd8AA/j
+        +AADw+AAAMEAAAAAAAAAAAAAgAABAMAAAwAoAAAAEAAAACAAAAABAAgAAAAAAAABAAAAAAAAAAAAAAAB
+        AAAAAQAAAAAAAFQ5KAATXzoAEmA5ABtiPwAbZUEAHmZBABlpRAAddU8AGnxQACR+VgAzdVQAbXNGAItL
+        EACRUhMAklQWAJleGgCYXR4AnmYlAJtoKwCcajwAoWokAKNvKACnciYAonAtAKp1KgCibTgApXM1AKVw
+        OACjdDwArHk7AKp4PwCaaUIAo3JEAK5+RACpekgAI4NaACaNYAB6jFkAQ4VlAEOLaABIimsAV4dtAE+Q
+        aQBZjXEAVpV2AF2cfwCzhDsAr4FOALaKTwC6kEoAsIRTALSIWAC6kF8AgJllAL2aYQC+mGUAiqlwAMKZ
+        SQDEn1cA0qtZAMWfYADIp3IAyqt7AN68egDx0H8ACheOAAMUqQAJGrYAESCyABUmvQAYJ7oAGiW/AC45
+        twBSb5AAa22eAEtOqwAVJ8cAHS3BACIzxgAyPsYAJDviAC9AzwA1QsAANUTLADlEyAA9SdIAOVngAD5a
+        4gBPXMMARlrcAFBe1QBPbcUAV2TTAFJl3wBcadgAYnDdAEZb4QBBYuUAR2jmAE926QBXfeoAS5CBAEiq
+        hABcoYQAW7WTAFy9mABhpYgAXM2dAG7GpgByzq8Aeda2AHvbsgBelfEAYo3tAHqF5gB5i+sAfozqAHeN
+        9ABumPAAcJP7AIGAnADDoYEAwqGFAMWqgwDJq4YAzrCEAM+1jADStowAgsGoAILOqwCEzLMA2sOXAODG
+        lwDdx6kA3cmpAIWQ5gCFn+8Ai6HvAJ+l5QCVr/QAhrD/AK218gCX2cMAt9fJAL3ezgCl5M4AsOrYALLt
+        2wCKwv0AvcLvAKfH+AC71PkAu9v8AL7j/gDo2skAyefcAPPjxwDQ1fUA2d/6ANHp4ADF8uQA2PjuAPXu
+        5ADn8+4A5u38APL59wD9/PkA+fr/AP/+/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////AAAAAISEhISEhISEhIQAAAAAhISEhISEhISEhISEhIQAhISEhIWFhYWFhYSFhYWEhIWF
+        hIWFhYWE/4SEhYWFhIWFhYWFQP//hIT//4WFhYSFhYWFhf///4SE////hYWEhYWFhYX//4WEhYX//4WF
+        hIWFhYX//4SEGIWFhf+FhYSFhYX//4SEhRgYhYWF/4WEhYWF/4SEhRIYGIWFhf//hISF//+EhYX/hYX/
+        hIX///+FhYX//4Wb/4X//4X///+EhYSEhIX///+Fhf///4WFhIWEhIWEhP//hYX/hYWFhYSFAISEhIWE
+        hYSFhIWEhISEAAAAhIWFhYWFhYWFhYWEAADgBwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAADAAwAA
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Automatic burning system Ver </value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

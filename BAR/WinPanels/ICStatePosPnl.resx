@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;AltimeterBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="findImgModBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 39</value>
+  </data>
+  <data name="BtnRevisePos.Text" xml:space="preserve">
+    <value>自动校准烧录座位置</value>
+  </data>
+  <data name="techICModBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 41</value>
+  </data>
+  <data name="TopCameraBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 3</value>
+  </data>
+  <data name="&gt;&gt;findImgModBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;scketPosPnl.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TopCameralab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 1</value>
+  </data>
+  <data name="TopCameralab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Altimeterlab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;techICModBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnRevisePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 141</value>
+  </data>
+  <data name="&gt;&gt;label78.Name" xml:space="preserve">
+    <value>label78</value>
+  </data>
+  <data name="&gt;&gt;ScannerBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="savePosBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 86</value>
+  </data>
+  <data name="BtnContinue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 141</value>
+  </data>
+  <data name="modifyBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 86</value>
+  </data>
+  <data name="Scannerlab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 35</value>
+  </data>
+  <data name="AltimeterBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="label78.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Scannerlab.Name" xml:space="preserve">
+    <value>Scannerlab</value>
+  </data>
+  <data name="Scannerlab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Scannerlab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Scannerlab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GO_Socket.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="TopCameralab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AltimeterBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label78.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TopCameralab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 35</value>
+  </data>
+  <data name="&gt;&gt;TopCameralab.Name" xml:space="preserve">
+    <value>TopCameralab</value>
+  </data>
+  <data name="AltimeterBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 31</value>
+  </data>
+  <data name="&gt;&gt;movToICSeatBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnRevisePos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GO_Socket.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="modifyBtn.Text" xml:space="preserve">
+    <value>修改测高仪位置</value>
+  </data>
+  <data name="&gt;&gt;findImgModBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>950, 714</value>
+  </data>
+  <data name="&gt;&gt;savePosBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Scannerlab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;BtnRevisePos.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnContinue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Altimeterlab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnContinue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnRevisePos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopCameralab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Altimeterlab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="savePosBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="AltimeterBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>836, 3</value>
+  </data>
+  <data name="&gt;&gt;TopCameralab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AltimeterBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;savePosBtn.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="AltimeterBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Scannerlab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="modifyBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 43</value>
+  </data>
+  <data name="movToICSeatBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 43</value>
+  </data>
+  <data name="&gt;&gt;scketPosPnl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ScannerBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 31</value>
+  </data>
+  <data name="&gt;&gt;TopCameraBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="movToICSeatBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="scketPosPnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 189</value>
+  </data>
+  <data name="TopCameralab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="movToICSeatBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 86</value>
+  </data>
+  <data name="BtnContinue.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>选择参照:</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="savePosBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>219</value>
+  </data>
+  <data name="modifyBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;techICModBtn.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;modifyBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TopCameraBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;modifyBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnRevisePos.Name" xml:space="preserve">
+    <value>BtnRevisePos</value>
+  </data>
+  <data name="techICModBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="techICModBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>221</value>
+  </data>
+  <data name="scketPosPnl.TabIndex" type="System.Int32, mscorlib">
+    <value>251</value>
+  </data>
+  <data name="techICModBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 39</value>
+  </data>
+  <data name="BtnContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 43</value>
+  </data>
+  <data name="&gt;&gt;scketPosPnl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ScannerBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Altimeterlab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 35</value>
+  </data>
+  <data name="TopCameralab.TabIndex" type="System.Int32, mscorlib">
+    <value>233</value>
+  </data>
+  <data name="&gt;&gt;AltimeterBtn.Name" xml:space="preserve">
+    <value>AltimeterBtn</value>
+  </data>
+  <data name="TopCameraBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Altimeterlab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="savePosBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="movToICSeatBtn.Text" xml:space="preserve">
+    <value>校正烧录座位置</value>
+  </data>
+  <data name="BtnContinue.Text" xml:space="preserve">
+    <value>继  续</value>
+  </data>
+  <data name="BtnRevisePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 43</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox1.Name" xml:space="preserve">
+    <value>modelPicBox1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ICStatePosPnl</value>
+  </data>
+  <data name="scketPosPnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 520</value>
+  </data>
+  <data name="modelPicBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 42</value>
+  </data>
+  <data name="movToICSeatBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="&gt;&gt;GO_Socket.Name" xml:space="preserve">
+    <value>GO_Socket</value>
+  </data>
+  <data name="&gt;&gt;savePosBtn.Name" xml:space="preserve">
+    <value>savePosBtn</value>
+  </data>
+  <data name="&gt;&gt;ScannerBtn.Name" xml:space="preserve">
+    <value>ScannerBtn</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scketPosPnl.Name" xml:space="preserve">
+    <value>scketPosPnl</value>
+  </data>
+  <data name="modelPicBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>235</value>
+  </data>
+  <data name="findImgModBtn.Text" xml:space="preserve">
+    <value>查找图像模板</value>
+  </data>
+  <data name="GO_Socket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 86</value>
+  </data>
+  <data name="ScannerBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;movToICSeatBtn.Name" xml:space="preserve">
+    <value>movToICSeatBtn</value>
+  </data>
+  <data name="findImgModBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="&gt;&gt;techICModBtn.Name" xml:space="preserve">
+    <value>techICModBtn</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;AltimeterBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;findImgModBtn.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="techICModBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;movToICSeatBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="GO_Socket.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;techICModBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Scannerlab.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BtnContinue.Name" xml:space="preserve">
+    <value>BtnContinue</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 37</value>
+  </data>
+  <data name="&gt;&gt;modelPicBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ScannerBtn.Text" xml:space="preserve">
+    <value>扫码枪</value>
+  </data>
+  <data name="BtnRevisePos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;findImgModBtn.Name" xml:space="preserve">
+    <value>findImgModBtn</value>
+  </data>
+  <data name="&gt;&gt;TopCameraBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GO_Socket.Text" xml:space="preserve">
+    <value>GO:位置</value>
+  </data>
+  <data name="AltimeterBtn.Text" xml:space="preserve">
+    <value>测高仪</value>
+  </data>
+  <data name="ScannerBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="modifyBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label78.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnRevisePos.TabIndex" type="System.Int32, mscorlib">
+    <value>257</value>
+  </data>
+  <data name="TopCameraBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt, style=Bold</value>
+  </data>
+  <data name="Scannerlab.TabIndex" type="System.Int32, mscorlib">
+    <value>253</value>
+  </data>
+  <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 0</value>
+  </data>
+  <data name="&gt;&gt;TopCameralab.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="findImgModBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TopCameraBtn.Name" xml:space="preserve">
+    <value>TopCameraBtn</value>
+  </data>
+  <data name="&gt;&gt;modifyBtn.Name" xml:space="preserve">
+    <value>modifyBtn</value>
+  </data>
+  <data name="ScannerBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>252</value>
+  </data>
+  <data name="&gt;&gt;label78.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="modelPicBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 142</value>
+  </data>
+  <data name="techICModBtn.Text" xml:space="preserve">
+    <value>示教IC模板</value>
+  </data>
+  <data name="Scannerlab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 1</value>
+  </data>
+  <data name="modifyBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="BtnContinue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnRevisePos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GO_Socket.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnContinue.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;Altimeterlab.Name" xml:space="preserve">
+    <value>Altimeterlab</value>
+  </data>
+  <data name="TopCameraBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="&gt;&gt;movToICSeatBtn.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Altimeterlab.TabIndex" type="System.Int32, mscorlib">
+    <value>255</value>
+  </data>
+  <data name="label78.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="findImgModBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 141</value>
+  </data>
+  <data name="movToICSeatBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="TopCameraBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>224</value>
+  </data>
+  <data name="&gt;&gt;GO_Socket.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="AltimeterBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>254</value>
+  </data>
+  <data name="&gt;&gt;BtnContinue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TopCameraBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;modifyBtn.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ScannerBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TopCameraBtn.Text" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <data name="&gt;&gt;ScannerBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;savePosBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Altimeterlab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>833, 1</value>
+  </data>
+  <data name="GO_Socket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 43</value>
+  </data>
+  <data name="label78.TabIndex" type="System.Int32, mscorlib">
+    <value>232</value>
+  </data>
+  <data name="&gt;&gt;GO_Socket.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label78.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Altimeterlab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 8pt, style=Bold</value>
+  </data>
+  <data name="findImgModBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Altimeterlab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="savePosBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 43</value>
+  </data>
+  <data name="ScannerBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>718, 3</value>
+  </data>
+  <data name="savePosBtn.Text" xml:space="preserve">
+    <value>保存位置</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>

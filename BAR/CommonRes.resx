@@ -1,0 +1,1246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Administrator" xml:space="preserve">
+    <value>管理员</value>
+  </data>
+  <data name="aLarmPauseLed" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="AutoTrayOnlineLed" xml:space="preserve">
+    <value>AutoTray</value>
+  </data>
+  <data name="BredeOnlineLed" xml:space="preserve">
+    <value>Tape</value>
+  </data>
+  <data name="BurnOnlineLed" xml:space="preserve">
+    <value>PRGMR</value>
+  </data>
+  <data name="CCD处理流程开始" xml:space="preserve">
+    <value>CCD process starts</value>
+  </data>
+  <data name="checkInitOKLed" xml:space="preserve">
+    <value>InitOK</value>
+  </data>
+  <data name="homeBusyLed" xml:space="preserve">
+    <value>HomeBusy</value>
+  </data>
+  <data name="homeOKLed" xml:space="preserve">
+    <value>HomeOK</value>
+  </data>
+  <data name="IC座定位" xml:space="preserve">
+    <value>[seat]</value>
+  </data>
+  <data name="IC座精度" xml:space="preserve">
+    <value>[seat accuracy]</value>
+  </data>
+  <data name="IC芯片定位" xml:space="preserve">
+    <value>[IC]</value>
+  </data>
+  <data name="lbLed2" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="lbLed4" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="lbLed5" xml:space="preserve">
+    <value>NG</value>
+  </data>
+  <data name="lbLed6" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="NG盘" xml:space="preserve">
+    <value>TrayNG</value>
+  </data>
+  <data name="NG盘不支持取料位置设置" xml:space="preserve">
+    <value>The NG tray does not support the take position</value>
+  </data>
+  <data name="NG盘不支持结束位置设置" xml:space="preserve">
+    <value>The NG tray does not support the end position</value>
+  </data>
+  <data name="NG盘满料;" xml:space="preserve">
+    <value>The NG tray is full;</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>操作员</value>
+  </data>
+  <data name="runBusyLed" xml:space="preserve">
+    <value>RunBusy</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>供应商</value>
+  </data>
+  <data name="systemBusyLed" xml:space="preserve">
+    <value>SystemBusy</value>
+  </data>
+  <data name="X或Y轴异常,已退出GO动作" xml:space="preserve">
+    <value>The X or Y axis is abnormal. The GO action has exited</value>
+  </data>
+  <data name="X或Y轴异常,已退出反学" xml:space="preserve">
+    <value>The X or Y axis is abnormal. The reverse learning has been exited</value>
+  </data>
+  <data name="X或Y轴异常,已退出自动运行" xml:space="preserve">
+    <value>The X or Y axis is abnormal. The automatic operation has exited</value>
+  </data>
+  <data name="X轴正极限异常" xml:space="preserve">
+    <value>The positive limit of the X-axis is abnormal</value>
+  </data>
+  <data name="X轴负极限异常" xml:space="preserve">
+    <value>The negative limit of the X-axis is abnormal</value>
+  </data>
+  <data name="X轴驱动器异常" xml:space="preserve">
+    <value>Abnormal X-axis drive</value>
+  </data>
+  <data name="Y轴正极限异常" xml:space="preserve">
+    <value>The positive limit of the Y-axis is abnormal</value>
+  </data>
+  <data name="Y轴负极限异常" xml:space="preserve">
+    <value>The negative limit of the Y-axis is abnormal</value>
+  </data>
+  <data name="Y轴驱动器异常" xml:space="preserve">
+    <value>Abnormal Y-axis drive</value>
+  </data>
+  <data name="ZLOnlineLed" xml:space="preserve">
+    <value>Lens</value>
+  </data>
+  <data name="Z轴未回原点" xml:space="preserve">
+    <value>The Z-axis is not back to the home</value>
+  </data>
+  <data name="Z轴未在安全检测高度" xml:space="preserve">
+    <value>Z-axis is not at the safe detection height</value>
+  </data>
+  <data name="三横盘" xml:space="preserve">
+    <value>TrayModel_1</value>
+  </data>
+  <data name="三竖盘" xml:space="preserve">
+    <value>TrayModel_6</value>
+  </data>
+  <data name="上相机" xml:space="preserve">
+    <value>[UpCamera]</value>
+  </data>
+  <data name="下光源打开失败" xml:space="preserve">
+    <value>Failed to turn on the lower light source</value>
+  </data>
+  <data name="下相机" xml:space="preserve">
+    <value>[DownCamera]</value>
+  </data>
+  <data name="下降到位检测超时" xml:space="preserve">
+    <value>drop in place to detect timeout</value>
+  </data>
+  <data name="不存在,加载失败" xml:space="preserve">
+    <value> does not exist, failed to load</value>
+  </data>
+  <data name="两横一竖盘1" xml:space="preserve">
+    <value>TrayModel_3</value>
+  </data>
+  <data name="两横一竖盘2" xml:space="preserve">
+    <value>TrayModel_4</value>
+  </data>
+  <data name="两竖一横盘1" xml:space="preserve">
+    <value>TrayModel_2</value>
+  </data>
+  <data name="两竖一横盘2" xml:space="preserve">
+    <value>TrayModel_5</value>
+  </data>
+  <data name="中文" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="串口" xml:space="preserve">
+    <value>UART</value>
+  </data>
+  <data name="使用权限已到期,请联系供应商!" xml:space="preserve">
+    <value>The permission has expired. Please contact the supplier</value>
+    <comment>使用权限已到期，请联系供应商！</comment>
+  </data>
+  <data name="供应商" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="保存" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="保存上相机中心与定位孔中心重合位置成功" xml:space="preserve">
+    <value>The overlap between the center of the camera and the center of the positioning hole is saved successfully</value>
+  </data>
+  <data name="保存中..." xml:space="preserve">
+    <value>Save...</value>
+  </data>
+  <data name="保存位置成功,序号" xml:space="preserve">
+    <value>Save the location successfully, serial number </value>
+  </data>
+  <data name="保存吸头1对准定位孔中心位置成功" xml:space="preserve">
+    <value>The pen 1 is successfully saved to the center of the positioning hole</value>
+  </data>
+  <data name="保存吸笔" xml:space="preserve">
+    <value>Save the pen </value>
+  </data>
+  <data name="保存工单信息成功" xml:space="preserve">
+    <value>Saving work order information succeeded</value>
+  </data>
+  <data name="保存料盘镜头焦距成功" xml:space="preserve">
+    <value>The focal length of the tray was saved successfully</value>
+  </data>
+  <data name="保存料管镜头焦距成功" xml:space="preserve">
+    <value>The focal length of the tube was saved successfully</value>
+  </data>
+  <data name="保存测高仪到定位孔高度成功" xml:space="preserve">
+    <value>Save the altimeter to the height of the positioning hole</value>
+  </data>
+  <data name="保存测高仪对准定位孔中心重叠位置成功" xml:space="preserve">
+    <value>The altimeter was successfully aligned with the overlapping position of the center of the positioning hole</value>
+  </data>
+  <data name="保存烧录座无IC测高值成功" xml:space="preserve">
+    <value>No IC height measurement value is saved successfully</value>
+  </data>
+  <data name="保存烧录座有IC测高值成功" xml:space="preserve">
+    <value>The IC height measurement value is saved successfully</value>
+  </data>
+  <data name="保存烧录座镜头焦距成功" xml:space="preserve">
+    <value>The focal length of the seat was saved successfully</value>
+  </data>
+  <data name="保存编带镜头焦距成功" xml:space="preserve">
+    <value>The focal length of the tape was saved successfully</value>
+  </data>
+  <data name="保存行列间距成功" xml:space="preserve">
+    <value>The spacing between rows and columns is saved successfully</value>
+  </data>
+  <data name="保存设备参数成功" xml:space="preserve">
+    <value>Device parameters are saved successfully</value>
+  </data>
+  <data name="保存飞达镜头焦距成功" xml:space="preserve">
+    <value>The focal length of the feeder was saved successfully</value>
+  </data>
+  <data name="保存高度差" xml:space="preserve">
+    <value>Save height difference</value>
+  </data>
+  <data name="保存高度成功" xml:space="preserve">
+    <value>Save height successfully</value>
+  </data>
+  <data name="修改料盘取放料位置失败" xml:space="preserve">
+    <value>Failed to modify the take and lay position of the tray</value>
+  </data>
+  <data name="修改测高仪位置成功" xml:space="preserve">
+    <value>The altimeter position was modified successfully</value>
+  </data>
+  <data name="修改烧录座位置成功,序号" xml:space="preserve">
+    <value>Modify seat position successfully, serial number</value>
+  </data>
+  <data name="修改相机参数成功" xml:space="preserve">
+    <value>The camera parameters are modified successfully</value>
+  </data>
+  <data name="修改运行参数成功" xml:space="preserve">
+    <value>Running parameters are modified successfully</value>
+  </data>
+  <data name="修正测高仪到定位孔高度成功" xml:space="preserve">
+    <value>Corrected altimeter to position hole height successfully</value>
+  </data>
+  <data name="停止上相机采集流失败" xml:space="preserve">
+    <value>Failed to stop the camera acquisition stream</value>
+  </data>
+  <data name="停止运行" xml:space="preserve">
+    <value>Bring to rest</value>
+  </data>
+  <data name="全部失败" xml:space="preserve">
+    <value>After </value>
+  </data>
+  <data name="关闭" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="关闭软件" xml:space="preserve">
+    <value>Closing the Software</value>
+  </data>
+  <data name="切换" xml:space="preserve">
+    <value>Switching</value>
+  </data>
+  <data name="列" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="列方向" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="创视" xml:space="preserve">
+    <value>CS</value>
+  </data>
+  <data name="初始化图像操作运行库" xml:space="preserve">
+    <value>Initializes the image operation runtime</value>
+  </data>
+  <data name="初始化软件界面" xml:space="preserve">
+    <value>Initialize the software interface</value>
+  </data>
+  <data name="到NG杯放料成功" xml:space="preserve">
+    <value> to NG cup lay IC successfully</value>
+  </data>
+  <data name="到定位孔高度成功" xml:space="preserve">
+    <value> to the height of the positioning hole</value>
+  </data>
+  <data name="到烧写座" xml:space="preserve">
+    <value> to seat </value>
+  </data>
+  <data name="到编带放料成功" xml:space="preserve">
+    <value> to braid material successfully</value>
+  </data>
+  <data name="到飞达取料成功" xml:space="preserve">
+    <value> successfully collected material from feeder</value>
+  </data>
+  <data name="刷新" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="刷新中..." xml:space="preserve">
+    <value>Refresh...</value>
+  </data>
+  <data name="加载配置文件" xml:space="preserve">
+    <value>Loading the configuration File</value>
+  </data>
+  <data name="动作处理时长" xml:space="preserve">
+    <value>CCD processing time</value>
+  </data>
+  <data name="单打点" xml:space="preserve">
+    <value>Single dot</value>
+  </data>
+  <data name="单飞达" xml:space="preserve">
+    <value>Single feeder</value>
+  </data>
+  <data name="压座" xml:space="preserve">
+    <value>Wedge</value>
+  </data>
+  <data name="双打点" xml:space="preserve">
+    <value>Double dot</value>
+  </data>
+  <data name="双飞达" xml:space="preserve">
+    <value>Double feeder</value>
+  </data>
+  <data name="发送信息:" xml:space="preserve">
+    <value>Send:</value>
+  </data>
+  <data name="发送关闭下光源命令" xml:space="preserve">
+    <value>Send the command to turn off the light source</value>
+  </data>
+  <data name="发送取盘命令" xml:space="preserve">
+    <value>Take tray[send]</value>
+  </data>
+  <data name="发送打开下光源命令" xml:space="preserve">
+    <value>Send turn on light source command</value>
+  </data>
+  <data name="发送收盘命令" xml:space="preserve">
+    <value>Receive tray[send]</value>
+  </data>
+  <data name="发送结束收盘命令" xml:space="preserve">
+    <value>Send the ending command</value>
+  </data>
+  <data name="发送继续命令" xml:space="preserve">
+    <value>Send continue command</value>
+  </data>
+  <data name="发送编带打点A命令" xml:space="preserve">
+    <value>Send the braided dot A command</value>
+  </data>
+  <data name="发送编带打点B命令" xml:space="preserve">
+    <value>Send the braided dot B command</value>
+  </data>
+  <data name="发送编带清除报警命令" xml:space="preserve">
+    <value>Clear the braid alarm [send]</value>
+  </data>
+  <data name="发送编带热熔命令" xml:space="preserve">
+    <value>Braided hot melt[send]</value>
+  </data>
+  <data name="发送编带热熔打点命令" xml:space="preserve">
+    <value>Braid with hot melt and dot[send]</value>
+  </data>
+  <data name="发送编带走带命令" xml:space="preserve">
+    <value>Run by tape[send]</value>
+  </data>
+  <data name="发送自动送盘放料行列数据,行" xml:space="preserve">
+    <value>Send auto tray data, Row </value>
+  </data>
+  <data name="取反" xml:space="preserve">
+    <value>Inversion</value>
+  </data>
+  <data name="取料成功" xml:space="preserve">
+    <value> take IC successful</value>
+  </data>
+  <data name="取料成功,状态:NG" xml:space="preserve">
+    <value> take IC successful,status :NG</value>
+  </data>
+  <data name="取料成功,状态:OK" xml:space="preserve">
+    <value> take IC successful,status :OK</value>
+  </data>
+  <data name="取消操作" xml:space="preserve">
+    <value>[Cancel]</value>
+  </data>
+  <data name="取盘完成" xml:space="preserve">
+    <value>Take tray[done]</value>
+  </data>
+  <data name="变焦镜头未到位,检查镜头旋转是否正常;" xml:space="preserve">
+    <value>Zoom lens is not in place, check the lens rotation is normal;</value>
+  </data>
+  <data name="启动运行" xml:space="preserve">
+    <value>Startup operation</value>
+  </data>
+  <data name="启用" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="吸头" xml:space="preserve">
+    <value>Pen </value>
+  </data>
+  <data name="吸头精度" xml:space="preserve">
+    <value>[pen accuracy]</value>
+  </data>
+  <data name="吸笔" xml:space="preserve">
+    <value>Pen</value>
+  </data>
+  <data name="吸笔原位检测超时,回原点失败" xml:space="preserve">
+    <value>Pen suction in situ detection timed out and failed to return to the home</value>
+  </data>
+  <data name="吸笔异常动作脱离安全位置,已退运行" xml:space="preserve">
+    <value>Abnormal pen suction action out of the safe position, retired</value>
+  </data>
+  <data name="吸笔未在安全检测原位" xml:space="preserve">
+    <value>The suction pen is not in the safety test position</value>
+  </data>
+  <data name="吸笔未满足同取同放,请选吸笔序号连续且吸笔个数为2或者4" xml:space="preserve">
+    <value>If the pen does not meet the requirement, select the pen suction serial number and the number of pen suction is 2 or 4</value>
+  </data>
+  <data name="告警描述" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="回原点启动" xml:space="preserve">
+    <value>Back to the Home[start]</value>
+  </data>
+  <data name="回原点失败" xml:space="preserve">
+    <value>Failure to return to home</value>
+  </data>
+  <data name="回原点成功" xml:space="preserve">
+    <value>Successful return to home</value>
+  </data>
+  <data name="固定设置" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="固高" xml:space="preserve">
+    <value>GTS</value>
+  </data>
+  <data name="图像未找到" xml:space="preserve">
+    <value>Image not found</value>
+  </data>
+  <data name="图象NCC模板" xml:space="preserve">
+    <value>image NCC template</value>
+  </data>
+  <data name="图象模板" xml:space="preserve">
+    <value> image template</value>
+  </data>
+  <data name="处理异常-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Handle alarm -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="复位成功" xml:space="preserve">
+    <value>Reset successfully</value>
+  </data>
+  <data name="大华" xml:space="preserve">
+    <value>Dahua</value>
+  </data>
+  <data name="大恒" xml:space="preserve">
+    <value>Dahen</value>
+  </data>
+  <data name="大恒1" xml:space="preserve">
+    <value>DH1</value>
+  </data>
+  <data name="大恒2" xml:space="preserve">
+    <value>DH2</value>
+  </data>
+  <data name="存在未完成工单,且工单批量数小于已完成数" xml:space="preserve">
+    <value>Uncompleted work orders exist, and the number of work order batches is smaller than the number of completed work orders</value>
+  </data>
+  <data name="安全门已关闭" xml:space="preserve">
+    <value>The security gate is closed</value>
+  </data>
+  <data name="安全门未关闭" xml:space="preserve">
+    <value>The safety gate was not closed</value>
+  </data>
+  <data name="定拍" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="定焦" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="实际" xml:space="preserve">
+    <value>Practical</value>
+  </data>
+  <data name="岱镨" xml:space="preserve">
+    <value>DP</value>
+  </data>
+  <data name="岱镨烧录器" xml:space="preserve">
+    <value>DediProg</value>
+  </data>
+  <data name="工单" xml:space="preserve">
+    <value>Work order </value>
+  </data>
+  <data name="工单准备完成" xml:space="preserve">
+    <value>The work order is ready</value>
+  </data>
+  <data name="工单号为空" xml:space="preserve">
+    <value>The work order number is empty</value>
+  </data>
+  <data name="工单导入失败,无法启动" xml:space="preserve">
+    <value>Work order import failed and cannot be started</value>
+  </data>
+  <data name="工单批量数不能为零" xml:space="preserve">
+    <value>The number of work order batches cannot be zero</value>
+  </data>
+  <data name="左上角" xml:space="preserve">
+    <value>Top left</value>
+  </data>
+  <data name="左下角" xml:space="preserve">
+    <value>Bottom left</value>
+  </data>
+  <data name="已完成,请添加新工单" xml:space="preserve">
+    <value> has been completed, please add new work order</value>
+  </data>
+  <data name="开启码流失败" xml:space="preserve">
+    <value>Failed to start the code stream</value>
+  </data>
+  <data name="开始自动校准所有坐标" xml:space="preserve">
+    <value>Start automatic calibration of all positions</value>
+  </data>
+  <data name="开始自动校准烧录座位置" xml:space="preserve">
+    <value>Start automatically calibrating the position of the seat</value>
+  </data>
+  <data name="开始连接通信" xml:space="preserve">
+    <value>Start connection communication</value>
+  </data>
+  <data name="异常" xml:space="preserve">
+    <value> is abnormal</value>
+  </data>
+  <data name="急停按下" xml:space="preserve">
+    <value>Emergency stop button is pressed</value>
+  </data>
+  <data name="成功打开" xml:space="preserve">
+    <value> is successfully opened</value>
+  </data>
+  <data name="成功连接到凤凰平台服务器" xml:space="preserve">
+    <value>The Phoenix platform server is successfully connected</value>
+  </data>
+  <data name="手动回原点" xml:space="preserve">
+    <value>Manual return to origin</value>
+  </data>
+  <data name="手动收尾" xml:space="preserve">
+    <value>Manual ending</value>
+  </data>
+  <data name="手动暂停运行" xml:space="preserve">
+    <value>Manual pause of operation</value>
+  </data>
+  <data name="手动校准位置" xml:space="preserve">
+    <value>Manual calibration position</value>
+  </data>
+  <data name="手动校准烧录座位置" xml:space="preserve">
+    <value>Manually calibrate the position of the seat</value>
+  </data>
+  <data name="手动编带开始,编带个数" xml:space="preserve">
+    <value>Manual tape start, count:</value>
+  </data>
+  <data name="手动编带结束" xml:space="preserve">
+    <value>Manual tape braiding is complete</value>
+  </data>
+  <data name="打开失败" xml:space="preserve">
+    <value> opening failed</value>
+  </data>
+  <data name="打开座子,感应异常;" xml:space="preserve">
+    <value>Open the seat,abnormal sensing</value>
+  </data>
+  <data name="打点" xml:space="preserve">
+    <value>Dot</value>
+  </data>
+  <data name="打点A原位异常;" xml:space="preserve">
+    <value>Dot A is abnormal in situ;</value>
+  </data>
+  <data name="打点B原位异常;" xml:space="preserve">
+    <value>Dot B is abnormal in situ;</value>
+  </data>
+  <data name="拍照位置成功" xml:space="preserve">
+    <value>photo position</value>
+  </data>
+  <data name="按下自动盘急停,处理异常-&gt;重新启动" xml:space="preserve">
+    <value>[Press Auto disk emergency Stop, Handle exception -&gt; Restart]</value>
+  </data>
+  <data name="排空无料,测量值" xml:space="preserve">
+    <value> emptying[absent],value </value>
+  </data>
+  <data name="排空有料,测量值" xml:space="preserve">
+    <value> emptying[exist],value </value>
+  </data>
+  <data name="排空有料请人工拿走物料,测量值" xml:space="preserve">
+    <value>emptying[exist],Please remove the material manually,value</value>
+  </data>
+  <data name="推压" xml:space="preserve">
+    <value>Bulldoze</value>
+  </data>
+  <data name="推座" xml:space="preserve">
+    <value>Push seat</value>
+  </data>
+  <data name="操作员" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="收尾提示" xml:space="preserve">
+    <value>Ending Tips</value>
+  </data>
+  <data name="收尾编带开始,编带个数" xml:space="preserve">
+    <value>Finish the tape, tape number:</value>
+  </data>
+  <data name="收尾编带结束" xml:space="preserve">
+    <value>Tape braiding completed</value>
+  </data>
+  <data name="收盘完成" xml:space="preserve">
+    <value>Receive tray[done]</value>
+  </data>
+  <data name="放料成功" xml:space="preserve">
+    <value> lay IC successful</value>
+  </data>
+  <data name="料盘1" xml:space="preserve">
+    <value>Tray1</value>
+  </data>
+  <data name="料盘1#坐标(右上角)" xml:space="preserve">
+    <value>Top right corner</value>
+  </data>
+  <data name="料盘1#坐标(右下角)" xml:space="preserve">
+    <value>Bottom right corner</value>
+  </data>
+  <data name="料盘1#坐标(左上角)" xml:space="preserve">
+    <value>Top left corner</value>
+  </data>
+  <data name="料盘1#坐标(左下角)" xml:space="preserve">
+    <value>Bottom left corner</value>
+  </data>
+  <data name="料盘2" xml:space="preserve">
+    <value>Tray2</value>
+  </data>
+  <data name="料盘2#坐标(右上角)" xml:space="preserve">
+    <value>Top right corner</value>
+  </data>
+  <data name="料盘2#坐标(右下角)" xml:space="preserve">
+    <value>Bottom right corner</value>
+  </data>
+  <data name="料盘2#坐标(左上角)" xml:space="preserve">
+    <value>Top left corner</value>
+  </data>
+  <data name="料盘2#坐标(左下角)" xml:space="preserve">
+    <value>Bottom left corner</value>
+  </data>
+  <data name="料盘3#坐标(右上角)" xml:space="preserve">
+    <value>Top right corner</value>
+  </data>
+  <data name="料盘3#坐标(右下角)" xml:space="preserve">
+    <value>Bottom right corner</value>
+  </data>
+  <data name="料盘3#坐标(左上角)" xml:space="preserve">
+    <value>Top left corner</value>
+  </data>
+  <data name="料盘3#坐标(左下角)" xml:space="preserve">
+    <value>Bottom left corner</value>
+  </data>
+  <data name="料盘定位" xml:space="preserve">
+    <value>[tray]</value>
+  </data>
+  <data name="料盘精度" xml:space="preserve">
+    <value>[tray accuracy]</value>
+  </data>
+  <data name="料管定位" xml:space="preserve">
+    <value>[tube]</value>
+  </data>
+  <data name="料管精度" xml:space="preserve">
+    <value>[tube accuracy]</value>
+  </data>
+  <data name="料管缺料故障;" xml:space="preserve">
+    <value>The material pipe is out of stock;</value>
+  </data>
+  <data name="旋转超时" xml:space="preserve">
+    <value> rotation timeout</value>
+  </data>
+  <data name="日期" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="时间" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="是否修改行列间距" xml:space="preserve">
+    <value>Whether to change the spacing between rows and columns</value>
+  </data>
+  <data name="是否关闭软件" xml:space="preserve">
+    <value>Whether to shut down the software</value>
+  </data>
+  <data name="是否将NG数清零?" xml:space="preserve">
+    <value>Whether to clear the NG count?</value>
+  </data>
+  <data name="是否将OK数清零?" xml:space="preserve">
+    <value>Whether to clear the OK count?</value>
+  </data>
+  <data name="是否执行复位" xml:space="preserve">
+    <value>Whether to perform a reset</value>
+  </data>
+  <data name="是否执行收尾动作" xml:space="preserve">
+    <value>Whether to perform the final action</value>
+  </data>
+  <data name="是否示教" xml:space="preserve">
+    <value>Whether to teach </value>
+  </data>
+  <data name="暂停时间" xml:space="preserve">
+    <value>Pause time</value>
+  </data>
+  <data name="更换新的NG盘-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Please replace an NG tray -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="更换油墨-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Replace ink -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="未打开编带温控,或是未到达指定温度" xml:space="preserve">
+    <value>The braid temperature control is not enabled, or the specified temperature is not reached</value>
+  </data>
+  <data name="未放好料盘" xml:space="preserve">
+    <value>The tray is not in place</value>
+  </data>
+  <data name="未更换指示灯亮的料盘" xml:space="preserve">
+    <value>The tray with indicator light was not replaced</value>
+  </data>
+  <data name="未满足XYZ轴全部在原位" xml:space="preserve">
+    <value>The XYZ axis is all out of place</value>
+  </data>
+  <data name="未满足变焦镜头在原位" xml:space="preserve">
+    <value>The zoom lens is out of place</value>
+  </data>
+  <data name="未满足气阀全部复位" xml:space="preserve">
+    <value>Air valve is not reset</value>
+  </data>
+  <data name="未满足烧录座气缸检测全部在原位" xml:space="preserve">
+    <value>The seat cylinder is not in place</value>
+  </data>
+  <data name="未选择使用吸笔" xml:space="preserve">
+    <value>The suction pen is not selected</value>
+  </data>
+  <data name="未选择测高仪作为参照,选择后确认位置正确再修改!" xml:space="preserve">
+    <value>No altimeter is selected for reference, confirm the correct position after selection and then modify!</value>
+  </data>
+  <data name="未选择烧写座" xml:space="preserve">
+    <value>The seat was not selected</value>
+  </data>
+  <data name="机台已在运作中" xml:space="preserve">
+    <value>The machine is already in operation</value>
+  </data>
+  <data name="松下" xml:space="preserve">
+    <value>Panasonic</value>
+  </data>
+  <data name="标准模式" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="检查使用权限失败" xml:space="preserve">
+    <value>Description Failed to check the permission</value>
+  </data>
+  <data name="检查测高位置-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>Check elevation position -&gt; Clear alarm -&gt; Continue</value>
+  </data>
+  <data name="检查真空是否异常或卡料-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Check vacuum for abnormal or stuck -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="检查通讯-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Check the communication -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="检测烧写座-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Check the seat -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="次停止作业" xml:space="preserve">
+    <value> failures, the job is stopped</value>
+  </data>
+  <data name="正在打开相机" xml:space="preserve">
+    <value>Turning on the camera</value>
+  </data>
+  <data name="正在执行GO动作" xml:space="preserve">
+    <value>The GO action is being executed</value>
+  </data>
+  <data name="正在执行回原点" xml:space="preserve">
+    <value>Returning to origin is being performed</value>
+  </data>
+  <data name="正在执行收尾动作" xml:space="preserve">
+    <value>Finishing moves are being performed</value>
+  </data>
+  <data name="正在执行模板示教动作" xml:space="preserve">
+    <value>In the teaching template</value>
+  </data>
+  <data name="正在自动运行" xml:space="preserve">
+    <value>Running automatically</value>
+  </data>
+  <data name="正在连接2.5D相机" xml:space="preserve">
+    <value>Connecting the 2.5D camera</value>
+  </data>
+  <data name="正常" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="正常退出自动运行" xml:space="preserve">
+    <value>The automatic operation exits normally</value>
+  </data>
+  <data name="气缸原位感应超时;" xml:space="preserve">
+    <value> cylinder in situ induction timeout;</value>
+  </data>
+  <data name="气缸吸笔" xml:space="preserve">
+    <value>Cylinder</value>
+  </data>
+  <data name="气缸工位感应超时;" xml:space="preserve">
+    <value> cylinder limit induction timeout;</value>
+  </data>
+  <data name="测高仪到烧写座" xml:space="preserve">
+    <value>Altimeter to burn seat </value>
+  </data>
+  <data name="清除报警" xml:space="preserve">
+    <value>Clear alarm</value>
+  </data>
+  <data name="烧写座" xml:space="preserve">
+    <value>Seat </value>
+  </data>
+  <data name="烧录器通讯异常" xml:space="preserve">
+    <value>The PRGMR communication is abnormal</value>
+  </data>
+  <data name="烧录触发异常" xml:space="preserve">
+    <value>Programming trigger exception</value>
+  </data>
+  <data name="烧录超时" xml:space="preserve">
+    <value>Programming out time</value>
+  </data>
+  <data name="物料丢失;" xml:space="preserve">
+    <value> material loss;</value>
+  </data>
+  <data name="理论" xml:space="preserve">
+    <value>Theory</value>
+  </data>
+  <data name="电机变焦" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="电机吸笔" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="相机" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="相机再次采集图象" xml:space="preserve">
+    <value>The camera picks up the image again</value>
+  </data>
+  <data name="相机打开失败" xml:space="preserve">
+    <value>Failed to open the camera</value>
+  </data>
+  <data name="相机打开成功" xml:space="preserve">
+    <value>Successfully opening the camera</value>
+  </data>
+  <data name="相机第一次拍照采图" xml:space="preserve">
+    <value>The camera takes a picture for the first time</value>
+  </data>
+  <data name="相机采图超时,重启相机" xml:space="preserve">
+    <value>The camera timed out. Restart the camera</value>
+  </data>
+  <data name="相机采集图象失败,中止" xml:space="preserve">
+    <value>Camera failed to capture images, aborted</value>
+  </data>
+  <data name="相机采集图象完成" xml:space="preserve">
+    <value>Camera capture image completed</value>
+  </data>
+  <data name="相机采集图象超时" xml:space="preserve">
+    <value>The camera timed out to capture images</value>
+  </data>
+  <data name="真空取料失败;" xml:space="preserve">
+    <value>Failure to take IC;</value>
+  </data>
+  <data name="确定-&gt;继续" xml:space="preserve">
+    <value>[Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="程序已运行,不能再次打开" xml:space="preserve">
+    <value>The program is running and cannot be opened again</value>
+  </data>
+  <data name="第" xml:space="preserve">
+    <value>Group </value>
+  </data>
+  <data name="第一次拍照不成功,旋转一个小角度" xml:space="preserve">
+    <value>failed to take the first shot, rotate a small Angle</value>
+  </data>
+  <data name="管理员" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="精准模式" xml:space="preserve">
+    <value>Precision</value>
+  </data>
+  <data name="纠偏失败" xml:space="preserve">
+    <value> failure of correction</value>
+  </data>
+  <data name="纠偏失败;" xml:space="preserve">
+    <value> AOI failed;</value>
+  </data>
+  <data name="纠偏成功" xml:space="preserve">
+    <value> successful correction</value>
+  </data>
+  <data name="组烧写座烧录触发" xml:space="preserve">
+    <value> burning triggers</value>
+  </data>
+  <data name="统计计数修改成功" xml:space="preserve">
+    <value>The statistics were modified successfully</value>
+  </data>
+  <data name="继续运行" xml:space="preserve">
+    <value>Continue to run</value>
+  </data>
+  <data name="维精" xml:space="preserve">
+    <value>WJ</value>
+  </data>
+  <data name="编带CCD报警查询" xml:space="preserve">
+    <value>Braid CCD alarm query</value>
+  </data>
+  <data name="编带CCD触发" xml:space="preserve">
+    <value>Braid CCD trigger</value>
+  </data>
+  <data name="编带定位" xml:space="preserve">
+    <value>[tape]</value>
+  </data>
+  <data name="编带影像检测异常;" xml:space="preserve">
+    <value>Tape image detection abnormality;</value>
+  </data>
+  <data name="编带影像检测成功" xml:space="preserve">
+    <value>The tape image detection was successful</value>
+  </data>
+  <data name="编带报警查询" xml:space="preserve">
+    <value>Braid alarm query</value>
+  </data>
+  <data name="编带模块飞达触发" xml:space="preserve">
+    <value>Braid module feeder trigger</value>
+  </data>
+  <data name="编带温控异常;" xml:space="preserve">
+    <value>Abnormal tape temperature control;</value>
+  </data>
+  <data name="编带空料故障;" xml:space="preserve">
+    <value>Braid empty material;</value>
+  </data>
+  <data name="编带精度" xml:space="preserve">
+    <value>[tape accuracy]</value>
+  </data>
+  <data name="编带缺膜故障;" xml:space="preserve">
+    <value>The braid lacks film;</value>
+  </data>
+  <data name="编带缺载带故障;" xml:space="preserve">
+    <value>Fault of braiding and missing load belt;</value>
+  </data>
+  <data name="编带走带故障;" xml:space="preserve">
+    <value>Tape running failure;</value>
+  </data>
+  <data name="编带跳料故障;" xml:space="preserve">
+    <value>Braiding jump material;</value>
+  </data>
+  <data name="编带通讯异常" xml:space="preserve">
+    <value>The tape communication is abnormal</value>
+  </data>
+  <data name="网口" xml:space="preserve">
+    <value>Ethernet</value>
+  </data>
+  <data name="网络连接失败" xml:space="preserve">
+    <value>Network connection failure</value>
+  </data>
+  <data name="网络连接成功" xml:space="preserve">
+    <value>Network connection successful</value>
+  </data>
+  <data name="自动校准坐标失败" xml:space="preserve">
+    <value>Automatic coordinate calibration failed</value>
+  </data>
+  <data name="自动校正坐标失败;" xml:space="preserve">
+    <value>Automatic coordinate correction failed;</value>
+  </data>
+  <data name="自动校正烧录座失败;" xml:space="preserve">
+    <value>Automatic correction of seat failure;</value>
+  </data>
+  <data name="自动盘前端存在料盘" xml:space="preserve">
+    <value>There is a material tray at the front end of the automatic plate</value>
+  </data>
+  <data name="自动盘前端缺少料盘" xml:space="preserve">
+    <value>Lack of material tray in front of automatic tray</value>
+  </data>
+  <data name="自动盘已烧录区装满料盘" xml:space="preserve">
+    <value>The automatic plate has been filled with material in the burning area</value>
+  </data>
+  <data name="自动盘料盘丢失;" xml:space="preserve">
+    <value>Automatic plate material plate loss;</value>
+  </data>
+  <data name="自动盘未烧录区缺少料盘" xml:space="preserve">
+    <value>Lack of material plate in unburned area of automatic plate</value>
+  </data>
+  <data name="自动盘正在忙" xml:space="preserve">
+    <value>The auto tray is busy</value>
+  </data>
+  <data name="自动盘电机未在原位" xml:space="preserve">
+    <value>Auto tray motor is not in place</value>
+  </data>
+  <data name="自动盘缺油墨;" xml:space="preserve">
+    <value>The automatic tray is short of ink;</value>
+  </data>
+  <data name="自动盘通讯异常" xml:space="preserve">
+    <value>The auto tray communication is abnormal</value>
+  </data>
+  <data name="自动编带开始,编带个数" xml:space="preserve">
+    <value>Auto tape start, count:</value>
+  </data>
+  <data name="自动编带结束" xml:space="preserve">
+    <value>Auto tape braiding is complete</value>
+  </data>
+  <data name="自动获取" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="自动获取烧录座坐标失败" xml:space="preserve">
+    <value>Failed to obtain the seat coordinates automatically</value>
+  </data>
+  <data name="自动获取高度开始" xml:space="preserve">
+    <value>Automatic height acquisition starts</value>
+  </data>
+  <data name="自动运行开始" xml:space="preserve">
+    <value>Automatic operation start</value>
+  </data>
+  <data name="自动运行时间" xml:space="preserve">
+    <value>Automatic running time</value>
+  </data>
+  <data name="舟正&amp;HG-C1030" xml:space="preserve">
+    <value>HG-C1030</value>
+  </data>
+  <data name="舟正&amp;HG-C1100" xml:space="preserve">
+    <value>HG-C1100</value>
+  </data>
+  <data name="英文" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="行方向" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="补料盘满料;" xml:space="preserve">
+    <value>The refill tray is full;</value>
+  </data>
+  <data name="补料盘缺料;" xml:space="preserve">
+    <value>The refil tray is short of material;</value>
+  </data>
+  <data name="裸板" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="触发" xml:space="preserve">
+    <value> trigger</value>
+  </data>
+  <data name="计算间距成功" xml:space="preserve">
+    <value>Spacing calculated successfully</value>
+  </data>
+  <data name="计算高度差成功" xml:space="preserve">
+    <value>The height difference was calculated successfully</value>
+  </data>
+  <data name="设备使用权限到期,请联系供应商!" xml:space="preserve">
+    <value>The permission to use the equipment expires, please contact the supplier!</value>
+  </data>
+  <data name="设备运行中,不允许修改" xml:space="preserve">
+    <value>Parameter modification is not allowed when the machine is running</value>
+  </data>
+  <data name="请人工寻找物料-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Please find the material manually -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="请更换一个有料的盘-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Please replace a tray with material -&gt; Clear alarm -&gt; continue]</value>
+  </data>
+  <data name="请更换一个空料的盘-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Please replace an empty tray -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="请检查气压气阀或气缸感应-&gt;确定-&gt;继续" xml:space="preserve">
+    <value>[Please check the air pressure valve or cylinder induction -&gt; Clear alarm -&gt; Continue]</value>
+  </data>
+  <data name="读取测高仪模拟量失败;" xml:space="preserve">
+    <value>Altimeter analog failed to read;</value>
+  </data>
+  <data name="调整掩膜框大小与区域" xml:space="preserve">
+    <value>Adjust the size and area of the mask frame</value>
+  </data>
+  <data name="调整查找框大小与区域" xml:space="preserve">
+    <value>Adjust the size and area of the search box</value>
+  </data>
+  <data name="调整模板框大小与区域" xml:space="preserve">
+    <value>Adjust the size and area of the template enclosure</value>
+  </data>
+  <data name="跳过当前动作" xml:space="preserve">
+    <value>Skip the current action</value>
+  </data>
+  <data name="运动控制卡" xml:space="preserve">
+    <value>Motion controller</value>
+  </data>
+  <data name="运动超出有效行程,已退运行;请检查坐标或X,Y轴最大值设置" xml:space="preserve">
+    <value>The movement exceeds the effective travel and has been withdrawn from operation; Please check the coordinates or X,Y axis maximum setting</value>
+  </data>
+  <data name="远向" xml:space="preserve">
+    <value>YX</value>
+  </data>
+  <data name="连接光源控制器失败 IP:192.168.0.10" xml:space="preserve">
+    <value>Failed to connect the light source controller IP:192.168.0.10</value>
+  </data>
+  <data name="连接凤凰平台服务器失败!" xml:space="preserve">
+    <value>Failed to connect Phoenix platform server!</value>
+  </data>
+  <data name="连接成功" xml:space="preserve">
+    <value>Connection successful</value>
+  </data>
+  <data name="通讯异常" xml:space="preserve">
+    <value>Abnormal communication</value>
+  </data>
+  <data name="配方" xml:space="preserve">
+    <value>Production </value>
+  </data>
+  <data name="重启相机失败,请检查相机电源及网线" xml:space="preserve">
+    <value>Restart the camera failed. Check the power supply and network cable of the camera</value>
+  </data>
+  <data name="重新启动" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="重新学习" xml:space="preserve">
+    <value>[Relearn]</value>
+  </data>
+  <data name="重烧放料成功" xml:space="preserve">
+    <value>lay IC successful [again]</value>
+  </data>
+  <data name="错误信息:" xml:space="preserve">
+    <value>Wrong information</value>
+  </data>
+  <data name="镜头变焦" xml:space="preserve">
+    <value>Lens</value>
+  </data>
+  <data name="镜头回零中......" xml:space="preserve">
+    <value>Lens back to home</value>
+  </data>
+  <data name="镜头回零成功" xml:space="preserve">
+    <value>Lens back to home success</value>
+  </data>
+  <data name="限位告警" xml:space="preserve">
+    <value>Limit alarm</value>
+  </data>
+  <data name="飞拍" xml:space="preserve">
+    <value>Fly</value>
+  </data>
+  <data name="飞拍位置次数" xml:space="preserve">
+    <value>Number of fly:</value>
+  </data>
+  <data name="飞达" xml:space="preserve">
+    <value>Feeder </value>
+  </data>
+  <data name="飞达定位" xml:space="preserve">
+    <value>[feeder]</value>
+  </data>
+  <data name="飞达精度" xml:space="preserve">
+    <value>[feeder accuracy]</value>
+  </data>
+  <data name="首次排空,取料失败" xml:space="preserve">
+    <value> first emptying was failure</value>
+  </data>
+  <data name="首次排空,取料成功" xml:space="preserve">
+    <value> first emptying was successful</value>
+  </data>
+  <data name="高度值不合法;" xml:space="preserve">
+    <value>The height value is illegal;</value>
+  </data>
+</root>

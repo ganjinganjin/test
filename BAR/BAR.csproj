@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{10C37794-3E5C-4294-AFEE-900879A91193}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BAR</RootNamespace>
+    <AssemblyName>自动烧录机</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin, Version=16.1.14.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="dog_net_windows, Version=1.0.1.28668, Culture=neutral, PublicKeyToken=56120be447701319, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dog_net_windows.dll</HintPath>
+    </Reference>
+    <Reference Include="GT-PLC, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GT-PLC.dll</HintPath>
+    </Reference>
+    <Reference Include="GxIAPINET, Version=1.0.7224.20775, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GxIAPINET.dll</HintPath>
+    </Reference>
+    <Reference Include="halcondotnet, Version=13.0.1.1, Culture=neutral, PublicKeyToken=4973bed59ddbf2b8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="LBIndustrialCtrls, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\LBIndustrialCtrls.dll</HintPath>
+    </Reference>
+    <Reference Include="QXZused, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\QXZused.dll</HintPath>
+    </Reference>
+    <Reference Include="SplitButton, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SplitButton.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TensionDetectionDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TensionDetectionDLL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commonlib\Components\DHCamera\CFps.cs" />
+    <Compile Include="Commonlib\Components\DHCamera\CStatistics.cs" />
+    <Compile Include="Commonlib\Components\DHCamera\CStopWatch.cs" />
+    <Compile Include="Commonlib\Components\DHCamera\GxBitmap.cs" />
+    <Compile Include="Commonlib\Components\DHCamera\Win32Bitmap.cs" />
+    <Compile Include="Commonlib\Components\ImgOperater.cs" />
+    <Compile Include="Commonlib\Events\MsgEvent.cs" />
+    <Compile Include="Commonlib\Utils\DHCameraUtil.cs" />
+    <Compile Include="Commonlib\Utils\HalconImgUtil.cs" />
+    <Compile Include="GlobConstData.cs" />
+    <Compile Include="Windows\AxisCtlWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\AxisCtlWnd.Designer.cs">
+      <DependentUpon>AxisCtlWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BAR.Designer.cs">
+      <DependentUpon>BAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commonlib\Act.cs" />
+    <Compile Include="Commonlib\Config.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\AxisIOWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\AxisIOWnd.Designer.cs">
+      <DependentUpon>AxisIOWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AxisParametersWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\AxisParametersWnd.Designer.cs">
+      <DependentUpon>AxisParametersWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BraidParametersWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BraidParametersWnd.Designer.cs">
+      <DependentUpon>BraidParametersWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UserInfoWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\UserInfoWnd.Designer.cs">
+      <DependentUpon>UserInfoWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UserRegisterWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\UserRegisterWnd.Designer.cs">
+      <DependentUpon>UserRegisterWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UserModifierWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\UserModifierWnd.Designer.cs">
+      <DependentUpon>UserModifierWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UserChangeWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\UserChangeWnd.Designer.cs">
+      <DependentUpon>UserChangeWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ConfigInitWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ConfigInitWnd.Designer.cs">
+      <DependentUpon>ConfigInitWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UserLoginWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\UserLoginWnd.Designer.cs">
+      <DependentUpon>UserLoginWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\GPIOWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\GPIOWnd.Designer.cs">
+      <DependentUpon>GPIOWnd.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="obj\x86\Debug\BAR.BAR.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\BAR.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\BAR.Windows.AxisCtlWnd.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\BAR.Windows.ConfigInitWnd.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\BAR.Windows.UserChangeWnd.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\BAR.Windows.UserInfoWnd.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\BAR.Windows.UserLoginWnd.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\BAR.Windows.UserModifierWnd.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\BAR.Windows.UserRegisterWnd.resources" />
+    <EmbeddedResource Include="obj\x86\Release\BAR.BAR.resources" />
+    <EmbeddedResource Include="obj\x86\Release\BAR.Properties.Resources.resources" />
+    <EmbeddedResource Include="Windows\AxisCtlWnd.resx">
+      <DependentUpon>AxisCtlWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BAR.resx">
+      <DependentUpon>BAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Windows\AxisIOWnd.resx">
+      <DependentUpon>AxisIOWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\AxisParametersWnd.resx">
+      <DependentUpon>AxisParametersWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BraidParametersWnd.resx">
+      <DependentUpon>BraidParametersWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UserInfoWnd.resx">
+      <DependentUpon>UserInfoWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UserRegisterWnd.resx">
+      <DependentUpon>UserRegisterWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UserModifierWnd.resx">
+      <DependentUpon>UserModifierWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UserChangeWnd.resx">
+      <DependentUpon>UserChangeWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ConfigInitWnd.resx">
+      <DependentUpon>ConfigInitWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UserLoginWnd.resx">
+      <DependentUpon>UserLoginWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\GPIOWnd.resx">
+      <DependentUpon>GPIOWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Debug\DB\TensionDB.db" />
+    <None Include="bin\Debug\GTS800-KINCOTO.cfg" />
+    <None Include="bin\Debug\自动烧录机.exe.config" />
+    <None Include="obj\x86\Debug\BAR.csproj.CopyComplete" />
+    <None Include="obj\x86\Debug\BAR.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\x86\Debug\BAR.csproj.GenerateResource.Cache" />
+    <None Include="obj\x86\Debug\BAR.csprojAssemblyReference.cache" />
+    <None Include="obj\x86\Debug\BAR.csprojAssemblyReference.cache.r37" />
+    <None Include="obj\x86\Debug\BAR.csprojAssemblyReference.cache.r38" />
+    <None Include="obj\x86\Debug\BAR.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\GenerateResource.read.1.tlog" />
+    <None Include="obj\x86\Debug\GenerateResource.write.1.tlog" />
+    <None Include="obj\x86\Release\BAR.csproj.GenerateResource.Cache" />
+    <None Include="obj\x86\Release\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Release\GenerateResource.read.1.tlog" />
+    <None Include="obj\x86\Release\GenerateResource.write.1.tlog" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Cal_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Edit_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Ctl_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Cam_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\con_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\config_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\cpu_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\File_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\User_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="Commonlib\FrameWork\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\CSkin.dll" />
+    <Content Include="bin\Debug\GT-PLC.dll" />
+    <Content Include="bin\Debug\gts.dll" />
+    <Content Include="bin\Debug\GxIAPINET.dll" />
+    <Content Include="bin\Debug\halcon.dll" />
+    <Content Include="bin\Debug\halcondotnet.dll" />
+    <Content Include="bin\Debug\LBIndustrialCtrls.dll" />
+    <Content Include="bin\Debug\QXZused.dll" />
+    <Content Include="bin\Debug\System.Data.SQLite.dll" />
+    <Content Include="bin\Debug\TensionDetectionDLL.dll" />
+    <Content Include="bin\Debug\x64\SQLite.Interop.dll" />
+    <Content Include="bin\Debug\x86\SQLite.Interop.dll" />
+    <Content Include="bin\Debug\自动烧录机.exe" />
+    <Content Include="bin\Debug\自动烧录机.pdb" />
+    <Content Include="obj\x86\Debug\BAR.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\x86\Debug\自动烧录机.exe" />
+    <Content Include="obj\x86\Debug\自动烧录机.pdb" />
+    <Content Include="obj\x86\Release\BAR.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Release\BAR.exe" />
+    <Content Include="obj\x86\Release\BAR.pdb" />
+    <Content Include="obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+    <None Include="Resourses\1209004.png" />
+    <None Include="Resourses\1209015.png" />
+    <None Include="Resourses\1209023.png" />
+    <None Include="Resourses\1209033.png" />
+    <Content Include="Resourses\BAR.ico" />
+    <None Include="Resourses\IO_btn.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
