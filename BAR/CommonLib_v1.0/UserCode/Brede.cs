@@ -679,7 +679,6 @@ namespace BAR
                                 CntVal_MarkBEmptyMaterial = 0;
                             }
                             BA_P_Step = 7;
-                            //Brede_Timer.CheckBusy_Cnt = UserTimer.GetSysTime() + Timer_CheckBusyVal;
                         }
                     }
                     break;

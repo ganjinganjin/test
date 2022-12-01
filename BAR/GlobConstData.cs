@@ -42,6 +42,10 @@ namespace BAR
         /// 大华相机
         /// </summary>
         public const int Camera_HR = 1;
+        /// <summary>
+        /// 海康相机
+        /// </summary>
+        public const int Camera_MV = 2;
 
         /// <summary>
         /// 岱镨Logo
