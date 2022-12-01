@@ -3477,7 +3477,7 @@ namespace BAR {
         internal static string 转移模式 {
             get {
                 return ResourceManager.GetString("转移模式", resourceCulture);
-            }
+        }
         }
         
         /// <summary>
