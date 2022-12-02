@@ -154,12 +154,6 @@
   <data name="skinLabel1.Text" xml:space="preserve">
     <value>Port：</value>
   </data>
-  <data name="skinGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 14.25pt, style=Bold</value>
-  </data>
-  <data name="skinGroupBox2.Text" xml:space="preserve">
-    <value>Light</value>
-  </data>
   <data name="skinLabel9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
@@ -172,11 +166,11 @@
   <data name="skinLabel10.Text" xml:space="preserve">
     <value>Mode：</value>
   </data>
-  <data name="skinGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="skinGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 14.25pt, style=Bold</value>
   </data>
-  <data name="skinGroupBox3.Text" xml:space="preserve">
-    <value>General 1</value>
+  <data name="skinGroupBox2.Text" xml:space="preserve">
+    <value>Light</value>
   </data>
   <data name="CboLanguage.Font" type="System.Drawing.Font, System.Drawing">
     <value>宋体, 12pt</value>
@@ -230,6 +224,12 @@
   <data name="skinLabel8.Text" xml:space="preserve">
     <value>Card No.：</value>
   </data>
+  <data name="skinGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox3.Text" xml:space="preserve">
+    <value>General 1</value>
+  </data>
   <data name="skinLabel5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
@@ -247,12 +247,6 @@
   </data>
   <data name="skinLabel3.Text" xml:space="preserve">
     <value>MES：</value>
-  </data>
-  <data name="skinGroupBox4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 14.25pt, style=Bold</value>
-  </data>
-  <data name="skinGroupBox4.Text" xml:space="preserve">
-    <value>Redress</value>
   </data>
   <data name="CboYDir.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 67</value>
@@ -290,11 +284,11 @@
   <data name="CboXDir.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 30</value>
   </data>
-  <data name="skinGroupBox5.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="skinGroupBox4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 14.25pt, style=Bold</value>
   </data>
-  <data name="skinGroupBox5.Text" xml:space="preserve">
-    <value>Tray</value>
+  <data name="skinGroupBox4.Text" xml:space="preserve">
+    <value>Redress</value>
   </data>
   <data name="skinLabel43.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -365,11 +359,11 @@
   <data name="skinLabel15.Text" xml:space="preserve">
     <value>Tray Mode：</value>
   </data>
-  <data name="skinGroupBox6.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="skinGroupBox5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 14.25pt, style=Bold</value>
   </data>
-  <data name="skinGroupBox6.Text" xml:space="preserve">
-    <value>Programmer</value>
+  <data name="skinGroupBox5.Text" xml:space="preserve">
+    <value>Tray</value>
   </data>
   <data name="skinLabel44.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -389,6 +383,12 @@
   <data name="skinLabel19.Text" xml:space="preserve">
     <value>Port：</value>
   </data>
+  <data name="skinGroupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox6.Text" xml:space="preserve">
+    <value>Programmer</value>
+  </data>
   <data name="BtnSave.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 14.25pt, style=Bold</value>
   </data>
@@ -400,12 +400,6 @@
   </data>
   <data name="BtnSave.Text" xml:space="preserve">
     <value>Save</value>
-  </data>
-  <data name="skinGroupBox7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 14.25pt, style=Bold</value>
-  </data>
-  <data name="skinGroupBox7.Text" xml:space="preserve">
-    <value>Function block</value>
   </data>
   <data name="skinLabel32.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -431,11 +425,11 @@
   <data name="skinLabel22.Text" xml:space="preserve">
     <value>Ink：</value>
   </data>
-  <data name="skinGroupBox8.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="skinGroupBox7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 14.25pt, style=Bold</value>
   </data>
-  <data name="skinGroupBox8.Text" xml:space="preserve">
-    <value>General 2</value>
+  <data name="skinGroupBox7.Text" xml:space="preserve">
+    <value>Function block</value>
   </data>
   <data name="skinLabel42.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -454,6 +448,91 @@
   </data>
   <data name="skinLabel41.Text" xml:space="preserve">
     <value>Efficiency：</value>
+  </data>
+  <data name="resource.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="resource.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.AccessibleDescription1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor1" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.BackgroundImage1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout1" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.MaximumSize1" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.MaxLength1" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="resource.Multiline1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.PasswordChar1" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.RightToLeft1" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ScrollBars1" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.TextAlign1" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.WordWrap1" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="skinLabel38.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -506,6 +585,90 @@
   <data name="skinLabel29.Text" xml:space="preserve">
     <value>Camera IP：</value>
   </data>
+  <data name="resource.AccessibleDescription2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor2" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.BackgroundImage2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout2" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.MaximumSize2" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.MaxLength2" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="resource.Multiline2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.PasswordChar2" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.RightToLeft2" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ScrollBars2" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.TextAlign2" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.WordWrap2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.AccessibleDescription3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor3" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.BackgroundImage3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout3" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.ImeMode3" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.MaximumSize3" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.MaxLength3" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="resource.Multiline3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.PasswordChar3" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.RightToLeft3" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ScrollBars3" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.TextAlign3" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.WordWrap3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="skinLabel28.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
@@ -524,11 +687,17 @@
   <data name="skinLabel30.Text" xml:space="preserve">
     <value>Server IP：</value>
   </data>
+  <data name="skinGroupBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="skinGroupBox8.Text" xml:space="preserve">
+    <value>General 2</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1335, 634</value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>EngineerSetting</value>

@@ -206,10 +206,15 @@ namespace BAR.ControlPanels
                 g_act.ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].SetShutter(g_config.IShutter);
                 g_act.ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].SetGain(g_config.IGain);
             }
-            else
+            else if(Config.CameraType == GlobConstData.Camera_HR)
             {
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].SetShutter(g_config.IShutter);
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].SetGain(g_config.IGain);
+            }
+            else
+            {
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SetShutter(g_config.IShutter);
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SetGain(g_config.IGain);
             }
             g_config.SaveModelCxy1();
             g_act.GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, "修改相机参数成功", "Modify");

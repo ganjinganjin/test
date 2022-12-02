@@ -1204,9 +1204,13 @@ namespace BAR
             {
                 g_act.ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].SetEnumValue("TriggerSource", "Line2");
             }
-            else
+            else if(Config.CameraType == GlobConstData.Camera_HR)
             {
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].SetLineMode();
+            }
+            else
+            {
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SetLineMode();
             }
         }
 

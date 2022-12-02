@@ -819,6 +819,107 @@ namespace BAR
                 //g_act.GenLogMessage(GlobConstData.ST_LOG_RECORD, "主界面下相机采图" + ex.Message, "Halcon");
             }
         }
+
+        private void OnUpCamMsgEventHandler_MV(object sender, MsgEvent e)
+        {
+            try
+            {
+                if (e.MsgType == MsgEvent.MSG_IMGPAINT)
+                {
+                    MVCameraUtil cam = (MVCameraUtil)sender;
+                    if (cam.SelectedWnd == GlobConstData.SELECT_MAIN_WND)
+                    {
+                        if (cam.ICameraID == g_act.ISelectCam)
+                        {
+                            HObject tmp_img1;
+                            if (cam.ICameraID == GlobConstData.ST_CCDUP)
+                            {
+                                HObject tmp_img2; //先缓存图像数据到两个临时变量，最后在放到全局数据
+                                HOperatorSet.GenImage1(out tmp_img1, "byte", GlobConstData.IMG500_WIDTH, GlobConstData.IMG500_HEIGHT, (HTuple)g_act.ArrMVCameraUtils[g_act.ISelectCam].PtrBufferRaw);
+                                HOperatorSet.MirrorImage(tmp_img1, out tmp_img2, "row");
+                                tmp_img1.Dispose();
+                                HOperatorSet.MirrorImage(tmp_img2, out g_act.ArrSourceImage[g_act.ISelectCam], "column");
+                                tmp_img2.Dispose();
+                            }
+
+                            _HalconUtil.DispImage(_ImgOperaters[g_act.ISelectCam], _HalconWndID, g_act.ArrSourceImage[g_act.ISelectCam], false, ref _IsHaveImg[g_act.ISelectCam]);
+                            if (g_act.IsCamSnapMode != true)
+                            {
+                                g_act.ArrSourceImage[g_act.ISelectCam]?.Dispose();
+                            }
+                            else
+                            {
+                                g_act.IsSnapOver = true;
+                            }
+                            //if (!Auto_Flag.SystemBusy) _HalconUtil.DisplayCross(_HalconWndID, _ImgOperaters[g_act.ISelectCam].DZoomWndFactor, false);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                g_act.GenLogMessage(GlobConstData.ST_LOG_RECORD, "MainUpCamera" + ex.Message, "Halcon");
+            }
+
+        }
+        private void OnDownCamMsgEventHandler_MV(object sender, MsgEvent e)
+        {
+            try
+            {
+                if (e.MsgType == MsgEvent.MSG_IMGPAINT)
+                {
+                    MVCameraUtil cam = (MVCameraUtil)sender;
+                    if (cam.SelectedWnd == GlobConstData.SELECT_MAIN_WND)
+                    {
+                        if (cam.ICameraID == g_act.ISelectCam)
+                        {
+                            if (cam.ICameraID == g_act.ISelectCam)
+                            {
+                                HObject tmp_img1;
+                                if (cam.ICameraID == GlobConstData.ST_CCDDOWN)
+                                {
+                                    HOperatorSet.GenImage1(out tmp_img1, "byte", GlobConstData.IMG130_WIDTH, GlobConstData.IMG130_HEIGHT, (HTuple)g_act.ArrMVCameraUtils[g_act.ISelectCam].PtrBufferRaw);
+                                    HOperatorSet.MirrorImage(tmp_img1, out g_act.ArrSourceImage[g_act.ISelectCam], "row");
+                                    tmp_img1.Dispose();
+                                    if (Auto_Flag.AutoRunBusy && Config.CCDModel == 1 && Run.ARP_Step >= 2)
+                                    {
+                                        while (true)
+                                        {
+                                            if (Axis.Pen[UserTask.PIC_PenN].ExistIC)
+                                            {
+                                                break;
+                                            }
+                                            UserTask.PIC_PenN += Auto_Flag.Ascending_ICPos ? 1 : -1;
+                                        }
+                                        int buffer = UserTask.PIC_PenN;
+                                        g_act.ArrSourceImageBuffer[buffer] = g_act.ArrSourceImage[g_act.ISelectCam];
+                                        Thread CCDTd = new Thread(() => g_act.CCDProccess_Fast(buffer, Axis.trapPrm_C[buffer].getPos));
+                                        CCDTd.IsBackground = true;
+                                        CCDTd.Start();
+                                        UserTask.PIC_PenN += Auto_Flag.Ascending_ICPos ? 1 : -1;
+                                    }
+
+                                }
+                                _HalconUtil.DispImage(_ImgOperaters[g_act.ISelectCam], g_act.ArrWndID[g_act.ISelectWnd], g_act.ArrSourceImage[g_act.ISelectCam], false, ref _IsHaveImg[g_act.ISelectCam]);
+                                if (g_act.IsCamSnapMode != true)
+                                {
+                                    g_act.ArrSourceImage[g_act.ISelectCam]?.Dispose();
+                                }
+                                else
+                                {
+                                    g_act.IsSnapOver = true;
+                                }
+                                if (!Auto_Flag.SystemBusy) _HalconUtil.DisplayCross(_HalconWndID, _ImgOperaters[g_act.ISelectCam].DZoomWndFactor, false);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                //g_act.GenLogMessage(GlobConstData.ST_LOG_RECORD, "主界面下相机采图" + ex.Message, "Halcon");
+            }
+        }
         //创建Halcon窗口
         private void __CreateHalconWnd()
         {
@@ -850,15 +951,41 @@ namespace BAR
 
                 this.__DownCameraStartSnap();
             }
-            else
+            else if(Config.CameraType == GlobConstData.Camera_HR)
             {
                 g_act.InitCCD();
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler += OnUpCamMsgEventHandler_HR;
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler += OnDownCamMsgEventHandler_HR;
                 this.__DownCameraStartSnap();
             }
-            
-        } 
+            else
+            {
+                g_act.InitCCD();
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler += OnUpCamMsgEventHandler_MV;
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler += OnDownCamMsgEventHandler_MV;
+                this.__DownCameraStartSnap();
+            }
+
+        }
+
+        private void __UnRegistCameraHandle()
+        {
+            if (Config.CameraType == GlobConstData.Camera_DH)
+            {
+                g_act.ArrDHCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler -= OnUpCamMsgEventHandler;
+                g_act.ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler -= OnDownCamMsgEventHandler;
+            }
+            else if (Config.CameraType == GlobConstData.Camera_HR)
+            {
+                g_act.ArrHRCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler -= OnUpCamMsgEventHandler_HR;
+                g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler -= OnDownCamMsgEventHandler_HR;
+            }
+            else
+            {
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler -= OnUpCamMsgEventHandler_MV;
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler -= OnDownCamMsgEventHandler_MV;
+            }
+        }
         public void __DownCameraStartSnap()
         {
             g_act.WaitDoEvent(100);
@@ -871,7 +998,7 @@ namespace BAR
                     g_act.CCDCap(GlobConstData.ST_CCDDOWN);
                 }
             }
-            else
+            else if(Config.CameraType == GlobConstData.Camera_HR)
             {
                 if (g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].IsInit)
                 {
@@ -880,7 +1007,15 @@ namespace BAR
                     g_act.CCDCap(GlobConstData.ST_CCDDOWN);
                 }
             }
-            
+            else
+            {
+                if (g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].IsInit)
+                {
+                    this.upCamBtn.BaseColor = Color.Silver;
+                    this.downCamBtn.BaseColor = Color.DimGray;
+                    g_act.CCDCap(GlobConstData.ST_CCDDOWN);
+                }
+            }
         }
         private void __UpCameraStarSnap()
         {
@@ -894,7 +1029,7 @@ namespace BAR
                     g_act.CCDCap(GlobConstData.ST_CCDUP);
                 }
             }
-            else
+            else if(Config.CameraType == GlobConstData.Camera_HR)
             {
                 if (g_act.ArrHRCameraUtils[GlobConstData.ST_CCDUP].IsInit)
                 {
@@ -903,7 +1038,15 @@ namespace BAR
                     g_act.CCDCap(GlobConstData.ST_CCDUP);
                 }
             }
-            
+            else
+            {
+                if (g_act.ArrMVCameraUtils[GlobConstData.ST_CCDUP].IsInit)
+                {
+                    this.upCamBtn.BaseColor = Color.Silver;
+                    this.downCamBtn.BaseColor = Color.DimGray;
+                    g_act.CCDCap(GlobConstData.ST_CCDUP);
+                }
+            }
         }
 
         /// <summary>
@@ -2255,12 +2398,16 @@ namespace BAR
                 {
                     g_act.ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].SetEnumValue("TriggerSource", "Line2");
                 }
-                else
+                else if(Config.CameraType == GlobConstData.Camera_HR)
                 {
                     g_act.CCDCap(GlobConstData.ST_CCDDOWN, true);
                     g_act.WaitDoEvent(700);
                     g_act.CCDSnap(GlobConstData.ST_CCDDOWN);
                     g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].SetLineMode();
+                }
+                else
+                {
+                    g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SetLineMode();
                 }
             }
             if (DialogResult.Yes == result)
@@ -2456,12 +2603,16 @@ namespace BAR
                 g_act.ArrDHCameraUtils[0]?.ReleaseDevices();
                 g_act.ArrDHCameraUtils[1]?.ReleaseDevices();
             }
-            else
+            else if (Config.CameraType == GlobConstData.Camera_HR)
             {
                 g_act.ArrHRCameraUtils[0]?.ReleaseDevices();
                 g_act.ArrHRCameraUtils[1]?.ReleaseDevices();
             }
-            
+            else
+            {
+                g_act.ArrMVCameraUtils[0]?.ReleaseDevices();
+                g_act.ArrMVCameraUtils[1]?.ReleaseDevices();
+            }
         }
 
         /// <summary>

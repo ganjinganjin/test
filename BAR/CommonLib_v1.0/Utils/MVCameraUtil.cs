@@ -40,15 +40,8 @@ namespace BAR.Commonlib.Utils
         public ShowMsgDelegate ShowMsg;
 
         private CCamera m_MyCamera;
-        // ch:用于从驱动获取图像的缓存 | en:Buffer for getting image from driver
-        private static Object BufForDriverLock;
-        CImage m_pcImgForDriver;        // 图像信息
-        CFrameSpecInfo m_pcImgSpecInfo; // 图像的水印信息
 
-        // ch:Bitmap | en:Bitmap
-        Bitmap m_pcBitmap = null;
-        PixelFormat m_enBitmapPixelFormat = PixelFormat.DontCare;
-        private static cbOutputExdelegate ImageCallback;
+        private cbOutputExdelegate ImageCallback;
 
         private MVCameraUtil()
         {
@@ -75,7 +68,7 @@ namespace BAR.Commonlib.Utils
             try
             {
                 m_MyCamera = new CCamera();
-                BufForDriverLock = new Object();
+                //BufForDriverLock = new Object();
             }
             catch (Exception ex)
             {
@@ -91,18 +84,6 @@ namespace BAR.Commonlib.Utils
                                 + "] , FrameNum[" + Convert.ToString(pFrameInfo.nFrameNum) + "]");
         }
 
-        private void __CaptureCallBackPro(object objUserParam, GrabbedEventArgs e)
-        {
-            try
-            {
-                PtrBufferRaw = e.GrabResult.Raw;
-                MsgEventHandler.Invoke(this, new MsgEvent(MsgEvent.MSG_IMGPAINT, null));
-            }
-            catch (Exception ex)
-            {
-                Console.Write(ex.Message);
-            }
-        }
 
         public void __InitDeviceParam()
         {
@@ -115,7 +96,8 @@ namespace BAR.Commonlib.Utils
                     // set ExposureTime 
                     if (ICameraID == 1)
                     {
-                        SetShutter(Config.Shutter);
+                        //SetShutter(Config.Shutter);
+                        SetShutter(20000);
                     }
                     else
                     {
@@ -162,11 +144,13 @@ namespace BAR.Commonlib.Utils
         {
             try
             {
+                ReleaseDevices();
                 // 设备搜索 
                 // device search 
                 // ch:创建设备列表 | en:Create Device List
                 System.GC.Collect();
                 List<CCameraInfo> m_ltDeviceList = new List<CCameraInfo>();
+                CCameraInfo device;
                 int nRet = CSystem.EnumDevices(CSystem.MV_GIGE_DEVICE, ref m_ltDeviceList);
                 if (0 != nRet || m_ltDeviceList.Count <= 0)
                 {
@@ -187,7 +171,7 @@ namespace BAR.Commonlib.Utils
                     if (DevIP == StrIP) //根据IP地址打开相机
                     {
                         // ch:获取选择的设备信息 | en:Get selected device information
-                        CCameraInfo device = m_ltDeviceList[i];
+                        device = m_ltDeviceList[i];
                         // ch:打开设备 | en:Open device
                         if (null == m_MyCamera)
                         {
@@ -267,7 +251,7 @@ namespace BAR.Commonlib.Utils
         /// <param name="e"></param>
         private void OnConnectLoss(object sender, EventArgs e)
         {
-            ShowMsg("大华相机：" + StrIP + "丢失,重启相机");
+            ShowMsg("海康相机：" + StrIP + "丢失,重启相机");
         }
 
         /// <summary>
@@ -424,7 +408,8 @@ namespace BAR.Commonlib.Utils
                 if (null != m_MyCamera)
                 {
                     //发送开采命令
-                    m_MyCamera.SetEnumValue("AcquisitionMode", (uint)MV_CAM_ACQUISITION_MODE.MV_ACQ_MODE_CONTINUOUS);
+                    m_MyCamera.StartGrabbing();
+                    //m_MyCamera.SetEnumValue("AcquisitionMode", (uint)MV_CAM_ACQUISITION_MODE.MV_ACQ_MODE_CONTINUOUS);
                 }
                 
                 IsSnap = true;
@@ -442,7 +427,8 @@ namespace BAR.Commonlib.Utils
                 if (!IsSnap) return;
                 if (null != m_MyCamera)
                 {
-                    m_MyCamera.SetEnumValue("AcquisitionMode", (uint)MV_CAM_ACQUISITION_MODE.MV_ACQ_MODE_SINGLE);
+                    m_MyCamera.StopGrabbing();
+                    //m_MyCamera.SetEnumValue("AcquisitionMode", (uint)MV_CAM_ACQUISITION_MODE.MV_ACQ_MODE_SINGLE);
                 }
                 IsSnap = false;
             }
@@ -475,11 +461,12 @@ namespace BAR.Commonlib.Utils
             {
                 if (null != m_MyCamera)
                 {
+                    m_MyCamera.SetEnumValue("TriggerSource", (uint)MV_CAM_TRIGGER_SOURCE.MV_TRIGGER_SOURCE_SOFTWARE);
                     if (isOpen)
                     {
                         // 打开Software Trigger 
                         // Set Software Trigger 
-                        m_MyCamera.SetEnumValue("TriggerSource", (uint)MV_CAM_TRIGGER_SOURCE.MV_TRIGGER_SOURCE_SOFTWARE);
+                        
                         m_MyCamera.SetEnumValue("TriggerMode", (uint)MV_CAM_TRIGGER_MODE.MV_TRIGGER_MODE_ON);
                     }
                     else

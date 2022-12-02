@@ -143,6 +143,7 @@
             // 
             // skinGroupBox1
             // 
+            resources.ApplyResources(this.skinGroupBox1, "skinGroupBox1");
             this.skinGroupBox1.BackColor = System.Drawing.Color.Transparent;
             this.skinGroupBox1.BorderColor = System.Drawing.Color.Black;
             this.skinGroupBox1.Controls.Add(this.CboZoomLensPort);
@@ -153,7 +154,6 @@
             this.skinGroupBox1.Controls.Add(this.skinLabel4);
             this.skinGroupBox1.Controls.Add(this.CboBraidPort);
             this.skinGroupBox1.Controls.Add(this.skinLabel2);
-            resources.ApplyResources(this.skinGroupBox1, "skinGroupBox1");
             this.skinGroupBox1.ForeColor = System.Drawing.Color.Black;
             this.skinGroupBox1.Name = "skinGroupBox1";
             this.skinGroupBox1.RectBackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -165,8 +165,8 @@
             // 
             // CboZoomLensPort
             // 
-            this.CboZoomLensPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             resources.ApplyResources(this.CboZoomLensPort, "CboZoomLensPort");
+            this.CboZoomLensPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboZoomLensPort.FormattingEnabled = true;
             this.CboZoomLensPort.Name = "CboZoomLensPort";
             this.CboZoomLensPort.Sorted = true;
@@ -175,16 +175,16 @@
             // 
             // skinLabel34
             // 
+            resources.ApplyResources(this.skinLabel34, "skinLabel34");
             this.skinLabel34.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel34.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel34, "skinLabel34");
             this.skinLabel34.Name = "skinLabel34";
             // 
             // CboCathetometerPort
             // 
-            this.CboCathetometerPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             resources.ApplyResources(this.CboCathetometerPort, "CboCathetometerPort");
+            this.CboCathetometerPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboCathetometerPort.FormattingEnabled = true;
             this.CboCathetometerPort.Name = "CboCathetometerPort";
             this.CboCathetometerPort.Sorted = true;
@@ -193,16 +193,16 @@
             // 
             // skinLabel26
             // 
+            resources.ApplyResources(this.skinLabel26, "skinLabel26");
             this.skinLabel26.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel26.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel26, "skinLabel26");
             this.skinLabel26.Name = "skinLabel26";
             // 
             // CboAutoTrayPort
             // 
-            this.CboAutoTrayPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             resources.ApplyResources(this.CboAutoTrayPort, "CboAutoTrayPort");
+            this.CboAutoTrayPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboAutoTrayPort.FormattingEnabled = true;
             this.CboAutoTrayPort.Name = "CboAutoTrayPort";
             this.CboAutoTrayPort.Sorted = true;
@@ -211,16 +211,16 @@
             // 
             // skinLabel4
             // 
+            resources.ApplyResources(this.skinLabel4, "skinLabel4");
             this.skinLabel4.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel4.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel4, "skinLabel4");
             this.skinLabel4.Name = "skinLabel4";
             // 
             // CboBraidPort
             // 
-            this.CboBraidPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             resources.ApplyResources(this.CboBraidPort, "CboBraidPort");
+            this.CboBraidPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboBraidPort.FormattingEnabled = true;
             this.CboBraidPort.Name = "CboBraidPort";
             this.CboBraidPort.Sorted = true;
@@ -229,16 +229,16 @@
             // 
             // skinLabel2
             // 
+            resources.ApplyResources(this.skinLabel2, "skinLabel2");
             this.skinLabel2.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel2.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel2, "skinLabel2");
             this.skinLabel2.Name = "skinLabel2";
             // 
             // CboProgrammerPort
             // 
-            this.CboProgrammerPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             resources.ApplyResources(this.CboProgrammerPort, "CboProgrammerPort");
+            this.CboProgrammerPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboProgrammerPort.FormattingEnabled = true;
             this.CboProgrammerPort.Name = "CboProgrammerPort";
             this.CboProgrammerPort.Sorted = true;
@@ -247,8 +247,8 @@
             // 
             // CboLightPort
             // 
-            this.CboLightPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             resources.ApplyResources(this.CboLightPort, "CboLightPort");
+            this.CboLightPort.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboLightPort.FormattingEnabled = true;
             this.CboLightPort.Name = "CboLightPort";
             this.CboLightPort.Sorted = true;
@@ -257,14 +257,15 @@
             // 
             // skinLabel1
             // 
+            resources.ApplyResources(this.skinLabel1, "skinLabel1");
             this.skinLabel1.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel1.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel1, "skinLabel1");
             this.skinLabel1.Name = "skinLabel1";
             // 
             // skinGroupBox2
             // 
+            resources.ApplyResources(this.skinGroupBox2, "skinGroupBox2");
             this.skinGroupBox2.BackColor = System.Drawing.Color.Transparent;
             this.skinGroupBox2.BorderColor = System.Drawing.Color.Black;
             this.skinGroupBox2.Controls.Add(this.CboLightType);
@@ -273,7 +274,6 @@
             this.skinGroupBox2.Controls.Add(this.skinLabel10);
             this.skinGroupBox2.Controls.Add(this.skinLabel1);
             this.skinGroupBox2.Controls.Add(this.CboLightPort);
-            resources.ApplyResources(this.skinGroupBox2, "skinGroupBox2");
             this.skinGroupBox2.ForeColor = System.Drawing.Color.Black;
             this.skinGroupBox2.Name = "skinGroupBox2";
             this.skinGroupBox2.RectBackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -285,9 +285,9 @@
             // 
             // CboLightType
             // 
+            resources.ApplyResources(this.CboLightType, "CboLightType");
             this.CboLightType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboLightType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboLightType, "CboLightType");
             this.CboLightType.FormattingEnabled = true;
             this.CboLightType.Name = "CboLightType";
             this.CboLightType.Tag = "0";
@@ -295,17 +295,17 @@
             // 
             // skinLabel9
             // 
+            resources.ApplyResources(this.skinLabel9, "skinLabel9");
             this.skinLabel9.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel9.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel9, "skinLabel9");
             this.skinLabel9.Name = "skinLabel9";
             // 
             // CboLightCType
             // 
+            resources.ApplyResources(this.CboLightCType, "CboLightCType");
             this.CboLightCType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboLightCType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboLightCType, "CboLightCType");
             this.CboLightCType.FormattingEnabled = true;
             this.CboLightCType.Name = "CboLightCType";
             this.CboLightCType.Tag = "0";
@@ -313,14 +313,15 @@
             // 
             // skinLabel10
             // 
+            resources.ApplyResources(this.skinLabel10, "skinLabel10");
             this.skinLabel10.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel10.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel10, "skinLabel10");
             this.skinLabel10.Name = "skinLabel10";
             // 
             // skinGroupBox3
             // 
+            resources.ApplyResources(this.skinGroupBox3, "skinGroupBox3");
             this.skinGroupBox3.BackColor = System.Drawing.Color.Transparent;
             this.skinGroupBox3.BorderColor = System.Drawing.Color.Black;
             this.skinGroupBox3.Controls.Add(this.CboLanguage);
@@ -337,7 +338,6 @@
             this.skinGroupBox3.Controls.Add(this.skinLabel7);
             this.skinGroupBox3.Controls.Add(this.CboCardNum);
             this.skinGroupBox3.Controls.Add(this.skinLabel8);
-            resources.ApplyResources(this.skinGroupBox3, "skinGroupBox3");
             this.skinGroupBox3.ForeColor = System.Drawing.Color.Black;
             this.skinGroupBox3.Name = "skinGroupBox3";
             this.skinGroupBox3.RectBackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -349,9 +349,9 @@
             // 
             // CboLanguage
             // 
+            resources.ApplyResources(this.CboLanguage, "CboLanguage");
             this.CboLanguage.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboLanguage, "CboLanguage");
             this.CboLanguage.FormattingEnabled = true;
             this.CboLanguage.Name = "CboLanguage";
             this.CboLanguage.Tag = "8";
@@ -359,17 +359,17 @@
             // 
             // skinLabel45
             // 
+            resources.ApplyResources(this.skinLabel45, "skinLabel45");
             this.skinLabel45.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel45.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel45, "skinLabel45");
             this.skinLabel45.Name = "skinLabel45";
             // 
             // CboxCameraType
             // 
+            resources.ApplyResources(this.CboxCameraType, "CboxCameraType");
             this.CboxCameraType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboxCameraType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboxCameraType, "CboxCameraType");
             this.CboxCameraType.FormattingEnabled = true;
             this.CboxCameraType.Name = "CboxCameraType";
             this.CboxCameraType.Tag = "8";
@@ -377,17 +377,17 @@
             // 
             // skinLabel27
             // 
+            resources.ApplyResources(this.skinLabel27, "skinLabel27");
             this.skinLabel27.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel27.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel27, "skinLabel27");
             this.skinLabel27.Name = "skinLabel27";
             // 
             // CboCardType
             // 
+            resources.ApplyResources(this.CboCardType, "CboCardType");
             this.CboCardType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboCardType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboCardType, "CboCardType");
             this.CboCardType.FormattingEnabled = true;
             this.CboCardType.Name = "CboCardType";
             this.CboCardType.Tag = "8";
@@ -395,17 +395,17 @@
             // 
             // skinLabel25
             // 
+            resources.ApplyResources(this.skinLabel25, "skinLabel25");
             this.skinLabel25.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel25.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel25, "skinLabel25");
             this.skinLabel25.Name = "skinLabel25";
             // 
             // CboPenType
             // 
+            resources.ApplyResources(this.CboPenType, "CboPenType");
             this.CboPenType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboPenType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboPenType, "CboPenType");
             this.CboPenType.FormattingEnabled = true;
             this.CboPenType.Name = "CboPenType";
             this.CboPenType.Tag = "8";
@@ -413,17 +413,17 @@
             // 
             // skinLabel21
             // 
+            resources.ApplyResources(this.skinLabel21, "skinLabel21");
             this.skinLabel21.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel21.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel21, "skinLabel21");
             this.skinLabel21.Name = "skinLabel21";
             // 
             // CboAltimeter
             // 
+            resources.ApplyResources(this.CboAltimeter, "CboAltimeter");
             this.CboAltimeter.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboAltimeter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboAltimeter, "CboAltimeter");
             this.CboAltimeter.FormattingEnabled = true;
             this.CboAltimeter.Name = "CboAltimeter";
             this.CboAltimeter.Tag = "8";
@@ -431,17 +431,17 @@
             // 
             // skinLabel16
             // 
+            resources.ApplyResources(this.skinLabel16, "skinLabel16");
             this.skinLabel16.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel16.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel16, "skinLabel16");
             this.skinLabel16.Name = "skinLabel16";
             // 
             // CboLogo
             // 
+            resources.ApplyResources(this.CboLogo, "CboLogo");
             this.CboLogo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboLogo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboLogo, "CboLogo");
             this.CboLogo.FormattingEnabled = true;
             this.CboLogo.Name = "CboLogo";
             this.CboLogo.Tag = "8";
@@ -449,17 +449,17 @@
             // 
             // skinLabel7
             // 
+            resources.ApplyResources(this.skinLabel7, "skinLabel7");
             this.skinLabel7.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel7.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel7, "skinLabel7");
             this.skinLabel7.Name = "skinLabel7";
             // 
             // CboCardNum
             // 
+            resources.ApplyResources(this.CboCardNum, "CboCardNum");
             this.CboCardNum.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboCardNum.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboCardNum, "CboCardNum");
             this.CboCardNum.FormattingEnabled = true;
             this.CboCardNum.Name = "CboCardNum";
             this.CboCardNum.Tag = "8";
@@ -467,17 +467,17 @@
             // 
             // skinLabel8
             // 
+            resources.ApplyResources(this.skinLabel8, "skinLabel8");
             this.skinLabel8.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel8.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel8, "skinLabel8");
             this.skinLabel8.Name = "skinLabel8";
             // 
             // CboAutoTrayDir
             // 
+            resources.ApplyResources(this.CboAutoTrayDir, "CboAutoTrayDir");
             this.CboAutoTrayDir.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboAutoTrayDir.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboAutoTrayDir, "CboAutoTrayDir");
             this.CboAutoTrayDir.FormattingEnabled = true;
             this.CboAutoTrayDir.Name = "CboAutoTrayDir";
             this.CboAutoTrayDir.Tag = "8";
@@ -485,17 +485,17 @@
             // 
             // skinLabel5
             // 
+            resources.ApplyResources(this.skinLabel5, "skinLabel5");
             this.skinLabel5.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel5.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel5, "skinLabel5");
             this.skinLabel5.Name = "skinLabel5";
             // 
             // CboVision_3D
             // 
+            resources.ApplyResources(this.CboVision_3D, "CboVision_3D");
             this.CboVision_3D.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboVision_3D.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboVision_3D, "CboVision_3D");
             this.CboVision_3D.FormattingEnabled = true;
             this.CboVision_3D.Name = "CboVision_3D";
             this.CboVision_3D.Tag = "8";
@@ -503,17 +503,17 @@
             // 
             // skinLabel20
             // 
+            resources.ApplyResources(this.skinLabel20, "skinLabel20");
             this.skinLabel20.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel20.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel20, "skinLabel20");
             this.skinLabel20.Name = "skinLabel20";
             // 
             // CboMesType
             // 
+            resources.ApplyResources(this.CboMesType, "CboMesType");
             this.CboMesType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboMesType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboMesType, "CboMesType");
             this.CboMesType.FormattingEnabled = true;
             this.CboMesType.Name = "CboMesType";
             this.CboMesType.Tag = "8";
@@ -521,14 +521,15 @@
             // 
             // skinLabel3
             // 
+            resources.ApplyResources(this.skinLabel3, "skinLabel3");
             this.skinLabel3.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel3.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel3, "skinLabel3");
             this.skinLabel3.Name = "skinLabel3";
             // 
             // skinGroupBox4
             // 
+            resources.ApplyResources(this.skinGroupBox4, "skinGroupBox4");
             this.skinGroupBox4.BackColor = System.Drawing.Color.Transparent;
             this.skinGroupBox4.BorderColor = System.Drawing.Color.Black;
             this.skinGroupBox4.Controls.Add(this.CboYDir);
@@ -537,7 +538,6 @@
             this.skinGroupBox4.Controls.Add(this.skinLabel12);
             this.skinGroupBox4.Controls.Add(this.skinLabel13);
             this.skinGroupBox4.Controls.Add(this.CboXDir);
-            resources.ApplyResources(this.skinGroupBox4, "skinGroupBox4");
             this.skinGroupBox4.ForeColor = System.Drawing.Color.Black;
             this.skinGroupBox4.Name = "skinGroupBox4";
             this.skinGroupBox4.RectBackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -549,9 +549,9 @@
             // 
             // CboYDir
             // 
+            resources.ApplyResources(this.CboYDir, "CboYDir");
             this.CboYDir.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboYDir.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboYDir, "CboYDir");
             this.CboYDir.FormattingEnabled = true;
             this.CboYDir.Name = "CboYDir";
             this.CboYDir.Tag = "8";
@@ -559,17 +559,17 @@
             // 
             // skinLabel11
             // 
+            resources.ApplyResources(this.skinLabel11, "skinLabel11");
             this.skinLabel11.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel11.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel11, "skinLabel11");
             this.skinLabel11.Name = "skinLabel11";
             // 
             // CboRDir
             // 
+            resources.ApplyResources(this.CboRDir, "CboRDir");
             this.CboRDir.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboRDir.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboRDir, "CboRDir");
             this.CboRDir.FormattingEnabled = true;
             this.CboRDir.Name = "CboRDir";
             this.CboRDir.Tag = "8";
@@ -577,25 +577,25 @@
             // 
             // skinLabel12
             // 
+            resources.ApplyResources(this.skinLabel12, "skinLabel12");
             this.skinLabel12.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel12.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel12, "skinLabel12");
             this.skinLabel12.Name = "skinLabel12";
             // 
             // skinLabel13
             // 
+            resources.ApplyResources(this.skinLabel13, "skinLabel13");
             this.skinLabel13.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel13.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel13, "skinLabel13");
             this.skinLabel13.Name = "skinLabel13";
             // 
             // CboXDir
             // 
+            resources.ApplyResources(this.CboXDir, "CboXDir");
             this.CboXDir.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboXDir.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboXDir, "CboXDir");
             this.CboXDir.FormattingEnabled = true;
             this.CboXDir.Name = "CboXDir";
             this.CboXDir.Tag = "8";
@@ -603,6 +603,7 @@
             // 
             // skinGroupBox5
             // 
+            resources.ApplyResources(this.skinGroupBox5, "skinGroupBox5");
             this.skinGroupBox5.BackColor = System.Drawing.Color.Transparent;
             this.skinGroupBox5.BorderColor = System.Drawing.Color.Black;
             this.skinGroupBox5.Controls.Add(this.NudIndex_Z);
@@ -623,7 +624,6 @@
             this.skinGroupBox5.Controls.Add(this.skinLabel14);
             this.skinGroupBox5.Controls.Add(this.CboTrayModel);
             this.skinGroupBox5.Controls.Add(this.skinLabel15);
-            resources.ApplyResources(this.skinGroupBox5, "skinGroupBox5");
             this.skinGroupBox5.ForeColor = System.Drawing.Color.Black;
             this.skinGroupBox5.Name = "skinGroupBox5";
             this.skinGroupBox5.RectBackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -645,17 +645,17 @@
             // 
             // skinLabel43
             // 
+            resources.ApplyResources(this.skinLabel43, "skinLabel43");
             this.skinLabel43.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel43.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel43, "skinLabel43");
             this.skinLabel43.Name = "skinLabel43";
             // 
             // CboBredeDotCount
             // 
+            resources.ApplyResources(this.CboBredeDotCount, "CboBredeDotCount");
             this.CboBredeDotCount.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboBredeDotCount.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboBredeDotCount, "CboBredeDotCount");
             this.CboBredeDotCount.FormattingEnabled = true;
             this.CboBredeDotCount.Name = "CboBredeDotCount";
             this.CboBredeDotCount.Tag = "2";
@@ -663,17 +663,17 @@
             // 
             // skinLabel40
             // 
+            resources.ApplyResources(this.skinLabel40, "skinLabel40");
             this.skinLabel40.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel40.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel40, "skinLabel40");
             this.skinLabel40.Name = "skinLabel40";
             // 
             // CboAutoTrayDot
             // 
+            resources.ApplyResources(this.CboAutoTrayDot, "CboAutoTrayDot");
             this.CboAutoTrayDot.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboAutoTrayDot.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboAutoTrayDot, "CboAutoTrayDot");
             this.CboAutoTrayDot.FormattingEnabled = true;
             this.CboAutoTrayDot.Name = "CboAutoTrayDot";
             this.CboAutoTrayDot.Tag = "8";
@@ -681,17 +681,17 @@
             // 
             // skinLabel36
             // 
+            resources.ApplyResources(this.skinLabel36, "skinLabel36");
             this.skinLabel36.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel36.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel36, "skinLabel36");
             this.skinLabel36.Name = "skinLabel36";
             // 
             // CboAutoTrayStart
             // 
+            resources.ApplyResources(this.CboAutoTrayStart, "CboAutoTrayStart");
             this.CboAutoTrayStart.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboAutoTrayStart.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboAutoTrayStart, "CboAutoTrayStart");
             this.CboAutoTrayStart.FormattingEnabled = true;
             this.CboAutoTrayStart.Name = "CboAutoTrayStart";
             this.CboAutoTrayStart.Tag = "8";
@@ -699,17 +699,17 @@
             // 
             // skinLabel24
             // 
+            resources.ApplyResources(this.skinLabel24, "skinLabel24");
             this.skinLabel24.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel24.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel24, "skinLabel24");
             this.skinLabel24.Name = "skinLabel24";
             // 
             // CboNGTrayStart
             // 
+            resources.ApplyResources(this.CboNGTrayStart, "CboNGTrayStart");
             this.CboNGTrayStart.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboNGTrayStart.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboNGTrayStart, "CboNGTrayStart");
             this.CboNGTrayStart.FormattingEnabled = true;
             this.CboNGTrayStart.Name = "CboNGTrayStart";
             this.CboNGTrayStart.Tag = "8";
@@ -717,17 +717,17 @@
             // 
             // skinLabel17
             // 
+            resources.ApplyResources(this.skinLabel17, "skinLabel17");
             this.skinLabel17.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel17.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel17, "skinLabel17");
             this.skinLabel17.Name = "skinLabel17";
             // 
             // CboTray1MoveDir
             // 
+            resources.ApplyResources(this.CboTray1MoveDir, "CboTray1MoveDir");
             this.CboTray1MoveDir.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboTray1MoveDir.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboTray1MoveDir, "CboTray1MoveDir");
             this.CboTray1MoveDir.FormattingEnabled = true;
             this.CboTray1MoveDir.Name = "CboTray1MoveDir";
             this.CboTray1MoveDir.Tag = "8";
@@ -735,17 +735,17 @@
             // 
             // skinLabel18
             // 
+            resources.ApplyResources(this.skinLabel18, "skinLabel18");
             this.skinLabel18.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel18.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel18, "skinLabel18");
             this.skinLabel18.Name = "skinLabel18";
             // 
             // CboTray1Start
             // 
+            resources.ApplyResources(this.CboTray1Start, "CboTray1Start");
             this.CboTray1Start.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboTray1Start.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboTray1Start, "CboTray1Start");
             this.CboTray1Start.FormattingEnabled = true;
             this.CboTray1Start.Name = "CboTray1Start";
             this.CboTray1Start.Tag = "8";
@@ -753,17 +753,17 @@
             // 
             // skinLabel14
             // 
+            resources.ApplyResources(this.skinLabel14, "skinLabel14");
             this.skinLabel14.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel14.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel14, "skinLabel14");
             this.skinLabel14.Name = "skinLabel14";
             // 
             // CboTrayModel
             // 
+            resources.ApplyResources(this.CboTrayModel, "CboTrayModel");
             this.CboTrayModel.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboTrayModel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboTrayModel, "CboTrayModel");
             this.CboTrayModel.FormattingEnabled = true;
             this.CboTrayModel.Name = "CboTrayModel";
             this.CboTrayModel.Tag = "8";
@@ -771,14 +771,15 @@
             // 
             // skinLabel15
             // 
+            resources.ApplyResources(this.skinLabel15, "skinLabel15");
             this.skinLabel15.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel15.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel15, "skinLabel15");
             this.skinLabel15.Name = "skinLabel15";
             // 
             // skinGroupBox6
             // 
+            resources.ApplyResources(this.skinGroupBox6, "skinGroupBox6");
             this.skinGroupBox6.BackColor = System.Drawing.Color.Transparent;
             this.skinGroupBox6.BorderColor = System.Drawing.Color.Black;
             this.skinGroupBox6.Controls.Add(this.CboProtocol_WG);
@@ -787,7 +788,6 @@
             this.skinGroupBox6.Controls.Add(this.skinLabel6);
             this.skinGroupBox6.Controls.Add(this.CboProgrammerPort);
             this.skinGroupBox6.Controls.Add(this.skinLabel19);
-            resources.ApplyResources(this.skinGroupBox6, "skinGroupBox6");
             this.skinGroupBox6.ForeColor = System.Drawing.Color.Black;
             this.skinGroupBox6.Name = "skinGroupBox6";
             this.skinGroupBox6.RectBackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -799,9 +799,9 @@
             // 
             // CboProtocol_WG
             // 
+            resources.ApplyResources(this.CboProtocol_WG, "CboProtocol_WG");
             this.CboProtocol_WG.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboProtocol_WG.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboProtocol_WG, "CboProtocol_WG");
             this.CboProtocol_WG.FormattingEnabled = true;
             this.CboProtocol_WG.Name = "CboProtocol_WG";
             this.CboProtocol_WG.Tag = "0";
@@ -809,17 +809,17 @@
             // 
             // skinLabel44
             // 
+            resources.ApplyResources(this.skinLabel44, "skinLabel44");
             this.skinLabel44.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel44.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel44, "skinLabel44");
             this.skinLabel44.Name = "skinLabel44";
             // 
             // CboProgrammerType
             // 
+            resources.ApplyResources(this.CboProgrammerType, "CboProgrammerType");
             this.CboProgrammerType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboProgrammerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboProgrammerType, "CboProgrammerType");
             this.CboProgrammerType.FormattingEnabled = true;
             this.CboProgrammerType.Name = "CboProgrammerType";
             this.CboProgrammerType.Tag = "0";
@@ -828,28 +828,28 @@
             // 
             // skinLabel6
             // 
+            resources.ApplyResources(this.skinLabel6, "skinLabel6");
             this.skinLabel6.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel6.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel6, "skinLabel6");
             this.skinLabel6.Name = "skinLabel6";
             // 
             // skinLabel19
             // 
+            resources.ApplyResources(this.skinLabel19, "skinLabel19");
             this.skinLabel19.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel19.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel19, "skinLabel19");
             this.skinLabel19.Name = "skinLabel19";
             // 
             // BtnSave
             // 
+            resources.ApplyResources(this.BtnSave, "BtnSave");
             this.BtnSave.BackColor = System.Drawing.Color.Transparent;
             this.BtnSave.BaseColor = System.Drawing.Color.LimeGreen;
             this.BtnSave.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(77)))), ((int)(((byte)(0)))));
             this.BtnSave.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.BtnSave.DownBack = null;
-            resources.ApplyResources(this.BtnSave, "BtnSave");
             this.BtnSave.ForeColor = System.Drawing.Color.White;
             this.BtnSave.IsDrawGlass = false;
             this.BtnSave.MouseBack = null;
@@ -862,6 +862,7 @@
             // 
             // skinGroupBox7
             // 
+            resources.ApplyResources(this.skinGroupBox7, "skinGroupBox7");
             this.skinGroupBox7.BackColor = System.Drawing.Color.Transparent;
             this.skinGroupBox7.BorderColor = System.Drawing.Color.Black;
             this.skinGroupBox7.Controls.Add(this.skinLabel32);
@@ -876,7 +877,6 @@
             this.skinGroupBox7.Controls.Add(this.skinLabel3);
             this.skinGroupBox7.Controls.Add(this.skinLabel20);
             this.skinGroupBox7.Controls.Add(this.CboMesType);
-            resources.ApplyResources(this.skinGroupBox7, "skinGroupBox7");
             this.skinGroupBox7.ForeColor = System.Drawing.Color.Black;
             this.skinGroupBox7.Name = "skinGroupBox7";
             this.skinGroupBox7.RectBackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -888,17 +888,17 @@
             // 
             // skinLabel32
             // 
+            resources.ApplyResources(this.skinLabel32, "skinLabel32");
             this.skinLabel32.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel32.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel32, "skinLabel32");
             this.skinLabel32.Name = "skinLabel32";
             // 
             // CboICDirAndFlaw
             // 
+            resources.ApplyResources(this.CboICDirAndFlaw, "CboICDirAndFlaw");
             this.CboICDirAndFlaw.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboICDirAndFlaw.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboICDirAndFlaw, "CboICDirAndFlaw");
             this.CboICDirAndFlaw.FormattingEnabled = true;
             this.CboICDirAndFlaw.Name = "CboICDirAndFlaw";
             this.CboICDirAndFlaw.Tag = "8";
@@ -906,17 +906,17 @@
             // 
             // skinLabel31
             // 
+            resources.ApplyResources(this.skinLabel31, "skinLabel31");
             this.skinLabel31.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel31.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel31, "skinLabel31");
             this.skinLabel31.Name = "skinLabel31";
             // 
             // CboCCDModel
             // 
+            resources.ApplyResources(this.CboCCDModel, "CboCCDModel");
             this.CboCCDModel.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboCCDModel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboCCDModel, "CboCCDModel");
             this.CboCCDModel.FormattingEnabled = true;
             this.CboCCDModel.Name = "CboCCDModel";
             this.CboCCDModel.Tag = "8";
@@ -924,9 +924,9 @@
             // 
             // CboFeederCount
             // 
+            resources.ApplyResources(this.CboFeederCount, "CboFeederCount");
             this.CboFeederCount.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboFeederCount.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboFeederCount, "CboFeederCount");
             this.CboFeederCount.FormattingEnabled = true;
             this.CboFeederCount.Name = "CboFeederCount";
             this.CboFeederCount.Tag = "2";
@@ -934,17 +934,17 @@
             // 
             // skinLabel23
             // 
+            resources.ApplyResources(this.skinLabel23, "skinLabel23");
             this.skinLabel23.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel23.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel23, "skinLabel23");
             this.skinLabel23.Name = "skinLabel23";
             // 
             // CboInks
             // 
+            resources.ApplyResources(this.CboInks, "CboInks");
             this.CboInks.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboInks.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboInks, "CboInks");
             this.CboInks.FormattingEnabled = true;
             this.CboInks.Name = "CboInks";
             this.CboInks.Tag = "2";
@@ -952,14 +952,15 @@
             // 
             // skinLabel22
             // 
+            resources.ApplyResources(this.skinLabel22, "skinLabel22");
             this.skinLabel22.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel22.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel22, "skinLabel22");
             this.skinLabel22.Name = "skinLabel22";
             // 
             // skinGroupBox8
             // 
+            resources.ApplyResources(this.skinGroupBox8, "skinGroupBox8");
             this.skinGroupBox8.BackColor = System.Drawing.Color.Transparent;
             this.skinGroupBox8.BorderColor = System.Drawing.Color.Black;
             this.skinGroupBox8.Controls.Add(this.skinLabel42);
@@ -982,7 +983,6 @@
             this.skinGroupBox8.Controls.Add(this.TxtServerIP);
             this.skinGroupBox8.Controls.Add(this.skinLabel28);
             this.skinGroupBox8.Controls.Add(this.skinLabel30);
-            resources.ApplyResources(this.skinGroupBox8, "skinGroupBox8");
             this.skinGroupBox8.ForeColor = System.Drawing.Color.Black;
             this.skinGroupBox8.Name = "skinGroupBox8";
             this.skinGroupBox8.RectBackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -994,17 +994,17 @@
             // 
             // skinLabel42
             // 
+            resources.ApplyResources(this.skinLabel42, "skinLabel42");
             this.skinLabel42.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel42.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel42, "skinLabel42");
             this.skinLabel42.Name = "skinLabel42";
             // 
             // CboPhenixIOS
             // 
+            resources.ApplyResources(this.CboPhenixIOS, "CboPhenixIOS");
             this.CboPhenixIOS.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboPhenixIOS.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboPhenixIOS, "CboPhenixIOS");
             this.CboPhenixIOS.FormattingEnabled = true;
             this.CboPhenixIOS.Name = "CboPhenixIOS";
             this.CboPhenixIOS.Tag = "8";
@@ -1012,9 +1012,9 @@
             // 
             // CboEfficiency
             // 
+            resources.ApplyResources(this.CboEfficiency, "CboEfficiency");
             this.CboEfficiency.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboEfficiency.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboEfficiency, "CboEfficiency");
             this.CboEfficiency.FormattingEnabled = true;
             this.CboEfficiency.Name = "CboEfficiency";
             this.CboEfficiency.Tag = "2";
@@ -1022,14 +1022,15 @@
             // 
             // skinLabel41
             // 
+            resources.ApplyResources(this.skinLabel41, "skinLabel41");
             this.skinLabel41.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel41.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel41, "skinLabel41");
             this.skinLabel41.Name = "skinLabel41";
             // 
             // TxtRPCServerPort
             // 
+            resources.ApplyResources(this.TxtRPCServerPort, "TxtRPCServerPort");
             this.TxtRPCServerPort.BackColor = System.Drawing.Color.Transparent;
             this.TxtRPCServerPort.DownBack = null;
             this.TxtRPCServerPort.Icon = null;
@@ -1039,7 +1040,6 @@
             this.TxtRPCServerPort.IsSystemPasswordChar = false;
             this.TxtRPCServerPort.Lines = new string[] {
         "20010"};
-            resources.ApplyResources(this.TxtRPCServerPort, "TxtRPCServerPort");
             this.TxtRPCServerPort.MaxLength = 32767;
             this.TxtRPCServerPort.MouseBack = null;
             this.TxtRPCServerPort.MouseState = CCWin.SkinClass.ControlState.Normal;
@@ -1051,16 +1051,30 @@
             // 
             // 
             // 
+            this.TxtRPCServerPort.SkinTxt.AccessibleDescription = resources.GetString("resource.AccessibleDescription");
+            this.TxtRPCServerPort.SkinTxt.AccessibleName = resources.GetString("resource.AccessibleName");
+            this.TxtRPCServerPort.SkinTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("resource.Anchor")));
+            this.TxtRPCServerPort.SkinTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resource.BackgroundImage")));
+            this.TxtRPCServerPort.SkinTxt.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("resource.BackgroundImageLayout")));
             this.TxtRPCServerPort.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtRPCServerPort.SkinTxt.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("resource.Dock")));
             this.TxtRPCServerPort.SkinTxt.Font = ((System.Drawing.Font)(resources.GetObject("resource.Font")));
+            this.TxtRPCServerPort.SkinTxt.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode")));
             this.TxtRPCServerPort.SkinTxt.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location")));
+            this.TxtRPCServerPort.SkinTxt.MaximumSize = ((System.Drawing.Size)(resources.GetObject("resource.MaximumSize")));
+            this.TxtRPCServerPort.SkinTxt.MaxLength = ((int)(resources.GetObject("resource.MaxLength")));
+            this.TxtRPCServerPort.SkinTxt.Multiline = ((bool)(resources.GetObject("resource.Multiline")));
             this.TxtRPCServerPort.SkinTxt.Name = "BaseText";
+            this.TxtRPCServerPort.SkinTxt.PasswordChar = ((char)(resources.GetObject("resource.PasswordChar")));
+            this.TxtRPCServerPort.SkinTxt.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("resource.RightToLeft")));
+            this.TxtRPCServerPort.SkinTxt.ScrollBars = ((System.Windows.Forms.ScrollBars)(resources.GetObject("resource.ScrollBars")));
             this.TxtRPCServerPort.SkinTxt.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size")));
             this.TxtRPCServerPort.SkinTxt.TabIndex = ((int)(resources.GetObject("resource.TabIndex")));
             this.TxtRPCServerPort.SkinTxt.Text = resources.GetString("resource.Text");
+            this.TxtRPCServerPort.SkinTxt.TextAlign = ((System.Windows.Forms.HorizontalAlignment)(resources.GetObject("resource.TextAlign")));
             this.TxtRPCServerPort.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.TxtRPCServerPort.SkinTxt.WaterText = "";
+            this.TxtRPCServerPort.SkinTxt.WordWrap = ((bool)(resources.GetObject("resource.WordWrap")));
             this.TxtRPCServerPort.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.TxtRPCServerPort.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.TxtRPCServerPort.WaterText = "";
@@ -1068,6 +1082,7 @@
             // 
             // TxtRPCServerIP
             // 
+            resources.ApplyResources(this.TxtRPCServerIP, "TxtRPCServerIP");
             this.TxtRPCServerIP.BackColor = System.Drawing.Color.Transparent;
             this.TxtRPCServerIP.DownBack = null;
             this.TxtRPCServerIP.Icon = null;
@@ -1077,7 +1092,6 @@
             this.TxtRPCServerIP.IsSystemPasswordChar = false;
             this.TxtRPCServerIP.Lines = new string[] {
         "127.0.0.1"};
-            resources.ApplyResources(this.TxtRPCServerIP, "TxtRPCServerIP");
             this.TxtRPCServerIP.MaxLength = 32767;
             this.TxtRPCServerIP.MouseBack = null;
             this.TxtRPCServerIP.MouseState = CCWin.SkinClass.ControlState.Normal;
@@ -1089,16 +1103,30 @@
             // 
             // 
             // 
+            this.TxtRPCServerIP.SkinTxt.AccessibleDescription = resources.GetString("resource.AccessibleDescription1");
+            this.TxtRPCServerIP.SkinTxt.AccessibleName = resources.GetString("resource.AccessibleName1");
+            this.TxtRPCServerIP.SkinTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("resource.Anchor1")));
+            this.TxtRPCServerIP.SkinTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resource.BackgroundImage1")));
+            this.TxtRPCServerIP.SkinTxt.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("resource.BackgroundImageLayout1")));
             this.TxtRPCServerIP.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtRPCServerIP.SkinTxt.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("resource.Dock1")));
             this.TxtRPCServerIP.SkinTxt.Font = ((System.Drawing.Font)(resources.GetObject("resource.Font1")));
+            this.TxtRPCServerIP.SkinTxt.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode1")));
             this.TxtRPCServerIP.SkinTxt.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location1")));
+            this.TxtRPCServerIP.SkinTxt.MaximumSize = ((System.Drawing.Size)(resources.GetObject("resource.MaximumSize1")));
+            this.TxtRPCServerIP.SkinTxt.MaxLength = ((int)(resources.GetObject("resource.MaxLength1")));
+            this.TxtRPCServerIP.SkinTxt.Multiline = ((bool)(resources.GetObject("resource.Multiline1")));
             this.TxtRPCServerIP.SkinTxt.Name = "BaseText";
+            this.TxtRPCServerIP.SkinTxt.PasswordChar = ((char)(resources.GetObject("resource.PasswordChar1")));
+            this.TxtRPCServerIP.SkinTxt.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("resource.RightToLeft1")));
+            this.TxtRPCServerIP.SkinTxt.ScrollBars = ((System.Windows.Forms.ScrollBars)(resources.GetObject("resource.ScrollBars1")));
             this.TxtRPCServerIP.SkinTxt.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size1")));
             this.TxtRPCServerIP.SkinTxt.TabIndex = ((int)(resources.GetObject("resource.TabIndex1")));
             this.TxtRPCServerIP.SkinTxt.Text = resources.GetString("resource.Text1");
+            this.TxtRPCServerIP.SkinTxt.TextAlign = ((System.Windows.Forms.HorizontalAlignment)(resources.GetObject("resource.TextAlign1")));
             this.TxtRPCServerIP.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.TxtRPCServerIP.SkinTxt.WaterText = "";
+            this.TxtRPCServerIP.SkinTxt.WordWrap = ((bool)(resources.GetObject("resource.WordWrap1")));
             this.TxtRPCServerIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.TxtRPCServerIP.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.TxtRPCServerIP.WaterText = "";
@@ -1106,33 +1134,33 @@
             // 
             // skinLabel38
             // 
+            resources.ApplyResources(this.skinLabel38, "skinLabel38");
             this.skinLabel38.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel38.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel38, "skinLabel38");
             this.skinLabel38.Name = "skinLabel38";
             // 
             // skinLabel39
             // 
+            resources.ApplyResources(this.skinLabel39, "skinLabel39");
             this.skinLabel39.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel39.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel39, "skinLabel39");
             this.skinLabel39.Name = "skinLabel39";
             // 
             // skinLabel37
             // 
+            resources.ApplyResources(this.skinLabel37, "skinLabel37");
             this.skinLabel37.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel37.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel37, "skinLabel37");
             this.skinLabel37.Name = "skinLabel37";
             // 
             // CboSyncTakeLay
             // 
+            resources.ApplyResources(this.CboSyncTakeLay, "CboSyncTakeLay");
             this.CboSyncTakeLay.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboSyncTakeLay.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboSyncTakeLay, "CboSyncTakeLay");
             this.CboSyncTakeLay.FormattingEnabled = true;
             this.CboSyncTakeLay.Name = "CboSyncTakeLay";
             this.CboSyncTakeLay.Tag = "8";
@@ -1140,9 +1168,9 @@
             // 
             // CboZoomLens
             // 
+            resources.ApplyResources(this.CboZoomLens, "CboZoomLens");
             this.CboZoomLens.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboZoomLens.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboZoomLens, "CboZoomLens");
             this.CboZoomLens.FormattingEnabled = true;
             this.CboZoomLens.Name = "CboZoomLens";
             this.CboZoomLens.Tag = "2";
@@ -1150,10 +1178,10 @@
             // 
             // skinLabel35
             // 
+            resources.ApplyResources(this.skinLabel35, "skinLabel35");
             this.skinLabel35.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel35.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel35, "skinLabel35");
             this.skinLabel35.Name = "skinLabel35";
             // 
             // NudShutter
@@ -1183,17 +1211,17 @@
             // 
             // skinLabel33
             // 
+            resources.ApplyResources(this.skinLabel33, "skinLabel33");
             this.skinLabel33.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel33.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel33, "skinLabel33");
             this.skinLabel33.Name = "skinLabel33";
             // 
             // CboxCameraIP
             // 
+            resources.ApplyResources(this.CboxCameraIP, "CboxCameraIP");
             this.CboxCameraIP.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CboxCameraIP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.CboxCameraIP, "CboxCameraIP");
             this.CboxCameraIP.FormattingEnabled = true;
             this.CboxCameraIP.Name = "CboxCameraIP";
             this.CboxCameraIP.Tag = "2";
@@ -1201,14 +1229,15 @@
             // 
             // skinLabel29
             // 
+            resources.ApplyResources(this.skinLabel29, "skinLabel29");
             this.skinLabel29.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel29.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel29, "skinLabel29");
             this.skinLabel29.Name = "skinLabel29";
             // 
             // TxtServerPort
             // 
+            resources.ApplyResources(this.TxtServerPort, "TxtServerPort");
             this.TxtServerPort.BackColor = System.Drawing.Color.Transparent;
             this.TxtServerPort.DownBack = null;
             this.TxtServerPort.Icon = null;
@@ -1218,7 +1247,6 @@
             this.TxtServerPort.IsSystemPasswordChar = false;
             this.TxtServerPort.Lines = new string[] {
         "5000"};
-            resources.ApplyResources(this.TxtServerPort, "TxtServerPort");
             this.TxtServerPort.MaxLength = 32767;
             this.TxtServerPort.MouseBack = null;
             this.TxtServerPort.MouseState = CCWin.SkinClass.ControlState.Normal;
@@ -1230,16 +1258,30 @@
             // 
             // 
             // 
+            this.TxtServerPort.SkinTxt.AccessibleDescription = resources.GetString("resource.AccessibleDescription2");
+            this.TxtServerPort.SkinTxt.AccessibleName = resources.GetString("resource.AccessibleName2");
+            this.TxtServerPort.SkinTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("resource.Anchor2")));
+            this.TxtServerPort.SkinTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resource.BackgroundImage2")));
+            this.TxtServerPort.SkinTxt.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("resource.BackgroundImageLayout2")));
             this.TxtServerPort.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtServerPort.SkinTxt.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("resource.Dock2")));
             this.TxtServerPort.SkinTxt.Font = ((System.Drawing.Font)(resources.GetObject("resource.Font2")));
+            this.TxtServerPort.SkinTxt.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode2")));
             this.TxtServerPort.SkinTxt.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location2")));
+            this.TxtServerPort.SkinTxt.MaximumSize = ((System.Drawing.Size)(resources.GetObject("resource.MaximumSize2")));
+            this.TxtServerPort.SkinTxt.MaxLength = ((int)(resources.GetObject("resource.MaxLength2")));
+            this.TxtServerPort.SkinTxt.Multiline = ((bool)(resources.GetObject("resource.Multiline2")));
             this.TxtServerPort.SkinTxt.Name = "BaseText";
+            this.TxtServerPort.SkinTxt.PasswordChar = ((char)(resources.GetObject("resource.PasswordChar2")));
+            this.TxtServerPort.SkinTxt.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("resource.RightToLeft2")));
+            this.TxtServerPort.SkinTxt.ScrollBars = ((System.Windows.Forms.ScrollBars)(resources.GetObject("resource.ScrollBars2")));
             this.TxtServerPort.SkinTxt.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size2")));
             this.TxtServerPort.SkinTxt.TabIndex = ((int)(resources.GetObject("resource.TabIndex2")));
             this.TxtServerPort.SkinTxt.Text = resources.GetString("resource.Text2");
+            this.TxtServerPort.SkinTxt.TextAlign = ((System.Windows.Forms.HorizontalAlignment)(resources.GetObject("resource.TextAlign2")));
             this.TxtServerPort.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.TxtServerPort.SkinTxt.WaterText = "";
+            this.TxtServerPort.SkinTxt.WordWrap = ((bool)(resources.GetObject("resource.WordWrap2")));
             this.TxtServerPort.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.TxtServerPort.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.TxtServerPort.WaterText = "";
@@ -1247,6 +1289,7 @@
             // 
             // TxtServerIP
             // 
+            resources.ApplyResources(this.TxtServerIP, "TxtServerIP");
             this.TxtServerIP.BackColor = System.Drawing.Color.Transparent;
             this.TxtServerIP.DownBack = null;
             this.TxtServerIP.Icon = null;
@@ -1256,7 +1299,6 @@
             this.TxtServerIP.IsSystemPasswordChar = false;
             this.TxtServerIP.Lines = new string[] {
         "192.168.1.1"};
-            resources.ApplyResources(this.TxtServerIP, "TxtServerIP");
             this.TxtServerIP.MaxLength = 32767;
             this.TxtServerIP.MouseBack = null;
             this.TxtServerIP.MouseState = CCWin.SkinClass.ControlState.Normal;
@@ -1268,16 +1310,30 @@
             // 
             // 
             // 
+            this.TxtServerIP.SkinTxt.AccessibleDescription = resources.GetString("resource.AccessibleDescription3");
+            this.TxtServerIP.SkinTxt.AccessibleName = resources.GetString("resource.AccessibleName3");
+            this.TxtServerIP.SkinTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("resource.Anchor3")));
+            this.TxtServerIP.SkinTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resource.BackgroundImage3")));
+            this.TxtServerIP.SkinTxt.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("resource.BackgroundImageLayout3")));
             this.TxtServerIP.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtServerIP.SkinTxt.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("resource.Dock3")));
             this.TxtServerIP.SkinTxt.Font = ((System.Drawing.Font)(resources.GetObject("resource.Font3")));
+            this.TxtServerIP.SkinTxt.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode3")));
             this.TxtServerIP.SkinTxt.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location3")));
+            this.TxtServerIP.SkinTxt.MaximumSize = ((System.Drawing.Size)(resources.GetObject("resource.MaximumSize3")));
+            this.TxtServerIP.SkinTxt.MaxLength = ((int)(resources.GetObject("resource.MaxLength3")));
+            this.TxtServerIP.SkinTxt.Multiline = ((bool)(resources.GetObject("resource.Multiline3")));
             this.TxtServerIP.SkinTxt.Name = "BaseText";
+            this.TxtServerIP.SkinTxt.PasswordChar = ((char)(resources.GetObject("resource.PasswordChar3")));
+            this.TxtServerIP.SkinTxt.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("resource.RightToLeft3")));
+            this.TxtServerIP.SkinTxt.ScrollBars = ((System.Windows.Forms.ScrollBars)(resources.GetObject("resource.ScrollBars3")));
             this.TxtServerIP.SkinTxt.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size3")));
             this.TxtServerIP.SkinTxt.TabIndex = ((int)(resources.GetObject("resource.TabIndex3")));
             this.TxtServerIP.SkinTxt.Text = resources.GetString("resource.Text3");
+            this.TxtServerIP.SkinTxt.TextAlign = ((System.Windows.Forms.HorizontalAlignment)(resources.GetObject("resource.TextAlign3")));
             this.TxtServerIP.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.TxtServerIP.SkinTxt.WaterText = "";
+            this.TxtServerIP.SkinTxt.WordWrap = ((bool)(resources.GetObject("resource.WordWrap3")));
             this.TxtServerIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.TxtServerIP.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.TxtServerIP.WaterText = "";
@@ -1285,18 +1341,18 @@
             // 
             // skinLabel28
             // 
+            resources.ApplyResources(this.skinLabel28, "skinLabel28");
             this.skinLabel28.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel28.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel28, "skinLabel28");
             this.skinLabel28.Name = "skinLabel28";
             // 
             // skinLabel30
             // 
+            resources.ApplyResources(this.skinLabel30, "skinLabel30");
             this.skinLabel30.BackColor = System.Drawing.Color.Transparent;
             this.skinLabel30.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.skinLabel30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.skinLabel30, "skinLabel30");
             this.skinLabel30.Name = "skinLabel30";
             // 
             // EngineerSettingWnd

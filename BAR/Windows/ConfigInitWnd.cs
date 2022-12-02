@@ -167,8 +167,8 @@ namespace BAR.Windows
                 }
             }
             //this.__CreateHalconWnd();
-            this.__InitCameraParam();
-            this.__RegistCameraHandle();
+            //this.__InitCameraParam();
+            //this.__RegistCameraHandle();
 
             __SetBox(GlobConstData.ST_MODELICSTATACC);
             timer1.Start();
@@ -271,10 +271,15 @@ namespace BAR.Windows
                 g_act.ArrDHCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler += OnUpCamMsgEventHandler;
                 g_act.ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler += OnDownCamMsgEventHandler;
             }
-            else
+            else if (Config.CameraType == GlobConstData.Camera_HR)
             {
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler += OnUpCamMsgEventHandler_HR;
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler += OnDownCamMsgEventHandler_HR;
+            }
+            else
+            {
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler += OnUpCamMsgEventHandler_MV;
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler += OnDownCamMsgEventHandler_MV;
             }
         }
         private void __UnRegistCameraHandle()
@@ -284,10 +289,15 @@ namespace BAR.Windows
                 g_act.ArrDHCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler -= OnUpCamMsgEventHandler;
                 g_act.ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler -= OnDownCamMsgEventHandler;
             }
-            else
+            else if (Config.CameraType == GlobConstData.Camera_HR)
             {
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler -= OnUpCamMsgEventHandler_HR;
                 g_act.ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler -= OnDownCamMsgEventHandler_HR;
+            }
+            else
+            {
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDUP].MsgEventHandler -= OnUpCamMsgEventHandler_MV;
+                g_act.ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].MsgEventHandler -= OnDownCamMsgEventHandler_MV;
             }
         }
         private void __InitUI()
@@ -421,6 +431,65 @@ namespace BAR.Windows
                             HObject tmp_img1;
 
                             HOperatorSet.GenImage1(out tmp_img1, "byte", GlobConstData.IMG130_WIDTH, GlobConstData.IMG130_HEIGHT, (HTuple)g_act.ArrHRCameraUtils[g_act.ISelectCam].PtrBufferRaw);
+                            HOperatorSet.MirrorImage(tmp_img1, out SourceImage, "row");
+                            tmp_img1.Dispose();
+                            _HalconUtil.DispImage(_ImgOperater, _wndID, SourceImage, isOperateImg, ref _IsHaveImg);
+                            if (g_act.IsCamSnapMode != true) SourceImage.Dispose();
+                            Disp_Cross();
+                        }
+                    }
+                }
+            }
+            catch (HalconException hEx)
+            {
+                g_act.GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, "TeachDownCamera" + hEx.Message, "Halcon");
+            }
+        }
+
+        private void OnUpCamMsgEventHandler_MV(object sender, MsgEvent e)
+        {
+            try
+            {
+                if (e.MsgType == MsgEvent.MSG_IMGPAINT)
+                {
+                    MVCameraUtil cam = (MVCameraUtil)sender;
+                    if (cam.SelectedWnd == GlobConstData.SELECT_CONFIGINIT_WND)
+                    {
+                        if (cam.ICameraID == g_act.ISelectCam)
+                        {
+                            HObject tmp_img1, tmp_img2; //先缓存图像数据到两个临时变量，最后在放到全局数据
+                            HOperatorSet.GenImage1(out tmp_img1, "byte", GlobConstData.IMG500_WIDTH, GlobConstData.IMG500_HEIGHT, (HTuple)g_act.ArrMVCameraUtils[g_act.ISelectCam].PtrBufferRaw);
+                            HOperatorSet.MirrorImage(tmp_img1, out tmp_img2, "row");
+                            tmp_img1.Dispose();
+                            HOperatorSet.MirrorImage(tmp_img2, out SourceImage, "column");
+                            tmp_img2.Dispose();
+
+                            _HalconUtil.DispImage(_ImgOperater, _wndID, SourceImage, isOperateImg, ref _IsHaveImg);
+                            if (g_act.IsCamSnapMode != true) SourceImage.Dispose();
+                            Disp_Cross();
+                        }
+                    }
+                }
+            }
+            catch (HalconException hEx)
+            {
+                g_act.GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, "TeachUpCamera" + hEx.Message, "Halcon");
+            }
+        }
+        private void OnDownCamMsgEventHandler_MV(object sender, MsgEvent e)
+        {
+            try
+            {
+                if (e.MsgType == MsgEvent.MSG_IMGPAINT)
+                {
+                    MVCameraUtil cam = (MVCameraUtil)sender;
+                    if (cam.SelectedWnd == GlobConstData.SELECT_CONFIGINIT_WND)
+                    {
+                        if (cam.ICameraID == g_act.ISelectCam)
+                        {
+                            HObject tmp_img1;
+
+                            HOperatorSet.GenImage1(out tmp_img1, "byte", GlobConstData.IMG130_WIDTH, GlobConstData.IMG130_HEIGHT, (HTuple)g_act.ArrMVCameraUtils[g_act.ISelectCam].PtrBufferRaw);
                             HOperatorSet.MirrorImage(tmp_img1, out SourceImage, "row");
                             tmp_img1.Dispose();
                             _HalconUtil.DispImage(_ImgOperater, _wndID, SourceImage, isOperateImg, ref _IsHaveImg);

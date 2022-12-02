@@ -55,6 +55,7 @@ namespace BAR.Commonlib
         public HObject[] ArrSourceImageBuffer;
         public DHCameraUtil[] ArrDHCameraUtils;
         public HRCameraUtil[] ArrHRCameraUtils;
+        public MVCameraUtil[] ArrMVCameraUtils;
 
         public NetConnector NetLightCtrl;
         public SerialConector SerialLightCtrl;
@@ -106,6 +107,7 @@ namespace BAR.Commonlib
             //ArrHRCameraUtils = new HRCameraUtil[2];
             //ArrHRCameraUtils[GlobConstData.ST_CCDUP] = HRCameraUtil.GetInstance(GlobConstData.ST_CCDUP.ToString());
             //ArrHRCameraUtils[GlobConstData.ST_CCDDOWN] = HRCameraUtil.GetInstance(GlobConstData.ST_CCDDOWN.ToString());
+            
 
             ArrRealAlarms = new List<AlarmInfo>();
             ArrHisAlarms = new List<AlarmInfo>();
@@ -161,7 +163,7 @@ namespace BAR.Commonlib
                     ArrDHCameraUtils[ind].AutoGain("Off");
                     ArrDHCameraUtils[ind].ShowMsg = new DHCameraUtil.ShowMsgDelegate(ShowMsg);
                 }
-                else
+                else if(Config.CameraType == GlobConstData.Camera_HR)
                 {
                     ArrHRCameraUtils = new HRCameraUtil[2];
                     ArrHRCameraUtils[GlobConstData.ST_CCDUP] = HRCameraUtil.GetInstance(GlobConstData.ST_CCDUP.ToString());
@@ -181,7 +183,26 @@ namespace BAR.Commonlib
                     ArrHRCameraUtils[ind].AutoGain("Off");
                     ArrHRCameraUtils[ind].ShowMsg = new HRCameraUtil.ShowMsgDelegate(ShowMsg);
                 }
-                
+                else
+                {
+                    ArrMVCameraUtils = new MVCameraUtil[2];
+                    ArrMVCameraUtils[GlobConstData.ST_CCDUP] = MVCameraUtil.GetInstance(GlobConstData.ST_CCDUP.ToString());
+                    ArrMVCameraUtils[GlobConstData.ST_CCDDOWN] = MVCameraUtil.GetInstance(GlobConstData.ST_CCDDOWN.ToString());
+
+                    bool bRet = ArrMVCameraUtils[ind].InitMVCard();
+                    if (!bRet)
+                    {
+                        throw (new Exception("Camera No found"));
+                    }
+                    ArrMVCameraUtils[ind].ICameraID = ind;
+                    ArrMVCameraUtils[ind].StrIP = ip[ind];
+                    string strErrorInfo = ArrMVCameraUtils[ind].OpenMVDevice();
+                    GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
+                    ArrMVCameraUtils[ind].GetImageSize();
+                    ArrMVCameraUtils[ind].AutoShutter();
+                    ArrMVCameraUtils[ind].AutoGain();
+                    ArrMVCameraUtils[ind].ShowMsg = new MVCameraUtil.ShowMsgDelegate(ShowMsg);
+                }
             }
         }
 
@@ -235,7 +256,7 @@ namespace BAR.Commonlib
                     }
                     #endregion
                 }
-                else
+                else if (Config.CameraType == GlobConstData.Camera_HR)
                 {
                     #region ---------------------大华相机-------------------
                     if (ISelectCam == GlobConstData.ST_CCDUP)
@@ -264,6 +285,35 @@ namespace BAR.Commonlib
                     }
                     #endregion
                 }
+                else
+                {
+                    #region ---------------------海康相机-------------------
+                    if (ISelectCam == GlobConstData.ST_CCDUP)
+                    {
+                        ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SelectedWnd = -1;
+                        ArrMVCameraUtils[GlobConstData.ST_CCDUP].SelectedWnd = this.ISelectWnd;
+                        if (!IsCamSnapMode && isChangeMode)
+                        {
+                            ArrMVCameraUtils[GlobConstData.ST_CCDUP].TriggerMode(true);
+                            IsCamSnapMode = true;
+                        }
+                        IsSnapOver = false;
+                        ArrMVCameraUtils[GlobConstData.ST_CCDUP].SoftTrigger();
+                    }
+                    else if (ISelectCam == GlobConstData.ST_CCDDOWN)
+                    {
+                        ArrMVCameraUtils[GlobConstData.ST_CCDUP].SelectedWnd = -1;
+                        ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SelectedWnd = this.ISelectWnd;
+                        if (!IsCamSnapMode && isChangeMode)
+                        {
+                            ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].TriggerMode(true);
+                            IsCamSnapMode = true;
+                        }
+                        IsSnapOver = false;
+                        ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SoftTrigger();
+                    }
+                    #endregion
+                }
             }
             catch (Exception ex)
             {
@@ -275,10 +325,17 @@ namespace BAR.Commonlib
                     GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
                     WaitDoEvent(700);
                 }
-                else
+                else if(Config.CameraType == GlobConstData.Camera_HR)
                 {
                     ArrHRCameraUtils[ISelectCam].InitHRCard();
                     string strErrorInfo = ArrHRCameraUtils[ISelectCam].OpenHRDevice();
+                    GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
+                    WaitDoEvent(700);
+                }
+                else
+                {
+                    ArrMVCameraUtils[ISelectCam].InitMVCard();
+                    string strErrorInfo = ArrMVCameraUtils[ISelectCam].OpenMVDevice();
                     GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
                     WaitDoEvent(700);
                 }
@@ -339,7 +396,7 @@ namespace BAR.Commonlib
                     }
                     #endregion
                 }
-                else
+                else if (Config.CameraType == GlobConstData.Camera_HR)
                 {
                     #region ---------------------大华相机-------------------
                     if (camID == GlobConstData.ST_CCDUP)
@@ -376,6 +433,43 @@ namespace BAR.Commonlib
                     }
                     #endregion
                 }
+                else
+                {
+                    #region ---------------------海康相机-------------------
+                    if (camID == GlobConstData.ST_CCDUP)
+                    {
+                        if (ISelectCam == GlobConstData.ST_CCDUP && !isChangeMode) { ArrMVCameraUtils[GlobConstData.ST_CCDUP].SelectedWnd = this.ISelectWnd; return; }
+                        if (!isChangeMode)
+                        {
+                            ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].StopSnap();
+                            Thread.Sleep(10);
+                            CCDSnap(GlobConstData.ST_CCDDOWN);
+                            ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SelectedWnd = -1;
+                            ArrMVCameraUtils[GlobConstData.ST_CCDUP].SelectedWnd = this.ISelectWnd;
+                        }
+                        ArrMVCameraUtils[GlobConstData.ST_CCDUP].TriggerMode(false);
+                        IsCamSnapMode = false;
+                        ArrMVCameraUtils[GlobConstData.ST_CCDUP].StartGrap();
+                        ISelectCam = GlobConstData.ST_CCDUP;
+                    }
+                    else if (camID == GlobConstData.ST_CCDDOWN)
+                    {
+                        if (ISelectCam == GlobConstData.ST_CCDDOWN && !isChangeMode) { ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SelectedWnd = this.ISelectWnd; return; }
+                        if (!isChangeMode)
+                        {
+                            ArrMVCameraUtils[GlobConstData.ST_CCDUP].StopSnap();
+                            Thread.Sleep(10);
+                            CCDSnap(GlobConstData.ST_CCDUP);
+                            ArrMVCameraUtils[GlobConstData.ST_CCDUP].SelectedWnd = -1;
+                            ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SelectedWnd = this.ISelectWnd;
+                        }
+                        ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].TriggerMode(false);
+                        IsCamSnapMode = false;
+                        ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].StartGrap();
+                        ISelectCam = GlobConstData.ST_CCDDOWN;
+                    }
+                    #endregion
+                }
             }
             catch (Exception ex)
             {
@@ -387,10 +481,17 @@ namespace BAR.Commonlib
                     GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
                     WaitDoEvent(700);
                 }
-                else
+                else if(Config.CameraType == GlobConstData.Camera_HR)
                 {
                     ArrHRCameraUtils[camID].InitHRCard();
                     string strErrorInfo = ArrHRCameraUtils[camID].OpenHRDevice();
+                    GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
+                    WaitDoEvent(700);
+                }
+                else
+                {
+                    ArrMVCameraUtils[ISelectCam].InitMVCard();
+                    string strErrorInfo = ArrMVCameraUtils[ISelectCam].OpenMVDevice();
                     GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
                     WaitDoEvent(700);
                 }
@@ -412,10 +513,15 @@ namespace BAR.Commonlib
                     ArrDHCameraUtils[GlobConstData.ST_CCDUP].TriggerMode(true);
                     ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].TriggerMode(true);
                 }
-                else
+                else if (Config.CameraType == GlobConstData.Camera_HR)
                 {
                     ArrHRCameraUtils[GlobConstData.ST_CCDUP].TriggerMode(true);
                     ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].TriggerMode(true);
+                }
+                else
+                {
+                    ArrMVCameraUtils[GlobConstData.ST_CCDUP].TriggerMode(true);
+                    ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].TriggerMode(true);
                 }
             }
             catch (Exception ex)
@@ -775,10 +881,16 @@ namespace BAR.Commonlib
                                 string strErrorInfo = ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].OpenDHDevice();
                                 GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
                             }
-                            else
+                            else if(Config.CameraType == GlobConstData.Camera_HR)
                             {
                                 ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].InitHRCard();
                                 string strErrorInfo = ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].OpenHRDevice();
+                                GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
+                            }
+                            else
+                            {
+                                ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].InitMVCard();
+                                string strErrorInfo = ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].OpenMVDevice();
                                 GenLogMessage(GlobConstData.ST_LOG_PRINTANDRECORD, strErrorInfo, "Camera");
                             }
                             CCDCap(GlobConstData.ST_CCDDOWN, true);
@@ -900,15 +1012,21 @@ namespace BAR.Commonlib
                 String path = AppDomain.CurrentDomain.BaseDirectory;
                 if (!path.IsNullOrEmpty())
                 {
-                    path = AppDomain.CurrentDomain.BaseDirectory + @"Log\" + curTime.ToString("yyyyMMdd") + "\\" + "AlarmLog.log";
-                    if (!File.Exists(path))
+                    string LogDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Log", curTime.ToString("yyyyMMdd"));
+                    String logIni = Path.Combine(LogDir, "AlarmLog.log");
+                    //path = AppDomain.CurrentDomain.BaseDirectory + @"Log\" + curTime.ToString("yyyyMMdd") + "\\" + "AlarmLog.log";
+                    if (!Directory.Exists(LogDir))
                     {
-                        FileStream fs = File.Create(path);
+                        Directory.CreateDirectory(LogDir);
+                    }
+                    if (!File.Exists(logIni))
+                    {
+                        FileStream fs = File.Create(logIni);
                         fs.Close();
                     }
-                    if (File.Exists(path))
+                    if (File.Exists(logIni))
                     {
-                        _AlarmWriter = new StreamWriter(path, true, System.Text.Encoding.Default);
+                        _AlarmWriter = new StreamWriter(logIni, true, System.Text.Encoding.Default);
                         alarmMsg = curTime.ToString("yyyyMMdd HH:mm:ss") + " " + msg;
                         _AlarmWriter.WriteLine(alarmMsg);
                         _AlarmWriter.Flush();
@@ -1171,9 +1289,13 @@ namespace BAR.Commonlib
                 {
                     ArrDHCameraUtils[GlobConstData.ST_CCDDOWN].SetEnumValue("TriggerSource", "Software");
                 }
-                else
+                else if(Config.CameraType == GlobConstData.Camera_HR)
                 {
                     ArrHRCameraUtils[GlobConstData.ST_CCDDOWN].SetTriggerMode();
+                }
+                else
+                {
+                    ArrMVCameraUtils[GlobConstData.ST_CCDDOWN].SetTriggerMode();
                 }
             }
             CopyAKLog_XC();

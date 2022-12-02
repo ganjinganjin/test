@@ -116,7 +116,7 @@ namespace BAR.Windows
             };
             strCameraType = new string[]
             {
-                "大恒","大华"
+                "大恒","大华","海康"
             };
             strAltimeter = new string[]
             {
